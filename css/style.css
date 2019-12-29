@@ -126,14 +126,16 @@ section {
 
 #home-heading h1 span {
     color: #4C6085;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 68px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 #home-text p {
     color: #fff;
-    font-size: 17px;
-    font-weight: 100;
-    margin: 8px 0 30px 0;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
 }
 
 /* ============================================
@@ -143,7 +145,7 @@ section {
 .btn-general {
     font-family: 'Raleway', sans-serif;
     border-radius: 28px;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: uppercase;
     margin: 0 6px;
     padding: 12px 46px 12px 46px;
