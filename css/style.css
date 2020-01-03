@@ -165,6 +165,10 @@ section {
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+.home-headings {
+    text-align: center;
+}
+
 .home-headings h1 {
     color: #11151C;
     font-size: 40px;
@@ -267,7 +271,7 @@ section {
 
 .item img {
     max-width: 100%;
-    height: 250px;
+    height: 350px;
 
 }
 
@@ -292,34 +296,78 @@ section {
 }
 
 
-
-
-
 /* ============================================
-|  |  |  |  Turntable
-============================================ */
-.turntable {
-    margin: 0px;
-}
-.turntable ul {
-    padding: 0px;
-    margin: 0px;
-}
-.turntable ul li {
-    list-style-type: none;
-    display: none;
-}
-.turntable ul li img {
-    width: 100%;
-}
-.turntable ul li.active {
-    display: block;
-}
-
-/* ============================================
-|  |  |  |  Slider
+|  |  |  |  About Us
 ============================================ */
 
+.content-box-main-2 {
+    padding: 30px 0 60px 0;
+}
+
+.about-02 {
+    background-color: #d0d0d1;
+}
+
+.about-h {
+    min-height: 331px !important;
+}
+
+.about-item {
+    background-color: #DCDCDD;
+    padding: 40px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.about-item i {
+    font-size: 42px;
+    margin: 0;
+}
+
+.about-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-item hr {
+    width: 45px;
+    height: 3px;
+    background-color: #4C6085;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p {
+    margin-top: 20px;
+}
+
+/* Hover state */
+
+.about-item:hover {
+    background-color: #4C6085;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+    color: #DCDCDD;
+}
+
+.about-item:hover hr {
+    background-color: #DCDCDD;
+}
+
+.about-item:hover i {
+    transform: translateY(-5px);
+}
+
+/* Smooth transition */
+.about-item,
+.about-item i,
+.about-item hr {
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
 
 
 
