@@ -3,62 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thumbnail-slider/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thumbnail-slider/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/fitness/fitness-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/fitness/fitness-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/health/health-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/health/health-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/real-estate/real-estate-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/real-estate/real-estate-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/real-estate/real-estate-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/restaurant/restaurant-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/restaurant/restaurant-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/restaurant/restaurant-3.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/galleria.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/galleria.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/plugins/flickr/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/plugins/flickr/galleria.flickr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/plugins/flickr/galleria.flickr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/plugins/history/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/plugins/history/galleria.history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/plugins/history/galleria.history.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/demo-cdn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/demo-retina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/galleria.azur.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/galleria.azur.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/galleria.azur.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/azur/galleria.azur.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/demo-cdn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/demo-retina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/galleria.classic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/galleria.classic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/galleria.classic.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/classic/galleria.classic.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/demo-cdn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/demo-retina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/galleria.folio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/galleria.folio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/galleria.folio.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/folio/galleria.folio.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/demo-cdn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/demo-retina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/galleria.fullscreen.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/galleria.fullscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/galleria.fullscreen.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/galleria.fullscreen.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/fullscreen/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/thumbnail-slider/script3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/demo-cdn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/demo-retina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/galleria.miniml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/galleria.miniml.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/galleria.miniml.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/miniml/galleria.miniml.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/demo-cdn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/demo-retina.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/galleria.twelve.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/galleria.twelve.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/galleria.twelve.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/galleria/themes/twelve/galleria.twelve.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/thumbnail-slider/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/thumbnail-slider/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577583455518</updated>
       <workItem from="1577583456706" duration="58098000" />
-      <workItem from="1577927280201" duration="11942000" />
+      <workItem from="1577927280201" duration="13432000" />
     </task>
     <servers />
   </component>
