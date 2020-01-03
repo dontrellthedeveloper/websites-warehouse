@@ -32,35 +32,45 @@ $(document).ready(function() {
     });
 });
 
-/* ============================================
-|  |  |  |  Tilted Scroll
-============================================ */
+// /* ============================================
+// |  |  |  |  Tilted Scroll
+// ============================================ */
+//
+// $(".websites-portfolio").tiltedpage_scroll({
+//     sectionContainer: "> section",
+//     angle: 50,
+//     opacity: true,
+//     scale: true,
+//     outAnimation: true
+// });
 
-$(".websites-portfolio").tiltedpage_scroll({
-    sectionContainer: "> section",
-    angle: 50,
-    opacity: true,
-    scale: true,
-    outAnimation: true
-});
 
 /* ================================================
-|   |   |   |   Responsive Tabs
+|   |   |   |   Owl Carousel
 ================================================ */
-$(function () {
-    $("#services-tabs").responsiveTabs({
-        animation: 'slide'
-    })
+
+$(function() {
+    $(".team-members").owlCarousel({
+        items: 3,
+        margin: 25,
+        center: true,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            },
+            1400: {
+                items: 3
+            }
+        }
+    });
 });
-
-
-$(function () {
-    $("#portfolio-tabs").responsiveTabs({
-        animation: 'slide'
-    })
-});
-
-
-
-
-

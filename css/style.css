@@ -247,7 +247,9 @@ section {
     background-color: #d0d0d1;
 }
 
-
+/*.owl-item {*/
+/*    margin: 0 15px 0 15px;*/
+/*}*/
 
 .portfolio-style {
     padding: 60px 0 80px 0;

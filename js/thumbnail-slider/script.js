@@ -60,7 +60,7 @@
        const ul=controls.children;
 
        // select ul children 'li' elements;
-      const li=ul[0].children
+      const li=ul[0].children;
         
        
        var active;
