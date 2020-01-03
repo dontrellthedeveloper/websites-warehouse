@@ -66,9 +66,12 @@ $(function() {
                 items: 1
             },
             480: {
+                items: 1
+            },
+            768: {
                 items: 2
             },
-            1400: {
+            1200: {
                 items: 3
             }
         }

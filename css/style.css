@@ -94,6 +94,7 @@ section {
     background-size: cover;
 }
 
+
 #home-2 {
     background: none;
     height: 250px;
@@ -123,6 +124,7 @@ section {
     background: url("../video/Websitewarehouse.jpg") no-repeat;
     background-size: cover;
 }
+
 
 #home-overlay-2 {
     background-color: rgba(0,0,0,0.8);
@@ -240,11 +242,14 @@ section {
 ============================================ */
 .websites-portfolio {
     text-align: center;
-    padding-bottom: 40px;
 }
 
 .port-bg-color {
     background-color: #d0d0d1;
+}
+
+.port-bg-color-2 {
+    background-color: #DCDCDD;
 }
 
 /*.owl-item {*/
@@ -252,7 +257,7 @@ section {
 /*}*/
 
 .portfolio-style {
-    padding: 60px 0 80px 0;
+    padding: 60px 0 60px 0;
 }
 
 .portfolio-style img {
