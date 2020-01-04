@@ -97,7 +97,7 @@ section {
 
 #home-2 {
     background: none;
-    height: 250px;
+    height: 424px;
 }
 
 #home-overlay {
@@ -369,6 +369,19 @@ section {
     transition: all 400ms ease-in-out;
 }
 
+/* ============================================
+|  |  |  |  Page Scroll
+============================================ */
+
+div > img {
+    position: fixed; width: 15%;
+    height: auto;
+}
+#rightgear,
+#leftgear { right: 2rem;
+    display: block;
+    margin: 0 auto;
+}
 
 
 

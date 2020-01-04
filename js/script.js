@@ -77,3 +77,14 @@ $(function() {
         }
     });
 });
+
+/* ================================================
+|   |   |   |   Page Scroll
+================================================ */
+
+
+$(window).scroll(function() {
+    var theta = $(window).scrollTop()/100.0 % (Math.PI*2);
+    $('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
+    $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
+});
