@@ -383,8 +383,13 @@ div > img {
     margin: 0 auto;
 }
 
+li {
+    list-style-type: none;
+}
 
-
+.jas-carousel > .jas-item {
+    width: 80% !important;
+}
 
 
 

@@ -78,6 +78,36 @@ $(function() {
     });
 });
 
+
+$(function() {
+    $(".slider-jc").owlCarousel({
+        items: 3,
+        margin: 25,
+        center: true,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            1200: {
+                items: 4
+            }
+        }
+    });
+});
+
 /* ================================================
 |   |   |   |   Page Scroll
 ================================================ */
@@ -88,3 +118,12 @@ $(window).scroll(function() {
     $('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
     $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
 });
+
+
+
+
+
+
+
+
+
