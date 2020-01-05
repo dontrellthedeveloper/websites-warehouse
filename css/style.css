@@ -75,7 +75,7 @@ section {
 |   Vertical/Horizontal Headings
 ================================ */
 .vertical-heading h5 {
-    color: #f4c613;
+    color: #4C6085;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
@@ -105,7 +105,7 @@ section {
 
 .horizontal-heading h5 {
     font-size: 16px;
-    color: #f4c613;
+    color: #4C6085;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 10px;
@@ -266,6 +266,47 @@ section {
     border: 1px solid #4C6085;
 }
 
+
+
+.btn-yellow {
+    color: #fff;
+    border: 1px solid #4C6085;
+    background-color: #4C6085;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background-color: #4C6085;
+    border: 1px solid #fff;
+}
+
+
+
+.btn-white {
+    color: #4C6085;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+    color: #fff;
+    background-color: #4C6085;
+    border: 1px solid #212226;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+}
+
+
 /* ============================================
 |  |  |  |  Arrow Down
 ============================================ */
@@ -297,7 +338,7 @@ section {
 
 .content-box-md {
     padding: 60px 0 80px 0;
-    background-color: #d0d0d1;
+    background-color: #DCDCDD;
 }
 
 .content-box-sm {
@@ -456,6 +497,9 @@ li {
 }
 
 
+
+
+
 /* ================================
 | | | Pricing
 ================================ */
@@ -556,25 +600,26 @@ li {
 
 .pricing-table .btn-yellow:hover,
 .pricing-table .btn-yellow:focus {
-    background: #212226;
+    background: #4C6085;
     color: #fff;
-    border: 1px solid #212226;
+    border: 1px solid #fff;
 }
 
 /* Black Pricing Table */
 .pricing-table.black {
-    background: #212226;
-    color: #fff;
+    background: #F4F4F4;
+    color: #46494C;
 }
 
 .pricing-table.black .type h4 {
-    color: #fff;
+    color: #4C6085;
 }
 
 .pricing-table.black:hover {
-    background: #f4c613;
+    background: #4C6085;
 }
 
-
-
+.pricing-table.black:hover  .type h4 {
+    color: #F4F4F4;
+}
 
