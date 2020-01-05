@@ -341,6 +341,13 @@ section {
     background-color: #DCDCDD;
 }
 
+
+.content-box-md-2 {
+    padding: 60px 0 80px 0;
+    background-color: #d0d0d1;
+    /*border-bottom: 2px solid #46494C;*/
+}
+
 .content-box-md-w {
     padding: 60px 0 80px 0;
     background-color: #46494C;
@@ -667,7 +674,7 @@ li {
     margin-top: 25px;
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
-    color: #f4c613;
+    color: #4C6085;
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
@@ -703,6 +710,65 @@ li {
 
 #blog-left p {
     color: #fff;
+}
+
+/* ================================
+| | | Testimonials
+================================ */
+#testimonials {
+    background: #d0d0d1;
+    padding-bottom: 45px;
+    overflow: visible;
+}
+
+#testimonials .vertical-heading {
+    padding: 80px 0;
+    margin-bottom: 50px;
+}
+
+#testimonial-slider {
+    background: #F4F4F4;
+    top: 28px;
+    border: 1px solid #46494C;
+}
+
+.testimonial {
+    padding: 20px 45px 0 45px;
+    color: #fff;
+}
+
+.testimonial h3 {
+    font-size: 32px;
+    line-height: 35px;
+    color: #4C6085;
+}
+
+.testimonial .stars {
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+    color: #4C6085;
+}
+
+.testimonial p {
+    line-height: normal;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #46494C;
+}
+
+/*#testimonials .vertical-heading h5 {*/
+/*    color: #fff;*/
+/*}*/
+
+/*#testimonials .vertical-heading h2 {*/
+/*    color: #fff;*/
+/*}*/
+
+.author .author-name-des {
+    width: 106px;
+    margin-top: 25px;
+    text-align: left;
 }
 
 
