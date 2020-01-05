@@ -134,6 +134,50 @@ $(window).scroll(function() {
 });
 
 
+/* ================================
+|   |   |   Google Map
+================================ */
+$(window).on('load', function () {
+
+    // Map Variables
+    var addressString = 'P.O. Box 2354 Winnetka, CA 91396';
+    var myLatlng = {lat: 34.210129, lng: -118.571030};
+
+    //1. Render Map
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: myLatlng
+    });
+
+    // 2. Add Marker
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: "Click To See Address"
+    });
+
+    // 3. Add Info Window
+    var infowindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+
+    // Show info window when user clicks marker
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
+    });
+
+
+    // 4. Resize Function
+    google.maps.event.addDomListener(window, 'resize', function() {
+
+        var center = map.getCenter();
+        google.maps.event.trigger(map, 'resize');
+        map.setCenter(center);
+    });
+
+
+});
+
 
 
 

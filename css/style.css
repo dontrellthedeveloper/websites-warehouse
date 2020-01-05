@@ -341,6 +341,12 @@ section {
     background-color: #DCDCDD;
 }
 
+.content-box-md-3 {
+    padding: 60px 0 80px 0;
+    background-color: #DCDCDD;
+    border-bottom: 2px solid #46494C;
+}
+
 
 .content-box-md-2 {
     padding: 60px 0 80px 0;
@@ -925,4 +931,17 @@ ul.office-details li i {
 
 #contact-right form textarea.form-control {
     min-height: 164px;
+}
+
+
+
+/* ================================================
+|   |   |   |   Google Map
+================================================ */
+#map {
+    height: 700px;
+}
+
+#google-map .row {
+    display: block !important;
 }
