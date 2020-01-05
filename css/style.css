@@ -345,7 +345,8 @@ section {
 .content-box-md-2 {
     padding: 60px 0 80px 0;
     background-color: #d0d0d1;
-    /*border-bottom: 2px solid #46494C;*/
+    border-top: 2px solid #46494C;
+    border-bottom: 2px solid #46494C;
 }
 
 .content-box-md-w {
@@ -782,21 +783,22 @@ li {
 
 /* Contact Left */
 .form-styles-c {
-    background-color: #a1a0a1;
+    background-color: #d0d0d1;
+    /*border: 2px solid #46494C;*/
 }
 
 .line-br-color {
-    border: 1px solid #454545;
+    border: 1px solid #46494C;
 }
 
 #contact-left .vertical-heading h5 {
     top: 70px;
-    color: #dcdcdc;
+    color: #4C6085;
 }
 
 #contact-left .vertical-heading h2 {
     padding-top: -40px;
-    color: #dcdcdc;
+    color: #46494C;
 }
 
 #contact .office li i {
@@ -835,22 +837,22 @@ ul.office-details li {
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    color: #dcdcdc;
+    color: #46494C;
     font-weight: 600;
 }
 
 ul.office-details li a {
-    color: #dcdcdc;
+    color: #46494C;
     margin-top: 3px;
 }
 
 ul.office-details li:hover {
-    color: #500000;
+    color: #4C6085;
     text-decoration: none;
 }
 
 ul.office-details li:hover a {
-    color: #500000;
+    color: #4C6085;
     text-decoration: none;
 }
 
@@ -887,20 +889,22 @@ ul.office-details li i {
 
 /* Contact Right */
 .form-t-c {
-    color: #454545;
+    color: #4C6085;
     font-weight: bold;
 }
 
+/**/
+
 .form-p-c {
-    color: #454545;
-    font-weight: bold;
+    color: #46494C;
+    /*font-weight: bold;*/
     font-size: 16px;
 }
 
 #contact-right {
     padding: 25px 30px;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
     border-radius: 4px;
 }
 
