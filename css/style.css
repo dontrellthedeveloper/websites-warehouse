@@ -704,3 +704,155 @@ li {
 #blog-left p {
     color: #fff;
 }
+
+
+
+/* ================================================
+|   |   |   |   Contact
+================================================ */
+.content-box-contact {
+    padding: 80px 0;
+}
+
+/* Contact Left */
+.form-styles-c {
+    background-color: #a1a0a1;
+}
+
+.line-br-color {
+    border: 1px solid #454545;
+}
+
+#contact-left .vertical-heading h5 {
+    top: 70px;
+    color: #dcdcdc;
+}
+
+#contact-left .vertical-heading h2 {
+    padding-top: -40px;
+    color: #dcdcdc;
+}
+
+#contact .office li i {
+    text-align: center;
+    margin-left: -3px;
+    margin-right: 10px;
+}
+
+.office {
+    margin-top: 230px;
+    margin-bottom: 10px;
+}
+
+.contact-left-m {
+    margin-left: -8px;
+}
+
+
+#contact {
+    background-color: #454545;
+}
+
+#contact-left p {
+    margin: 25px 0 20px 0;
+}
+
+ul.office-details {
+    list-style: none;
+    padding: 0;
+}
+
+ul.office-details li {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #dcdcdc;
+    font-weight: 600;
+}
+
+ul.office-details li a {
+    color: #dcdcdc;
+    margin-top: 3px;
+}
+
+ul.office-details li:hover {
+    color: #500000;
+    text-decoration: none;
+}
+
+ul.office-details li:hover a {
+    color: #500000;
+    text-decoration: none;
+}
+
+ul.office-details li:link a {
+    text-decoration: none;
+}
+
+ul.office-details li:visited a {
+    text-decoration: none;
+}
+
+ul.office-details li i {
+    font-size: 25px;
+    width: 45px;
+}
+
+
+#contact-left ul.social-list li a {
+    color: #dcdcdc;
+    border: 2px solid #dcdcdc;
+    text-align: center;
+}
+
+#contact-left ul.social-list {
+    /*text-align: center;*/
+    /*vertical-align: center;*/
+    margin-bottom: 30px;
+}
+
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+}
+
+/* Contact Right */
+.form-t-c {
+    color: #454545;
+    font-weight: bold;
+}
+
+.form-p-c {
+    color: #454545;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#contact-right {
+    padding: 25px 30px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+#contact-right h4 {
+    font-size: 24px;
+}
+
+#contact-right p {
+    margin-bottom: 25px;
+}
+
+#contact-right form .form-control {
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+#contact-right form textarea.form-control {
+    min-height: 164px;
+}
