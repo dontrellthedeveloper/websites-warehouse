@@ -437,7 +437,7 @@ section {
 }
 
 .about-item {
-    background-color: #DCDCDD;
+    background-color: #F4F4F4;
     padding: 40px 30px;
     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
     box-shadow: 0 0 10px rgba(0,0,0,.1);
@@ -895,8 +895,9 @@ ul.office-details li i {
 
 /* Contact Right */
 .form-t-c {
-    color: #4C6085;
-    font-weight: bold;
+    color: #46494C;
+    /*font-weight: bold;*/
+    /*text-shadow: -1px 0 #46494C, 0 1px #46494C, 1px 0 #46494C, 0 -1px #46494C;*/
 }
 
 /**/
@@ -939,9 +940,33 @@ ul.office-details li i {
 |   |   |   |   Google Map
 ================================================ */
 #map {
-    height: 700px;
+    height: 600px;
 }
 
 #google-map .row {
     display: block !important;
+}
+
+
+/* ================================================
+|   |   |   |   Footer
+================================================ */
+footer {
+    background: #dcdcdc;
+    padding: 20px;
+    border-top: 2px solid #46494C;
+}
+
+footer p {
+    color: #454545;
+    line-height: 20px;
+}
+
+footer p span {
+    font-weight: bold;
+    color: #454545;
+}
+
+.marg-top {
+    margin-top: 10px;
 }
