@@ -140,8 +140,8 @@ $(window).scroll(function() {
 $(window).on('load', function () {
 
     // Map Variables
-    var addressString = 'P.O. Box 2354 Winnetka, CA 91396';
-    var myLatlng = {lat: 34.210129, lng: -118.571030};
+    var addressString = 'Websites Warehouse';
+    var myLatlng = {lat: 34.181040, lng: -118.603640};
 
     //1. Render Map
     var map = new google.maps.Map(document.getElementById('map'), {
@@ -179,7 +179,68 @@ $(window).on('load', function () {
 });
 
 
+/* ================================
+|   |   |   Navigation
+================================ */
 
+/* Show & Hide White Navigation */
+$(function () {
+
+    // show/hide nav on page load
+    showHideNav();
+
+    $(window).scroll(function () {
+
+        // show/hide nav on window's scroll
+        showHideNav();
+
+    });
+
+    function showHideNav() {
+
+        if( $(window).scrollTop() > 50 ) {
+
+            // Show white nav
+            $("nav").addClass("white-nav-top");
+
+            // Show dark logo
+            $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+
+            // Show back to top
+            $("#back-to-top").fadeIn();
+
+        } else {
+
+            // Hide white nav
+            $("nav").removeClass("white-nav-top");
+
+            // Show logo
+            $(".navbar-brand img").attr("src", "img/logo/logo.png");
+
+            // Show back to top
+            $("#back-to-top").fadeOut();
+        }
+    }
+
+});
+
+// Smooth Scrolling
+$(function () {
+
+    $("a.smooth-scroll").click(function(event) {
+
+        event.preventDefault();
+
+        // get selection id like #about, #services, #work, #team and etc.
+        var section_id = $(this).attr("href");
+
+        $("html, body").animate({
+            scrollTop: $(section_id).offset().top - 64
+        }, 1250, "easeInOutExpo");
+
+    });
+
+});
 
 
 
