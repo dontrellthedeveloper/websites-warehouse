@@ -204,7 +204,7 @@ $(function () {
             $("nav").addClass("white-nav-top");
 
             // Show dark logo
-            $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+            $(".navbar-brand img").attr("src", "img/logo/website-warehouse-transparent-light-rsz-2.png");
 
             // Show back to top
             $("#back-to-top").fadeIn();
@@ -215,7 +215,7 @@ $(function () {
             $("nav").removeClass("white-nav-top");
 
             // Show logo
-            $(".navbar-brand img").attr("src", "img/logo/logo.png");
+            $(".navbar-brand img").attr("src", "img/logo/website-warehouse-transparent-dark-rsz.png");
 
             // Show back to top
             $("#back-to-top").fadeOut();
