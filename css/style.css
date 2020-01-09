@@ -126,6 +126,13 @@ section {
     margin: 0;
 }
 
+/* ============================================
+|  |  |  |  Audio Player
+============================================ */
+
+#myDiv {
+    margin: 0 auto;
+}
 
 
 /* ============================================
@@ -1043,7 +1050,18 @@ ul.navbar-nav > li > a:focus {
 }
 
 
+.nav-list {
+    float: left;
+    list-style: none;
+    position: relative;
+}
 
+.nav-list a {
+    display: block;
+    padding: 24px 14px;
+    text-decoration: none;
+
+}
 
 
 
