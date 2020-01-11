@@ -12,7 +12,7 @@ $(window).on('load', function () {
 
 $(".websites-portfolio").tiltedpage_scroll({
     sectionContainer: "> section",
-    angle: 30,
+    angle: 50,
     opacity: true,
     scale: true,
     outAnimation: true

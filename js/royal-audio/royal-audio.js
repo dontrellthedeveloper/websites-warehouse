@@ -90,7 +90,7 @@ FWDRAPUtils.onReady(function(){
         playTrackAfterPlaylistLoad:"no",
         showPlayListButtonAndPlaylist:"yes",
         showPlayListOnAndroid:"yes",
-        showPlayListByDefault:"yes",
+        showPlayListByDefault:"no",
         showPlaylistItemPlayButton:"yes",
         showPlaylistItemDownloadButton:"yes",
         showPlaylistItemBuyButton:"yes",

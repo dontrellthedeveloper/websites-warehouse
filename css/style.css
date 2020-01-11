@@ -324,6 +324,13 @@ section {
     display: none;
 }
 
+#footer-bottom {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
 
 /* ============================================
 |  |  |  |  Arrow Down
@@ -970,8 +977,8 @@ ul.office-details li i {
 |   |   |   |   Footer
 ================================================ */
 footer {
-    background: #dcdcdc;
-    padding: 20px;
+    background: #E3E3E3;
+    /*padding: 20px;*/
     border-top: 2px solid #46494C;
 }
 
@@ -988,6 +995,9 @@ footer p span {
 .marg-top {
     margin-top: 10px;
 }
+
+
+
 
 
 /* ================================
