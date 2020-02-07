@@ -29,7 +29,7 @@ FWDRAPUtils.onReady(function(){
         toolTipsButtonFontColor:"#000000",
         //controller settings
         animateOnIntro:"yes",
-        showFullScreenButton:"yes",
+        showFullScreenButton:"no",
         showNextAndPrevButtons:"yes",
         showThumbnail:"yes",
         showSoundAnimation:"yes",
@@ -68,7 +68,7 @@ FWDRAPUtils.onReady(function(){
         showPlaylistsSearchInput:"yes",
         usePlaylistsSelectBox:"yes",
         showPlaylistsSelectBoxNumbers:"yes",
-        showPlaylistsButtonAndPlaylists:"yes",
+        showPlaylistsButtonAndPlaylists:"no",
         showPlaylistsByDefault:"no",
         randomizePlaylist:"no",
         playlistLoop:"yes",

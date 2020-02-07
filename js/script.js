@@ -72,7 +72,7 @@ $(function() {
                 items: 2
             },
             1200: {
-                items: 4
+                items: 3
             }
         }
     });
@@ -99,10 +99,10 @@ $(function() {
                 items: 1
             },
             768: {
-                items: 2
+                items: 1
             },
             1200: {
-                items: 4
+                items: 1
             }
         }
     });
@@ -128,7 +128,7 @@ $(function() {
 
 
 $(window).scroll(function() {
-    var theta = $(window).scrollTop()/100.0 % (Math.PI*2);
+    var theta = $(window).scrollTop()/200.0 % (Math.PI*2);
     $('#leftgear').css({ transform: 'rotate(' + theta + 'rad)' });
     $('#rightgear').css({ transform: 'rotate(-' + theta + 'rad)' });
 });
