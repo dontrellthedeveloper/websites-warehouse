@@ -9,7 +9,7 @@
 	$mail = new PHPMailer;
 	$mail->CharSet = 'UTF-8';
 	
-	$smtpoption = false;		//Boolean true/false	true: email send using SMTP		false: email send using default
+	$smtpoption = true;		//Boolean true/false	true: email send using SMTP		false: email send using default
 	if($smtpoption) {
 		require 'phpmailer/src/SMTP.php';
 		
