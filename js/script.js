@@ -63,10 +63,10 @@ $(function() {
         navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
         responsive: {
             0: {
-                items: 1
+                items: 2
             },
             480: {
-                items: 1
+                items: 2
             },
             768: {
                 items: 2

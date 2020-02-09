@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="137">
@@ -38,6 +36,15 @@
                 <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#84008#93701#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="royal-audio.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/royal-audio/royal-audio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -73,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mgs-functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mgs-functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mgs-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="214">
+              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -98,15 +105,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="multi-step-form.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/multi-step-form/multi-step-form.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="653" column="29" selection-start-line="653" selection-start-column="23" selection-end-line="653" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,8 +117,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="280" column="14" lean-forward="true" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
+            <state relative-caret-position="383">
+              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -138,6 +136,7 @@
       <find>300x200</find>
       <find>thumbnail</find>
       <find>horizon</find>
+      <find>thum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,11 +153,11 @@
         <option value="$PROJECT_DIR$/js/multi-step-form/multi-step-form.js" />
         <option value="$PROJECT_DIR$/quote-process.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/mgs-functions.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/mgs-functions.php" />
       </list>
     </option>
   </component>
@@ -202,7 +201,13 @@
             <path>
               <item name="websites-warehouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="websites-warehouse" type="462c0819:PsiDirectoryNode" />
-              <item name="phpmailer" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websites-warehouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websites-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="royal-audio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="websites-warehouse" type="b2602c69:ProjectViewProjectNode" />
@@ -263,12 +268,12 @@
       <workItem from="1580541249244" duration="17000" />
       <workItem from="1580543133783" duration="3885000" />
       <workItem from="1580812303457" duration="32324000" />
-      <workItem from="1581056419534" duration="43562000" />
+      <workItem from="1581056419534" duration="45240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43562000" />
+    <option name="totallyTimeSpent" value="45240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="958" height="1080" extended-state="6" />
@@ -380,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mgs-functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quote-process.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3151">
@@ -401,16 +399,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#54#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="280" column="14" lean-forward="true" selection-start-line="280" selection-start-column="14" selection-end-line="280" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -450,6 +438,30 @@
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
             <element signature="e#84008#93701#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/royal-audio/royal-audio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mgs-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
         </state>
       </provider>
     </entry>
