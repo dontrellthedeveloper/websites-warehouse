@@ -44,6 +44,9 @@
     <!--  Multi-Step CSS -->
     <link rel="stylesheet" href="css/multi-step-form/multi-step-form.css">
 
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
 
 </head>
 
@@ -58,11 +61,12 @@
 
     <!--  Header  -->
     <header>
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top mobile-nav-top">
             <div class="container-fluid">
                 <div class="site-nav-wrapper">
 
                     <div class="navbar-header">
+                        <span id="mobile-nav-open-btn">&#9776;</span>
                         <a href="#home" class="navbar-brand smooth-scroll">
                             <img src="img/logo/website-warehouse-transparent-light-rsz.jpg" alt="logo" class="img-rsz">
                         </a>
@@ -72,23 +76,34 @@
                     <div class="container">
                         <div class="collapse navbar-collapse">
                             <ul class="nav navbar-nav pull-right">
-                                <li><a class="smooth-scroll" href="#home">Home</a></li>
-                                <li><a class="smooth-scroll" href="#onepage-templates">One Page</a></li>
-                                <li><a class="smooth-scroll" href="#multipage-templates">Multi Page</a></li>
-                                <li><a class="smooth-scroll" href="#ecomm-templates">E-Commerce/Apps</a></li>
-                                <li><a class="smooth-scroll" href="#info">Info</a></li>
-                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
-                                <li><a class="smooth-scroll" href="#about">Hosting</a></li>
-                                <li><a class="smooth-scroll" href="#pricing">Interact</a></li>
-<!--                                <li><a class="smooth-scroll" href="#social">Social</a></li>-->
-<!--                                <li><a class="smooth-scroll" href="#pricing">Services</a></li>-->
-
-<!--&lt;!&ndash;                                <li><a class="smooth-scroll" href="#blog">Editor</a></li>&ndash;&gt;-->
-<!--                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>-->
+                                <!--<li><a class="smooth-scroll ipad-m" href="#home">Home</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#onepage-templates">One Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#multipage-templates">Multi Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#ecomm-templates">E-Commerce/Apps</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#info">Info</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#tools">Contact</a></li>
+                                <!--<li><a class="smooth-scroll ipad-m" href="#about">Hosting</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#pricing">Interact</a></li>
                             </ul>
                         </div>
                     </div>
-
+                    <!-- Mobile Menu -->
+                    <div id="mobile-nav">
+                        <!-- Mobile Menu Close Button -->
+                        <span id="mobile-nav-close-btn">&times;</span>
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+                                <!--<li><a class="smooth-scroll ipad-m" href="#home">Home</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#onepage-templates">One Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#multipage-templates">Multi Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#ecomm-templates">E-Commerce/Apps</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#info">Info</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#tools">Contact</a></li>
+                                <!--<li><a class="smooth-scroll ipad-m" href="#about">Hosting</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#pricing">Interact</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -248,7 +263,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <!-- Pricing Table 02 -->
-                        <div class="pricing-table black">
+                        <div class="pricing-table black options-height">
                             <div class="type">
                                 <h4 style="line-height: 3rem; text-align: center;">One Page Site<br>Multi Page Site <br> Website Tools</h4>
                                 <h4 style="font-size: 14px; text-align: center;">(Your website's front end)</h4>
@@ -277,7 +292,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <!-- Pricing Table 03 -->
-                        <div class="pricing-table black">
+                        <div class="pricing-table black options-height">
                             <div class="type">
                                 <h4 style="line-height: 3rem; text-align: center;">Admin Panel<br>User Management <br> Database Storage</h4>
                                 <h4 style="font-size: 14px; text-align: center;">(Your website's back end)</h4>
@@ -897,9 +912,9 @@
                     <!--<div id="mapplic-mall" class="mapplic-transparent"></div> &lt;!&ndash; Map &ndash;&gt;-->
                 <!--</div>-->
                 <div class="row">
-                    <div class="col-md-1">
+                    <div class="col-lg-1">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-lg-5">
                         <div class="home-headings">
                             <div class="horizontal-heading">
                                 <h1 class="home-headings-1">Interactive <span>US</span></h1>
@@ -910,7 +925,7 @@
                             <div id="mapplic" class="mapplic-transparent"></div> <!-- Map -->
                         </div>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-lg-5">
                         <div class="home-headings">
                             <div class="horizontal-heading">
                                 <h1 class="home-headings-1">Interactive <span>Europe</span></h1>
@@ -921,7 +936,7 @@
                             <div id="mapplic-eu" class="mapplic-transparent"></div> <!-- Map -->
                         </div>
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-lg-1">
                     </div>
                 </div>
                 <!--<div class="row">-->
@@ -943,28 +958,6 @@
                     <!--<div class="col-md-1">-->
                     <!--</div>-->
                 <!--</div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             </div>
         </div>
