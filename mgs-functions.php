@@ -5,7 +5,7 @@
 	//Sending Email from Local Web Server using PHPMailer			
 	require 'phpmailer/src/PHPMailer.php';
 	require 'phpmailer/src/Exception.php';
-	require './vendor/autoload.php';
+
 	//Create a new PHPMailer instance
 	$mail = new PHPMailer;
 	$mail->CharSet = 'UTF-8';
@@ -13,7 +13,7 @@
 	$smtpoption = true;		//Boolean true/false	true: email send using SMTP		false: email send using default
 	if($smtpoption) {
 		require 'phpmailer/src/SMTP.php';
-		
+        require './vendor/autoload.php';
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
 		//Enable SMTP debugging
@@ -28,7 +28,7 @@
 		//Set the SMTP port number - likely to be 25, 465 or 587 (Change here)
 		$mail->Port = 587;
 		//open tls if you use as like for gmail
-		$mail->SMTPSecure = 'tls';
+		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 		//Whether to use SMTP authentication
 		$mail->SMTPAuth = true;
 		//Username to use for SMTP authentication (Change here)

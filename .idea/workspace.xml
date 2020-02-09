@@ -83,8 +83,8 @@
       <file leaf-file-name="mgs-functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mgs-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="297">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -210,6 +210,17 @@
             <path>
               <item name="websites-warehouse" type="b2602c69:ProjectViewProjectNode" />
               <item name="websites-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="phpmailer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websites-warehouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websites-warehouse" type="462c0819:PsiDirectoryNode" />
+              <item name="phpmailer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="websites-warehouse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websites-warehouse" type="462c0819:PsiDirectoryNode" />
               <item name="vendor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -266,18 +277,18 @@
       <workItem from="1580541249244" duration="17000" />
       <workItem from="1580543133783" duration="3885000" />
       <workItem from="1580812303457" duration="32324000" />
-      <workItem from="1581056419534" duration="45987000" />
+      <workItem from="1581056419534" duration="47019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45987000" />
+    <option name="totallyTimeSpent" value="47019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="958" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20414847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20414847" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -286,7 +297,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32962587" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32962587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -456,8 +467,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mgs-functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state relative-caret-position="297">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
