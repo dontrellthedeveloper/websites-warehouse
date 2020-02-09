@@ -28,7 +28,7 @@
 		//Set the SMTP port number - likely to be 25, 465 or 587 (Change here)
 		$mail->Port = 465;
 		//open tls if you use as like for gmail
-		$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+		$mail->SMTPSecure = 'ssl';
 		//Whether to use SMTP authentication
 		$mail->SMTPAuth = true;
 		//Username to use for SMTP authentication (Change here)
