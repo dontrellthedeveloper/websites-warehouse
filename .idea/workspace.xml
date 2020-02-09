@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mgs-functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/mgs-functions.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +74,7 @@
       <file leaf-file-name="quote-process.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quote-process.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3151">
+            <state relative-caret-position="1420">
               <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
             </state>
           </provider>
@@ -82,17 +83,15 @@
       <file leaf-file-name="mgs-functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mgs-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="348">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PHPMailer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpmailer/src/PHPMailer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2333" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
@@ -267,12 +266,12 @@
       <workItem from="1580541249244" duration="17000" />
       <workItem from="1580543133783" duration="3885000" />
       <workItem from="1580812303457" duration="32324000" />
-      <workItem from="1581056419534" duration="45467000" />
+      <workItem from="1581056419534" duration="45987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45467000" />
+    <option name="totallyTimeSpent" value="45987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="958" height="1080" extended-state="6" />
@@ -372,22 +371,10 @@
     <entry file="file://$PROJECT_DIR$/phpmailer/src/Exception.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpmailer/src/PHPMailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2333" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quote-process.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3151">
-          <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -457,10 +444,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/phpmailer/src/PHPMailer.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quote-process.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1420">
+          <caret line="137" column="12" selection-start-line="137" selection-start-column="12" selection-end-line="137" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mgs-functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="348">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
         </state>
       </provider>
     </entry>
