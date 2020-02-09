@@ -394,6 +394,10 @@ section {
     padding: 90px 0;
 }
 
+.content-box-main-about {
+    padding-bottom: 130px;
+}
+
 
 /* ============================================
 |  |  |  |  Websites Portfolio
@@ -1157,5 +1161,13 @@ ul.navbar-nav > li > a:focus {
 
 /* Mapplic */
 
-.map-margin {
+.map-background {
+    background-color: #FFFFFF;
+}
+
+
+/* Footer Margin */
+
+.footer-margin {
+    margin: 0 auto;
 }

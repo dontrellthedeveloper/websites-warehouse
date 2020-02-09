@@ -169,46 +169,46 @@ $(window).scroll(function() {
 /* ================================
 |   |   |   Google Map
 ================================ */
-$(window).on('load', function () {
-
-    // Map Variables
-    var addressString = 'Websites Warehouse';
-    var myLatlng = {lat: 34.181040, lng: -118.603640};
-
-    //1. Render Map
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: myLatlng
-    });
-
-    // 2. Add Marker
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        map: map,
-        title: "Click To See Address"
-    });
-
-    // 3. Add Info Window
-    var infowindow = new google.maps.InfoWindow({
-        content: addressString
-    });
-
-    // Show info window when user clicks marker
-    marker.addListener('click', function () {
-        infowindow.open(map, marker);
-    });
-
-
-    // 4. Resize Function
-    google.maps.event.addDomListener(window, 'resize', function() {
-
-        var center = map.getCenter();
-        google.maps.event.trigger(map, 'resize');
-        map.setCenter(center);
-    });
-
-
-});
+// $(window).on('load', function () {
+//
+//     // Map Variables
+//     var addressString = 'Websites Warehouse';
+//     var myLatlng = {lat: 34.181040, lng: -118.603640};
+//
+//     //1. Render Map
+//     var map = new google.maps.Map(document.getElementById('map'), {
+//         zoom: 11,
+//         center: myLatlng
+//     });
+//
+//     // 2. Add Marker
+//     var marker = new google.maps.Marker({
+//         position: myLatlng,
+//         map: map,
+//         title: "Click To See Address"
+//     });
+//
+//     // 3. Add Info Window
+//     var infowindow = new google.maps.InfoWindow({
+//         content: addressString
+//     });
+//
+//     // Show info window when user clicks marker
+//     marker.addListener('click', function () {
+//         infowindow.open(map, marker);
+//     });
+//
+//
+//     // 4. Resize Function
+//     google.maps.event.addDomListener(window, 'resize', function() {
+//
+//         var center = map.getCenter();
+//         google.maps.event.trigger(map, 'resize');
+//         map.setCenter(center);
+//     });
+//
+//
+// });
 
 
 /* ================================
