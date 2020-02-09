@@ -5,6 +5,7 @@
 	//Sending Email from Local Web Server using PHPMailer			
 	require 'phpmailer/src/PHPMailer.php';
 	require 'phpmailer/src/Exception.php';
+	require './vendor/autoload.php';
 	//Create a new PHPMailer instance
 	$mail = new PHPMailer;
 	$mail->CharSet = 'UTF-8';
