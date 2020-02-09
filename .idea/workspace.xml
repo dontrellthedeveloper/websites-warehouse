@@ -65,8 +65,8 @@
       <file leaf-file-name="mgs-functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mgs-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="327">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -255,12 +255,12 @@
       <workItem from="1580541249244" duration="17000" />
       <workItem from="1580543133783" duration="3885000" />
       <workItem from="1580812303457" duration="32324000" />
-      <workItem from="1581056419534" duration="28463000" />
+      <workItem from="1581056419534" duration="28898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28463000" />
+    <option name="totallyTimeSpent" value="28898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -433,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mgs-functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="327">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
