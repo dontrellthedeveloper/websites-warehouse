@@ -5,7 +5,6 @@
 	//Sending Email from Local Web Server using PHPMailer			
 	require 'phpmailer/src/PHPMailer.php';
 	require 'phpmailer/src/Exception.php';
-
 	//Create a new PHPMailer instance
 	$mail = new PHPMailer;
 	$mail->CharSet = 'UTF-8';
@@ -13,9 +12,9 @@
 	$smtpoption = true;		//Boolean true/false	true: email send using SMTP		false: email send using default
 	if($smtpoption) {
 		require 'phpmailer/src/SMTP.php';
-        require './vendor/autoload.php';
+		require './vendor/autoload.php';
 		//Tell PHPMailer to use SMTP
-//		$mail->isSMTP();
+		$mail->isSMTP();
 		//Enable SMTP debugging
 		// 0 = off (for production use)
 		// 1 = client messages
@@ -43,7 +42,7 @@
 	$mail->FromName = $fname;
 	
 	//Recipient address and name (Change here)
-	$mail->addAddress("dontrellknight@gmail.com", "Dontrell Washington");
+	$mail->addAddress("dontrellknight@gmail.com", "Websites Warehouse");
 	
 	$usercopy = (isset($_POST["usercopy"])) ? filter_var($_POST['usercopy'], FILTER_SANITIZE_NUMBER_INT) : 0;
 	if($usercopy){
