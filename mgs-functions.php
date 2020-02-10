@@ -9,12 +9,12 @@
 	$mail = new PHPMailer;
 	$mail->CharSet = 'UTF-8';
 	
-	$smtpoption = false;		//Boolean true/false	true: email send using SMTP		false: email send using default
+	$smtpoption = true;		//Boolean true/false	true: email send using SMTP		false: email send using default
 	if($smtpoption) {
 		require 'phpmailer/src/SMTP.php';
 		require './vendor/autoload.php';
 		//Tell PHPMailer to use SMTP
-//		$mail->isSMTP();
+		$mail->isSMTP();
 		//Enable SMTP debugging
 		// 0 = off (for production use)
 		// 1 = client messages
