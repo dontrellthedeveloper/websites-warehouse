@@ -12,14 +12,14 @@
 	$smtpoption = true;		//Boolean true/false	true: email send using SMTP		false: email send using default
 	if($smtpoption) {
 		require 'phpmailer/src/SMTP.php';
-		require './vendor/autoload.php';
+		
 		//Tell PHPMailer to use SMTP
 		$mail->isSMTP();
 		//Enable SMTP debugging
 		// 0 = off (for production use)
 		// 1 = client messages
 		// 2 = client and server messages
-		$mail->SMTPDebug = 0;
+		$mail->SMTPDebug = 2;
 		//Ask for HTML-friendly debug output
 		$mail->Debugoutput = 'html';
 		//Set the hostname of the mail server (Change here)
@@ -27,7 +27,7 @@
 		//Set the SMTP port number - likely to be 25, 465 or 587 (Change here)
 		$mail->Port = 465;
 		//open tls if you use as like for gmail
-		$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+		$mail->SMTPSecure = 'ssl';
 		//Whether to use SMTP authentication
 		$mail->SMTPAuth = true;
 		//Username to use for SMTP authentication (Change here)
@@ -42,7 +42,7 @@
 	$mail->FromName = $fname;
 	
 	//Recipient address and name (Change here)
-	$mail->addAddress("dontrellknight@gmail.com", "Websites Warehouse");
+	$mail->addAddress("dontrellknight@gmail.com", "Dontrell Washington");
 	
 	$usercopy = (isset($_POST["usercopy"])) ? filter_var($_POST['usercopy'], FILTER_SANITIZE_NUMBER_INT) : 0;
 	if($usercopy){
