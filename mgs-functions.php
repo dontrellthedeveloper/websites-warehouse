@@ -9,7 +9,7 @@
 	$mail = new PHPMailer;
 	$mail->CharSet = 'UTF-8';
 	
-	$smtpoption = true;		//Boolean true/false	true: email send using SMTP		false: email send using default
+	$smtpoption = false;		//Boolean true/false	true: email send using SMTP		false: email send using default
 	if($smtpoption) {
 		require 'phpmailer/src/SMTP.php';
 		
@@ -19,7 +19,7 @@
 		// 0 = off (for production use)
 		// 1 = client messages
 		// 2 = client and server messages
-		$mail->SMTPDebug = 0;
+		$mail->SMTPDebug = 2;
 		//Ask for HTML-friendly debug output
 		$mail->Debugoutput = 'html';
 		//Set the hostname of the mail server (Change here)
