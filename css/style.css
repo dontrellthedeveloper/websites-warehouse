@@ -1171,3 +1171,19 @@ ul.navbar-nav > li > a:focus {
 .footer-margin {
     margin: 0 auto;
 }
+
+/* ================================================
+|   |   |   |   Slider Buttons
+================================================ */
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #454545 !important;
+    font-size: 40px !important;
+    background: none !important;
+    margin: 5px !important;
+}
+
+.owl-theme .owl-nav [class*=owl-]  {
+    background: none !important;
+    color: #454545 !important;
+}

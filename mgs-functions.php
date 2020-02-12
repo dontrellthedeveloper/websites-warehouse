@@ -19,7 +19,7 @@
 		// 0 = off (for production use)
 		// 1 = client messages
 		// 2 = client and server messages
-		$mail->SMTPDebug = 2;
+		$mail->SMTPDebug = 0;
 		//Ask for HTML-friendly debug output
 		$mail->Debugoutput = 'html';
 		//Set the hostname of the mail server (Change here)
@@ -35,13 +35,6 @@
 		//Password to use for SMTP authentication (Change here)
 		$mail->Password = "KNight1990$";
 
-        $mail->SMTPOptions = array(
-            'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
-        );
 	}
 	
 	//From email address and name (Change here)
@@ -55,6 +48,14 @@
 	if($usercopy){
 		$mail->addAddress($email, $fname);
 	}
+
+//	$mail->SMTPOptions = array(
+//		'ssl' => array(
+//			'verify_peer' => false,
+//			'verify_peer_name' => false,
+//			'allow_self_signed' => true
+//		)
+//	);
 	
 	//Set true if want to send Confirmation email to sender
 	$mgssendconfirmation = false;	//Boolean true/false	true: Confirmation email will send to sender	false: Confirmation email will not send to sender
