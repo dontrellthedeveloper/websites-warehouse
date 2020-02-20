@@ -22,12 +22,21 @@ $(".websites-portfolio").tiltedpage_scroll({
 |  |  |  |  Magnific popup
 ============================================ */
 
-$(document).ready(function() {
+$(function () {
     $('.port-popup').magnificPopup({
         delegate: 'a',
         type: 'image',
         gallery: {
             enabled: true
+        },
+        image: {
+            titleSrc: function (item) {
+                var markup = '';
+                if (item.el[0].hasAttribute("data-title")) {
+                    markup += '<a>' + item.el.attr('data-title') + '</a>';
+                }
+                return markup
+            }
         }
     });
 });

@@ -1,0 +1,216 @@
+            <div id="myDiv">
+
+
+
+                <!--  Playlists -->
+                <ul id="playlists" style="display:none;">
+
+
+                    <li data-source="playlist1" data-playlist-name="Dontrell's Favorite R&B Songs " data-thumbnail-path="content/thumbnails/large1.jpg">
+                        <p class="minimalDarkCategoriesTitle"><span class="bold">Title: </span>My playlist 1</p>
+                        <p class="minimalDarkCategoriesType"><span class="bold">Type: </span><span class="minimalDarkCategoriesTypeIn">HTML</span></p>
+                        <p class="minimalDarkCategoriesDescription"><span class="bold">Description: </span>This playlist is created using html elements.</p>
+                    </li>
+
+
+
+
+                    <li data-source="list=PL2s_fmy1S_cJr3vt7DdiiIMEmrkNd4NAd" data-playlist-name="R&B/SOUL PLAYLIST (Streaming from YouTube)" data-thumbnail-path="content/thumbnails/youtube.jpg">
+                        <p class="minimalWhiteCategoriesTitle"><span class="boldWhite">Title: </span>R&B/Soul playlist</p>
+                        <p class="minimalWhiteCategoriesType"><span class="boldWhite">Type: </span><span class="minimalWhiteCategoriesTypeIn">R&B/SOUL PLAYLIST</span></p>
+                        <p class="minimalWhiteCategoriesDescription"><span class="boldWhite">Description: </span>This playlist is created using a YOUTUBE playlist.</p>
+                    </li>
+
+
+                    <li data-source="list=PL2s_fmy1S_cKzJLqFkhrhuhiBzCLMSFw4" data-playlist-name="GLOBAL PLAYLIST (Streaming from YouTube)" data-thumbnail-path="content/thumbnails/youtube.jpg">
+                        <p class="minimalWhiteCategoriesTitle"><span class="boldWhite">Title: </span>Global playlist</p>
+                        <p class="minimalWhiteCategoriesType"><span class="boldWhite">Type: </span><span class="minimalWhiteCategoriesTypeIn">GLOBAL PLAYLIST</span></p>
+                        <p class="minimalWhiteCategoriesDescription"><span class="boldWhite">Description: </span>This playlist is created using a YOUTUBE playlist.</p>
+                    </li>
+
+                    <li data-source="https://soundcloud.com/trellbeats1/sets/r-b-soul"
+                        data-playlist-name="Dontrell's Favorite R&B Songs (Streaming from Soundcloud Go+)" data-thumbnail-path="content/thumbnails/large3.jpg">
+                        <p class="minimalDarkCategoriesTitle"><span class="bold">Title: </span>Dontrell's Favorite R&B Songs (Streaming from Soundcloud GO+)</p>
+                        <p class="minimalDarkCategoriesType"><span class="bold">Type: </span><span class="minimalDarkCategoriesTypeIn">SOUNDCLOUD</span></p>
+                        <p class="minimalDarkCategoriesDescription"><span class="bold">Description: </span>This playlist is created using a SoundCloud playlist URL.</p>
+                    </li>
+
+                    <li data-source="list=PL2s_fmy1S_cIwDV24DucF9PCEusJzQJ6L" data-playlist-name="POP PLAYLIST (Streaming from YouTube)" data-thumbnail-path="content/thumbnails/youtube.jpg">
+                        <p class="minimalWhiteCategoriesTitle"><span class="boldWhite">Title: </span>Pop playlist</p>
+                        <p class="minimalWhiteCategoriesType"><span class="boldWhite">Type: </span><span class="minimalWhiteCategoriesTypeIn">POP PLAYLIST</span></p>
+                        <p class="minimalWhiteCategoriesDescription"><span class="boldWhite">Description: </span>This playlist is created using a YOUTUBE playlist.</p>
+                    </li>
+
+
+                    <li data-source="list=PL2s_fmy1S_cKMPZ6TYs8Dm5Lj_TKKH5i9" data-playlist-name="90/00s R&B PLAYLIST (Streaming from YouTube)" data-thumbnail-path="content/thumbnails/youtube.jpg">
+                        <p class="minimalWhiteCategoriesTitle"><span class="boldWhite">Title: </span>90/00s R&B playlist</p>
+                        <p class="minimalWhiteCategoriesType"><span class="boldWhite">Type: </span><span class="minimalWhiteCategoriesTypeIn">90/00s R&B PLAYLIST</span></p>
+                        <p class="minimalWhiteCategoriesDescription"><span class="boldWhite">Description: </span>This playlist is created using a YOUTUBE playlist.</p>
+                    </li>
+
+
+                    <li data-source="list=PL2s_fmy1S_cL-CsQTQvb7SrD9a5r6FNoD" data-playlist-name="DANCE PLAYLIST (Streaming from YouTube)" data-thumbnail-path="content/thumbnails/youtube.jpg">
+                        <p class="minimalWhiteCategoriesTitle"><span class="boldWhite">Title: </span>Dance playlist</p>
+                        <p class="minimalWhiteCategoriesType"><span class="boldWhite">Type: </span><span class="minimalWhiteCategoriesTypeIn">DANCE PLAYLIST</span></p>
+                        <p class="minimalWhiteCategoriesDescription"><span class="boldWhite">Description: </span>This playlist is created using a YOUTUBE playlist.</p>
+                    </li>
+
+                </ul>
+
+
+                <!--  HTML playlist -->
+                <ul id="playlist1" style="display:none;">
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUmw5VHVmbjJSTnJjTFhCd2R6TzFQVWtVcFJBRkQ2TDg=" data-thumbpath="img/mp3-covers/daniel-caesar-get-you-cover.jpg" data-buy-url="https://www.amazon.com/Get-You-feat-Kali-Uchis/dp/B01M9BQMII" data-duration="04:32">
+                        <p><span style="font-weight:bold;">Daniel Ceasar - Get You</span> - (Purchase on Amazon Music by clicking the cart icon | Song has encryption and copyright protection | Download attempt will be blocked)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUVN5SzA5cWdSaGRRenhMSnNQQ01aQ003Skozc3JwVWE=" data-thumbpath="img/mp3-covers/brandy-sittin-up-in-my-room.jpg" data-buy-url="https://www.amazon.com/Sittin-Up-My-Room-Brandy/dp/B000002VIO" data-duration="04:53">
+                        <p><span style="font-weight:bold;">Brandy - Sittin' Up In My Room</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song has encryption and copyright protecton | Don't try to download)</p>
+                    </li>https://drive.google.com/open?id=1XWMVreR_HWKZdItc4a5bcEsP-mJX6IiV
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xNXNnT3Z3V2dUZDBLR0N5cDVzNnhDNG1HVVMyMWhfdDY=" data-thumbpath="img/mp3-covers/summer-walker-come-thru.jpg" data-buy-url="https://www.amazon.com/Come-Thru-Clean/dp/B07YLDK4ZV" data-duration="03:02">
+                        <p><span style="font-weight:bold;">Summer Walker - Come Through</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>https://drive.google.com/open?id=1b8USEHNfx4vR4_GuewbI37TXVDJtQfLq
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xdURIMV9zMTVyNkEzek5KYkpFNFNCOXlZLUk1TWlUZEs=" data-thumbpath="img/mp3-covers/jon-b-they-dont-know.jpg" data-buy-url="https://www.amazon.com/They-Dont-Know/dp/B00136JEUW" data-duration="04:36">
+                        <p><span style="font-weight:bold;">Jon B - They Don't Know</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>https://drive.google.com/open?id=143D9RnAU5wnKCFWuIWBNMjxjP7dmLP4M
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xbGJ0X1J3YzlSQndGaExMbmE3TW55WDFJTHBORVFQMWg=" data-thumbpath="img/mp3-covers/tevin-campbell-can-we-talk.jpg" data-buy-url="https://www.amazon.com/Can-We-Talk/dp/B001OGPUJA" data-duration="04:46">
+                        <p><span style="font-weight:bold;">Tevin Campbell - Can We Talk</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xcF9GWmJzdmhtMUJHdjExdGRNTDBhOVRaX0xpdUtzNUs=" data-thumbpath="img/mp3-covers/tamia-so-into-you.jpg" data-buy-url="https://www.amazon.com/So-Into-You/dp/B0041VID12" data-duration="04:23">
+                        <p><span style="font-weight:bold;">Tamia - So Into You</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUXJONmtqNWhiYUdFenlXeGI0RGc3aWU0LXkxWlFXSGM=" data-thumbpath="img/mp3-covers/swv-rain.jpg" data-buy-url="https://www.amazon.com/Rain/dp/B006JHWPHE/ref=sr_1_2?keywords=SWV+Rain&qid=1581667365&s=dmusic&sr=1-2" data-duration="04:25">
+                        <p><span style="font-weight:bold;">SWV - Rain</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xWlhwZFZnODBWLUhDR0RVSml6d2NLUjRGT0xHaS1COEM" data-thumbpath="img/mp3-covers/summer-walker-cpr.jpg" data-buy-url="https://www.amazon.com/CPR/dp/B07JBJSXHJ" data-duration="03:32">
+                        <p><span style="font-weight:bold;">Summer Walker - CPR</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xbi13TnFEWm5LSWRzaFFONW0wNHlDdXJQeTNYSkRvUkg" data-thumbpath="img/mp3-covers/sevyn-streeter-it-wont-stop.jpg" data-buy-url="https://www.amazon.com/It-Wont-Stop/dp/B00CY446LE" data-duration="04:21">
+                        <p><span style="font-weight:bold;">Sevyn Streeter - It Won't Stop</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xaTZ3SURsdG5xcGV6Y1dLZ2dzMlNnUnZfQjhMcVZNbTM" data-thumbpath="img/mp3-covers/sade-the-sweetest-taboo.jpg" data-buy-url="https://www.amazon.com/The-Sweetest-Taboo-Remastered/dp/B01AIRKOQ4" data-duration="04:40">
+                        <p><span style="font-weight:bold;">Sade - The Sweetest Taboo</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xT2lnVXJibnc5cW9vTTdwamdyZV9SQmRNeWIzYVhvd1Y" data-thumbpath="img/mp3-covers/robin-thicke=lost-without-you.jpg" data-buy-url="https://www.amazon.com/Lost-Without-U-Alternative-Version/dp/B001O0OM0O/ref=tmm_msc_swatch_0?_encoding=UTF8&qid=&sr=" data-duration="04:13">
+                        <p><span style="font-weight:bold;">Robin Thicke - Lost Without You</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xZ2lJOXZqazk5OVhka2JzYmtUSWNpQW9ubzJESlpBV2I" data-thumbpath="img/mp3-covers/rihanna-love-on-the-brian.jpg" data-buy-url="https://www.amazon.com/Love-On-The-Brain/dp/B073S7QP6B" data-duration="03:46">
+                        <p><span style="font-weight:bold;">Rihanna - Love On The Brain</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xQzFhRFR5bmxGOWM4QmVUQm1VNUhpdGh1MThJQnlFb2k" data-thumbpath="img/mp3-covers/ashanti-rain-on-me.jpg" data-buy-url="https://www.amazon.com/Rain-On-Me-Album-Version/dp/B0017WEN7Q" data-duration="05:00">
+                        <p><span style="font-weight:bold;">Ashanti - Rain On Me</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xYTdMbm5ESERJamRxZnpudmNQR3M2bllaRjkyZkxnTzY" data-thumbpath="img/mp3-covers/lauryn-hill.jpg" data-buy-url="https://www.amazon.com/Nothing-Even-Matters/dp/B0757DCGXD" data-duration="05:52">
+                        <p><span style="font-weight:bold;">Lauryn Hill - Nothing Even Matters</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xXzdxODQ4TDJqU1ZiRGZveXk1eVpYMTBYd2xFcllrdWY" data-thumbpath="img/mp3-covers/erykah-badu.jpg" data-buy-url="https://www.amazon.com/Next-Lifetime/dp/B003E7HPC2" data-duration="06:28">
+                        <p><span style="font-weight:bold;">Erykah Badu - Next Lifetime</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUF9LZEZibFQ4OGhpd2FubmNIWkE2dWRGcG1Zak93TFU" data-thumbpath="img/mp3-covers/missy-beep-me-911.jpg" data-buy-url="https://www.amazon.com/Beep-911-feat-702-Explicit/dp/B001QPC0GU" data-duration="04:20">
+                        <p><span style="font-weight:bold;">Missy Elliot - Beep Me 911</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xWmlQaUFoejRQMmxKTDNpMm1NUUxxSjhUVnRZUDhRMlg" data-thumbpath="img/mp3-covers/ne-yo-miss-independent.jpg" data-buy-url="https://www.amazon.com/Miss-Independent-Album-Version/dp/B001ME0E2M/ref=sr_1_1?keywords=Ne-Yo+Miss+Independent&qid=1581668453&s=dmusic&sr=1-1" data-duration="03:56">
+                        <p><span style="font-weight:bold;">Ne-yo - Miss Independent</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xb1p0ZTRSNnNMa2tYdExqekg0VU51dXhxU1pLRjlXSDc" data-thumbpath="img/mp3-covers/miguel-adorn.jpg" data-buy-url="https://www.amazon.com/Adorn/dp/B009E2PDGG" data-duration="02:34">
+                        <p><span style="font-weight:bold;">Miguel - Adorn</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xbUs1UVd4dFlJZ29oZG1UMGpCN0tmWjRuYnkzQUhpbWs=" data-thumbpath="img/mp3-covers/maxwell-ascension.jpg" data-buy-url="https://www.amazon.com/dp/B07NHQ45CN/ref=dm_ws_tlw_trk5" data-duration="04:16">
+                        <p><span style="font-weight:bold;">Maxwell - Ascension</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xTHhqeWc0VE5wTzRFc1REd2Jjbk5BVEFFa0pBd085XzM=" data-thumbpath="img/mp3-covers/keyshia-cole-love.jpg" data-buy-url="https://www.amazon.com/Love/dp/B000VZLMFG" data-duration="04:16">
+                        <p><span style="font-weight:bold;">Keyshia Cole - Love</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xanVJbFYtYmkyZ3lFWlNGZ2RDTXd1VGJtRzgxYTZINFc=" data-thumbpath="img/mp3-covers/lauryn-hill.jpg" data-buy-url="https://www.amazon.com/Ex-Factor/dp/B0757H7K4Z" data-duration="04:38">
+                        <p><span style="font-weight:bold;">Lauryn Hill - Ex-Factor</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xZ0VKdjVYNUNpRlpwN3liUDItRDlyMDZwWHlPdDExSi0=" data-thumbpath="img/mp3-covers/lauryn-hill.jpg" data-buy-url="https://www.amazon.com/Cant-Take-Eyes-Off-You/dp/B0757G8MS3" data-duration="04:43">
+                        <p><span style="font-weight:bold;">Lauryn Hill - Can't Take My Eyes Off You</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xNTA4ellWNVRYcEE2OXVSUHVsdDZwcmxYQS1xbmE1ZnY" data-thumbpath="img/mp3-covers/killing-me-softly.jpg" data-buy-url="https://www.amazon.com/dp/B0045KYB7Y/ref=dm_ws_tlw_trk5" data-duration="05:00">
+                        <p><span style="font-weight:bold;">Fugees - Killing Me Softly</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="https://drive.google.com/uc?export=download&id=1zBHKjomLVbaSg_lQMgDNyDgpxCbn7L7D" data-thumbpath="img/mp3-covers/kehlani-all-me.jpg" data-buy-url="https://www.amazon.com/All-Me-feat-Keyshia-Cole/dp/B082Z573L7" data-duration="02:59">
+                        <p><span style="font-weight:bold;">Kehlani - All Me</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xdzhyM3A2TVpYajJOa3FsbFJhdVhQV0hlOTduQ2dQU18" data-thumbpath="img/mp3-covers/john-legend-ordinary-people.jpg" data-buy-url="https://www.amazon.com/Ordinary-People/dp/B07NBXS1BR" data-duration="04:33">
+                        <p><span style="font-weight:bold;">John Legend - Ordinary People</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xaXhkMm9Xam1CRkpkWFFWOVBjLUtKbnBhcVYxc2NnQ2E=" data-thumbpath="img/mp3-covers/alicia-keys-if-i-aint-got-you.jpg" data-buy-url="https://www.amazon.com/If-I-Aint-Got-You/dp/B00137ODBG" data-duration="03:50">
+                        <p><span style="font-weight:bold;">Alicia Keys - If I Ain't Got You</span> - (Purchase this song from Amazon Music by clicking the cart icon)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xYnZwdXg3NVFPUVMza0tXNDZnc25kbzViSXdYcHJJdGM" data-thumbpath="img/mp3-covers/keyshia-cole-heaven-sent.jpg" data-buy-url="https://www.amazon.com/Heaven-Sent/dp/B000WB0PJ8" data-duration="03:54">
+                        <p><span style="font-weight:bold;">Keyshia Cole - Heaven Sent</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xQ0JhT3BhOUJOSWppWkdqbUhuaGUzOGpYTUdsemp6Q28" data-thumbpath="img/mp3-covers/her-focus.jpg" data-buy-url="https://www.amazon.com/Focus/dp/B076C4KST8" data-duration="03:21">
+                        <p><span style="font-weight:bold;">H.E.R. - Focus</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUUo1LXJwcDNla01oMl9FU2dCX2N3NnpGNks3M0RxTUc" data-thumbpath="img/mp3-covers/goapele-closer-to-my-dreams.jpg" data-buy-url="https://www.amazon.com/Closer/dp/B007N9Y1R4" data-duration="03:51">
+                        <p><span style="font-weight:bold;">Goapele - Closer To My Dreams</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xTGxnZUtFSWhRS1NWdVRsZ0tKa2xyQVlLdmZGU25RRjg" data-thumbpath="img/mp3-covers/cee-lo-green-fool-for-you.jpg" data-buy-url="https://www.amazon.com/Fool-You-feat-Melanie-Fiona/dp/B005C7OIVS" data-duration="03:42">
+                        <p><span style="font-weight:bold;">Cee Lo Green - Fool For You</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xdHU2aUEzZU1qQmRtRzR2MFpvaEs1Vjk5emszemVvZVU" data-thumbpath="img/mp3-covers/kehlani-feels.jpg" data-buy-url="https://www.amazon.com/Feels-Explicit/dp/B07NJ9R3XT/ref=sr_1_1?keywords=Kehlani+Feels&qid=1581669744&sr=8-1" data-duration="03:05">
+                        <p><span style="font-weight:bold;">Kehlani - Feels</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xYnZSVGJHSVVka1E5REphQzRNRGdpMTlzX2RRZVR5Ny0" data-thumbpath="img/mp3-covers/erykah-badu.jpg" data-buy-url="https://www.amazon.com/dp/B001NTI9JG/ref=dm_ws_tlw_trk2" data-duration="03:49">
+                        <p><span style="font-weight:bold;">Erykah Badu - On and On</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xWkplZUF1MWcteUdwalg0ZHd6dTA1dEVzR1dLY0Q1TFQ" data-thumbpath="img/mp3-covers/ella-mai.jpg" data-buy-url="https://www.amazon.com/Everything-feat-John-Legend/dp/B07HFKLL65" data-duration="03:03">
+                        <p><span style="font-weight:bold;">Ella Mai - Everything</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xeVU5azI2VUNrZlc3OGFIRGJSMFZJTHRmQUJ5SVl2OGc=" data-thumbpath="img/mp3-covers/ella-mai.jpg" data-buy-url="https://www.amazon.com/Trip/dp/B07HFJNZ84" data-duration="03:39">
+                        <p><span style="font-weight:bold;">Ella Mai - Trip</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xNW8tWXZNd0h0RU1kaFY4cUxveVpWZW40S0xpU3ZMcDY" data-thumbpath="img/mp3-covers/ella-mai.jpg" data-buy-url="https://www.amazon.com/Bood-Up/dp/B06VW8T64H" data-duration="04:03">
+                        <p><span style="font-weight:bold;">Ella Mai - Boo'd Up</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xSkdxcFEyTzk0UE9EZGFock5UUEN0RE02MVZ3YnRPMGQ=" data-thumbpath="img/mp3-covers/dram-the-lay-down.jpg" data-buy-url="https://www.amazon.com/Lay-Down-feat-R-WATT/dp/B07VRF6JS6" data-duration="04:54">
+                        <p><span style="font-weight:bold;">DRAM - The Lay Down</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUUkxektqMWwtX3B1ZHpxRXg2ejFIVmlJRWYxc1lWRUs=" data-thumbpath="img/mp3-covers/d-angelo.jpg" data-buy-url="https://www.amazon.com/dp/B01MT0YEAI/ref=dm_ws_tlw_trk9" data-duration="04:33">
+                        <p><span style="font-weight:bold;">D'Angelo - Lady</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xbUpSb0NkRkgycS12bk9QQ21DU0NYeTVtdDJENXVHc2E=" data-thumbpath="img/mp3-covers/d-angelo.jpg" data-buy-url="https://www.amazon.com/Cruisin/dp/B01MY041ND" data-duration="06:31">
+                        <p><span style="font-weight:bold;">D'Angelo - Cruisin'</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xdWI1ejlQREttYW1nbXdJbDNuemttQ1dBVUlPUFM1X0k" data-thumbpath="img/mp3-covers/solange-cranes-in-the-sky.jpg" data-buy-url="https://www.amazon.com/Cranes-in-the-Sky/dp/B01LZYEYT6" data-duration="04:12">
+                        <p><span style="font-weight:bold;">Solange - Cranes in the Sky</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xQjdlTGJJNWI5dk1jTXY5TUhQRzExMHI3WDVxX3h3R20=" data-thumbpath="img/mp3-covers/ciara-promise.jpg" data-buy-url="https://www.amazon.com/Promise-Main-Version-Ciara/dp/B0013G1JEQ" data-duration="04:29">
+                        <p><span style="font-weight:bold;">Ciara - Promise</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xUm9FZEs3M0NwSGo0bm1pYjNPdEd2bDdHWVJWTkdRRDU=" data-thumbpath="img/mp3-covers/chris-brown-say-goodbye.jpg" data-buy-url="https://www.amazon.com/dp/B073M7MFHH/ref=dm_ws_tlw_trk13" data-duration="04:45">
+                        <p><span style="font-weight:bold;">Chris Brown - Say Goodbye</span> - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xd1RoaFVoNzR1UjFfVndRNGp2MWd1aHBYSlUxMS03Vmc" data-thumbpath="img/mp3-covers/chris-brown-come-together.jpg" data-buy-url="https://www.amazon.com/dp/B07YGS39SZ/ref=dm_ws_tlw_trk13" data-duration="03:55">
+                        <p><span style="font-weight:bold;">Chris Brown</span> - Come Together - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xSjJNZ3JVYVhuTmtETGo0bXBieGxZVVotUjF0X2NacE8" data-thumbpath="img/mp3-covers/brandy-i-wanna-be-down.jpg" data-buy-url="https://www.amazon.com/I-Wanna-Be-Down/dp/B002FU3OKQ" data-duration="04:07">
+                        <p><span style="font-weight:bold;">Brandy</span> - I Wanna Be Down - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xLTRfTVZ6V3VsUU5jZlNrWWFjUXVTbXRJVHZ5NGgxbUg" data-thumbpath="img/mp3-covers/brandy-have-you-ever.jpg" data-buy-url="https://www.amazon.com/Have-You-Ever/dp/B0012ECKOM" data-duration="04:11">
+                        <p><span style="font-weight:bold;">Brandy</span> - Have You Ever - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xb2FiUExBZXZOTXNmNU5hY1dWYXB1TG9mcUhLbjVFamY" data-thumbpath="img/mp3-covers/daniel-caesar-best-part.jpg" data-buy-url="https://www.amazon.com/Best-Part-feat-H-E-R/dp/B074FS4825" data-duration="03:31">
+                        <p><span style="font-weight:bold;">Daniel Caesar & H.E.R.</span> - Best Part - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xcC1KckhEMGJsS09PeDh2RnZLTGNDYUJGcGdkWmNvWmY" data-thumbpath="img/mp3-covers/ari-lennox-up-late.jpg" data-buy-url="https://www.amazon.com/Up-Late-Explicit/dp/B07RG64QZP" data-duration="04:29">
+                        <p><span style="font-weight:bold;">Ari Lennox</span> - Up late - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xN3p2NWFZcENQcV80V1BZMkc0SE1LbVVZS1pTVHVPd2w" data-thumbpath="img/mp3-covers/amanda-perez-angel.jpg" data-buy-url="https://www.amazon.com/dp/B000THJXJI/ref=dm_ws_tlw_trk3" data-duration="03:16">
+                        <p><span style="font-weight:bold;">Amanda Perez</span> - Angel - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xZm5hNG9QX0pOd1pvSVhBVUtWTnBoMnRMNjRuLVpwbjY" data-thumbpath="img/mp3-covers/alicia-keys-unthinkable.jpg" data-buy-url="https://www.amazon.com/Un-thinkable-Im-Ready/dp/B002Y544YM" data-duration="04:10">
+                        <p><span style="font-weight:bold;">Alicia Keys</span> - Unthinkable - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xOG5Qd3VnOVc3UG5PSkNFS1ZoVE1WY0M3c2p1aXFkNjM" data-thumbpath="img/mp3-covers/alicia-keys-diary.jpg" data-buy-url="https://www.amazon.com/dp/B00137KN56/ref=dm_ws_tlw_trk7" data-duration="04:46">
+                        <p><span style="font-weight:bold;">Alicia Keys</span> - Diary - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                    <li data-path="encrypt:aHR0cHM6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD1kb3dubG9hZCZpZD0xRGo5SXB2QUpvei1uWnR0T2VHMXNzZEIzOWlRZUVnLWQ" data-thumbpath="img/mp3-covers/aaliyah-4-page-letter.jpg" data-buy-url="https://www.amazon.com/4-Page-Letter/dp/B07HGD9SB4" data-duration="04:54">
+                        <p><span style="font-weight:bold;">Aaliyah</span> - 4 Page Letter - (Purchase this song from Amazon Music by clicking the cart icon | Song is encrypted, dont try to download)</p>
+                    </li>
+                </ul>
+
+
+            </div>

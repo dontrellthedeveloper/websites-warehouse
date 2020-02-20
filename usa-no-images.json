@@ -240,7 +240,6 @@
 					"label": "GLD",
 					"pin": "pin-image",
 					"thumbnail": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/17/05/fe/f4/catalina-island.jpg",
-					"image": "https://media-cdn.tripadvisor.com/media/photo-c/2560x500/17/05/fe/f4/catalina-island.jpg",
 					"category": "district",
 					"x": "0.0853",
 					"y": "0.5993",
@@ -254,7 +253,6 @@
 					"label": "GLD",
 					"pin": "pin-image",
 					"thumbnail": "https://source.unsplash.com/CrDnEQE_9vY/100x100",
-					"image": "https://source.unsplash.com/CrDnEQE_9vY/300x200",
 					"category": "district",
 					"x": "0.0950",
 					"y": "0.4917",
@@ -268,7 +266,6 @@
 					"label": "GLD",
 					"pin": "pin-image",
 					"thumbnail": "https://source.unsplash.com/E0KNh67l5pE/100x100",
-					"image": "https://source.unsplash.com/E0KNh67l5pE/300x200",
 					"category": "district",
 					"x": "0.1302",
 					"y": "0.5853",
@@ -282,7 +279,6 @@
 					"label": "GLD",
 					"pin": "pin-image",
 					"thumbnail": "https://source.unsplash.com/U9U7wvIm0gY/100x100",
-					"image": "https://source.unsplash.com/U9U7wvIm0gY/300x200",
 					"category": "district",
 					"x": "0.0853",
 					"y": "0.3834",
@@ -296,7 +292,6 @@
 					"label": "GLD",
 					"pin": "pin-image",
 					"thumbnail": "https://source.unsplash.com/M6XC789HLe8/100x100",
-					"image": "https://source.unsplash.com/M6XC789HLe8/300x200",
 					"category": "district",
 					"x": "0.0808",
 					"y": "0.4246",
@@ -337,6 +332,32 @@
 					"zoom": "2"
 				},
 				{
+					"id": "nv-lakemead",
+					"title": "Lake Mead Recreational Area",
+					"description": "<p>Lake Mead is a man-made lake that lies on the Colorado River, southeast of Las Vegas.</p>",
+					"link": "https://en.wikipedia.org/wiki/Lake_Mead",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://source.unsplash.com/OfJVtZphM7c/100x100",
+					"category": "district",
+					"x": "0.1756",
+					"y": "0.5201",
+					"zoom": "2"
+				},
+				{
+					"id": "nv-hooverdam",
+					"title": "Hoover Dam",
+					"description": "<p>Hoover Dam is a concrete arch-gravity dam in the Black Canyon of the Colorado River.</p>",
+					"link": "https://en.wikipedia.org/wiki/Hoover_Dam",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://source.unsplash.com/6pcIlsu1Wtg/100x100",
+					"category": "district",
+					"x": "0.1645",
+					"y": "0.5240",
+					"zoom": "2"
+				},
+				{
 					"id": "az",
 					"title": "Arizona",
 					"link": "http://en.wikipedia.org/wiki/Washington_(state)",
@@ -368,6 +389,19 @@
 					"category": "cities",
 					"x": "0.2016",
 					"y": "0.6228",
+					"zoom": "2"
+				},
+				{
+					"id": "az-grandcanyon",
+					"title": "Grand Canyon National Park",
+					"description": "<p>The Grand Canyon is a steep-sided canyon carved by the Colorado River in Arizona.</p>",
+					"link": "https://en.wikipedia.org/wiki/Grand_Canyon",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://source.unsplash.com/HIghIy9i0aY/100x100",
+					"category": "district",
+					"x": "0.2172",
+					"y": "0.5328",
 					"zoom": "2"
 				},
 				{
@@ -567,6 +601,18 @@
 					"zoom": "2"
 				},
 				{
+					"id": "co-mesaverde",
+					"title": "Mesa Verde National Park",
+					"description": "<p>Mesa Verde National Park is an American national park and UNESCO World Heritage Site located in Montezuma County, Colorado.</p>",
+					"link": "https://en.wikipedia.org/wiki/Mesa_Verde_National_Park",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://www.nps.gov/common/uploads/imr/park/meve/176F9F84-1DD8-B71B-0B1C81BE17156403/176F9F84-1DD8-B71B-0B1C81BE17156403-large.jpg",
+					"category": "district",
+					"x": "0.2836",
+					"y": "0.5058"
+				},
+				{
 					"id": "wy",
 					"title": "Wyoming",
 					"link": "http://en.wikipedia.org/wiki/Washington_(state)",
@@ -599,6 +645,18 @@
 					"x": "0.3310",
 					"y": "0.3114",
 					"zoom": "2"
+				},
+				{
+					"id": "wy-yellowstone",
+					"title": "Yellowstone National Park",
+					"description": "<p>Yellowstone National Park is an American national park located mostly in Wyoming.</p>",
+					"link": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://source.unsplash.com/KgNOD30LkuE/100x100",
+					"category": "district",
+					"x": "0.2731",
+					"y": "0.2414"
 				},
 				{
 					"id": "mt",
@@ -876,6 +934,19 @@
 					"action": "reveal",
 					"x": "0.4417",
 					"y": "0.2748"
+				},
+				{
+					"id": "sd-mountrushmore",
+					"title": "Mount Rushmore",
+					"description": "<p>Mount Rushmore National Memorial is centered on a sculpture carved into the granite face of Mount Rushmore in the Black Hills in Keystone, South Dakota.</p>",
+					"link": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://source.unsplash.com/GyMIjpznBmY/100x100",
+					"category": "district",
+					"x": "0.3803",
+					"y": "0.2831",
+					"zoom": "4"
 				},
 				{
 					"id": "sd-siouxfalls",
@@ -1598,6 +1669,19 @@
 					"zoom": "4"
 				},
 				{
+					"id": "tn-smokemountain",
+					"title": "Great Smoky Mountains",
+					"description": "<p>The Great Smoky Mountains are a mountain range rising along the Tennessee–North Carolina border in the southeastern United States. They are a subrange of the Appalachian Mountains, and form part of the Blue Ridge Physiographic Province.</p>",
+					"link": "https://en.wikipedia.org/wiki/Great_Smoky_Mountains",
+					"label": "GLD",
+					"pin": "pin-image",
+					"thumbnail": "https://source.unsplash.com/HDd-NQ_AMNQ/100x100",
+					"category": "district",
+					"x": "0.7347",
+					"y": "0.5597",
+					"zoom": "4"
+				},
+				{
 					"id": "la",
 					"title": "Louisiana",
 					"link": "http://en.wikipedia.org/wiki/Texas",
@@ -1856,6 +1940,30 @@
 					"x": "0.8333",
 					"y": "0.8673",
 					"zoom": "2"
+				},
+				{
+					"id": "fl-kennedyspacecenter",
+					"title": "Kennedy Space Center",
+					"description": "<p>The John F. Kennedy Space Center is one of ten National Aeronautics and Space Administration field centers. It's NASA's primary launch center of human spaceflight.</p>",
+					"link": "https://en.wikipedia.org/wiki/Kennedy_Space_Center",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "http://cdn.mos.cms.futurecdn.net/569ripX6AtTgCywarscHDS.jpg",
+					"category": "district",
+					"x": "0.8146",
+					"y": "0.8007"
+				},
+				{
+					"id": "fl-everglades",
+					"title": "Everglades",
+					"description": "<p>The Everglades is a natural region of tropical wetlands in the southern portion of the U.S. state of Florida.</p>",
+					"link": "https://en.wikipedia.org/wiki/Everglades",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://www.visittheusa.co.uk/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2016-10/HERO%201_Everglades_FL_GettyImages-86504980_CROPPED_Web72DPI.jpg?itok=9caWyyr_",
+					"category": "district",
+					"x": "0.8149",
+					"y": "0.8819"
 				},
 				{
 					"id": "ga",
@@ -2120,6 +2228,18 @@
 					"zoom": "2"
 				},
 				{
+					"id": "pa-gettysburg",
+					"title": "Gettysburg Military Park",
+					"description": "<p>The Gettysburg National Military Park protects and interprets the landscape of the 1863 Battle of Gettysburg during the American Civil War.</p>",
+					"link": "https://en.wikipedia.org/wiki/Gettysburg_National_Military_Park",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://cdn.pixabay.com/photo/2017/10/27/21/23/gettysburg-2895578_960_720.jpg",
+					"category": "district",
+					"x": "0.8343",
+					"y": "0.3754"
+				},
+				{
 					"id": "nj",
 					"title": "New Jersey",
 					"link": "http://en.wikipedia.org/wiki/Washington_(state)",
@@ -2250,6 +2370,18 @@
 					"zoom": "2"
 				},
 				{
+					"id": "ny-niagarafalls",
+					"title": "Niagara Falls",
+					"description": "<p>Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the US state of New York and the Canadian province of Ontario.</p>",
+					"link": "https://en.wikipedia.org/wiki/Niagara_Falls",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg",
+					"category": "district",
+					"x": "0.7870",
+					"y": "0.2742"
+				},
+				{
 					"id": "de",
 					"title": "Delaware",
 					"link": "http://en.wikipedia.org/wiki/Washington_(state)",
@@ -2370,6 +2502,18 @@
 					"x": "0.8955",
 					"y": "0.2694",
 					"zoom": "2"
+				},
+				{
+					"id": "ma-plymothrock",
+					"title": "Plymouth Rock",
+					"description": "<p>Plymouth Rock is the traditional site of disembarkation of William Bradford and the Mayflower Pilgrims who founded Plymouth Colony in December 1620.</p>",
+					"link": "https://en.wikipedia.org/wiki/Plymouth_Rock",
+					"label": "PHX",
+					"pin": "pin-image",
+					"thumbnail": "https://www.seeplymouth.com/sites/default/files/styles/lodging_big/public/things-to-do/DSC_0310.JPG?itok=46YpTgyX",
+					"category": "district",
+					"x": "0.9210",
+					"y": "0.2605"
 				},
 				{
 					"id": "vt",

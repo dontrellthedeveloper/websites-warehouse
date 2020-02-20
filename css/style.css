@@ -257,6 +257,131 @@ section {
     margin: 10px 0 30px 0;
 }
 
+/* ================================================
+|   |   |   |   Show Page
+================================================ */
+
+.show-button {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.template-p-detail {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+.mfp-title {
+    padding-right: 0 !important;
+}
+
+.mfp-counter {
+    display: none;
+}
+
+.client-show-instructions {
+    text-align: center;
+    color: #cd0000;
+    font-weight: 600;
+}
+
+
+/* ============================================
+|  |  |  |  Templates
+============================================ */
+
+/*!* Zoom Effect *!*/
+/*.portfolio-item img {*/
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*-webkit-transition: -webkit-transform .5s ease;*/
+    /*transition: -webkit-transform .5s ease;*/
+    /*transition: transform .5s ease;*/
+    /*!*transition: transform .5s ease, -webkit-transform .5s ease ;*!*/
+/*}*/
+
+/*.portfolio-item:hover img {*/
+    /*-webkit-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
+/*}*/
+
+/* Overlay Effect */
+.portfolio-item-overlay {
+    position: absolute;
+    top: 65%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    cursor: zoom-in;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border: 1px solid #000000;
+}
+
+/* Item Details Effect*/
+.portfolio-item-details {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.portfolio-item-details h3 {
+    color: #e60000;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portfolio-item-details span {
+    display: inline-block;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    height: 6px;
+    width: 30px;
+    margin: 10px auto 5px auto;
+}
+
+.portfolio-item-details p {
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-weight: 500;
+}
+
+/* Show Overlay on mouse over */
+.portfolio-item-d-overlay:hover .portfolio-item-details h3 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.portfolio-item-d-overlay:hover .portfolio-item-details p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item-d-overlay:hover .portfolio-item-overlay {
+    opacity: 1;
+}
+
+
+
 /* ============================================
 |  |  |  |  Buttons
 ============================================ */
@@ -368,7 +493,7 @@ section {
 
 .content-box-md-interact {
     padding: 60px 0 80px 0;
-    background-color: #dcdcdc;
+    background-color: #F4F4F4;
 }
 
 .content-box-md-3 {
@@ -395,7 +520,7 @@ section {
 }
 
 .content-box-main-about {
-    padding-bottom: 130px;
+    padding-bottom: 0;
 }
 
 
@@ -423,7 +548,7 @@ section {
 /*}*/
 
 .portfolio-style {
-    padding: 60px 0 60px 0;
+    padding: 20px 0 0 0;
 }
 
 .portfolio-style img {
@@ -1020,7 +1145,7 @@ ul.office-details li i {
 ================================================ */
 footer {
     background: #E3E3E3;
-    /*padding: 20px;*/
+    padding: 20px;
     border-top: 2px solid #46494C;
 }
 
@@ -1186,4 +1311,193 @@ ul.navbar-nav > li > a:focus {
 .owl-theme .owl-nav [class*=owl-]  {
     background: none !important;
     color: #454545 !important;
+}
+
+
+
+
+
+
+
+
+
+
+/* ================================================
+|   |   |   |   Buttons
+================================================ */
+
+.btn-general {
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 46px 12px 46px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-client-book {
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 12px 30px 12px 30px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-social-i {
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 6px 12px 6px 12px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-social-i-f {
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 6px 16px 6px 16px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-social-i-t {
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 6px 11px 6px 11px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.btn-social-i-y {
+    font-family: 'raleway', sans-serif;
+    border-radius: 28px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 0 15px;
+    padding: 6px 11px 6px 11px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.social-hr-s {
+    border: 1px solid #a1a0a1;
+}
+
+.btn-home {
+    color: #dcdcdc;
+    border: 1px solid #dcdcdc;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+    color: #dcdcdc;
+    background-color: #4C6085;
+    border: 1px solid #4C6085;
+}
+
+.btn-red {
+    color: #dcdcdc;
+    border: 1px solid #4C6085;
+    background-color: #4C6085;
+
+}
+
+.btn-red:hover,
+.btn-red:focus {
+    color: #dcdcdc;
+    background-color: #a1a0a1;
+    border: 1px solid #454545;
+}
+
+.btn-instagram {
+    color: white;
+    background:
+
+            radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+            radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+
+            radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+            radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+
+            radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+            radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+
+            radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+            linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border: 1px solid rgb(82, 88, 207);
+}
+
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+    color: #dcdcdc;
+    background: #a1a0a1;
+    border: 1px solid rgb(160,160,255);
+}
+
+.btn-facebook {
+    color: white;
+    background: #3b5998;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    color: #dcdcdc;
+    background: #a1a0a1;
+    border: 1px solid #dcdcdc;
+}
+
+.btn-youtube {
+    color: white;
+    background: #FF0000;
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus {
+    color: #dcdcdc;
+    background: #a1a0a1;
+    border: 1px solid #dcdcdc;
+}
+
+.btn-twitter {
+    color: white;
+    background: #00aced;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    color: #dcdcdc;
+    background: #a1a0a1;
+    border: 1px solid #dcdcdc;
+}
+
+.btn-grey {
+    color: #dcdcdc;
+    background-color: #454545;
+    border: 1px solid #454545;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    display: none;
+    z-index: 50;
 }
