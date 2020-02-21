@@ -451,19 +451,19 @@ form#QuoteForm {
 |----------------------------------------------------------------------------
 */
 .service-item {
-    border: 1px solid #4C6085;
-    border-radius: 10px;
+    /*border: 1px solid #4C6085;*/
+    /*border-radius: 10px;*/
     margin: 0 0 50px;
-    padding: 30px 15px;
+    /*padding: 30px 15px;*/
 	text-align: center;
 }
 .service-item i {
-	border: 1px solid #4C6085;
-    border-radius: 50%;
+	/*border: 1px solid #4C6085;*/
+    /*border-radius: 50%;*/
     color: #4C6085;
-    font-size: 24px;
-    line-height: 48px;
-    width: 48px;
+    /*font-size: 24px;*/
+    /*line-height: 48px;*/
+    /*width: 48px;*/
 }
 .service-item:hover i {
 	background-color: #4C6085;

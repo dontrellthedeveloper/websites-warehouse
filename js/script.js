@@ -335,7 +335,7 @@ $(function() {
 ================================================ */
 
 $(window).scroll(function(){
-    if ($(window).scrollTop() >= 2820 ) {
+    if ($(window).scrollTop() >= 2736 ) {
         $('.website-tools-sticky').addClass('fixed');
     }
     else {

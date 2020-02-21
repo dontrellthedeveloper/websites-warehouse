@@ -742,7 +742,7 @@ li {
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
-    padding: 32px 21px;
+    padding: 20px 21px;
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
 }
@@ -753,8 +753,8 @@ li {
 
 .pricing-table .type h4 {
     color: #f4c613;
-    font-size: 24px;
-    margin-bottom: 25px;
+    font-size: 18px;
+    /*margin-bottom: 15px;*/
 }
 
 .pricing-table .price {
@@ -801,7 +801,7 @@ li {
 
 .pricing-table ul.package {
     list-style: none;
-    padding: 20px 0;
+    padding: 0 0;
 }
 
 .pricing-table ul.package li {
