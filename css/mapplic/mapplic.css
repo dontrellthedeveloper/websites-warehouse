@@ -1353,7 +1353,7 @@ g.mapplic-active > * {
 /* CUSTOM STYLES */
 .mapplic-image,
 .mapplic-tooltip { max-width: 300px !important; } /* tooltip width */
-.mapplic-tooltip-content { max-height: 160px; } /* tooltip height*/
+.mapplic-tooltip-content { max-height: 160px; !important;} /* tooltip height*/
 
 /* example custom pin */
 .mapplic-pin.my-new-pin { /* replace 'my-new-pin' with the name of your pin */

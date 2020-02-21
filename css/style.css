@@ -492,8 +492,8 @@ section {
 }
 
 .content-box-md-interact {
-    padding: 60px 0 80px 0;
-    background-color: #F4F4F4;
+    padding: 0 0 80px 0;
+    /*background-color: #F4F4F4;*/
 }
 
 .content-box-md-3 {
@@ -502,11 +502,35 @@ section {
     border-bottom: 2px solid #46494C;
 }
 
+.map-color-1 {
+    background-color: #d0d0d1 ;
+    padding: 50px 0 50px 0;
+}
+
+.map-color-2 {
+    background-color: #DCDCDD;
+    padding: 50px 0 50px 0;
+}
+
+.map-color-3 {
+    background-color: #F4F4F4;
+    padding-top: 0;
+    border-bottom: 2px solid #46494C;
+    border-top: 2px solid #46494C;
+    z-index: 5;
+}
+
 
 .content-box-md-2 {
     padding: 60px 0 80px 0;
     background-color: #d0d0d1;
     border-top: 2px solid #46494C;
+    border-bottom: 2px solid #46494C;
+}
+
+.content-box-md-3 {
+    padding: 60px 0 80px 0;
+    background-color: #d0d0d1;
     border-bottom: 2px solid #46494C;
 }
 
@@ -820,6 +844,7 @@ li {
 .pricing-table.black {
     background: #F4F4F4;
     color: #46494C;
+    border: 1px solid #4C6085;
 }
 
 .pricing-table.black .type h4 {
@@ -1500,4 +1525,25 @@ ul.navbar-nav > li > a:focus {
     font-size: 22px;
     display: none;
     z-index: 50;
+}
+
+
+
+/* ================================================
+|   |   |   |   Website Tools
+================================================ */
+
+
+.website-tools-sticky {
+    postion:fixed;
+}
+
+.fixed {
+    position: fixed;
+    top: 70px; left:0;
+    width: 100%;
+}
+
+.tools-p-align {
+    padding-bottom: -10px;
 }

@@ -32,6 +32,11 @@
 			"color": "#D3B8F8"
 		},
 		{
+			"id": "parking",
+			"title": "Parking",
+			"color": "#D3B8F8"
+		},
+		{
 			"id": "nopointer-logos",
 			"title": "Logos",
 			"toggle": "true",
@@ -41,28 +46,210 @@
 	],
 	"levels": [
 		{
-			"id": "underground",
-			"title": "Underground",
+			"id": "underground-floor",
+			"title": "Underground Floor",
 			"map": "maps/mall/mall-underground.svg",
 			"minimap": "maps/mall/mall-underground-mini.jpg",
 			"locations": [
 				{
+					"id": "tillys",
+					"title": "Tilly's",
+					"about": "Retail company",
+					"description": "<p>Shop Tillys for the best in men's clothing, women's clothing, kid's clothing, backpacks, shoes and accessories from all of your favorite brands.</p>",
+					"thumbnail": "mall-images/tillys.png",
+					"image": "mall-images/tillys-1.jpg",
+					"link": "https://www.tillys.com/",
+					"category": "fashion",
+					"x": "0.3033",
+					"y": "0.4546"
+				},
+				{
+					"id": "the-shades-store",
+					"title": "The Shades Store",
+					"about": "Shades company",
+					"description": "<p>Shop our selection of blinds, shades, and drapes made from the finest materials and designer fabrics.</p>",
+					"thumbnail": "mall-images/the-shades-store.png",
+					"image": "mall-images/the-shades-store-2.jpg",
+					"link": "https://www.theshadestore.com/",
+					"category": "fashion",
+					"x": "0.3338",
+					"y": "0.4676"
+				},
+				{
 					"id": "gap",
 					"title": "GAP",
-					"about": "Lorem ipsum",
-					"description": "Lorem ipsum",
+					"about": "Retail company",
+					"description": "<p>Shop casual women's, men's, maternity, kids' & baby clothes at Gap. Our style is clean and confident, comfortable and accessible, classic and modern.</p>",
+					"thumbnail": "mall-images/gap.png",
+					"image": "mall-images/gap-1.jpg",
+					"link": "https://www.gap.com/",
 					"category": "fashion",
 					"x": "0.3781",
 					"y": "0.4296"
+				},
+				{
+					"id": "baby-gap",
+					"title": "babyGAP",
+					"about": "Retail company",
+					"description": "<p>Discover a selection of baby clothes at Gap for cute outfits made with quality and style. Shop a variety of baby clothing for your little bundle of joy.</p>",
+					"thumbnail": "mall-images/baby-gap.png",
+					"link": "https://www.gap.com/",
+					"category": "fashion",
+					"x": "0.4327",
+					"y": "0.4010"
+				},
+				{
+					"id": "forever-21",
+					"title": "Forever 21",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.6845",
+					"y": "0.3006"
+				},
+				{
+					"id": "auntie-anne-pretzels",
+					"title": "Auntie Anne's Pretzels",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "food",
+					"x": "0.6123",
+					"y": "0.4820"
+				},
+				{
+					"id": "banana-republic",
+					"title": "Banana Republic",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.5149",
+					"y": "0.5276"
+				},
+				{
+					"id": "cotton-on",
+					"title": "Cotton On",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.4601",
+					"y": "0.5794"
+				},
+				{
+					"id": "champs",
+					"title": "Champs Sports",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.3901",
+					"y": "0.5824"
+				},
+				{
+					"id": "restroom-1",
+					"title": "Restroom",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "food",
+					"x": "0.4236",
+					"y": "0.3256"
+				},
+				{
+					"id": "gnc",
+					"title": "GNC",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "health",
+					"x": "0.7533",
+					"y": "0.3535"
 				},
 				{
 					"id": "petco",
 					"title": "Petco",
 					"about": "Lorem ipsum",
 					"description": "Lorem ipsum",
-					"category": "others",
+					"category": "dep",
 					"x": "0.5311",
 					"y": "0.2686"
+				},
+				{
+					"id": "nordstrom-2",
+					"title": "Nordstrom",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "dep",
+					"x": "0.8056",
+					"y": "0.2567"
+				},
+				{
+					"id": "healthy-spot",
+					"title": "Healthy Spot",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "others",
+					"x": "0.5749",
+					"y": "0.3314"
+				},
+				{
+					"id": "fashion-nova-men",
+					"title": "Fashion Nova Men",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.7295",
+					"y": "0.3693"
+				},
+				{
+					"id": "fashion-nova",
+					"title": "Fashion Nova",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.7189",
+					"y": "0.4393"
+				},
+				{
+					"id": "cologne-kiosk",
+					"title": "Cologne Kiosk",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6635",
+					"y": "0.3941"
+				},
+				{
+					"id": "perfume-kiosk",
+					"title": "Perfume Kiosk",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6425",
+					"y": "0.4014"
+				},
+				{
+					"id": "parking-2",
+					"title": "Parking B",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "parking",
+					"x": "0.1557",
+					"y": "0.4424"
+				},
+				{
+					"id": "parking-3",
+					"title": "Parking C",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "parking",
+					"x": "0.1968",
+					"y": "0.6189"
+				},
+				{
+					"id": "parking-1",
+					"title": "Parking D",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "parking",
+					"x": "0.6504",
+					"y": "0.6646"
 				}
 			]
 		},
@@ -73,6 +260,168 @@
 			"minimap": "maps/mall/mall-ground-mini.jpg",
 			"show": "true",
 			"locations": [
+				{
+					"id": "urban-outfitters",
+					"title": "Urban Outfitters",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.6842",
+					"y": "0.2799"
+				},
+				{
+					"id": "victoria-secret",
+					"title": "Victoria Secret",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.7372",
+					"y": "0.3942"
+				},
+				{
+					"id": "bath-and-body",
+					"title": "Bath & Body Works",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.7272",
+					"y": "0.3529"
+				},
+				{
+					"id": "burberry",
+					"title": "Burberry",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.5926",
+					"y": "0.3055"
+				},
+				{
+					"id": "gucci",
+					"title": "Gucci",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.5811",
+					"y": "0.2758"
+				},
+				{
+					"id": "wells-fargo",
+					"title": "Wells Fargo",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.5898",
+					"y": "0.3503"
+				},
+				{
+					"id": "sunglass-hut",
+					"title": "Sunglass Hut",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.7535",
+					"y": "0.3347"
+				},
+				{
+					"id": "zales",
+					"title": "Zales",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6591",
+					"y": "0.3801"
+				},
+				{
+					"id": "tiffanys",
+					"title": "Tiffany & Co.",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6268",
+					"y": "0.3922"
+				},
+				{
+					"id": "steve-madden",
+					"title": "Steve Madden",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.7432",
+					"y": "0.4330"
+				},
+				{
+					"id": "pandora",
+					"title": "Pandora",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6022",
+					"y": "0.4072"
+				},
+				{
+					"id": "michael-kors",
+					"title": "Michael Kors",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6040",
+					"y": "0.4364"
+				},
+				{
+					"id": "mac-cosmetics",
+					"title": "Mac Cosmetics",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6114",
+					"y": "0.4535"
+				},
+				{
+					"id": "the-body-shop",
+					"title": "The Body Shop",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "other",
+					"x": "0.6164",
+					"y": "0.4747"
+				},
+				{
+					"id": "express",
+					"title": "Express",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.7371",
+					"y": "0.4729"
+				},
+				{
+					"id": "the-childrens-place",
+					"title": "The Children's Place",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.7062",
+					"y": "0.5499"
+				},
+				{
+					"id": "elevator-1",
+					"title": "Elevator Ground",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.6766",
+					"y": "0.5683"
+				},
+				{
+					"id": "louis-vuitton",
+					"title": "Louis Vuitton",
+					"about": "Lorem ipsum",
+					"description": "Lorem ipsum",
+					"category": "fashion",
+					"x": "0.5109",
+					"y": "0.3410"
+				},
 				{
 					"id": "nordstrom",
 					"title": "Nordstrom",
@@ -178,12 +527,125 @@
 					"link": "https://1.envato.market/R5Nv",
 					"x": "0.4785",
 					"y": "0.2873"
+				},
+				{
+					"id": "foot-locker",
+					"title": "Foot Locker",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.4294",
+					"y": "0.3624"
+				},
+				{
+					"id": "journeys",
+					"title": "Journeys",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.5784",
+					"y": "0.6288"
+				},
+				{
+					"id": "lacoste",
+					"title": "Lacoste",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.3319",
+					"y": "0.4282"
+				},
+				{
+					"id": "kids-foot-locker",
+					"title": "Kids Foot Locker",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.3032",
+					"y": "0.4335"
+				},
+				{
+					"id": "lids",
+					"title": "Lids",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"link": "https://1.envato.market/R5Nv",
+					"x": "0.2742",
+					"y": "0.4488"
+				},
+				{
+					"id": "restroom-2",
+					"title": "Restroom Ground",
+					"about": "Lorem ipsum",
+					"description": "The coffee company",
+					"category": "food",
+					"x": "0.4228",
+					"y": "0.2924"
+				},
+				{
+					"id": "ms-fields",
+					"title": "Ms. Fields",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "food",
+					"x": "0.5133",
+					"y": "0.4249"
+				},
+				{
+					"id": "jamba-juice",
+					"title": "Jamba Juice",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "food",
+					"x": "0.4881",
+					"y": "0.4350"
+				},
+				{
+					"id": "lens-crafters",
+					"title": "Lens Crafters",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "fashion",
+					"x": "0.4637",
+					"y": "0.4450"
+				},
+				{
+					"id": "go-greek-yogurt",
+					"title": "Go Greek Yogurt",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "food",
+					"x": "0.4480",
+					"y": "0.4512"
+				},
+				{
+					"id": "photo-booth-1",
+					"title": "Photo Booth",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "food",
+					"x": "0.6265",
+					"y": "0.5790"
+				},
+				{
+					"id": "parking-4",
+					"title": "Parking A",
+					"about": "Lorem ipsum",
+					"description": "<p>Lorem ipsum</p>",
+					"category": "parking",
+					"x": "0.1667",
+					"y": "0.4167"
 				}
 			]
 		},
 		{
-			"id": "first-floor",
-			"title": "First Floor",
+			"id": "second-floor",
+			"title": "Second Floor",
 			"map": "maps/mall/mall-first.svg",
 			"minimap": "maps/mall/mall-first-mini.jpg",
 			"locations": [
@@ -269,6 +731,222 @@
 					"category": "others",
 					"x": "0.3750",
 					"y": "0.5391"
+				},
+				{
+					"id": "blaze-pizza",
+					"title": "Blaze Pizza",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.5810",
+					"y": "0.2516"
+				},
+				{
+					"id": "cinnabon",
+					"title": "Cinnabon",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.5923",
+					"y": "0.2861"
+				},
+				{
+					"id": "panda-express",
+					"title": "Panda Express",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.7294",
+					"y": "0.3330"
+				},
+				{
+					"id": "dairy-queen",
+					"title": "Dairy Queen",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.5553",
+					"y": "0.3093"
+				},
+				{
+					"id": "coffee-bean",
+					"title": "Coffee Bean",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.5105",
+					"y": "0.3179"
+				},
+				{
+					"id": "panera-bread",
+					"title": "Panera Bread",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.7437",
+					"y": "0.4118"
+				},
+				{
+					"id": "baskin-robbins",
+					"title": "Baskin Robbins",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6090",
+					"y": "0.4067"
+				},
+				{
+					"id": "cava",
+					"title": "Cava",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.4290",
+					"y": "0.3413"
+				},
+				{
+					"id": "chick-fill-a",
+					"title": "Chick-fil-A",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.7327",
+					"y": "0.4556"
+				},
+				{
+					"id": "lego",
+					"title": "Lego",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6099",
+					"y": "0.5000"
+				},
+				{
+					"id": "metro-pcs",
+					"title": "Metro PCS",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.3321",
+					"y": "0.4082"
+				},
+				{
+					"id": "t-mobile",
+					"title": "T-Mobile",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.2884",
+					"y": "0.4186"
+				},
+				{
+					"id": "finish-line",
+					"title": "Finish Line",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.4687",
+					"y": "0.5247"
+				},
+				{
+					"id": "yoga-works",
+					"title": "Yoga Works",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.2187",
+					"y": "0.5014"
+				},
+				{
+					"id": "elevator-2",
+					"title": "Elevator 2",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6753",
+					"y": "0.5506"
+				},
+				{
+					"id": "chase-atm",
+					"title": "Chase ATM",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.7478",
+					"y": "0.3179"
+				},
+				{
+					"id": "ambercrombie-and-fitch",
+					"title": "Ambercrombie and Fitch",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.3702",
+					"y": "0.3564"
+				},
+				{
+					"id": "nike",
+					"title": "Nike",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.5470",
+					"y": "0.5044"
+				},
+				{
+					"id": "spencers",
+					"title": "Spencer's",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.5787",
+					"y": "0.6063"
+				},
+				{
+					"id": "apple",
+					"title": "Apple",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.1890",
+					"y": "0.6339"
+				},
+				{
+					"id": "parking-5",
+					"title": "Parking E",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.1577",
+					"y": "0.3899"
+				},
+				{
+					"id": "restroom-3",
+					"title": "Restroom",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.4198",
+					"y": "0.2861"
+				},
+				{
+					"id": "photo-booth-2",
+					"title": "Photo Booth 2",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6650",
+					"y": "0.3712"
+				},
+				{
+					"id": "photo-booth-3",
+					"title": "Photo Booth 3",
+					"about": "Lorem ipsum",
+					"description": "Additional information",
+					"category": "others",
+					"x": "0.6450",
+					"y": "0.4652"
 				}
 			]
 		}

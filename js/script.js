@@ -117,6 +117,35 @@ $(function() {
     });
 });
 
+$(function() {
+    $(".website-info-box").owlCarousel({
+        items: 4,
+        margin: 25,
+        center: true,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: true,
+        navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            768: {
+                items: 1
+            },
+            1200: {
+                items: 1
+            }
+        }
+    });
+});
+
 
 
 $(function() {
@@ -301,4 +330,15 @@ $(function() {
 });
 
 
+/* ================================================
+|   |   |   |   Website Tools
+================================================ */
 
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 2820 ) {
+        $('.website-tools-sticky').addClass('fixed');
+    }
+    else {
+        $('.website-tools-sticky').removeClass('fixed');
+    }
+});
