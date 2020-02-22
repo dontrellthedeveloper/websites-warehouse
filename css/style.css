@@ -167,6 +167,11 @@ section {
     height: 424px;
 }
 
+#home-4 {
+    background: none;
+    height: 70px;
+}
+
 #home-3 {
     background: none;
     height: 212px;
@@ -319,6 +324,21 @@ section {
     font-weight: 600;
 }
 
+.show-page-paragraph {
+     font-size: 20px;
+     color: #46494C;
+     margin-top: 20px;
+     text-decoration: none;
+ }
+
+.show-page-paragraph p:hover {
+    text-decoration: none;
+}
+
+
+
+
+
 
 /* ============================================
 |  |  |  |  Templates
@@ -342,8 +362,8 @@ section {
 /* Overlay Effect */
 .portfolio-item-overlay {
     position: absolute;
-    top: 65%;
-    bottom: 0;
+    top: 55%;
+    bottom: 54px;
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.9);

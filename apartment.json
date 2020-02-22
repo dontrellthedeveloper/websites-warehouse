@@ -6,7 +6,7 @@
 			"id": "locations",
 			"title": "Locations",
 			"color": "#63aa9c",
-			"show": "true"
+			"show": "false"
 		},
 		{
 			"id": "furniture",
@@ -21,6 +21,7 @@
 			"title": "Lower Level",
 			"map": "maps/apartment/lower.jpg",
 			"minimap": "maps/apartment/lower-small.jpg",
+			"show": "true",
 			"locations": [
 				{
 					"id": "entrance",
@@ -31,7 +32,7 @@
 					"pin": "hidden",
 					"x": "0.22",
 					"y": "0.59",
-					"zoom": "3"
+					"zoom": "1"
 				},
 				{
 					"id": "coffeetable",
@@ -98,6 +99,7 @@
 			"title": "Upper Level",
 			"map": "maps/apartment/upper.jpg",
 			"minimap": "maps/apartment/upper-small.jpg",
+
 			"locations": [
 				{
 					"id": "livingup",
