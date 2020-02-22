@@ -64,7 +64,7 @@ $(function() {
         margin: 25,
         center: true,
         autoplay: false,
-        smartSpeed: 700,
+        smartSpeed: 0,
         loop: true,
         autoplayHoverPause: true,
         nav: true,

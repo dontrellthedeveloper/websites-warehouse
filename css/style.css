@@ -576,8 +576,8 @@ section {
 .map-color-5 {
     background-color: #F4F4F4;
     padding-top: 0;
-    border-bottom: 2px solid #46494C;
-    border-top: 2px solid #46494C;
+    border-bottom: 1px solid #46494C;
+    border-top: 1px solid #46494C;
     z-index: 5;
     margin-bottom: 30px;
 }
@@ -1669,6 +1669,7 @@ ul.navbar-nav > li > a:focus {
     /*font-family: "Abril Fatface", cursive;*/
     font-family: "Poppins", Arial, sans-serif;
     display: inline-block;
+    margin-top: 10px;
     overflow: hidden;
     position: relative;
     -webkit-background-clip: text;
@@ -1691,7 +1692,7 @@ ul.navbar-nav > li > a:focus {
 @media (max-width: 767.98px) {
     .slider-text h1 {
         font-size: 38px;
-        margin-top: 5px;
+        /*margin-top: 5px;*/
     }
 
     .slider-text h1 span {
@@ -1702,6 +1703,7 @@ ul.navbar-nav > li > a:focus {
     .slider-text .subheading {
         font-size: 10px;
         letter-spacing: 7px;
+        margin-top: -10px;
     }
 
     .slider-text .subheading-2 {
