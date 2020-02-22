@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-tools.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -172,10 +169,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="responsive.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
+                <state relative-caret-position="-2302">
                   <caret line="707" column="18" lean-forward="true" selection-start-line="707" selection-start-column="18" selection-end-line="707" selection-end-column="18" />
                 </state>
               </provider>
@@ -199,11 +196,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="1695" lean-forward="true" selection-start-line="1695" selection-end-line="1695" />
+                <state relative-caret-position="497">
+                  <caret line="1694" column="28" lean-forward="true" selection-start-line="1694" selection-start-column="28" selection-end-line="1694" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -292,7 +289,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>portfolio-item-overlay</find>
       <find>footer</find>
       <find>box-main-about</find>
       <find>nord</find>
@@ -322,6 +318,7 @@
       <find>zara</find>
       <find>btn-</find>
       <find>home-bg-</find>
+      <find>tps</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -354,8 +351,8 @@
         <option value="$PROJECT_DIR$/css/multi-step-form/multi-step-form.css" />
         <option value="$PROJECT_DIR$/website-tools.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/responsive.css" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -466,12 +463,12 @@
       <workItem from="1581056419534" duration="53056000" />
       <workItem from="1581299411870" duration="16324000" />
       <workItem from="1581406418780" duration="52644000" />
-      <workItem from="1582184425770" duration="72914000" />
+      <workItem from="1582184425770" duration="73671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194938000" />
+    <option name="totallyTimeSpent" value="195695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -988,10 +985,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="1695" lean-forward="true" selection-start-line="1695" selection-end-line="1695" />
+        <state relative-caret-position="-2302">
+          <caret line="707" column="18" lean-forward="true" selection-start-line="707" selection-start-column="18" selection-end-line="707" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1002,10 +999,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/responsive.css">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="707" column="18" lean-forward="true" selection-start-line="707" selection-start-column="18" selection-end-line="707" selection-end-column="18" />
+        <state relative-caret-position="497">
+          <caret line="1694" column="28" lean-forward="true" selection-start-line="1694" selection-start-column="28" selection-end-line="1694" selection-end-column="28" />
         </state>
       </provider>
     </entry>
