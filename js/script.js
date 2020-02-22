@@ -64,9 +64,10 @@ $(function() {
         margin: 25,
         center: true,
         autoplay: false,
-        smartSpeed: 0,
+        smartSpeed: 700,
+        autoplayTimeout:5000
         loop: true,
-        autoplayHoverPause: true,
+        autoplayHoverPause: false,
         nav: true,
         dots: true,
         navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
