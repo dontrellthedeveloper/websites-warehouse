@@ -704,6 +704,15 @@
 /* Extra Small Devices (Desktop & Laptops) */
 @media(max-width: 767px) {
 
+    .show-page-paragraph {
+        font-size: 14px;
+    }
+
+
+    .owl-theme .owl-nav {
+        margin-top: 0 !important;
+    }
+
 
     .tps-section {
         height: 400px !important;
