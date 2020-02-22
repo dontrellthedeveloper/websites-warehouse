@@ -553,7 +553,7 @@ p#AggreData {
 .btn {
     overflow: hidden;    
 	font-size:16px;
-	padding: 6px 20px;
+    /*padding: 6px 20px;*/
 }
 .btn-custom {
     background-color: #6d81ad;
