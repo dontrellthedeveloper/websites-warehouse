@@ -204,6 +204,13 @@ $(window).scroll(function() {
 });
 
 
+$(window).scroll(function() {
+    var theta = $(window).scrollTop()/200.0 % (Math.PI*2);
+    $('#leftgear2').css({ transform: 'rotate(-' + theta + 'rad)' });
+    $('#rightgear2').css({ transform: 'rotate(' + theta + 'rad)' });
+});
+
+
 /* ================================
 |   |   |   Google Map
 ================================ */

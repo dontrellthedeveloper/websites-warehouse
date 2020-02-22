@@ -571,8 +571,6 @@ a.mapplic-zoomout-button {
 	position: relative;
 	box-sizing: border-box;
 	pointer-events: none;
-	border: 1px solid #46494C;
-	background-color: #fff;
 }
 
 .mapplic-sidebar > * {
@@ -581,7 +579,6 @@ a.mapplic-zoomout-button {
 
 .mapplic-container {
 	float: right;
-	background-color: #fff;
 }
 
 /* Right sidebar */
@@ -593,7 +590,7 @@ a.mapplic-zoomout-button {
 
 /* Search */
 .mapplic-filter {
-	background-color: #F4F4F4;
+	background-color: #fff;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
 	box-sizing: border-box;
 	margin: 0;
@@ -1113,7 +1110,7 @@ a.mapplic-zoomout-button {
 }
 
 .mapplic-toggle:before {
-	background-color: #a1a0a1;
+	background-color: #fff;
 	border: 1px solid #e4e4e4;
 	border-radius: 50%;
 	box-sizing: content-box;
@@ -1148,7 +1145,6 @@ a.mapplic-zoomout-button {
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	border: 1px solid #46494C;
 }
 
 .mapplic-legend-label {
