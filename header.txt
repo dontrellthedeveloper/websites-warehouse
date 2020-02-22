@@ -1,0 +1,51 @@
+
+    <!--  Header  -->
+    <header>
+        <nav class="navbar navbar-fixed-top mobile-nav-top">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+
+                    <div class="navbar-header">
+                        <span id="mobile-nav-open-btn">&#9776;</span>
+                        <a href="#home" class="navbar-brand smooth-scroll">
+                            <img src="img/logo/website-warehouse-transparent-light-rsz.jpg" alt="logo" class="img-rsz">
+                        </a>
+                    </div>
+
+                    <!--  Main Menu  -->
+                    <div class="container">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <!--<li><a class="smooth-scroll ipad-m" href="#home">Home</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#onepage-templates">One Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#multipage-templates">Multi Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#ecomm-templates">E-Commerce/Apps</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#info">Info</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#tools">Contact</a></li>
+                                <!--<li><a class="smooth-scroll ipad-m" href="#about">Hosting</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#pricing">Interact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Mobile Menu -->
+                    <div id="mobile-nav">
+                        <!-- Mobile Menu Close Button -->
+                        <span id="mobile-nav-close-btn">&times;</span>
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+                                <!--<li><a class="smooth-scroll ipad-m" href="#home">Home</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#onepage-templates">One Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#multipage-templates">Multi Page</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#ecomm-templates">E-Commerce/Apps</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#info">Info</a></li>
+                                <li><a class="smooth-scroll ipad-m" href="#tools">Contact</a></li>
+                                <!--<li><a class="smooth-scroll ipad-m" href="#about">Hosting</a></li>-->
+                                <li><a class="smooth-scroll ipad-m" href="#pricing">Interact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  End of Header  -->
