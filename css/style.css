@@ -521,6 +521,15 @@ section {
     z-index: 5;
 }
 
+.map-color-5 {
+    background-color: #F4F4F4;
+    padding-top: 0;
+    border-bottom: 2px solid #46494C;
+    border-top: 2px solid #46494C;
+    z-index: 5;
+    margin-bottom: 30px;
+}
+
 .map-color-4 {
     background-color: #F4F4F4;
     padding: 30px;
@@ -580,7 +589,7 @@ section {
 /*}*/
 
 .portfolio-style {
-    padding: 20px 0 0 0;
+    /*padding: 20px 0 0 0;*/
 }
 
 .portfolio-style img {

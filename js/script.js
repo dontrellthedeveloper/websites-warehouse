@@ -68,7 +68,7 @@ $(function() {
         loop: true,
         autoplayHoverPause: true,
         nav: true,
-        dots: false,
+        dots: true,
         navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
         responsive: {
             0: {
