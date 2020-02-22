@@ -705,6 +705,9 @@
 @media(max-width: 767px) {
 
 
+    .tps-section {
+        height: 320px !important;
+    }
 
     /* Navigation */
     .navbar {
