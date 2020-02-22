@@ -492,24 +492,25 @@ section {
 }
 
 .content-box-md-interact {
-    padding: 0 0 80px 0;
+    padding: 0 0 0 0;
     /*background-color: #F4F4F4;*/
+    border-bottom: 2px solid #46494C;
 }
 
 .content-box-md-3 {
-    padding: 60px 0 80px 0;
+    padding: 0 0 80px 0;
     background-color: #DCDCDD;
-    border-bottom: 2px solid #46494C;
+    /*border-bottom: 2px solid #46494C;*/
 }
 
 .map-color-1 {
     background-color: #d0d0d1 ;
-    padding: 50px 0 50px 0;
+    padding: 80px 0 80px 0;
 }
 
 .map-color-2 {
     background-color: #DCDCDD;
-    padding: 50px 0 50px 0;
+    padding: 80px 0 80px 0;
 }
 
 .map-color-3 {
@@ -517,6 +518,13 @@ section {
     padding-top: 0;
     border-bottom: 2px solid #46494C;
     border-top: 2px solid #46494C;
+    z-index: 5;
+}
+
+.map-color-4 {
+    background-color: #F4F4F4;
+    padding: 30px;
+    border: 1px solid #46494C;
     z-index: 5;
 }
 
@@ -529,9 +537,9 @@ section {
 }
 
 .content-box-md-3 {
-    padding: 60px 0 80px 0;
+    padding: 0 0 80px 0;
     background-color: #d0d0d1;
-    border-bottom: 2px solid #46494C;
+    /*border-bottom: 2px solid #46494C;*/
 }
 
 .content-box-md-w {
