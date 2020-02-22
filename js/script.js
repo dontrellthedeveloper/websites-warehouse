@@ -65,7 +65,7 @@ $(function() {
         center: true,
         autoplay: false,
         smartSpeed: 700,
-        autoplayTimeout:5000
+        autoplayTimeout:5000,
         loop: true,
         autoplayHoverPause: false,
         nav: true,
