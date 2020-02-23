@@ -27,9 +27,9 @@
 		//Set the hostname of the mail server (Change here)
 		$mail->Host = "smtp.gmail.com";
 		//Set the SMTP port number - likely to be 25, 465 or 587 (Change here)
-		$mail->Port = 587;
+		$mail->Port = 465;
 		//open tls if you use as like for gmail
-		$mail->SMTPSecure = 'tls';
+		$mail->SMTPSecure = 'ssl';
 		//Whether to use SMTP authentication
 		$mail->SMTPAuth = true;
 		//Username to use for SMTP authentication (Change here)
