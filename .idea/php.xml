@@ -11,6 +11,26 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/owl.carousel/assets" />
+      <path value="$PROJECT_DIR$/vendor/popper/umd" />
+      <path value="$PROJECT_DIR$/vendor/popper/esm" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/css" />
+      <path value="$PROJECT_DIR$/vendor/bootstrap/js" />
+      <path value="$PROJECT_DIR$/vendor/jquery.validation/localization" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/css" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/images" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/addon-visual-editor" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/revolution-addons" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/js" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/assets" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/fonts" />
+      <path value="$PROJECT_DIR$/vendor/rs-plugin/php" />
+      <path value="$PROJECT_DIR$/vendor/fontawesome-free/css" />
+      <path value="$PROJECT_DIR$/vendor/fontawesome-free/webfonts" />
+      <path value="$PROJECT_DIR$/vendor/simple-line-icons/css" />
+      <path value="$PROJECT_DIR$/vendor/simple-line-icons/scss" />
+      <path value="$PROJECT_DIR$/vendor/simple-line-icons/less" />
+      <path value="$PROJECT_DIR$/vendor/simple-line-icons/fonts" />
     </include_path>
   </component>
 </project>

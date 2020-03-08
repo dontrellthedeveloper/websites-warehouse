@@ -169,7 +169,7 @@ section {
 
 #home-4 {
     background: none;
-    height: 70px;
+    height: 69px;
 }
 
 #home-3 {
@@ -363,7 +363,7 @@ section {
 .portfolio-item-overlay {
     position: absolute;
     top: 55%;
-    bottom: 54px;
+    bottom: 98px;
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.9);
@@ -757,8 +757,8 @@ section {
 ============================================ */
 
 div > img {
-    position: fixed; width: 15%;
-    height: auto;
+    /*position: fixed; width: 15%;*/
+    /*height: auto;*/
 }
 #rightgear,
  #leftgear { right: 2rem;
@@ -1298,6 +1298,7 @@ ul.navbar-nav > li > a {
     letter-spacing: 1px;
 }
 
+
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
     background: none;
@@ -1715,4 +1716,60 @@ ul.navbar-nav > li > a:focus {
 
 .web-home-style {
     font-size: 120px;
+}
+
+
+
+
+/* ================================================
+|   |   |   |   Navigation Dropdown
+================================================ */
+nav .dropdown:after {
+    content: ' \25bc';
+}
+
+nav li ul {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+nav li:hover ul {
+    opacity: 1;
+    top: 61px;
+    visibility: visible;
+    background: #ffffff;
+    left: -60px;
+}
+nav li ul li {
+    width: 100%;
+    padding: 11px 25px 11px 25px;
+}
+nav li ul a:hover {
+    text-decoration: none;
+}
+
+.nav-sub-style {
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+nav li ul li a {
+    font-family: "Raleway", sans-serif;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
 }

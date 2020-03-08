@@ -21,7 +21,7 @@
 		// 2 = client and server messages
 
 
-		$mail->SMTPDebug = 2;
+		$mail->SMTPDebug = 0;
 		//Ask for HTML-friendly debug output
 		$mail->Debugoutput = 'html';
 		//Set the hostname of the mail server (Change here)
@@ -35,15 +35,15 @@
 		//Username to use for SMTP authentication (Change here)
 		$mail->Username = "dontrellknight@gmail.com";
 		//Password to use for SMTP authentication (Change here)
-		$mail->Password = "KNight1990$";
+		$mail->Password = "Success2020$$";
 
 
 
 	}
 	
 	//From email address and name (Change here)
-	$mail->From = "dontrell@gmail.com";
-	$mail->FromName = "Websites Warehouse";
+	$mail->From = $email;
+	$mail->FromName = $fname;
 	
 	//Recipient address and name (Change here)
 	$mail->addAddress("dontrellknight@gmail.com", "Dontrell Washington");

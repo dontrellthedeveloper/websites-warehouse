@@ -72,9 +72,9 @@
 <body data-spy="scroll" data-targey=".navbar" data-offset="65">
 
 <!--  Preloader  -->
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div>
+<!--<div id="preloader">-->
+    <!--<div id="status">&nbsp;</div>-->
+<!--</div>-->
 <!--  End of Preloader  -->
 
 
@@ -100,9 +100,13 @@
                             <li><a href="index.html#multipage-templates">Multi Page</a></li>
                             <li><a href="index.html#ecomm-templates">E-Commerce/Apps</a></li>
                             <li><a href="index.html#tools">Buy</a></li>
-                            <li><a class="smooth-scroll ipad-m" href="#pricing">Tools</a></li>
-                            <!--<li><a class="smooth-scroll ipad-m" href="#about">Hosting</a></li>-->
-                            <!--<li><a class="smooth-scroll ipad-m" href="#">About</a></li>-->
+                            <li><a href="#" class="ipad-m dropdown">More</a>
+                                <ul class="nav-sub-style">
+                                    <li><a href="#">Interactive Maps</a></li>
+
+                                    <li><a href="#">About Me</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -741,7 +745,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         var map = $('#mapplic').mapplic({
-            source: 'usa-no-images.json',
+            source: 'usa.json',
             developer: false,
             height: 540,
             sidebar: true,
@@ -779,7 +783,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         $('#mapplic-eu').mapplic({
-            source: 'europe-no-image.json',
+            source: 'europe.json',
             developer: false,
             lightbox: true,
             height: 560,

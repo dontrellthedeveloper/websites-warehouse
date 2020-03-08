@@ -15,6 +15,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/United_Kingdom",
 					"thumbnail": "https://source.unsplash.com/w3mEcHyuk_E/100x100",
+					"image": "https://source.unsplash.com/w3mEcHyuk_E/300x200",
 					"description": "<p>The United Kingdom of Great Britain and Northern Ireland, commonly known as the United Kingdom or Britain, is a sovereign country located off the north­western coast of the European mainland.</p>",
 					"x": "0.2594",
 					"y": "0.4360"
@@ -26,6 +27,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/France",
 					"thumbnail": "https://source.unsplash.com/nnzkZNYWHaU/100x100",
+					"image": "https://source.unsplash.com/nnzkZNYWHaU/300x200",
 					"description": "<p>France is a country whose territory consists of metropolitan France in Western Europe and several overseas regions and territories.</p>",
 					"x": "0.3119",
 					"y": "0.6485"
@@ -37,6 +39,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Germany",
 					"thumbnail": "https://source.unsplash.com/-uQBxh6L5D4/100x100",
+					"image": "https://source.unsplash.com/-uQBxh6L5D4/300x200",
 					"description": "<p>Germany, constitutionally the Federal Republic of Germany, is a country in Central and Western Europe.</p>",
 					"x": "0.4331",
 					"y": "0.5437"
@@ -48,6 +51,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Hungary",
 					"thumbnail": "https://source.unsplash.com/fU9pbgetP1c/100x100",
+					"image": "https://source.unsplash.com/fU9pbgetP1c/300x200",
 					"description": "<p>Hungary is a country in Central Europe. Spanning 93,030 square kilometres in the Carpathian Basin, it borders Slovakia to the north.</p>",
 					"x": "0.5819",
 					"y": "0.6161"
@@ -59,6 +63,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Ireland",
 					"thumbnail": "https://source.unsplash.com/NPxkSK-makg/100x100",
+					"image": "https://source.unsplash.com/NPxkSK-makg/300x200",
 					"description": "<p>Hungary is a country in Central Europe. Spanning 93,030 square kilometres in the Carpathian Basin, it borders Slovakia to the north.</p>",
 					"x": "0.1840",
 					"y": "0.4372"
@@ -70,6 +75,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Belgium",
 					"thumbnail": "https://source.unsplash.com/3lxrM5yvkcI/100x100",
+					"image": "https://source.unsplash.com/3lxrM5yvkcI/300x200",
 					"description": "<p>Belgium, officially the Kingdom of Belgium, is a country in Western Europe.</p>",
 					"x": "0.3558",
 					"y": "0.5327"
@@ -81,6 +87,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Luxembourg",
 					"thumbnail": "https://source.unsplash.com/X30mNjC_oOY/100x100",
+					"image": "https://source.unsplash.com/X30mNjC_oOY/300x200",
 					"description": "<p>Luxembourg, officially the Grand Duchy of Luxembourg, is a landlocked country in western Europe. It is bordered by Belgium to the west and north, Germany to the east, and France to the south.</p>",
 					"x": "0.3773",
 					"y": "0.5585"
@@ -92,6 +99,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Portugal",
 					"thumbnail": "https://source.unsplash.com/Prb-sjOUBFs/100x100",
+					"image": "https://source.unsplash.com/Prb-sjOUBFs/300x200",
 					"description": "<p>Portugal, officially the Portuguese Republic, is a country located mostly on the Iberian Peninsula, in southwestern Europe.</p>",
 					"x": "0.0967",
 					"y": "0.7681"
@@ -103,42 +111,10 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Norway",
 					"thumbnail": "https://source.unsplash.com/fcDnEf0TUV0/100x100",
+					"image": "https://source.unsplash.com/fcDnEf0TUV0/300x200",
 					"description": "<p>Norway, officially the Kingdom of Norway, is a Nordic country in Northwestern Europe.</p>",
 					"x": "0.4344",
 					"y": "0.2522"
-				},
-				{
-					"id": "ge",
-					"title": "Georgia",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Georgia_(country)",
-					"thumbnail": "https://source.unsplash.com/Edx0NpJ29fQ/100x100",
-					"description": "<p>Georgia, known until 1995 as the Republic of Georgia is a country in the Caucasus region of Eurasia.</p>",
-					"x": "0.9908",
-					"y": "0.6193"
-				},
-				{
-					"id": "ly",
-					"title": "Libya",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Libya",
-					"thumbnail": "https://source.unsplash.com/Ggvj8lq_Fs8/100x100",
-					"description": "<p>Libya is a country in the Maghreb region in North Africa, bordered by the Mediterranean Sea</p>",
-					"x": "0.6874",
-					"y": "0.9781"
-				},
-				{
-					"id": "ma",
-					"title": "Morocco",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Morocco",
-					"thumbnail": "https://source.unsplash.com/aqJfoLKFz6c/100x100",
-					"description": "<p>Morocco, officially the Kingdom of Morocco, is a country located in the Maghreb region of North Africa.</p>",
-					"x": "0.1044",
-					"y": "0.9564"
 				},
 				{
 					"id": "rs",
@@ -147,6 +123,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Serbia",
 					"thumbnail": "https://source.unsplash.com/G-NWC_N6pUI/100x100",
+					"image": "https://source.unsplash.com/G-NWC_N6pUI/300x200",
 					"description": "<p>Serbia, is a land-locked country situated at the crossroads of Central and Southeast Europe in the southern Pannonian Plain and the central Balkans.</p>",
 					"x": "0.6307",
 					"y": "0.6868"
@@ -158,6 +135,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Kosovo",
 					"thumbnail": "https://source.unsplash.com/h9tzN7pijKI/100x100",
+					"image": "https://source.unsplash.com/h9tzN7pijKI/300x200",
 					"description": "<p>Kosovo, officially the Republic of Kosovo, is a partially-recognized state in Southeast Europe,</p>",
 					"x": "0.6336",
 					"y": "0.7281"
@@ -169,6 +147,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Sweden",
 					"thumbnail": "https://source.unsplash.com/3cwvFD-YPtk/100x100",
+					"image": "https://source.unsplash.com/3cwvFD-YPtk/300x200",
 					"description": "<p>Sweden, is a Scandinavian country in Northern Europe. It borders Norway to the west and north and Finland to the east.</p>",
 					"x": "0.4962",
 					"y": "0.2335"
@@ -180,6 +159,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Andorra",
 					"thumbnail": "https://source.unsplash.com/SbuNrq6hARE/100x100",
+					"image": "https://source.unsplash.com/SbuNrq6hARE/300x200",
 					"description": "<p>Andorra, officially the Principality of Andorra , also called the Principality of the Valleys of Andorra, is a sovereign landlocked microstate on the Iberian Peninsula, in the eastern Pyrenees, bordered by France to the north and Spain to the south.</p>",
 					"x": "0.2863",
 					"y": "0.7346"
@@ -191,6 +171,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Albania",
 					"thumbnail": "https://source.unsplash.com/s8meKJ9iUT8/100x100",
+					"image": "https://source.unsplash.com/s8meKJ9iUT8/300x200",
 					"description": "<p>Albania, officially the Republic of Albania, is a country in Southeast Europe on the Adriatic and Ionian Sea within the Mediterranean Sea.</p>",
 					"x": "0.6222",
 					"y": "0.7702"
@@ -202,6 +183,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
 					"thumbnail": "https://source.unsplash.com/hXNGeAFOgT4/100x100",
+					"image": "https://source.unsplash.com/hXNGeAFOgT4/300x200",
 					"description": "<p>Bosnia and Herzegovina, abbreviated BiH or B&H, sometimes called Bosnia–Herzegovina and often known informally as Bosnia, is a country of South and Southeast Europe.</p>",
 					"x": "0.5778",
 					"y": "0.6939"
@@ -213,6 +195,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Croatia",
 					"thumbnail": "https://source.unsplash.com/ohoBiu7_KNc/100x100",
+					"image": "https://source.unsplash.com/ohoBiu7_KNc/300x200",
 					"description": "<p>Croatia, officially the Republic of Croatia, is a country in Southeast Europe. It borders Slovenia to the northwest, Hungary to the northeast, Serbia to the east.</p>",
 					"x": "0.5403",
 					"y": "0.6618"
@@ -224,6 +207,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/North_Macedonia",
 					"thumbnail": "https://source.unsplash.com/Xhv3D-Lmy_c/100x100",
+					"image": "https://source.unsplash.com/Xhv3D-Lmy_c/300x200",
 					"description": "<p>North Macedonia, officially the Republic of North Macedonia, is a country in the Balkan Peninsula in Southeast Europe.</p>",
 					"x": "0.6505",
 					"y": "0.7499"
@@ -235,31 +219,10 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Bulgaria",
 					"thumbnail": "https://source.unsplash.com/SbxO-MsVVZE/100x100",
+					"image": "https://source.unsplash.com/SbxO-MsVVZE/300x200",
 					"description": "<p>Bulgaria, officially the Republic of Bulgaria, is a country in Southeast Europe. It is bordered by Romania to the north.</p>",
 					"x": "0.7073",
 					"y": "0.7112"
-				},
-				{
-					"id": "cy",
-					"title": "Cyprus",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Cyprus",
-					"thumbnail": "https://source.unsplash.com/oUi2tvBLInY/100x100",
-					"description": "<p>Cyprus, officially the Republic of Cyprus, is an island country in the Eastern Mediterranean.</p>",
-					"x": "0.9069",
-					"y": "0.8595"
-				},
-				{
-					"id": "tr",
-					"title": "Turkey",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Turkey",
-					"thumbnail": "https://source.unsplash.com/0n0AHB1fgTQ/100x100",
-					"description": "<p>Turkey, officially the Republic of Turkey, is a transcontinental country almost wholly located on the Anatolian peninsula in Western Asia.</p>",
-					"x": "0.8798",
-					"y": "0.7545"
 				},
 				{
 					"id": "at",
@@ -268,6 +231,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Austria",
 					"thumbnail": "https://source.unsplash.com/9DgwO_ihqL0/100x100",
+					"image": "https://source.unsplash.com/9DgwO_ihqL0/300x200",
 					"description": "<p>Austria, officially the Republic of Austria, is a landlocked East Alpine country in the southern part of Central Europe..</p>",
 					"x": "0.5077",
 					"y": "0.6135"
@@ -279,6 +243,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Czech_Republic",
 					"thumbnail": "https://source.unsplash.com/-WNG-ErziqM/100x100",
+					"image": "https://source.unsplash.com/-WNG-ErziqM/300x200",
 					"description": "<p>The Czech Republic, also known by its short-form name, Czechia, is a country in Central Europe bordered by Poland to the northeast, Slovakia to the southeast, Austria to the south, and Germany to the west.</p>",
 					"x": "0.5197",
 					"y": "0.5533"
@@ -290,6 +255,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Denmark",
 					"thumbnail": "https://source.unsplash.com/imLsDPLnr7Y/100x100",
+					"image": "https://source.unsplash.com/imLsDPLnr7Y/300x200",
 					"description": "<p>Denmark, officially the Kingdom of Denmark, is a Nordic country in Northwest Europe.</p>",
 					"x": "0.4303",
 					"y": "0.3987"
@@ -301,6 +267,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Poland",
 					"thumbnail": "https://source.unsplash.com/Oc3G2fDYSWs/100x100",
+					"image": "https://source.unsplash.com/Oc3G2fDYSWs/300x200",
 					"description": "<p>Poland, officially the Republic of Poland, is a country located in Central Europe.</p>",
 					"x": "0.5761",
 					"y": "0.4861"
@@ -312,6 +279,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Slovakia",
 					"thumbnail": "https://source.unsplash.com/-g7axSVst6Y/100x100",
+					"image": "https://source.unsplash.com/-g7axSVst6Y/300x200",
 					"description": "<p>Slovakia, officially the Slovak Republic, is a landlocked country in the eastern part of Central Europe.</p>",
 					"x": "0.5831",
 					"y": "0.5755"
@@ -323,6 +291,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Slovenia",
 					"thumbnail": "https://source.unsplash.com/CfMEecyNtHc/100x100",
+					"image": "https://source.unsplash.com/CfMEecyNtHc/300x200",
 					"description": "<p>Slovenia, officially the Republic of Slovenia, is a country located in Europe at the crossroads of main European cultural and trade routes.</p>",
 					"x": "0.5143",
 					"y": "0.6498"
@@ -334,6 +303,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Switzerland",
 					"thumbnail": "https://source.unsplash.com/UTbcrtjp18g/100x100",
+					"image": "https://source.unsplash.com/UTbcrtjp18g/300x200",
 					"description": "<p>Switzerland, officially the Swiss Confederation, is a country situated in the confluence of western, central, and southern Europe.</p>",
 					"x": "0.4026",
 					"y": "0.6280"
@@ -345,6 +315,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Belarus",
 					"thumbnail": "https://source.unsplash.com/d3P792aBk98/100x100",
+					"image": "https://source.unsplash.com/d3P792aBk98/300x200",
 					"description": "<p>Belarus, officially the Republic of Belarus, formerly known by its Russian name Byelorussia or Belorussia, is a landlocked country in Eastern Europe.</p>",
 					"x": "0.6904",
 					"y": "0.4297"
@@ -356,6 +327,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Estonia",
 					"thumbnail": "https://source.unsplash.com/8BH0YamKVAs/100x100",
+					"image": "https://source.unsplash.com/8BH0YamKVAs/300x200",
 					"description": "<p>Estonia, officially the Republic of Estonia, is a country on the eastern coast of the Baltic Sea in Northern Europe.</p>",
 					"x": "0.6368",
 					"y": "0.3050"
@@ -367,6 +339,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Finland",
 					"thumbnail": "https://source.unsplash.com/bpDJvls-h-0/100x100",
+					"image": "https://source.unsplash.com/bpDJvls-h-0/300x200",
 					"description": "<p>Finland, officially the Republic of Finland, is a Nordic country in Northern Europe.</p>",
 					"x": "0.6158",
 					"y": "0.1733"
@@ -378,6 +351,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Latvia",
 					"thumbnail": "https://source.unsplash.com/kX4HeUuLpJM/100x100",
+					"image": "https://source.unsplash.com/kX4HeUuLpJM/300x200",
 					"description": "<p>Latvia, officially known as the Republic of Latvia, is a country in the Baltic region of Northern Europe.</p>",
 					"x": "0.6293",
 					"y": "0.3582"
@@ -389,6 +363,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Lithuania",
 					"thumbnail": "https://source.unsplash.com/MJEv6xk-g9Q/100x100",
+					"image": "https://source.unsplash.com/MJEv6xk-g9Q/300x200",
 					"description": "<p>Lithuania, officially the Republic of Lithuania, is a country in the Baltic region of Europe.</p>",
 					"x": "0.6264",
 					"y": "0.3940"
@@ -399,6 +374,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Moldova",
 					"thumbnail": "https://source.unsplash.com/h2kwyFPaa04/100x100",
+					"image": "https://source.unsplash.com/h2kwyFPaa04/300x200",
 					"description": "<p>Moldova, officially the Republic of Moldova, is a landlocked country in Eastern Europe.</p>",
 					"x": "0.7373",
 					"y": "0.5822"
@@ -410,6 +386,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Romania",
 					"thumbnail": "https://source.unsplash.com/vYi0kzbK4sU/100x100",
+					"image": "https://source.unsplash.com/vYi0kzbK4sU/300x200",
 					"description": "<p>Romania is a country located at the crossroads of Central, Eastern, and Southeastern Europe.</p>",
 					"x": "0.6835",
 					"y": "0.6335"
@@ -421,6 +398,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Ukraine",
 					"thumbnail": "https://source.unsplash.com/GgwWeegG_-Q/100x100",
+					"image": "https://source.unsplash.com/GgwWeegG_-Q/300x200",
 					"description": "<p>Ukraine is a country in Eastern Europe. It is bordered by Russia to the north-east; Belarus to the north; Poland, Slovakia and Hungary to the west.</p>",
 					"x": "0.7753",
 					"y": "0.5011"
@@ -432,6 +410,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Montenegro",
 					"thumbnail": "https://source.unsplash.com/1AUe0hwdC3o/100x100",
+					"image": "https://source.unsplash.com/1AUe0hwdC3o/300x200",
 					"description": "<p>Montenegro is a country of South and Southeast Europe on the coast of the Balkans.</p>",
 					"x": "0.6023",
 					"y": "0.7292"
@@ -443,6 +422,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Netherlands",
 					"thumbnail": "https://source.unsplash.com/x2XDMf-rirc/100x100",
+					"image": "https://source.unsplash.com/x2XDMf-rirc/300x200",
 					"description": "<p>The Netherlands is a country in Northwestern Europe with some overseas territories in the Caribbean.</p>",
 					"x": "0.3829",
 					"y": "0.4793"
@@ -454,6 +434,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Italy",
 					"thumbnail": "https://source.unsplash.com/cYrMQA7a3Wc/100x100",
+					"image": "https://source.unsplash.com/cYrMQA7a3Wc/300x200",
 					"description": "<p>Italy, officially the Italian Republic is a European country consisting of a peninsula delimited by the Alps and surrounded by several islands.</p>",
 					"x": "0.4884",
 					"y": "0.7194"
@@ -465,20 +446,10 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Greece",
 					"thumbnail": "https://source.unsplash.com/_vA2q0-NroU/100x100",
+					"image": "https://source.unsplash.com/_vA2q0-NroU/300x200",
 					"description": "<p>Greece, officially the Hellenic Republic, historically also known as Hellas, is a country located in Southeast Europe.</p>",
 					"x": "0.6680",
 					"y": "0.7976"
-				},
-				{
-					"id": "ru",
-					"title": "Russia",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Russia",
-					"thumbnail": "https://source.unsplash.com/MEWRrCmEiGc/100x100",
-					"description": "<p>Russia , officially the Russian Federation, is a European country located in Eastern Europe with a vast expanse of territory that stretches across Northern Asia.</p>",
-					"x": "0.7514",
-					"y": "0.3016"
 				},
 				{
 					"id": "es",
@@ -487,109 +458,12 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Spain",
 					"thumbnail": "https://source.unsplash.com/cB4Uqoc9D9k/100x100",
+					"image": "https://source.unsplash.com/cB4Uqoc9D9k/300x200",
 					"description": "<p>Spain, officially the Kingdom of Spain is a country in Southwestern Europe with some pockets of Spanish territory across the Strait of Gibraltar and the Atlantic Ocean.</p>",
 					"x": "0.2050",
 					"y": "0.8136"
 				},
-				{
-					"id": "dz",
-					"title": "Algeria",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Algeria",
-					"thumbnail": "https://source.unsplash.com/4BOBpoDkGGY/100x100",
-					"description": "<p>Algeria is a country in the Maghreb region of North Africa.</p>",
-					"x": "0.3007",
-					"y": "0.9150"
-				},
-				{
-					"id": "il",
-					"title": "Israel",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Israel",
-					"thumbnail": "https://source.unsplash.com/uTjrKwK6N-s/100x100",
-					"description": "<p>Israel, formally known as the State of Israel, is a country in Western Asia, located on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea.</p>",
-					"x": "0.9633",
-					"y": "0.9409"
-				},
-				{
-					"id": "eg",
-					"title": "Egypt",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Egypt",
-					"thumbnail": "https://source.unsplash.com/pwMbtwA9LRc/100x100",
-					"description": "<p>Egypt, officially the Arab Republic of Egypt, is a country spanning the northeast corner of Africa and southwest corner of Asia by a land bridge formed by the Sinai Peninsula.</p>",
-					"x": "0.8862",
-					"y": "0.9733"
-				},
-				{
-					"id": "path3457",
-					"title": "Jordan",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Jordan",
-					"thumbnail": "https://source.unsplash.com/sYMgkKkHpGI/100x100",
-					"description": "<p>Jordan, officially the Hashemite Kingdom of Jordan, is an Arab country in Western Asia, on the East Bank of the Jordan River.</p>",
-					"x": "0.9795",
-					"y": "0.9117"
-				},
-				{
-					"id": "path3461",
-					"title": "Syria",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Syria",
-					"thumbnail": "https://source.unsplash.com/SHKOxGviXvM/100x100",
-					"description": "<p>Syria, officially the Syrian Arab Republic, is a country in Western Asia, bordering Lebanon to the southwest, the Mediterranean Sea to the west.</p>",
-					"x": "0.9641",
-					"y": "0.8292"
-				},
-				{
-					"id": "path3209",
-					"title": "Gaza Strip",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Gaza_Strip",
-					"thumbnail": "https://media.swncdn.com/cms/RT/66367-shai-pal-tel-aviv-unsplash.1200w.tn.jpg",
-					"description": "<p>The Gaza Strip, or simply Gaza, is a self-governing Palestinian territory on the eastern coast of the Mediterranean Sea.</p>",
-					"x": "0.9571",
-					"y": "0.9375"
-				},
-				{
-					"id": "path3213",
-					"title": "West Bank",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/West_Bank",
-					"thumbnail": "https://source.unsplash.com/q0W4wHQbt0Q/100x100",
-					"description": "<p>The West Bank is a landlocked territory near the Mediterranean coast of Western Asia, bordered by Jordan to the east and by the Green Line separating it and Israel on the south, west and north.</p>",
-					"x": "0.9704",
-					"y": "0.9150"
-				},
-				{
-					"id": "path3453",
-					"title": "Saudi Arabia",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Saudi_Arabia",
-					"thumbnail": "https://source.unsplash.com/7vOpzRF33Zo/100x100",
-					"description": "<p>Saudi Arabia, officially the Kingdom of Saudi Arabia, is a country in Western Asia constituting the bulk of the Arabian Peninsula.</p>",
-					"x": "0.9921",
-					"y": "0.9850"
-				},
-				{
-					"id": "path3221",
-					"title": "Lebanon",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Lebanon",
-					"thumbnail": "https://source.unsplash.com/Ms2PlybdJqE/100x100",
-					"description": "<p>Lebanon, is a country in Western Asia. It is bordered by Syria to the north and east and Israel to the south.</p>",
-					"x": "0.9667",
-					"y": "0.8646"
-				},
+
 				{
 					"id": "is",
 					"title": "Iceland",
@@ -597,20 +471,10 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Iceland",
 					"thumbnail": "https://source.unsplash.com/iokiwAq05UU/100x100",
+					"image": "https://source.unsplash.com/iokiwAq05UU/300x200",
 					"description": "<p>Iceland  is a Nordic island country in the North Atlantic, with a population of 360,390, making it the most sparsely populated country in Europe.</p>",
 					"x": "0.1397",
 					"y": "0.1124"
-				},
-				{
-					"id": "tn",
-					"title": "Tunisia",
-					"pin": "hidden",
-					"fill": "#4d5e6d",
-					"link": "https://en.wikipedia.org/wiki/Tunisia",
-					"thumbnail": "https://source.unsplash.com/RRHmfYRIXXo/100x100",
-					"description": "<p>Tunisia, officially the Republic of Tunisia, is a country in the Maghreb region of North Africa.</p>",
-					"x": "0.4283",
-					"y": "0.9297"
 				},
 				{
 					"id": "fo",
@@ -619,6 +483,7 @@
 					"fill": "#4d5e6d",
 					"link": "https://en.wikipedia.org/wiki/Faroe_Islands",
 					"thumbnail": "https://source.unsplash.com/vI-uFNolpLA/100x100",
+					"image": "https://source.unsplash.com/vI-uFNolpLA/300x200",
 					"description": "<p>The Faroe Islands, or the Faeroe Islands, is a North Atlantic archipelago located 320 kilometres north-northwest of Scotland.</p>",
 					"x": "0.2464",
 					"y": "0.2179"
