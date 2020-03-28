@@ -2,82 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/booking-ecommerce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-ecommerce-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-ecommerce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interactive-africa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interactive-central-south-america.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interactive-europe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interactive-south-asia-middle-east.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interactive-united-states.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-consulting-company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-finance-company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-fitness-company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-insurance-company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-law-offices.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-modeling-agency-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multi-page-modeling-agency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-barber-shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-branding-agency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-coffee-shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-digital-agency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-event-agency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-interior-design.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one-page-wedding-planner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services-ecommerce.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/._bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mapplic/._style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mapplic/mapplic.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mapplic/mapplic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/europe.json" beforeDir="false" afterPath="$PROJECT_DIR$/europe.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interactive-mall.html" beforeDir="false" afterPath="$PROJECT_DIR$/interactive-mall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/multi-step-form/multi-step-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/multi-step-form/multi-step-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._catalina.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._getty.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._glades.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._grand-canyon.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._hoover-dam.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._joshua-tree.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._lake-mead.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._lake-tahoe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._mesa-verde.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._mt-rush.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._niagara-falls.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._plymouth.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._sequoia.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._smoke.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._space.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._yellow-stone.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/._yosemite.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/catalina.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/getty.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/glades.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/grand-canyon.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/hoover-dam.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/joshua-tree.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/lake-mead.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/lake-tahoe.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/mesa-verde.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/mt-rush.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/niagara-falls.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/plymouth.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/sequoia.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/smoke.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/space.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/yellow-stone.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/us-images/yosemite.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa-images/._kennewick.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa-images/._seattle.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa-images/._washington-state.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa-images/kennewick.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa-images/seattle.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa-images/washington-state.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usa.json" beforeDir="false" afterPath="$PROJECT_DIR$/usa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website-tools.html" beforeDir="false" afterPath="$PROJECT_DIR$/website-tools.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -283,11 +209,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="225" column="86" lean-forward="true" selection-start-line="225" selection-start-column="86" selection-end-line="225" selection-end-column="86" />
+            <state relative-caret-position="237">
+              <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
-                <marker date="1585392971584" expanded="true" signature="39484:39601" ph="..." />
+                <marker date="1585424705983" expanded="true" signature="39484:39601" ph="..." />
               </folding>
             </state>
           </provider>
@@ -437,10 +363,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="258" />
-    <option name="y" value="90" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectId" id="1VdWSxcGsV6S9CjGgZkW0HqQrX4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -528,18 +453,18 @@
       <workItem from="1583008592979" duration="32793000" />
       <workItem from="1583459002308" duration="15943000" />
       <workItem from="1583865874283" duration="16411000" />
-      <workItem from="1584694212933" duration="31337000" />
+      <workItem from="1584694212933" duration="31924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306161000" />
+    <option name="totallyTimeSpent" value="306748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="681" y="0" width="759" height="900" extended-state="6" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22315203" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08519702" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -548,7 +473,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.25339925" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20728008" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1186,11 +1111,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="225" column="86" lean-forward="true" selection-start-line="225" selection-start-column="86" selection-end-line="225" selection-end-column="86" />
+        <state relative-caret-position="237">
+          <caret line="232" column="21" selection-start-line="232" selection-start-column="21" selection-end-line="232" selection-end-column="21" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <marker date="1585392971584" expanded="true" signature="39484:39601" ph="..." />
+            <marker date="1585424705983" expanded="true" signature="39484:39601" ph="..." />
           </folding>
         </state>
       </provider>
