@@ -137,7 +137,7 @@ document.addEventListener("touchstart", function() {},false);
 	function submitMSG(valid, msg){
 		if(valid){
 			var msgClasses = "h3 text-center text-success";
-			$( "#final-step-buttons" ).html( '<div class="h3 text-center text-success"> Tahnk you for your concern. We will get back to you soon!</div>' );
+			$( "#final-step-buttons" ).html( '<div class="h3 text-center text-success"> Thank you for your concern. We will get back to you soon!</div>' );
 		} else {
 			var msgClasses = "h3 text-center text-danger";
 		}

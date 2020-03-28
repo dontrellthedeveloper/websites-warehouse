@@ -1,0 +1,598 @@
+{
+  "mapwidth": "960",
+  "mapheight": "600",
+  "groups": [
+
+  ],
+  "levels":[
+    {
+      "id":"south-asia",
+      "title":"South Asia",
+      "map":"maps/south-asia-map.svg",
+      "locations":[
+        {
+          "id": "south-korea",
+          "title": "South Korea",
+          "description": "<p>South Korea is a country in East Asia, constituting the southern part of the Korean Peninsula and sharing a land border with North Korea.</p>",
+          "link": "https://en.wikipedia.org/wiki/South_Korea",
+          "thumbnail": "asia-images/south-korea.jpeg",
+          "image": "asia-images/south-korea.jpeg",
+          "pin": "hidden",
+          "x": "0.8477",
+          "y": "0.4402",
+          "zoom": "2"
+        },
+        {
+          "id": "north-korea",
+          "title": "North Korea",
+          "description": "<p>North Korea is a country in East Asia constituting the northern part of the Korean Peninsula, with Pyongyang as its capital and the largest city in the country.</p>",
+          "link": "https://en.wikipedia.org/wiki/North_Korea",
+          "thumbnail": "asia-images/north-korea.jpg",
+          "image": "asia-images/north-korea.jpg",
+          "pin": "hidden",
+          "x": "0.8399",
+          "y": "0.3734",
+          "zoom": "2"
+        },
+
+        {
+          "id": "japan",
+          "title": "Japan",
+          "description": "<p>Japan is an island country located in East Asia. It is bordered by the Sea of Japan to the west and the Pacific Ocean to the east.</p>",
+          "link": "https://en.wikipedia.org/wiki/Japan",
+          "thumbnail": "asia-images/japan.jpg",
+          "image": "asia-images/japan.jpg",
+          "pin": "hidden",
+          "x": "0.9410",
+          "y": "0.4322",
+          "zoom": "2"
+        },
+        {
+          "id": "china",
+          "title": "China",
+          "description": "<p>China is a country in East Asia and is the world's most populous country, with a population of around 1.428 billion in 2017.</p>",
+          "link": "https://en.wikipedia.org/wiki/China",
+          "thumbnail": "asia-images/china.jpeg",
+          "image": "asia-images/china.jpeg",
+          "pin": "hidden",
+          "x": "0.6473",
+          "y": "0.4500",
+          "zoom": "2"
+        },
+
+        {
+          "id": "hainan",
+          "title": "Hainan",
+          "description": "<p>Hainan is a province in South China located in the South China Sea. It is the smallest and southernmost province of Mainland China.</p>",
+          "link": "https://en.wikipedia.org/wiki/Hainan",
+          "thumbnail": "asia-images/hainan.jpg",
+          "image": "asia-images/hainan.jpg",
+          "pin": "hidden",
+          "x": "0.6977",
+          "y": "0.6978",
+          "zoom": "2"
+        },
+
+        {
+          "id": "taiwan-2",
+          "title": "Taiwan",
+          "description": "<p>Taiwan is a state in East Asia. Neighbouring states include the People's Republic of China to the north-west, Japan to the north-east, and the Philippines to the south.</p>",
+          "link": "https://en.wikipedia.org/wiki/Taiwan",
+          "thumbnail": "asia-images/taiwan.jpg",
+          "image": "asia-images/taiwan.jpg",
+          "pin": "hidden",
+          "x": "0.7903",
+          "y": "0.6328",
+          "zoom": "2"
+        },
+        {
+          "id": "mongolia",
+          "title": "Mongolia",
+          "description": "<p>Mongolia is a landlocked country in East Asia. Its area is roughly equivalent with the historical territory of Outer Mongolia, and that term is sometimes used to refer to the current state.</p>",
+          "link": "https://en.wikipedia.org/wiki/Mongolia",
+          "thumbnail": "asia-images/mongolia.jpg",
+          "image": "asia-images/mongolia.jpg",
+          "pin": "hidden",
+          "x": "0.6463",
+          "y": "0.2411",
+          "zoom": "2"
+        },
+
+        {
+          "id": "philipines__x28_temp_x29_",
+          "title": "Philippines",
+          "description": "<p>The Philippines is an archipelagic country in Southeast Asia. Situated in the western Pacific Ocean, it consists of about 7,641 islands.</p>",
+          "link": "https://en.wikipedia.org/wiki/Philippines",
+          "thumbnail": "asia-images/philippines.jpg",
+          "image": "asia-images/philippines.jpg",
+          "pin": "hidden",
+          "x": "0.8142",
+          "y": "0.8184",
+          "zoom": "2"
+        },
+        {
+          "id": "vietnam",
+          "title": "Vietnam",
+          "description": "<p>Vietnam is the easternmost country on the Southeast Asian Indochinese Peninsula. With an estimated 95.5 million inhabitants as of 2018.</p>",
+          "link": "https://en.wikipedia.org/wiki/Vietnam",
+          "thumbnail": "asia-images/vietnam.jpg",
+          "image": "asia-images/vietnam.jpg",
+          "pin": "hidden",
+          "x": "0.6860",
+          "y": "0.7661",
+          "zoom": "2"
+        },
+
+        {
+          "id": "laos",
+          "title": "Laos",
+          "description": "<p>Laos is a socialist state and the only landlocked country in Southeast Asia. Located at the heart of the Indochinese peninsula, Laos is bordered by Myanmar and China to the northwest.</p>",
+          "link": "https://en.wikipedia.org/wiki/Laos",
+          "thumbnail": "asia-images/laos.jpeg",
+          "image": "asia-images/laos.jpeg",
+          "pin": "hidden",
+          "x": "0.6393",
+          "y": "0.6875",
+          "zoom": "2"
+        },
+
+        {
+          "id": "malaysia",
+          "title": "Malaysia",
+          "description": "<p>Malaysia is a country in Southeast Asia. The federal constitutional monarchy consists of 13 states and three federal territories, separated by the South China Sea into two regions.</p>",
+          "link": "https://en.wikipedia.org/wiki/Malaysia",
+          "thumbnail": "asia-images/malaysia.jpg",
+          "image": "asia-images/malaysia.jpg",
+          "pin": "hidden",
+          "x": "0.6339",
+          "y": "0.8950",
+          "zoom": "2"
+        },
+
+        {
+          "id": "myanmar",
+          "title": "Myanmar",
+          "description": "<p>Myanmar is a country in Southeast Asia. Myanmar is bordered by Bangladesh and India to its northwest, China to its northeast, Laos and Thailand to its east and southeast.</p>",
+          "link": "https://en.wikipedia.org/wiki/Myanmar",
+          "thumbnail": "asia-images/myanmar.jpeg",
+          "image": "asia-images/myanmar.jpeg",
+          "pin": "hidden",
+          "x": "0.5843",
+          "y": "0.6634",
+          "zoom": "2"
+        },
+
+        {
+          "id": "bangladesh",
+          "title": "Bangladesh",
+          "description": "<p>Bangladesh is a secular, democratic and independent country in South Asia. It is the world's fifth largest democracy, having the eighth largest population in the world, with nearly 163 million people.</p>",
+          "link": "https://en.wikipedia.org/wiki/Bangladesh",
+          "thumbnail": "asia-images/bangladesh.jpg",
+          "image": "asia-images/bangladesh.jpg",
+          "pin": "hidden",
+          "x": "0.5364",
+          "y": "0.6278",
+          "zoom": "2"
+        },
+
+        {
+          "id": "bhutan",
+          "title": "Bhutan",
+          "description": "<p>Bhutan is a landlocked country in South Asia. Located in the Eastern Himalayas, it is bordered by the Tibet Autonomous Region of China in the north</p>",
+          "link": "https://en.wikipedia.org/wiki/Bhutan",
+          "thumbnail": "asia-images/bhutan.jpg",
+          "image": "asia-images/bhutan.jpg",
+          "pin": "hidden",
+          "x": "0.5402",
+          "y": "0.5754",
+          "zoom": "2"
+        },
+
+        {
+          "id": "nepal",
+          "title": "Nepal",
+          "description": "<p>Nepal is a landlocked country in South Asia. It is located mainly in the Himalayas, but also includes parts of the Indo-Gangetic Plain.</p>",
+          "link": "https://en.wikipedia.org/wiki/Nepal",
+          "thumbnail": "asia-images/nepal.jpeg",
+          "image": "asia-images/nepal.jpeg",
+          "pin": "hidden",
+          "x": "0.4899",
+          "y": "0.5657",
+          "zoom": "2"
+        },
+
+        {
+          "id": "india",
+          "title": "India",
+          "description": "<p>India is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world.</p>",
+          "link": "https://en.wikipedia.org/wiki/India",
+          "thumbnail": "asia-images/india.jpeg",
+          "image": "asia-images/india.jpeg",
+          "pin": "hidden",
+          "x": "0.4424",
+          "y": "0.6377",
+          "zoom": "2"
+        },
+
+        {
+          "id": "sri_lanka",
+          "title": "Sri Lanka",
+          "description": "<p>Sri Lanka is an island country in South Asia, located in the Indian Ocean to the southwest of the Bay of Bengal and to the southeast of the Arabian Sea.</p>",
+          "link": "https://en.wikipedia.org/wiki/Sri_Lanka",
+          "thumbnail": "asia-images/sri-lanka.jpeg",
+          "image": "asia-images/sri-lanka.jpeg",
+          "pin": "hidden",
+          "x": "0.4589",
+          "y": "0.8539",
+          "zoom": "2"
+        },
+
+
+        {
+          "id": "pakistan",
+          "title": "Pakistan",
+          "description": "<p>Pakistan is a country in South Asia. It is the world's fifth-most populous country with a population exceeding 207.8 million.e</p>",
+          "link": "https://en.wikipedia.org/wiki/Pakistan",
+          "thumbnail": "asia-images/pakistan.jpeg",
+          "image": "asia-images/pakistan.jpeg",
+          "pin": "hidden",
+          "x": "0.3658",
+          "y": "0.5372",
+          "zoom": "2"
+        },
+
+        {
+          "id": "afghanistan",
+          "title": "Afghanistan",
+          "description": "<p>Afghanistan is a landlocked country in Asia. Afghanistan is bordered by Pakistan to the east and south; Iran to the west; Turkmenistan, Uzbekistan, and Tajikistan to the north.</p>",
+          "link": "https://en.wikipedia.org/wiki/Afghanistan",
+          "thumbnail": "asia-images/afghanistan.jpg",
+          "image": "asia-images/afghanistan.jpg",
+          "pin": "hidden",
+          "x": "0.3386",
+          "y": "0.4778",
+          "zoom": "2"
+        },
+
+        {
+          "id": "tajikistan",
+          "title": "Tajikistan",
+          "description": "<p>Tajikistan is a mountainous, landlocked country in Central Asia with an area of 143,100 km2 (55,300 sq mi) and an estimated population of 9,275,828 people.</p>",
+          "link": "https://en.wikipedia.org/wiki/Tajikistan",
+          "thumbnail": "asia-images/tajikistan.jpeg",
+          "image": "asia-images/tajikistan.jpeg",
+          "pin": "hidden",
+          "x": "0.3840",
+          "y": "0.3967",
+          "zoom": "2"
+        },
+
+        {
+          "id": "kyrgyzstan",
+          "title": "Kyrgyzstan",
+          "description": "<p>Kyrgyzstan is a country in Central Asia. Kyrgyzstan is a landlocked country with mountainous terrain. It is bordered by Kazakhstan to the north, Uzbekistan to the west and southwest, Tajikistan to the southwest.</p>",
+          "link": "https://en.wikipedia.org/wiki/Kyrgyzstan",
+          "thumbnail": "asia-images/kyrgyzstan.jpg",
+          "image": "asia-images/kyrgyzstan.jpg",
+          "pin": "hidden",
+          "x": "0.4112",
+          "y": "0.3482",
+          "zoom": "2"
+        },
+
+        {
+          "id": "turkmenistan",
+          "title": "Turkmenistan",
+          "description": "<p>Turkmenistan is a sovereign country in Central Asia, bordered by Kazakhstan to the northwest, Uzbekistan to the north and east</p>",
+          "link": "https://en.wikipedia.org/wiki/Turkmenistan",
+          "thumbnail": "asia-images/turkmenistan.jpg",
+          "image": "asia-images/turkmenistan.jpg",
+          "pin": "hidden",
+          "x": "0.2788",
+          "y": "0.3894",
+          "zoom": "2"
+        },
+
+        {
+          "id": "uzbekistan",
+          "title": "Uzbekistan",
+          "description": "<p>Uzbekistan is a country in Central Asia. It is bordered by five landlocked countries.</p>",
+          "link": "https://en.wikipedia.org/wiki/Uzbekistan",
+          "thumbnail": "asia-images/uzbekistan.jpg",
+          "image": "asia-images/uzbekistan.jpg",
+          "pin": "hidden",
+          "x": "0.3136",
+          "y": "0.3422",
+          "zoom": "2"
+        },
+
+        {
+          "id": "kazakhstan",
+          "title": "Kazakhstan",
+          "description": "<p>Kazakhstan is a transcontinental country largely located in Central Asia with the most western parts of it being located in Eastern Europe.</p>",
+          "link": "https://en.wikipedia.org/wiki/Kazakhstan",
+          "thumbnail": "asia-images/kazakhstan.jpg",
+          "image": "asia-images/kazakhstan.jpg",
+          "pin": "hidden",
+          "x": "0.3636",
+          "y": "0.2114",
+          "zoom": "2"
+        },
+
+        {
+          "id": "iran",
+          "title": "Iran",
+          "description": "<p>Iran is a country in Western Asia.With 83 million inhabitants, Iran is the world's 18th most populous country. Its territory spans 1,648,195 km2 (636,372 sq mi), making it the second largest country in the Middle East.</p>",
+          "link": "https://en.wikipedia.org/wiki/Iran",
+          "thumbnail": "asia-images/iran.jpg",
+          "image": "asia-images/iran.jpg",
+          "pin": "hidden",
+          "x": "0.2383",
+          "y": "0.4974",
+          "zoom": "2"
+        },
+
+        {
+          "id": "azerbaijan",
+          "title": "Azerbaijan",
+          "description": "<p>Azerbaijan is a landlocked country in the South Caucasus region of Eurasia at the crossroads of Eastern Europe and Central Asia.</p>",
+          "link": "https://en.wikipedia.org/wiki/Azerbaijan",
+          "thumbnail": "asia-images/azerbaijan.jpg",
+          "image": "asia-images/azerbaijan.jpg",
+          "pin": "hidden",
+          "x": "0.1870",
+          "y": "0.3675",
+          "zoom": "2"
+        },
+
+        {
+          "id": "nakhchivan",
+          "title": "Nakhchivan",
+          "description": "<p>Nakhchivan is a landlocked exclave of the Republic of Azerbaijan. The region covers 5,500 km2 (2,100 sq mi) with a population of 414,900.</p>",
+          "link": "https://en.wikipedia.org/wiki/Nakhchivan_Autonomous_Republic",
+          "thumbnail": "asia-images/nakhchivan.jpg",
+          "image": "asia-images/nakhchivan.jpg",
+          "pin": "hidden",
+          "x": "0.1716",
+          "y": "0.3890",
+          "zoom": "2"
+        },
+
+        {
+          "id": "armenia",
+          "title": "Armenia",
+          "description": "<p>Armenia is a landlocked country in the South Caucasus region of Eurasia. Located in Western Asia on the Armenian Highlands, it is bordered by Turkey to the west, Georgia to the north.</p>",
+          "link": "https://en.wikipedia.org/wiki/Armenia",
+          "thumbnail": "asia-images/armenia.jpg",
+          "image": "asia-images/armenia.jpg",
+          "pin": "hidden",
+          "x": "0.1637",
+          "y": "0.3697",
+          "zoom": "2"
+        },
+
+        {
+          "id": "georgia",
+          "title": "Georgia",
+          "link": "https://en.wikipedia.org/wiki/Georgia_(country)",
+          "description": "<p>Georgia is geographically located at the crossroads of Western Asia and Eastern Europe, it is bounded to the west by the Black Sea which connects Georgia physically to the European Union.</p>",
+          "thumbnail": "asia-images/georgia.jpg",
+          "image": "asia-images/georgia.jpg",
+          "pin": "hidden",
+          "x": "0.1509",
+          "y": "0.3381",
+          "zoom": "2"
+        },
+
+        {
+          "id": "iraq",
+          "title": "Iraq",
+          "description": "<p>Iraq is a country in Western Asia, bordered by Turkey to the north, Iran to the east, Kuwait to the southeast, Saudi Arabia to the south, Jordan to the southwest and Syria to the west.</p>",
+          "link": "https://en.wikipedia.org/wiki/Iraq",
+          "thumbnail": "asia-images/iraq.jpg",
+          "image": "asia-images/iraq.jpg",
+          "pin": "hidden",
+          "x": "0.1530",
+          "y": "0.4907",
+          "zoom": "2"
+        },
+
+        {
+          "id": "syria",
+          "title": "Syria",
+          "description": "<p>Syria is a country in Western Asia, bordering Lebanon to the southwest, the Mediterranean Sea to the west, Turkey to the north, Iraq to the east, Jordan to the south, and Israel to the southwest.</p>",
+          "link": "https://en.wikipedia.org/wiki/Syria",
+          "thumbnail": "asia-images/syria.jpeg",
+          "image": "asia-images/syria.jpeg",
+          "pin": "hidden",
+          "x": "0.1109",
+          "y": "0.4595",
+          "zoom": "2"
+        },
+
+        {
+          "id": "kuwait",
+          "title": "Kuwait",
+          "description": "<p>Kuwait is a country in Western Asia. Situated in the northern edge of Eastern Arabia at the tip of the Persian Gulf, it shares borders with Iraq and Saudi Arabia.</p>",
+          "link": "https://en.wikipedia.org/wiki/Kuwait",
+          "thumbnail": "asia-images/kuwait.jpeg",
+          "image": "asia-images/kuwait.jpeg",
+          "pin": "hidden",
+          "x": "0.1883",
+          "y": "0.5501",
+          "zoom": "2"
+        },
+
+        {
+          "id": "lebanon",
+          "title": "Lebanon",
+          "description": "<p>Lebanon is a country in Western Asia.It is bordered by Syria to the north and east and Israel to the south, while Cyprus is west across the Mediterranean Sea.</p>",
+          "link": "https://en.wikipedia.org/wiki/Lebanon",
+          "thumbnail": "asia-images/lebanon.jpg",
+          "image": "asia-images/lebanon.jpg",
+          "pin": "hidden",
+          "x": "0.0895",
+          "y": "0.4774",
+          "zoom": "2"
+        },
+
+        {
+          "id": "jordan",
+          "title": "Jordan",
+          "description": "<p>Jordan is an Arab country in Western Asia, on the East Bank of the Jordan River. Jordan is bordered by Saudi Arabia to the south and the east, Iraq to the north-east.</p>",
+          "link": "https://en.wikipedia.org/wiki/Jordan",
+          "thumbnail": "asia-images/jordan.jpg",
+          "image": "asia-images/jordan.jpg",
+          "pin": "hidden",
+          "x": "0.0944",
+          "y": "0.5228",
+          "zoom": "2"
+        },
+
+        {
+          "id": "saudi_arabia",
+          "title": "Saudi Arabia",
+          "description": "<p>Saudi Arabia is a country in Western Asia constituting the bulk of the Arabian Peninsula. With a land area of approximately 2,150,000 km2 (830,000 sq mi), Saudi Arabia is geographically the largest sovereign state in Western Asia.</p>",
+          "link": "https://en.wikipedia.org/wiki/Saudi_Arabia",
+          "thumbnail": "asia-images/saudi.jpg",
+          "image": "asia-images/saudi.jpg",
+          "pin": "hidden",
+          "x": "0.1631",
+          "y": "0.6250",
+          "zoom": "2"
+        },
+
+        {
+          "id": "oman",
+          "title": "Oman",
+          "description": "<p>Oman is an Arab country on the southeastern coast of the Arabian Peninsula in Western Asia. Its official religion is Islam.</p>",
+          "link": "https://en.wikipedia.org/wiki/Oman",
+          "thumbnail": "asia-images/oman.jpg",
+          "image": "asia-images/oman.jpg",
+          "pin": "hidden",
+          "x": "0.2593",
+          "y": "0.6866",
+          "zoom": "2"
+        },
+
+        {
+          "id": "emirates",
+          "title": "United Arab Emirates",
+          "description": "<p>Emirates is a country in Western Asia at the northeast end of the Arabian Peninsula on the Persian Gulf, bordering Oman to the east and Saudi Arabia to the south and west.</p>",
+          "link": "https://en.wikipedia.org/wiki/United_Arab_Emirates",
+          "thumbnail": "asia-images/emirates.jpg",
+          "image": "asia-images/emirates.jpg",
+          "pin": "hidden",
+          "x": "0.2453",
+          "y": "0.6337",
+          "zoom": "2"
+        },
+
+        {
+          "id": "qatar",
+          "title": "Qatar",
+          "description": "<p>Qatar is a country located in Western Asia, occupying the small Qatar Peninsula on the northeastern coast of the Arabian Peninsula.</p>",
+          "link": "https://en.wikipedia.org/wiki/Qatar",
+          "thumbnail": "asia-images/qatar.jpg",
+          "image": "asia-images/qatar.jpg",
+          "pin": "hidden",
+          "x": "0.2173",
+          "y": "0.6099",
+          "zoom": "2"
+        },
+
+        {
+          "id": "bahrain",
+          "title": "Bahrain",
+          "description": "<p>Bahrain is a sovereign state in the Persian Gulf. The island nation comprises a small archipelago centered around Bahrain Island.</p>",
+          "link": "https://en.wikipedia.org/wiki/Bahrain",
+          "thumbnail": "asia-images/bahrain.jpg",
+          "image": "asia-images/bahrain.jpg",
+          "pin": "hidden",
+          "x": "0.2113",
+          "y": "0.5998",
+          "zoom": "2"
+        },
+
+        {
+          "id": "yemen",
+          "title": "Yemen",
+          "description": "<p>Yemen is a country at the southern end of the Arabian Peninsula in Western Asia. It is the second-largest Arab sovereign state in the peninsula.</p>",
+          "link": "https://en.wikipedia.org/wiki/Yemen",
+          "thumbnail": "asia-images/yemen.jpg",
+          "image": "asia-images/yemen.jpg",
+          "pin": "hidden",
+          "x": "0.1903",
+          "y": "0.7432",
+          "zoom": "2"
+        },
+
+        {
+          "id": "irsael",
+          "title": "Israel",
+          "description": "<p>Israel is a country in Western Asia, located on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea.</p>",
+          "link": "https://en.wikipedia.org/wiki/Israel",
+          "thumbnail": "asia-images/israel.jpg",
+          "image": "asia-images/israel.jpg",
+          "pin": "hidden",
+          "x": "0.0820",
+          "y": "0.5227",
+          "zoom": "2"
+        },
+
+        {
+          "id": "turkey",
+          "title": "Turkey",
+          "description": "<p>Turkey is a transcontinental country located mainly on the Anatolian peninsula in Western Asia.</p>",
+          "link": "https://en.wikipedia.org/wiki/Turkey",
+          "thumbnail": "asia-images/turkey.jpg",
+          "image": "asia-images/turkey.jpg",
+          "pin": "hidden",
+          "x": "0.0830",
+          "y": "0.3877",
+          "zoom": "2"
+        },
+
+        {
+          "id": "cypress",
+          "title": "Cyprus",
+          "description": "<p>Cyprus is an island country in the Eastern Mediterranean and the third-largest and third-most populous island in the Mediterranean.</p>",
+          "link": "https://en.wikipedia.org/wiki/Cyprus",
+          "thumbnail": "asia-images/cyprus.jpg",
+          "image": "asia-images/cyprus.jpg",
+          "pin": "hidden",
+          "x": "0.0692",
+          "y": "0.4638",
+          "zoom": "2"
+        },
+
+        {
+          "id": "thailand_1_",
+          "title": "Thailand",
+          "description": "<p>Thailand is a country at the centre of the Southeast Asian Indochinese Peninsula composed of 76 provinces. At 513,120 km2 (198,120 sq mi) and over 68 million people.</p>",
+          "link": "https://en.wikipedia.org/wiki/Thailand",
+          "thumbnail": "asia-images/thailand.jpg",
+          "image": "asia-images/thailand.jpg",
+          "pin": "hidden",
+          "x": "0.6275",
+          "y": "0.7436",
+          "zoom": "2"
+        },
+
+        {
+          "id": "cambodia_1_",
+          "title": "Cambodia",
+          "description": "<p>Cambodia is a country located in the southern portion of the Indochina peninsula in Southeast Asia. It is 181,035 square kilometres (69,898 square miles) in area, bordered by Thailand to the northwest.</p>",
+          "link": "https://en.wikipedia.org/wiki/Cambodia",
+          "thumbnail": "asia-images/cambodia.jpg",
+          "image": "asia-images/cambodia.jpg",
+          "pin": "hidden",
+          "x": "0.6591",
+          "y": "0.7858",
+          "zoom": "2"
+        }
+
+      ]
+    }
+  ]
+}

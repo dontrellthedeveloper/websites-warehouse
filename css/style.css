@@ -42,7 +42,7 @@ p {
 }
 
 section {
-    background: #fff;
+    /*background: #fff;*/
     overflow: hidden;
 }
 
@@ -140,6 +140,14 @@ section {
 /* ============================================
 |  |  |  |  Home
 ============================================ */
+
+
+.home-heading-style-main {
+    /*background-image: url(img/homepage/bg_3.jpg);*/
+    background-color: #fff;
+    text-shadow: 0 0 3px #4C6085;
+}
+
 
 #home {
     background: none;
@@ -308,6 +316,8 @@ section {
     text-align: center;
     line-height: 1.5em;
     font-size: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .mfp-title {
@@ -359,77 +369,102 @@ section {
     /*transform: scale(1.1);*/
 /*}*/
 
-/* Overlay Effect */
-.portfolio-item-overlay {
-    position: absolute;
-    top: 55%;
-    bottom: 98px;
-    left: 0;
-    right: 0;
-    background: rgba(255, 255, 255, 0.9);
-    cursor: zoom-in;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    border: 1px solid #000000;
+.portfolio-item {
+    margin-bottom: 40px;
 }
 
-/* Item Details Effect*/
-.portfolio-item-details {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
+/*!* Overlay Effect *!*/
+/*.portfolio-item-overlay {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*bottom: 120px;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*background: rgba(255, 255, 255, 0.9);*/
+    /*cursor: zoom-in;*/
+    /*opacity: 0;*/
+    /*-webkit-transition: all 0.5s ease;*/
+    /*transition: all 0.5s ease;*/
+    /*border: 1px solid #000000;*/
+/*}*/
 
-.portfolio-item-details h3 {
-    color: #e60000;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: translateY(-20%);
-    transform: translateY(-20%);
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-}
+/*@media(max-width: 767px) {*/
+    /*.portfolio-item-overlay {*/
+        /*bottom: 145px;*/
+        /*top: 20%;*/
+    /*}*/
 
-.portfolio-item-details span {
-    display: inline-block;
-    border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000;
-    height: 6px;
-    width: 30px;
-    margin: 10px auto 5px auto;
-}
+    /*.portfolio-item-details p {*/
+        /*font-size: 6px !important;*/
+    /*}*/
+/*}*/
 
-.portfolio-item-details p {
-    font-size: 12px;
-    color: #000000;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    -webkit-transform: translateY(20%);
-    transform: translateY(20%);
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-    font-weight: 500;
-}
 
-/* Show Overlay on mouse over */
-.portfolio-item-d-overlay:hover .portfolio-item-details h3 {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-}
-.portfolio-item-d-overlay:hover .portfolio-item-details p {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-}
 
-.portfolio-item-d-overlay:hover .portfolio-item-overlay {
-    opacity: 1;
+
+
+/*!* Item Details Effect*!*/
+/*.portfolio-item-details {*/
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 0;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+/*}*/
+
+/*.portfolio-item-details h3 {*/
+    /*color: #e60000;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 30px;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*-webkit-transform: translateY(-20%);*/
+    /*transform: translateY(-20%);*/
+    /*-webkit-transition: all 0.5s;*/
+    /*transition: all 0.5s;*/
+/*}*/
+
+/*.portfolio-item-details span {*/
+    /*display: inline-block;*/
+    /*border-top: 1px solid #000000;*/
+    /*border-bottom: 1px solid #000000;*/
+    /*height: 6px;*/
+    /*width: 30px;*/
+    /*margin: 10px auto 5px auto;*/
+/*}*/
+
+/*.portfolio-item-details p {*/
+    /*font-size: 12px;*/
+    /*color: #000000;*/
+    /*text-transform: uppercase;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*-webkit-transform: translateY(20%);*/
+    /*transform: translateY(20%);*/
+    /*-webkit-transition: all 0.5s;*/
+    /*transition: all 0.5s;*/
+    /*font-weight: 500;*/
+/*}*/
+
+/*!* Show Overlay on mouse over *!*/
+/*.portfolio-item-d-overlay:hover .portfolio-item-details h3 {*/
+    /*-webkit-transform: translateY(0);*/
+    /*transform: translateY(0);*/
+/*}*/
+/*.portfolio-item-d-overlay:hover .portfolio-item-details p {*/
+    /*-webkit-transform: translateY(0);*/
+    /*transform: translateY(0);*/
+/*}*/
+
+/*.portfolio-item-d-overlay:hover .portfolio-item-overlay {*/
+    /*opacity: 1;*/
+/*}*/
+
+
+
+.portfolio-hr-style {
+    border: 1px solid #46494C;
 }
 
 
@@ -563,6 +598,33 @@ section {
 .map-color-2 {
     background-color: #DCDCDD;
     padding: 40px 0 40px 0;
+}
+
+.map-color-6 {
+    background-color: #DCDCDD;
+    padding: 0 0 20px 0;
+}
+
+.map-color-7 {
+    background-color: #F4F4F4;
+    border: 2px solid #46494C;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+
+.map-color-8 {
+    background-color: #F4F4F4;
+    border: 2px solid #46494C;
+    border-radius: 5px;
+    /*margin-top: 40px;*/
+    /*margin-bottom: 100px;*/
+}
+
+
+.map-paragraph {
+    padding: 20px;
 }
 
 .map-color-3 {
@@ -1686,10 +1748,23 @@ ul.navbar-nav > li > a:focus {
     background-position: center center; }
 @media (max-width: 1199.98px) {
     .slider-text h1 {
-        font-size: 200px; } }
+        font-size: 75px;
+    }
+
+    .slider-text h1 span {
+        font-size: 100px;
+    }
+
+}
 @media (max-width: 991.98px) {
     .slider-text h1 {
-        font-size: 150px; } }
+        font-size: 60px;
+    }
+
+    .slider-text h1 span {
+        font-size: 80px;
+    }
+}
 @media (max-width: 767.98px) {
     .slider-text h1 {
         margin-top: 0 !important;
@@ -1746,6 +1821,9 @@ nav li:hover ul {
     top: 61px;
     visibility: visible;
     background: #ffffff;
+    /*border-bottom: 2px solid #666;*/
+    /*border-left: 2px solid #666;*/
+    /*border-right: 2px solid #666;*/
     left: -60px;
 }
 nav li ul li {
@@ -1773,3 +1851,37 @@ nav li ul li a {
     letter-spacing: 1px;
 
 }
+
+.logo-style-1 {
+    vertical-align: middle;
+}
+
+
+/* ================================================
+|   |   |   |   Show Page CSS
+================================================ */
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-show {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+@media(max-width: 767px) {
+    .column-show {
+        width: 100%;
+    }
+
+    .show-page-iphone {
+        display: none;
+    }
+}
+
+/* Clear floats after image containers */
+.row-show::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+

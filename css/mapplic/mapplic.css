@@ -4,6 +4,144 @@
  * https://www.mapplic.com/
  */
 
+
+/* Mapplic Styles Extra*/
+
+.i-map-paragraph {
+	text-align: center;
+}
+
+/* Examples */
+#examples {
+	font-size: 0;
+	display: block;
+	list-style: none;
+	margin: 40px 80px 20px 80px;
+	padding: 0;
+	text-align: center;
+}
+
+#examples-2 {
+    font-size: 0;
+    display: block;
+    list-style: none;
+    margin: 20px 40px 0 40px;
+    padding: 0;
+    text-align: center;
+}
+
+.background-map {
+	background: #F4F4F4;
+	border-radius: 5px;
+}
+
+.background-map-2 {
+    background: #172E3A;
+    border-radius: 5px;
+}
+
+#examples li {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+#examples-2 li {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#examples a {
+	border: 1.5px solid #666;
+	color: #666;
+	font-size: 14px;
+	display: block;
+	padding: 12px;
+	margin: 0 8px;
+	transition: border-color 0.2s, color 0.2s;
+}
+
+#examples-2 a {
+    border: 1.5px solid #172E3A;
+    color: #F4F4F4;
+    font-size: 14px;
+    display: block;
+    padding: 12px;
+    margin: 0 8px;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+@media(max-width: 767px) {
+	#examples a {
+		font-size:10px;
+		padding: 6px;
+		margin: 0 2px;
+	}
+
+    #examples-2 a {
+        font-size:10px;
+        padding: 6px;
+        margin: 0 2px;
+    }
+
+	.container-paragraph {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.i-map-paragraph {
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.i-map-paragraph-2 {
+		font-size: 11px;
+		text-align: center;
+	}
+
+	.i-map-paragraph-3 {
+		padding-left: 0 !important;
+	}
+}
+
+
+
+#examples a:hover {
+	background: none;
+	text-decoration: none;
+}
+
+#examples-2 a:hover {
+    background: none;
+    text-decoration: none;
+    color: #666;
+}
+
+#examples .active a {
+	border: 2px solid #ddd;
+	color: #666;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#examples-2 .active a {
+    border: 2px solid #ddd;
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media(max-width: 767px) {
+	#examples .active a {
+		font-size: 10px;
+	}
+
+    #examples-2 .active a {
+        font-size: 10px;
+    }
+}
+
+/* End Mapplic Style Extra */
+
 .mapplic-element {
 	position: relative;
 	overflow: hidden;
@@ -1364,3 +1502,6 @@ g.mapplic-active > * {
 	margin-left: -10px; /* negative margins are used for */
 	margin-top: -15px; /* defining the pin's origin */
 }
+
+
+

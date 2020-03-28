@@ -3,20 +3,20 @@
 ============================================ */
 $(window).on('load', function () {
     $('#status').fadeOut();
-    $('#preloader').delay(350).fadeOut('slow');
+    $('#preloader').delay(150).fadeOut('slow');
 });
 
 /* ============================================
 |  |  |  |  Tilted Scroll
 ============================================ */
 
-$(".websites-portfolio").tiltedpage_scroll({
-    sectionContainer: "> section",
-    angle: 50,
-    opacity: true,
-    scale: true,
-    outAnimation: true
-});
+// $(".websites-portfolio").tiltedpage_scroll({
+//     sectionContainer: "> section",
+//     angle: 50,
+//     opacity: true,
+//     scale: true,
+//     outAnimation: true
+// });
 
 /* ============================================
 |  |  |  |  Magnific popup
@@ -282,7 +282,7 @@ $(function () {
             $("nav").addClass("white-nav-top");
 
             // Show dark logo
-            $(".navbar-brand img").attr("src", "img/logo/website-warehouse-transparent-light-rsz-2.png");
+            $(".navbar-brand img").attr("src", "img/logo/websites-warehouse-cropped-logo-dark.png");
 
             // Show back to top
             $("#back-to-top").fadeIn();
@@ -293,7 +293,7 @@ $(function () {
             $("nav").removeClass("white-nav-top");
 
             // Show logo
-            $(".navbar-brand img").attr("src", "img/logo/website-warehouse-transparent-dark-rsz.png");
+            $(".navbar-brand img").attr("src", "img/logo/websites-warehouse-cropped-logo-light.png");
 
             // Show back to top
             $("#back-to-top").fadeOut();
@@ -350,3 +350,8 @@ $(window).scroll(function(){
         $('.website-tools-sticky').removeClass('fixed');
     }
 });
+
+
+/* ================================================
+|   |   |   |   Remove Classes JS
+================================================ */
