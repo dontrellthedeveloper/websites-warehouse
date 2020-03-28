@@ -1885,3 +1885,12 @@ nav li ul li a {
     display: table;
 }
 
+/* ================================================
+|   |   |   |   Show Page Offset
+================================================ */
+a.anchor-p {
+    /*display: block;*/
+    /*position: relative;*/
+    top: -80px;
+    /*visibility: hidden;*/
+}
