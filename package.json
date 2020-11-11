@@ -1,0 +1,23 @@
+{
+  "name": "websites-warehouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dontrellthedeveloper/websites-warehouse.git"
+  },
+  "author": "Dontrell Washington",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dontrellthedeveloper/websites-warehouse/issues"
+  },
+  "homepage": "https://github.com/dontrellthedeveloper/websites-warehouse#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
