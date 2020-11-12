@@ -105,6 +105,59 @@ const deleteWebsite = (req, res) => {
 // app.patch('/api/v1/websites/:id', updateWebsite);
 // app.delete('/api/v1/websites/:id', deleteWebsite);
 
+
+
+
+
+
+
+const getAllUsers = (req, res) => {
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not yet defined!'
+    })
+};
+
+const createUser = (req, res) => {
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not yet defined!'
+    })
+};
+
+const getUser = (req, res) => {
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not yet defined!'
+    })
+};
+
+const updateUser = (req, res) => {
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not yet defined!'
+    })
+};
+
+const deleteUser = (req, res) => {
+    res.status(500).json({
+        status: 'error',
+        message: 'This route is not yet defined!'
+    })
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 3. Routes
 app
     .route('/api/v1/websites')
@@ -116,6 +169,19 @@ app
     .get(getWebsite)
     .patch(updateWebsite)
     .delete(deleteWebsite);
+
+
+app
+    .route('/api/v1/users')
+    .get(getAllUsers)
+    .post(createUser);
+
+app
+    .route('/api/v1/users/:id')
+    .get(getUser)
+    .patch(updateUser)
+    .delete(deleteUser);
+
 
 
 // 4. Start Server
