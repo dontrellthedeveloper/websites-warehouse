@@ -3,6 +3,8 @@ const express = require('express');
 
 const app = express();
 
+app.use(express.json());
+
 // app.get('/', (req, res) => {
 //     res.status(200).json({message: 'Hello from the server side!', app: 'Websites Warehouse'});
 // });
@@ -24,6 +26,27 @@ app.get('/api/v1/websites', (req, res) => {
         }
     })
 });
+
+
+app.post('/api/v1/websites', (req, res) => {
+
+    const newId = websites[websites.length - 1].id + 1;
+    const newWebsite = Object.assign({id: newId}, req.body);
+
+    websites.push(newWebsite);
+
+    fs.writeFile(`${__dirname}/dev-data/data/websites-simple.json`, JSON.stringify(websites), err => {
+        res.status(201).json({
+            status: 'success',
+            data: {
+                website: newWebsite
+            }
+        })
+    });
+});
+
+
+
 
 const port = 3000;
 app.listen(port, () => {
