@@ -159,29 +159,36 @@ const deleteUser = (req, res) => {
 
 
 // 3. Routes
-app
-    .route('/api/v1/websites')
+
+const websiteRouter = express.Router();
+const userRouter = express.Router();
+
+websiteRouter
+    .route('/')
     .get(getAllWebsites)
     .post(createWebsite);
 
-app
-    .route('/api/v1/websites/:id')
+websiteRouter
+    .route('/:id')
     .get(getWebsite)
     .patch(updateWebsite)
     .delete(deleteWebsite);
 
 
-app
-    .route('/api/v1/users')
+userRouter
+    .route('/')
     .get(getAllUsers)
     .post(createUser);
 
-app
-    .route('/api/v1/users/:id')
+userRouter
+    .route('/:id')
     .get(getUser)
     .patch(updateUser)
     .delete(deleteUser);
 
+
+app.use('/api/v1/websites', websiteRouter);
+app.use('/api/v1/users', userRouter);
 
 
 // 4. Start Server
