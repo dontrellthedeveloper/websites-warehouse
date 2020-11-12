@@ -1,15 +1,21 @@
 const fs = require('fs');
 const express = require('express');
+const morgan = require('morgan');
 
 const app = express();
 
+
+// 1. Middleware
+app.use(morgan('dev'));
 app.use(express.json());
+
 
 
 const websites = JSON.parse(
     fs.readFileSync(`${__dirname}/dev-data/data/websites-simple.json`)
 );
 
+// 2. Route Handlers
 const getAllWebsites = (req, res) => {
     res.status(200).json({
         status: 'success',
@@ -99,6 +105,7 @@ const deleteWebsite = (req, res) => {
 // app.patch('/api/v1/websites/:id', updateWebsite);
 // app.delete('/api/v1/websites/:id', deleteWebsite);
 
+// 3. Routes
 app
     .route('/api/v1/websites')
     .get(getAllWebsites)
@@ -111,6 +118,7 @@ app
     .delete(deleteWebsite);
 
 
+// 4. Start Server
 const port = 3000;
 app.listen(port, () => {
     console.log(`App running on port ${port}...`)
