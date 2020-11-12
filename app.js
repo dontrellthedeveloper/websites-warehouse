@@ -44,8 +44,6 @@ app.get('/api/v1/websites/:id', (req, res) => {
         });
     }
 
-
-
     res.status(200).json({
         status: "success",
         data: {
@@ -73,6 +71,27 @@ app.post('/api/v1/websites', (req, res) => {
         })
     });
 });
+
+
+
+
+
+app.patch('/api/v1/websites/:id', (req, res) => {
+    if(req.params.id * 1 > websites.length) {
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Invalid ID'
+        });
+    }
+
+    res.status(200).json({
+        status: 'success',
+        data: {
+            website: '<Updated Website here...>'
+        }
+    });
+});
+
 
 
 
