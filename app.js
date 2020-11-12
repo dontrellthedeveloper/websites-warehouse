@@ -1,13 +1,28 @@
+const fs = require('fs');
 const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.status(200).json({message: 'Hello from the server side!', app: 'Websites Warehouse'});
-});
+// app.get('/', (req, res) => {
+//     res.status(200).json({message: 'Hello from the server side!', app: 'Websites Warehouse'});
+// });
+//
+// app.post('/', (req, res) => {
+//     res.send('You can post to this endpoint...')
+// });
 
-app.post('/', (req, res) => {
-    res.send('You can post to this endpoint...')
+const websites = JSON.parse(
+    fs.readFileSync(`${__dirname}/dev-data/data/websites-simple.json`)
+);
+
+app.get('/api/v1/websites', (req, res) => {
+    res.status(200).json({
+        status: 'success',
+        results: websites.length,
+        data: {
+            websites
+        }
+    })
 });
 
 const port = 3000;
