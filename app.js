@@ -28,6 +28,35 @@ app.get('/api/v1/websites', (req, res) => {
 });
 
 
+
+
+app.get('/api/v1/websites/:id', (req, res) => {
+    console.log(req.params);
+
+    const id = req.params.id * 1;
+    const website = websites.find(el => el.id === id);
+
+    // if(id > websites.length) {
+        if(!website) {
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Invalid ID'
+        });
+    }
+
+
+
+    res.status(200).json({
+        status: "success",
+        data: {
+            website
+        }
+    })
+});
+
+
+
+
 app.post('/api/v1/websites', (req, res) => {
 
     const newId = websites[websites.length - 1].id + 1;
