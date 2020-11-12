@@ -4,6 +4,18 @@ const websites = JSON.parse(
     fs.readFileSync(`${__dirname}/../dev-data/data/websites-simple.json`)
 );
 
+
+exports.checkID = (req, res, next, val) => {
+    console.log(`Website id is: ${val}`);
+    if(req.params.id * 1 > websites.length) {
+        return res.status(404).json({
+            status: 'fail',
+            message: 'Invalid ID'
+        });
+    }
+    next();
+};
+
 exports.getAllWebsites = (req, res) => {
     res.status(200).json({
         status: 'success',
@@ -18,14 +30,6 @@ exports.getWebsite = (req, res) => {
     console.log(req.params);
 
     const id = req.params.id * 1;
-
-    if(id > websites.length) {
-        return res.status(404).json({
-            status: 'fail',
-            message: 'Invalid ID'
-        });
-    }
-
     const website = websites.find(el => el.id === id);
 
     res.status(200).json({
@@ -57,13 +61,6 @@ exports.createWebsite = (req, res) => {
 };
 
 exports.updateWebsite = (req, res) => {
-    if(req.params.id * 1 > websites.length) {
-        return res.status(404).json({
-            status: 'fail',
-            message: 'Invalid ID'
-        });
-    }
-
     res.status(200).json({
         status: 'success',
         data: {
@@ -73,13 +70,6 @@ exports.updateWebsite = (req, res) => {
 };
 
 exports.deleteWebsite = (req, res) => {
-    if(req.params.id * 1 > websites.length) {
-        return res.status(404).json({
-            status: 'fail',
-            message: 'Invalid ID'
-        });
-    }
-
     res.status(204).json({
         status: 'success',
         data: null

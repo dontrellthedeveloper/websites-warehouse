@@ -3,6 +3,8 @@ const websiteController = require('./../controllers/websiteController');
 
 const router = express.Router();
 
+router.param('id', websiteController.checkID);
+
 router
     .route('/')
     .get(websiteController.getAllWebsites)
