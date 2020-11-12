@@ -16,6 +16,18 @@ exports.checkID = (req, res, next, val) => {
     next();
 };
 
+
+exports.checkBody = (req,res,next) => {
+    if (!req.body.name || !req.body.price) {
+        return res.status(400).json({
+            status: 'fail',
+            message: 'Missing name or price'
+        })
+    }
+    next();
+};
+
+
 exports.getAllWebsites = (req, res) => {
     res.status(200).json({
         status: 'success',
@@ -26,9 +38,11 @@ exports.getAllWebsites = (req, res) => {
     })
 };
 
+
+
+
 exports.getWebsite = (req, res) => {
     console.log(req.params);
-
     const id = req.params.id * 1;
     const website = websites.find(el => el.id === id);
 
@@ -44,10 +58,8 @@ exports.getWebsite = (req, res) => {
 
 
 exports.createWebsite = (req, res) => {
-
     const newId = websites[websites.length - 1].id + 1;
     const newWebsite = Object.assign({id: newId}, req.body);
-
     websites.push(newWebsite);
 
     fs.writeFile(`${__dirname}/../dev-data/data/websites-simple.json`, JSON.stringify(websites), err => {
@@ -60,6 +72,9 @@ exports.createWebsite = (req, res) => {
     });
 };
 
+
+
+
 exports.updateWebsite = (req, res) => {
     res.status(200).json({
         status: 'success',
@@ -68,6 +83,9 @@ exports.updateWebsite = (req, res) => {
         }
     });
 };
+
+
+
 
 exports.deleteWebsite = (req, res) => {
     res.status(204).json({

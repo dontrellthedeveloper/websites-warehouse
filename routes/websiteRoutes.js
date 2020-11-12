@@ -8,7 +8,7 @@ router.param('id', websiteController.checkID);
 router
     .route('/')
     .get(websiteController.getAllWebsites)
-    .post(websiteController.createWebsite);
+    .post(websiteController.checkBody, websiteController.createWebsite);
 
 router
     .route('/:id')
