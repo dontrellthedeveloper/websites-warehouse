@@ -2,30 +2,42 @@ const Website = require('../models/websitesModel');
 
 
 
-exports.getAllWebsites = (req, res) => {
-    res.status(200).json({
-        status: 'success',
-        // results: websites.length,
-        // data: {
-        //     websites
-        // }
-    })
+exports.getAllWebsites = async (req, res) => {
+    try {
+        const websites = await Website.find();
+        res.status(200).json({
+            status: 'success',
+            results: websites.length,
+            data: {
+                websites
+            }
+        })
+    } catch (err) {
+        res.status(400).json({
+            status: 'fail',
+            message: err
+        });
+    }
 };
 
 
 
 
-exports.getWebsite = (req, res) => {
-    console.log(req.params);
-    const id = req.params.id * 1;
-    // const website = websites.find(el => el.id === id);
-    //
-    // res.status(200).json({
-    //     status: "success",
-    //     data: {
-    //         website
-    //     }
-    // })
+exports.getWebsite = async (req, res) => {
+    try {
+        const website = await Website.findById(req.params.id);
+        res.status(200).json({
+            status: "success",
+            data: {
+                website
+            }
+        })
+    } catch (e) {
+        res.status(404).json({
+            status: 'fail',
+            message: e
+        });
+    }
 };
 
 
