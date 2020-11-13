@@ -88,11 +88,19 @@ exports.updateWebsite = async (req, res) => {
 
 
 
-exports.deleteWebsite = (req, res) => {
-    res.status(204).json({
-        status: 'success',
-        data: null
-    });
+exports.deleteWebsite = async (req, res) => {
+    try {
+        await Website.findByIdAndDelete(req.params.id);
+        res.status(204).json({
+            status: 'success',
+            data: null
+        });
+    } catch (err) {
+        res.status(404).json({
+            status: 'fail',
+            message: err
+        })
+    }
 };
 
 
