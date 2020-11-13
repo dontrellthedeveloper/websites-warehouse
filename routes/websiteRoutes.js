@@ -7,7 +7,7 @@ const router = express.Router();
 router
     .route('/')
     .get(websiteController.getAllWebsites)
-    .post(websiteController.checkBody, websiteController.createWebsite);
+    .post(websiteController.createWebsite);
 
 router
     .route('/:id')
