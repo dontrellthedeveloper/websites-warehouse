@@ -65,13 +65,24 @@ exports.createWebsite = async (req, res) => {
 
 
 
-exports.updateWebsite = (req, res) => {
-    res.status(200).json({
-        status: 'success',
-        data: {
-            website: '<Updated Tour here...>'
-        }
-    });
+exports.updateWebsite = async (req, res) => {
+    try {
+        const website = await Website.findByIdAndUpdate(req.params.id, req.body, {
+            new: true,
+            runValidators: true
+        });
+        res.status(200).json({
+            status: 'success',
+            data: {
+                website
+            }
+        });
+    } catch (err) {
+        res.status(404).json({
+            status: 'fail',
+            message: err
+        })
+    }
 };
 
 
