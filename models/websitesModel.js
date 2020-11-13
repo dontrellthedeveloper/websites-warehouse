@@ -21,7 +21,7 @@ const websitesSchema = new mongoose.Schema({
         type: String,
         required: [true, 'A website must have a URL link'],
     },
-    websiteFeatures: {
+    features: {
         type: String,
         required: [true, 'A website must have a features section PDF'],
     },
