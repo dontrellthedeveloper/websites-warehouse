@@ -1,10 +1,13 @@
 const mongoose = require('mongoose');
+const slugify = require('slugify');
+
 const websitesSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'A website must have a name'],
         unique: true
     },
+    slug: String,
     companyType: {
       type: String,
       required: [true, 'A website must have a company type'],
@@ -50,6 +53,15 @@ const websitesSchema = new mongoose.Schema({
         select: false
     }
 });
+
+
+
+// DOCUMENT MIDDLEWARE runs before .save() and .create()
+websitesSchema.pre('save', function(next) {
+    this.slug = slugify(this.name, {lower: true});
+    next()
+});
+
 
 const Website = mongoose.model('Website', websitesSchema);
 
