@@ -1,5 +1,7 @@
 const Website = require('../models/websitesModel');
 const APIFeatures = require('./../utils/apiFeatures');
+const AppError = require('./../utils/appError');
+const catchAsync = require('./../utils/catchAsync');
 
 exports.aliasTopWebsites = (req, res, next) => {
     req.query.limit = '5';
@@ -8,8 +10,7 @@ exports.aliasTopWebsites = (req, res, next) => {
     next();
 };
 
-exports.getAllWebsites = async (req, res) => {
-    try {
+exports.getAllWebsites = catchAsync(async (req, res, next) => {
         // EXECUTE QUERY
         const features = new APIFeatures(Website.find(), req.query)
             .filter()
@@ -26,39 +27,30 @@ exports.getAllWebsites = async (req, res) => {
                 websites
             }
         })
-    } catch (err) {
-        res.status(400).json({
-            status: 'fail',
-            message: err
-        });
-    }
-};
+});
 
 
 
 
-exports.getWebsite = async (req, res) => {
-    try {
+exports.getWebsite = catchAsync(async (req, res, next) => {
+
         const website = await Website.findById(req.params.id);
+        if (!website) {
+            return next(new AppError('No website found with that ID', 404))
+        }
         res.status(200).json({
             status: "success",
             data: {
                 website
             }
         })
-    } catch (e) {
-        res.status(404).json({
-            status: 'fail',
-            message: e
-        });
-    }
-};
+
+});
 
 
 
 
-exports.createWebsite = async (req, res) => {
-    try {
+exports.createWebsite = catchAsync(async (req, res, next) => {
         const newWebsite = await Website.create(req.body);
 
         res.status(201).json({
@@ -67,44 +59,37 @@ exports.createWebsite = async (req, res) => {
                 website: newWebsite
             }
         });
-    } catch (err) {
-        res.status(400).json({
-            status: 'fail',
-            message: err
-        })
-    }
-};
+});
 
 
 
 
 
-exports.updateWebsite = async (req, res) => {
-    try {
+exports.updateWebsite = catchAsync(async (req, res, next) => {
         const website = await Website.findByIdAndUpdate(req.params.id, req.body, {
             new: true,
             runValidators: true
         });
+        if (!website) {
+            return next(new AppError('No website found with that ID', 404))
+        }
         res.status(200).json({
             status: 'success',
             data: {
                 website
             }
         });
-    } catch (err) {
-        res.status(404).json({
-            status: 'fail',
-            message: err
-        })
-    }
-};
+});
 
 
 
 
-exports.deleteWebsite = async (req, res) => {
+exports.deleteWebsite = catchAsync(async (req, res, next) => {
     try {
-        await Website.findByIdAndDelete(req.params.id);
+        const website = await Website.findByIdAndDelete(req.params.id);
+        if (!website) {
+            return next(new AppError('No website found with that ID', 404))
+        }
         res.status(204).json({
             status: 'success',
             data: null
@@ -115,13 +100,8 @@ exports.deleteWebsite = async (req, res) => {
             message: err
         })
     }
-};
+});
 
 
-// app.get('/api/v1/websites', getAllWebsites);
-// app.get('/api/v1/websites/:id', getWebsite);
-// app.post('/api/v1/websites', createWebsite);
-// app.patch('/api/v1/websites/:id', updateWebsite);
-// app.delete('/api/v1/websites/:id', deleteWebsite);
 
 
