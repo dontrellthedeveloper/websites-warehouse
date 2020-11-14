@@ -5,6 +5,10 @@ const router = express.Router();
 
 
 router
+    .route('/top-5-cheap')
+    .get(websiteController.aliasTopWebsites, websiteController.getAllWebsites);
+
+router
     .route('/')
     .get(websiteController.getAllWebsites)
     .post(websiteController.createWebsite);

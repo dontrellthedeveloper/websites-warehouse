@@ -1,6 +1,12 @@
 const Website = require('../models/websitesModel');
 
 
+exports.aliasTopWebsites = (req, res, next) => {
+    req.query.limit = '5';
+    req.query.sort = 'price';
+    req.query.fields = 'name,price,summary';
+    next();
+};
 
 exports.getAllWebsites = async (req, res) => {
     try {
