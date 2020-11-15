@@ -1,5 +1,7 @@
 const express = require('express');
 const websiteController = require('./../controllers/websiteController');
+const authController = require('./../controllers/authController');
+
 
 const router = express.Router();
 
@@ -10,7 +12,7 @@ router
 
 router
     .route('/')
-    .get(websiteController.getAllWebsites)
+    .get(authController.protect, websiteController.getAllWebsites)
     .post(websiteController.createWebsite);
 
 router
