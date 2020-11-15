@@ -85,7 +85,6 @@ exports.updateWebsite = catchAsync(async (req, res, next) => {
 
 
 exports.deleteWebsite = catchAsync(async (req, res, next) => {
-    try {
         const website = await Website.findByIdAndDelete(req.params.id);
         if (!website) {
             return next(new AppError('No website found with that ID', 404))
@@ -94,12 +93,6 @@ exports.deleteWebsite = catchAsync(async (req, res, next) => {
             status: 'success',
             data: null
         });
-    } catch (err) {
-        res.status(404).json({
-            status: 'fail',
-            message: err
-        })
-    }
 });
 
 
