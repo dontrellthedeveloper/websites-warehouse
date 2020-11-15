@@ -19,6 +19,9 @@ router
     .route('/:id')
     .get(websiteController.getWebsite)
     .patch(websiteController.updateWebsite)
-    .delete(websiteController.deleteWebsite);
+    .delete(
+        authController.protect,
+        authController.restrictTo('admin'),
+        websiteController.deleteWebsite);
 
 module.exports = router;
