@@ -42,7 +42,6 @@ app.use(xss());
 // Prevent parameter pollution
 app.use(hpp({
     whitelist: [
-        'duration',
         'price'
     ]
 }));
@@ -61,7 +60,7 @@ app.use((req,res,next) => {
 
 
 // 3. Routes
-app.use('/api/v1/tours', websiteRouter);
+app.use('/api/v1/websites', websiteRouter);
 app.use('/api/v1/users', userRouter);
 
 app.all('*', (req,res,next) => {

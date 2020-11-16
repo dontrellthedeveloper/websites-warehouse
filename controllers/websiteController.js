@@ -2,6 +2,7 @@ const Website = require('../models/websitesModel');
 const APIFeatures = require('./../utils/apiFeatures');
 const AppError = require('./../utils/appError');
 const catchAsync = require('./../utils/catchAsync');
+const factory = require('./handlerFactory');
 
 exports.aliasTopWebsites = (req, res, next) => {
     req.query.limit = '5';
@@ -84,16 +85,7 @@ exports.updateWebsite = catchAsync(async (req, res, next) => {
 
 
 
-exports.deleteWebsite = catchAsync(async (req, res, next) => {
-        const website = await Website.findByIdAndDelete(req.params.id);
-        if (!website) {
-            return next(new AppError('No website found with that ID', 404))
-        }
-        res.status(204).json({
-            status: 'success',
-            data: null
-        });
-});
+exports.deleteWebsite = factory.deleteOne(Website);
 
 
 
