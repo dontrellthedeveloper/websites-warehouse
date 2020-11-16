@@ -51,40 +51,8 @@ exports.getWebsite = catchAsync(async (req, res, next) => {
 
 
 
-exports.createWebsite = catchAsync(async (req, res, next) => {
-        const newWebsite = await Website.create(req.body);
-
-        res.status(201).json({
-            status: 'success',
-            data: {
-                website: newWebsite
-            }
-        });
-});
-
-
-
-
-
-exports.updateWebsite = catchAsync(async (req, res, next) => {
-        const website = await Website.findByIdAndUpdate(req.params.id, req.body, {
-            new: true,
-            runValidators: true
-        });
-        if (!website) {
-            return next(new AppError('No website found with that ID', 404))
-        }
-        res.status(200).json({
-            status: 'success',
-            data: {
-                website
-            }
-        });
-});
-
-
-
-
+exports.createWebsite = factory.createOne(Website);
+exports.updateWebsite = factory.updateOne(Website);
 exports.deleteWebsite = factory.deleteOne(Website);
 
 
