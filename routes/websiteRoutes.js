@@ -12,13 +12,21 @@ router
 
 router
     .route('/')
-    .get(authController.protect, websiteController.getAllWebsites)
-    .post(websiteController.createWebsite);
+    .get(websiteController.getAllWebsites)
+    .post(
+        authController.protect,
+        authController.restrictTo('admin'),
+        websiteController.createWebsite
+    );
 
 router
     .route('/:id')
     .get(websiteController.getWebsite)
-    .patch(websiteController.updateWebsite)
+    .patch(
+        authController.protect,
+        authController.restrictTo('admin'),
+        websiteController.updateWebsite
+    )
     .delete(
         authController.protect,
         authController.restrictTo('admin'),
