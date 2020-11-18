@@ -2,6 +2,7 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const Websites = require('./../../models/websitesModel');
+const User = require('./../../models/userModel');
 
 
 dotenv.config({path: './config.env'});
@@ -14,13 +15,15 @@ mongoose.connect(DB, {
     useFindAndModify: false
 }).then(() => console.log('DB connection successful'));
 
-// const websites = JSON.parse(fs.readFileSync(`${__dirname}/websites-simple.json`,'utf-8'));
+
 const websites = JSON.parse(fs.readFileSync(`${__dirname}/websites.json`,'utf-8'));
+const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`,'utf-8'));
 
 //IMPORT DATA INTO DB
 const importData = async () => {
     try {
         await Websites.create(websites);
+        await User.create(users, {validateBeforeSave: false});
         console.log('Data successfully loaded');
         process.exit();
     } catch (e) {
@@ -32,6 +35,7 @@ const importData = async () => {
 const deleteData = async () => {
     try {
         await Websites.deleteMany();
+        await User.deleteMany();
         console.log('Data deleted successfully!');
     } catch (e) {
         console.log(e)
