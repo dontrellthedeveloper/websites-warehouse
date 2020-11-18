@@ -1,8 +1,7 @@
 const Website = require('../models/websitesModel');
-const APIFeatures = require('./../utils/apiFeatures');
-const AppError = require('./../utils/appError');
-const catchAsync = require('./../utils/catchAsync');
 const factory = require('./handlerFactory');
+
+
 
 exports.aliasTopWebsites = (req, res, next) => {
     req.query.limit = '5';
@@ -11,46 +10,9 @@ exports.aliasTopWebsites = (req, res, next) => {
     next();
 };
 
-exports.getAllWebsites = catchAsync(async (req, res, next) => {
-        // EXECUTE QUERY
-        const features = new APIFeatures(Website.find(), req.query)
-            .filter()
-            .sort()
-            .limitFields()
-            .paginate();
-        const websites = await features.query;
 
-        // SEND RESPONSE
-        res.status(200).json({
-            status: 'success',
-            results: websites.length,
-            data: {
-                websites
-            }
-        })
-});
-
-
-
-
-exports.getWebsite = catchAsync(async (req, res, next) => {
-
-        const website = await Website.findById(req.params.id);
-        if (!website) {
-            return next(new AppError('No website found with that ID', 404))
-        }
-        res.status(200).json({
-            status: "success",
-            data: {
-                website
-            }
-        })
-
-});
-
-
-
-
+exports.getAllWebsites = factory.getAll(Website);
+exports.getWebsite = factory.getOne(Website);
 exports.createWebsite = factory.createOne(Website);
 exports.updateWebsite = factory.updateOne(Website);
 exports.deleteWebsite = factory.deleteOne(Website);

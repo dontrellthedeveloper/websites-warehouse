@@ -14,7 +14,8 @@ mongoose.connect(DB, {
     useFindAndModify: false
 }).then(() => console.log('DB connection successful'));
 
-const websites = JSON.parse(fs.readFileSync(`${__dirname}/websites-simple.json`,'utf-8'));
+// const websites = JSON.parse(fs.readFileSync(`${__dirname}/websites-simple.json`,'utf-8'));
+const websites = JSON.parse(fs.readFileSync(`${__dirname}/websites.json`,'utf-8'));
 
 //IMPORT DATA INTO DB
 const importData = async () => {

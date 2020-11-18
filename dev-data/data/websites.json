@@ -6,16 +6,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"beauty",
     "websiteLink":"https://dontrellthedeveloper.github.io/website-template-modeling-la/",
-    "features":"beverly-hills-models.pdf",
+    "features":"Beverly-Hills-Models-Instructions.pdf",
     "price": 799,
     "summary":"One of the top modeling agencies in Los Angeles.",
     "description":"Beverly Hills Models is a leader in talent discovery and model management, widely recognized for its diverse client roster.",
-    "imageCover":"beverly-cover.jpg",
+    "imageCover":"beverly-hills-models-cover.jpg",
     "images":[
-      "beverly-1.jpg",
-      "beverly-2.jpg",
-      "beverly-3.jpg",
-      "beverly-4.jpg"
+      "beverly-hills-models-1.jpg",
+      "beverly-hills-models-2.jpg",
+      "beverly-hills-models-3.jpg",
+      "beverly-hills-models-4.jpg"
     ]
   },
   {
@@ -25,16 +25,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"beauty",
     "websiteLink":"https://dontrellthedeveloper.github.io/modeling-agency-atlanta/",
-    "features":"buckhead-models.pdf",
+    "features":"Buckhead-Modeling-Instructions.pdf",
     "price": 799,
     "summary":"One of the top modeling agencies in Georgia.",
     "description":"Buckhead modeling agency is a leader in talent discovery and model management, widely recognized for its diverse client roster.",
-    "imageCover":"buckhead-cover.jpg",
+    "imageCover":"buckhead-models-cover.jpg",
     "images":[
-      "buckhead-1.jpg",
-      "buckhead-2.jpg",
-      "buckhead-3.jpg",
-      "buckhead-4.jpg"
+      "buckhead-models-1.jpg",
+      "buckhead-models-2.jpg",
+      "buckhead-models-3.jpg",
+      "buckhead-models-4.jpg"
     ]
   },
   {
@@ -44,16 +44,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"fitness/health",
     "websiteLink":"https://dontrellthedeveloper.github.io/achieve-fitness-miami/",
-    "features":"achieve-fitness.pdf",
+    "features":"Achieve-Fitness-Instructions.pdf",
     "price": 799,
     "summary":"One of the top fitness gyms in the united states ",
     "description":"Achieve Fitness is a No Judgment Gym that believes in making serious exercise fun by fusing fitness and entertainment.",
-    "imageCover":"achieve-cover.jpg",
+    "imageCover":"achieve-fitness-cover.jpg",
     "images":[
-      "achieve-1.jpg",
-      "achieve-2.jpg",
-      "achieve-3.jpg",
-      "achieve-4.jpg"
+      "achieve-fitness-1.jpg",
+      "achieve-fitness-2.jpg",
+      "achieve-fitness-3.jpg",
+      "achieve-fitness-4.jpg"
     ]
   },
   {
@@ -63,16 +63,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-law-firm/",
-    "features":"hudson-franklin.pdf",
+    "features":"Hudson-Sara-Franklin-Instructions.pdf",
     "price": 799,
     "summary":"One of the top law offices companies in the united states. ",
     "description":"The Law Offices of Hudson, Sara & Franklin protects employment rights, obtaining hundreds of millions for their Los Angeles clients",
-    "imageCover":"hudson-franklin-cover.jpg",
+    "imageCover":"hudson-law-cover.jpg",
     "images":[
-      "hudson-1.jpg",
-      "hudson-2.jpg",
-      "hudson-3.jpg",
-      "hudson-4.jpg"
+      "hudson-law-1.jpg",
+      "hudson-law-2.jpg",
+      "hudson-law-3.jpg",
+      "hudson-law-4.jpg"
     ]
   },
   {
@@ -82,16 +82,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-finance/",
-    "features":"harvey-west.pdf",
+    "features":"Harvey-West-Instructions.pdf",
     "price": 799,
     "summary":"One of the top finance companies in the united states.",
     "description":"Harvey & West is a specialized financial institution that supplies credit for the purchase of consumer goods and services by purchasing the time-sales contracts of merchants and by granting small loans directly to consumers.",
     "imageCover":"harvey-west-cover.jpg",
     "images":[
-      "harvey-1.jpg",
-      "harvey-2.jpg",
-      "harvey-3.jpg",
-      "harvey-4.jpg"
+      "harvey-west-1.jpg",
+      "harvey-west-2.jpg",
+      "harvey-west-3.jpg",
+      "harvey-west-4.jpg"
     ]
   },
   {
@@ -101,11 +101,11 @@
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-insurance/",
-    "features":"westlake-insurance.pdf",
+    "features":"Westlake-Insurance-Instructions.pdf",
     "price": 799,
     "summary":"One of the top insurance companies in the united states.",
     "description":"Westlake offers insurance, retirement and investing products that protect your many sides. Get home and auto insurance quotes online or find a local agent.",
-    "imageCover":"westlake-insurance-cover.jpg",
+    "imageCover":"westlake-cover.jpg",
     "images":[
       "westlake-1.jpg",
       "westlake-2.jpg",
@@ -120,16 +120,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/business-consulting-template/",
-    "features":"wess-clarke.pdf",
+    "features":"Wess-Clarke-Instructions.pdf",
     "price": 799,
     "summary":"One of the top consulting companies in the united states.",
     "description":"Wess & Clarke is a trusted advisor and counselor to many of the world's most influential businesses and institutions.",
-    "imageCover":"wess-clark-cover.jpg",
+    "imageCover":"wess-cover.jpg",
     "images":[
-      "wess-clark-1.jpg",
-      "wess-clark-2.jpg",
-      "wess-clark-3.jpg",
-      "wess-clark-4.jpg"
+      "wess-1.jpg",
+      "wess-2.jpg",
+      "wess-3.jpg",
+      "wess-4.jpg"
     ]
   },
   {
@@ -139,16 +139,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://www.ktmanagers.com/",
-    "features":"kt-managers.pdf",
+    "features":"Knight-Team-Management-Instructions.pdf",
     "price": 749,
     "summary":"One of the top branding agencies in the united states.",
     "description":"Knight Team Management is a social branding agency specializing in innovative brand strategy, graphic design, and creative marketing.",
-    "imageCover":"kt-managers-cover.jpg",
+    "imageCover":"branding-cover.jpg",
     "images":[
-      "kt-managers-1.jpg",
-      "kt-managers-2.jpg",
-      "kt-managers-3.jpg",
-      "kt-managers-4.jpg"
+      "branding-1.jpg",
+      "branding-2.jpg",
+      "branding-3.jpg",
+      "branding-4.jpg"
     ]
   },
   {
@@ -158,16 +158,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"design",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-interior-design/",
-    "features":"loose-dreams.pdf",
+    "features":"Loose-Dreams-Instructions.pdf",
     "price": 749,
     "summary":"One of the top interior design companies in the united states.",
     "description":"Loose Dreams is a San Francisco interior design firm serving companies nationwide.",
-    "imageCover":"loose-dreams-cover.jpg",
+    "imageCover":"design-cover.jpg",
     "images":[
-      "loose-dreams-1.jpg",
-      "loose-dreams-2.jpg",
-      "loose-dreams-3.jpg",
-      "loose-dreams-4.jpg"
+      "design-1.jpg",
+      "design-2.jpg",
+      "design-3.jpg",
+      "design-4.jpg"
     ]
   },
   {
@@ -177,7 +177,7 @@
     "websiteType":"node/express website",
     "websiteCategory":"event",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-event/",
-    "features":"xtra-talks.pdf",
+    "features":"Xtra-Talks-Instructions.pdf",
     "price": 749,
     "summary":"One of the top event agencies in the united states.",
     "description":"Xtra Talks is an event agency in Los Angeles revolutionizing the consumer experience through event production and brand activation.",
@@ -196,7 +196,7 @@
     "websiteType":"node/express website",
     "websiteCategory":"design",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-digital-agency/",
-    "features":"ramsey-dev.pdf",
+    "features":"Ramsey-Development-Instructions.pdf",
     "price": 749,
     "summary":"One of the top digital agencies in the united states.",
     "description":"Ramsey Development specializes in driving highly targeted audiences to Fundraising, Ecommerce, and User Sign-up Platforms from Digital Advertising and Content Marketing,",
@@ -215,16 +215,16 @@
     "websiteType":"node/express website",
     "websiteCategory":"restaurant",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-coffee-shop/",
-    "features":"caffeine-cuisine.pdf",
+    "features":"Caffeine-Cuisine-Instructions.pdf",
     "price": 749,
     "summary":"One of the top coffee shops in los angeles, ca.",
     "description":"Caffeine & Cuisine is an historical landmark, one of Hollywood's finest American Diners.",
-    "imageCover":"caffeine-cuisine-cover.jpg",
+    "imageCover":"coffee-cover.jpg",
     "images":[
-      "caffeine-cuisine-1.jpg",
-      "caffeine-cuisine-2.jpg",
-      "caffeine-cuisine-3.jpg",
-      "caffeine-cuisine-4.jpg"
+      "coffee-1.jpg",
+      "coffee-2.jpg",
+      "coffee-3.jpg",
+      "coffee-4.jpg"
     ]
   },
   {
@@ -234,7 +234,7 @@
     "websiteType":"node/express website",
     "websiteCategory":"event",
     "websiteLink":"https://dontrellthedeveloper.github.io/wedding-template/",
-    "features":"berry-rose.pdf",
+    "features":"Wedding-Planner-Instructions.pdf",
     "price": 749,
     "summary":"An amazing wedding planner for our family & friends.",
     "description":"Berry Rose Events is a wedding planning company in San Diego, California. This team of event planners is detail.",
@@ -253,7 +253,7 @@
     "websiteType":"node/express website",
     "websiteCategory":"beauty",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-barber-shop/",
-    "features":"tito-barber.pdf",
+    "features":"Titos-Barber-Shop-Instructions.pdf",
     "price": 749,
     "summary":"One of the top barber shops in los angeles,ca.",
     "description":"Tito's Barber Shop is a no-nonsense, family and community focused shop.",
@@ -272,16 +272,16 @@
     "websiteType":"shopify store",
     "websiteCategory":"beauty",
     "websiteLink":"https://kenihair.com/",
-    "features":"keni-hair.pdf",
+    "features":"Ramsey-Development-Instructions.pdf",
     "price": 599,
     "summary":"Keni Hair is located in Miami, FL",
     "description":"Keni Hair is one of the top hair stores online.",
-    "imageCover":"keni-hair-cover.jpg",
+    "imageCover":"tito-barber-cover.jpg",
     "images":[
-      "kenihair-1.jpg",
-      "kenihair-2.jpg",
-      "kenihair-3.jpg",
-      "kenihair-4.jpg"
+      "tito-barber-1.jpg",
+      "tito-barber-2.jpg",
+      "tito-barber-3.jpg",
+      "tito-barber-4.jpg"
     ]
   },
   {
@@ -291,16 +291,16 @@
     "websiteType":"shopify store",
     "websiteCategory":"clothing",
     "websiteLink":"https://kulturekingsapp.com/",
-    "features":"kulture-kings.pdf",
+    "features":"Ramsey-Development-Instructions.pdf",
     "price": 599,
     "summary":"Clothing Store in Miami, FL",
     "description":"Kulture Kings is one of the top clothing brands in Miami, Fl. ",
-    "imageCover":"kulture-kings-cover.jpg",
+    "imageCover":"tito-barber-cover.jpg",
     "images":[
-      "kulture-1.jpg",
-      "kulture-2.jpg",
-      "kulture-3.jpg",
-      "kulture-4.jpg"
+      "tito-barber-1.jpg",
+      "tito-barber-2.jpg",
+      "tito-barber-3.jpg",
+      "tito-barber-4.jpg"
     ]
   },
   {
@@ -310,16 +310,16 @@
     "websiteType":"shopify store",
     "websiteCategory":"beauty",
     "websiteLink":"https://soule-skincare-products.myshopify.com/",
-    "features":"soule-skincare.pdf",
+    "features":"Ramsey-Development-Instructions.pdf",
     "price": 599,
     "summary":"Skincare Clinic located in Woodland Hills, Ca.",
     "description":"Transform your skin and change your life with Soule Skincare.",
-    "imageCover":"soule-skincare-cover.jpg",
+    "imageCover":"tito-barber-cover.jpg",
     "images":[
-      "soule-1.jpg",
-      "soule-2.jpg",
-      "soule-3.jpg",
-      "soule-4.jpg"
+      "tito-barber-1.jpg",
+      "tito-barber-2.jpg",
+      "tito-barber-3.jpg",
+      "tito-barber-4.jpg"
     ]
   },
   {
@@ -329,16 +329,16 @@
     "websiteType":"shopify store",
     "websiteCategory":"clothing",
     "websiteLink":"https://3rdeyestore.net/",
-    "features":"redline.pdf",
+    "features":"Ramsey-Development-Instructions.pdf",
     "price": 599,
     "summary":"Clothing store in Jacksonville, FL",
     "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"redline-cover.jpg",
+    "imageCover":"tito-barber-cover.jpg",
     "images":[
-      "redline-1.jpg",
-      "redline-2.jpg",
-      "redline-3.jpg",
-      "redline-4.jpg"
+      "tito-barber-1.jpg",
+      "tito-barber-2.jpg",
+      "tito-barber-3.jpg",
+      "tito-barber-4.jpg"
     ]
   }
 ]
