@@ -66,6 +66,10 @@ const websitesSchema = new mongoose.Schema({
 });
 
 
+websitesSchema.index({price: 1});
+websitesSchema.index({slug: 1});
+
+
 
 // DOCUMENT MIDDLEWARE runs before .save() and .create()
 websitesSchema.pre('save', function(next) {
