@@ -23,6 +23,26 @@
 }
 
 /* ============================================
+|  |  |  |  Extra CSS: Account Page
+============================================ */
+
+
+.form__user-photo {
+    height: 7.5rem;
+    width: 7.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.form__user-photo-2 {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+
+
+
+/* ============================================
 |  |  |  |  Html, Body
 ============================================ */
 
@@ -1189,7 +1209,8 @@ li {
 }
 
 .office {
-    margin-top: 230px;
+    /*margin-top: 230px;*/
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -1208,13 +1229,15 @@ li {
 
 ul.office-details {
     list-style: none;
-    padding: 0;
+    padding: 0 0 0 40px;
 }
 
 ul.office-details li {
     font-family: "Open Sans", sans-serif;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    /*margin-top: 12px;*/
+    /*margin-bottom: 12px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display: inline-flex;
