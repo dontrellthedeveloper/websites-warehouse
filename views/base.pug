@@ -10,11 +10,11 @@ html(lang="en")
         link(href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet")
         link(rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css")
         link(rel="stylesheet" href="css/bootstrap/bootstrap.css")
-
+        link(rel="stylesheet" href="css/style.css")
         link(rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css")
         link(rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css")
         link(rel="stylesheet" href="css/magnific-popup/magnific-popup.css")
-        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" type="text/css" href="css/mapplic/mapplic.css")
         link(rel="stylesheet" href="css/responsive.css")
         // Favicon
         link(rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png")
@@ -54,21 +54,25 @@ html(lang="en")
                                         a.ipad-m(href="#") Websites
                                         ul.nav-sub-style
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Business
+                                                a.smooth-scroll.ipad-m(href="#business-websites") Business
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Clothing
+                                                a.smooth-scroll.ipad-m(href="#clothing-websites") Clothing
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Beauty
+                                                a.smooth-scroll.ipad-m(href="#beauty-websites") Beauty
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Fitness/Health
+                                                a.smooth-scroll.ipad-m(href="#fitnesshealth-websites") Fitness/Health
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Design
+                                                a.smooth-scroll.ipad-m(href="#design-websites") Design
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Event
+                                                a.smooth-scroll.ipad-m(href="#event-websites") Event
                                             li
-                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Restaurant
+                                                a.smooth-scroll.ipad-m(href="#restaurant-websites") Restaurant
                                     li
-                                        a(href="index.html#tools") Login
+                                        a(href="login.html") Login
+                                    li
+                                        a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
+                                            | Dontrell
+                                            img.form__user-photo-2(src="img/default.jpg" alt="User photo")
                         // Mobile Menu
                         #mobile-nav
                             // Mobile Menu Close Button
@@ -122,14 +126,14 @@ html(lang="en")
     // Website Templates
     #templates
         .websites-portfolio
-            section#onepage-templates.page2.portfolio-style.port-bg-color-2
+            section#business-websites.page2.portfolio-style.port-bg-color-2
                 .map-color-5
                     .row
                         .home-headings.tools-p-align
                             .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;") One Page
-                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Templates
+                                    span(style="font-size: 20px; padding: 0;") Business
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
                 .team-members.owl-carousel.owl-theme.portfolio-item
                     a.portfolio-item-d-overlay(href="one-page-branding-agency.html")
                         img.img-responsive(src="img/portfolio-detail/ktmanagers/website-style-1.png" alt="portfolio 01")
@@ -166,14 +170,234 @@ html(lang="en")
                         p.show-page-paragraph Barber Shop
                         hr.portfolio-hr-style
                         p.show-page-paragraph Tito's Barber Shop
-            section#multipage-templates.page2.portfolio-style.port-bg-color
+            section#clothing-websites.page2.portfolio-style.port-bg-color
                 .map-color-5
                     .row
                         .home-headings.tools-p-align
                             .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;") Multi Page
-                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Templates
+                                    span(style="font-size: 20px; padding: 0;") Clothing
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Beverly Hills Models
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency-2.html")
+                        img.img-responsive(src="img/portfolio-detail/atl-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Buckhead Modeling Agency
+                    a.portfolio-item-d-overlay(href="multi-page-fitness-company.html")
+                        img.img-responsive(src="img/portfolio-detail/fitness-miami/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Fitness Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Achieve Fitness
+                    a.portfolio-item-d-overlay(href="multi-page-law-offices.html")
+                        img.img-responsive(src="img/portfolio-detail/law-offices/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Law Offices
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Hudson, Sara & Franklin
+                    a.portfolio-item-d-overlay(href="multi-page-finance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/finance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Finance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Harvey & West
+                    a.portfolio-item-d-overlay(href="multi-page-insurance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/insurance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Insurance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Westlake Insurance
+                    a.portfolio-item-d-overlay(href="multi-page-consulting-company.html")
+                        img.img-responsive(src="img/portfolio-detail/consulting/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Consulting Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Wess & Clarket
+            section#beauty-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Beauty
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Beverly Hills Models
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency-2.html")
+                        img.img-responsive(src="img/portfolio-detail/atl-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Buckhead Modeling Agency
+                    a.portfolio-item-d-overlay(href="multi-page-fitness-company.html")
+                        img.img-responsive(src="img/portfolio-detail/fitness-miami/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Fitness Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Achieve Fitness
+                    a.portfolio-item-d-overlay(href="multi-page-law-offices.html")
+                        img.img-responsive(src="img/portfolio-detail/law-offices/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Law Offices
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Hudson, Sara & Franklin
+                    a.portfolio-item-d-overlay(href="multi-page-finance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/finance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Finance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Harvey & West
+                    a.portfolio-item-d-overlay(href="multi-page-insurance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/insurance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Insurance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Westlake Insurance
+                    a.portfolio-item-d-overlay(href="multi-page-consulting-company.html")
+                        img.img-responsive(src="img/portfolio-detail/consulting/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Consulting Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Wess & Clarket
+            section#fitnesshealth-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Fitness & Health
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Beverly Hills Models
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency-2.html")
+                        img.img-responsive(src="img/portfolio-detail/atl-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Buckhead Modeling Agency
+                    a.portfolio-item-d-overlay(href="multi-page-fitness-company.html")
+                        img.img-responsive(src="img/portfolio-detail/fitness-miami/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Fitness Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Achieve Fitness
+                    a.portfolio-item-d-overlay(href="multi-page-law-offices.html")
+                        img.img-responsive(src="img/portfolio-detail/law-offices/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Law Offices
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Hudson, Sara & Franklin
+                    a.portfolio-item-d-overlay(href="multi-page-finance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/finance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Finance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Harvey & West
+                    a.portfolio-item-d-overlay(href="multi-page-insurance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/insurance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Insurance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Westlake Insurance
+                    a.portfolio-item-d-overlay(href="multi-page-consulting-company.html")
+                        img.img-responsive(src="img/portfolio-detail/consulting/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Consulting Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Wess & Clarket
+            section#design-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Design
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Beverly Hills Models
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency-2.html")
+                        img.img-responsive(src="img/portfolio-detail/atl-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Buckhead Modeling Agency
+                    a.portfolio-item-d-overlay(href="multi-page-fitness-company.html")
+                        img.img-responsive(src="img/portfolio-detail/fitness-miami/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Fitness Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Achieve Fitness
+                    a.portfolio-item-d-overlay(href="multi-page-law-offices.html")
+                        img.img-responsive(src="img/portfolio-detail/law-offices/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Law Offices
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Hudson, Sara & Franklin
+                    a.portfolio-item-d-overlay(href="multi-page-finance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/finance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Finance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Harvey & West
+                    a.portfolio-item-d-overlay(href="multi-page-insurance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/insurance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Insurance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Westlake Insurance
+                    a.portfolio-item-d-overlay(href="multi-page-consulting-company.html")
+                        img.img-responsive(src="img/portfolio-detail/consulting/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Consulting Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Wess & Clarket
+            section#event-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Event
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Beverly Hills Models
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency-2.html")
+                        img.img-responsive(src="img/portfolio-detail/atl-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Buckhead Modeling Agency
+                    a.portfolio-item-d-overlay(href="multi-page-fitness-company.html")
+                        img.img-responsive(src="img/portfolio-detail/fitness-miami/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Fitness Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Achieve Fitness
+                    a.portfolio-item-d-overlay(href="multi-page-law-offices.html")
+                        img.img-responsive(src="img/portfolio-detail/law-offices/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Law Offices
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Hudson, Sara & Franklin
+                    a.portfolio-item-d-overlay(href="multi-page-finance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/finance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Finance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Harvey & West
+                    a.portfolio-item-d-overlay(href="multi-page-insurance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/insurance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Insurance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Westlake Insurance
+                    a.portfolio-item-d-overlay(href="multi-page-consulting-company.html")
+                        img.img-responsive(src="img/portfolio-detail/consulting/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Consulting Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Wess & Clarket
+            section#restaurant-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Restaurant
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
                 .team-members.owl-carousel.owl-theme.portfolio-item
                     a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
                         img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
