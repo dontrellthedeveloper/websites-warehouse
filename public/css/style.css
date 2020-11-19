@@ -600,7 +600,7 @@ section {
 }
 
 .content-box-md-3 {
-    padding: 0 0 80px 0;
+    /*padding: 0 0 80px 0;*/
     background-color: #DCDCDD;
     /*border-bottom: 2px solid #46494C;*/
 }
@@ -675,7 +675,7 @@ section {
 }
 
 .content-box-md-3 {
-    padding: 0 0 80px 0;
+    /*padding: 0 0 80px 0;*/
     background-color: #d0d0d1;
     /*border-bottom: 2px solid #46494C;*/
 }
@@ -1284,7 +1284,7 @@ ul.office-details li i {
 }
 
 #contact-right {
-    padding: 25px 30px;
+    padding: 25px 30px 200px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
     /*border-radius: 4px;*/
