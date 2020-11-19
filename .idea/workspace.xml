@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/_bg-video-1.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/_footer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/_header.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/_homeSection.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/viewController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/viewRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_beauty-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_business-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_clothing-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_design-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_event-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_fitness-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/_restaurant-websites.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/overview.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/website.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/base.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/base.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,7 +171,7 @@
       <workItem from="1605284180068" duration="28012000" />
       <workItem from="1605387015934" duration="3922000" />
       <workItem from="1605417941876" duration="47354000" />
-      <workItem from="1605798466270" duration="15173000" />
+      <workItem from="1605798466270" duration="20013000" />
     </task>
     <servers />
   </component>

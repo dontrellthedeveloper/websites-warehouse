@@ -11,6 +11,7 @@ const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
 const websiteRouter = require('./routes/websiteRoutes');
 const userRouter = require('./routes/userRoutes');
+const viewRouter = require('./routes/viewRoutes');
 
 const app = express();
 
@@ -70,11 +71,23 @@ app.use((req,res,next) => {
 
 
 // 3. Routes
-app.get('/', (req,res) => {
-    res.status(200).render('base');
-});
+// app.get('/', (req,res) => {
+//     res.status(200).render('base');
+// });
 
+// app.get('/overview', (req,res) => {
+//     res.status(200).render('overview', {
+//         title: 'All Websites'
+//     });
+// });
+//
+// app.get('/website', (req,res) => {
+//     res.status(200).render('website', {
+//         title: 'Beverly Hills Models'
+//     });
+// });
 
+app.use('/', viewRouter);
 app.use('/api/v1/websites', websiteRouter);
 app.use('/api/v1/users', userRouter);
 
