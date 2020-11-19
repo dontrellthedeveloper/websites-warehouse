@@ -36,99 +36,9 @@ html(lang="en")
         meta(name="theme-color" content="#ffffff")
     body(data-spy="scroll" data-targey=".navbar" data-offset="65")
         // Header
-        header
-            nav.navbar.navbar-fixed-top.mobile-nav-top
-                .container-fluid
-                    .site-nav-wrapper
-                        // Main Menu
-                        .container
-                            .navbar-header
-                                span#mobile-nav-open-btn ☰
-                                a.navbar-brand(href="index.html")
-                                    img.img-rsz(src="img/logo/websites-warehouse-logo-light-new.png" width="80px" height="80px" alt="logo")
-                            .collapse.navbar-collapse
-                                ul.nav.navbar-nav.pull-right.wh
-                                    li
-                                        a(href="index.html") Home
-                                    li
-                                        a.ipad-m(href="#") Websites
-                                        ul.nav-sub-style
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#business-websites") Business
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#clothing-websites") Clothing
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#beauty-websites") Beauty
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#fitnesshealth-websites") Fitness/Health
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#design-websites") Design
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#event-websites") Event
-                                            li
-                                                a.smooth-scroll.ipad-m(href="#restaurant-websites") Restaurant
-
-                                    //li
-                                    //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
-                                    //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
-                                    //        | Dontrell
-                                    li
-                                        a(href="login.html") Login
-                        // Mobile Menu
-                        #mobile-nav
-                            // Mobile Menu Close Button
-                            span#mobile-nav-close-btn ×
-                            #mobile-nav-content
-                                ul.nav
-                                    li
-                                        a(href="/") Home
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Business
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Clothing
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Beauty
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Fitness/Health
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Design
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Event
-                                    li
-                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Restaurant
-                                    //li
-                                    //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
-                                    //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
-                                    //        | Dontrell
-                                    li
-                                        a(href="login.html") Login
-
-
+        include _header
         // Home
-        section#home
-            // Background Video
-            video#home-bg-video(poster="video/websitewarehouse4.jpg" autoplay="" loop="" muted="" playsinline="")
-                source(src="video/websitewarehouse4.mp4" type="video/mp4")
-                source(src="video/websitewarehouse4.ogv" type="video/ogg")
-                source(src="video/websitewarehouse4.webm" type="video/webm")
-            // Overlay
-            #home-overlay
-            // Home Content
-            #home-content
-                #home-content-inner.text-center
-                    .slider-text
-                        .desc
-                            a.smooth-scroll(href="#onepage-templates")
-                                span.subheading Websites
-                                h1.home-heading-style-main
-                                    span.web-home-style Websites
-                                    br
-                                    |  Warehouse
-                                span.subheading-2 Made Easy
-            // Arrow Down
-            a#arrow-down.smooth-scroll(href="#templates")
-                i.fa.fa-angle-down
-        // Home End
+        include _homeSection
 
         // Website Templates
         #templates
@@ -443,34 +353,15 @@ html(lang="en")
                             p.show-page-paragraph Wess & Clarket
 
         // BG Video
-        section#home-2
-            img#leftgear(src="img/about/gear2.svg" alt="")
-            img#rightgear(src="img/about/gear2.svg" alt="")
-            // Background Video
-            video#home-bg-video-2(poster="video/websitewarehouse4.jpg" autoplay="" loop="" muted="" playsinline="")
-                source(src="video/websitewarehouse4.mp4" type="video/mp4")
-                source(src="video/websitewarehouse4.ogv" type="video/ogg")
-                source(src="video/websitewarehouse4.webm" type="video/webm")
-            #home-overlay-2
+        include _bg-video-1
 
         // Footer
-        footer.text-center
-            .container
-                .row
-                    .col-md-12
-                        p.my-auto.marg-top
-                            | Copyright © 2020
-                            span WEBSITES WAREHOUSE, LLC.
-                            |    |
-                            a(href="https://dontrellwashington.com") Contact
-            // Back To Top
-            a#back-to-top.btn.btn-sm.btn-yellow.btn-back-to-top.smooth-scroll.hidden-sm.hidden-xs(href="#home" title="home" role="button")
-                i.fa.fa-angle-up
+        include _footer
 
 
-script(src="js/jquery.js")
-script(src="js/bootstrap/bootstrap.js")
-script(src="js/owl-carousel/owl.carousel.min.js")
-script(src="js/magnific-popup/jquery.magnific-popup.min.js")
-script(src="js/easing/jquery.easing.1.3.js")
-script(src="js/script.js")
+    script(src="js/jquery.js")
+    script(src="js/bootstrap/bootstrap.js")
+    script(src="js/owl-carousel/owl.carousel.min.js")
+    script(src="js/magnific-popup/jquery.magnific-popup.min.js")
+    script(src="js/easing/jquery.easing.1.3.js")
+    script(src="js/script.js")
