@@ -1163,7 +1163,8 @@ li {
 
 /* Contact Left */
 .form-styles-c {
-    background-color: #d0d0d1;
+    /*background-color: #d0d0d1;*/
+    background-color: #F4F4F4;
     /*border: 2px solid #46494C;*/
 }
 
@@ -1286,7 +1287,7 @@ ul.office-details li i {
     padding: 25px 30px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
-    border-radius: 4px;
+    /*border-radius: 4px;*/
 }
 
 #contact-right h4 {

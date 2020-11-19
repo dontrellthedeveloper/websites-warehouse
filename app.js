@@ -74,6 +74,10 @@ app.get('/', (req,res) => {
     res.status(200).render('base');
 });
 
+app.get('/account', (req,res) => {
+    res.status(200).render('account');
+});
+
 app.use('/api/v1/websites', websiteRouter);
 app.use('/api/v1/users', userRouter);
 

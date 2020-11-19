@@ -1,1 +1,241 @@
-h1 Example Website
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+        meta(http-equiv="X-UA-Compatible" content="ie=edge")
+        title Websites Warehouse
+        // Font
+        link(href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet")
+        link(rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css")
+        link(rel="stylesheet" href="css/bootstrap/bootstrap.css")
+
+        link(rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css")
+        link(rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css")
+        link(rel="stylesheet" href="css/magnific-popup/magnific-popup.css")
+        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" href="css/responsive.css")
+        // Favicon
+        link(rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png")
+        link(rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png")
+        link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png")
+        link(rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png")
+        link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png")
+        link(rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png")
+        link(rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png")
+        link(rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png")
+        link(rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png")
+        link(rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png")
+        link(rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png")
+        link(rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png")
+        link(rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png")
+        link(rel="manifest" href="img/favicon/manifest.json")
+        meta(name="msapplication-TileColor" content="#ffffff")
+        meta(name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png")
+        meta(name="theme-color" content="#ffffff")
+    body(data-spy="scroll" data-targey=".navbar" data-offset="65")
+        // Header
+        header
+            nav.navbar.navbar-fixed-top.mobile-nav-top
+                .container-fluid
+                    .site-nav-wrapper
+                        // Main Menu
+                        .container
+                            .navbar-header
+                                span#mobile-nav-open-btn ☰
+                                a.navbar-brand(href="index.html")
+                                    img.img-rsz(src="img/logo/websites-warehouse-logo-light-new.png" width="80px" height="80px" alt="logo")
+                            .collapse.navbar-collapse
+                                ul.nav.navbar-nav.pull-right.wh
+                                    li
+                                        a(href="index.html") Home
+                                    li
+                                        a.ipad-m(href="#") Websites
+                                        ul.nav-sub-style
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Business
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Clothing
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Beauty
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Fitness/Health
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Design
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Event
+                                            li
+                                                a.smooth-scroll.ipad-m(href="#onepage-templates") Restaurant
+                                    li
+                                        a(href="index.html#tools") Login
+                        // Mobile Menu
+                        #mobile-nav
+                            // Mobile Menu Close Button
+                            span#mobile-nav-close-btn ×
+                            #mobile-nav-content
+                                ul.nav
+                                    li
+                                        a(href="/") Home
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Business
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Clothing
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Beauty
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Fitness/Health
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Design
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Event
+                                    li
+                                        a.smooth-scroll.ipad-m(href="#onepage-templates") Restaurant
+                                    li
+                                        a(href="index.html#tools") Login
+        // End of Header
+    // Home
+    section#home
+        // Background Video
+        video#home-bg-video(poster="video/websitewarehouse4.jpg" autoplay="" loop="" muted="" playsinline="")
+            source(src="video/websitewarehouse4.mp4" type="video/mp4")
+            source(src="video/websitewarehouse4.ogv" type="video/ogg")
+            source(src="video/websitewarehouse4.webm" type="video/webm")
+        // Overlay
+        #home-overlay
+        // Home Content
+        #home-content
+            #home-content-inner.text-center
+                .slider-text
+                    .desc
+                        a.smooth-scroll(href="#onepage-templates")
+                            span.subheading Websites
+                            h1.home-heading-style-main
+                                span.web-home-style Websites
+                                br
+                                |  Warehouse
+                            span.subheading-2 Made Easy
+        // Arrow Down
+        a#arrow-down.smooth-scroll(href="#templates")
+            i.fa.fa-angle-down
+    // Home End
+    // Website Templates
+    #templates
+        .websites-portfolio
+            section#onepage-templates.page2.portfolio-style.port-bg-color-2
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") One Page
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Templates
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="one-page-branding-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/ktmanagers/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Branding Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Knight Team Management
+                    a.portfolio-item-d-overlay(href="one-page-interior-design.html")
+                        img.img-responsive(src="img/portfolio-detail/interior-design/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Interior Design
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Loose Dreams
+                    a.portfolio-item-d-overlay(href="one-page-event-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/events/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Event Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Xtra Talks
+                    a.portfolio-item-d-overlay(href="one-page-digital-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/digital-agency/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Digital Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Ramsey Development
+                    a.portfolio-item-d-overlay(href="one-page-coffee-shop.html")
+                        img.img-responsive(src="img/portfolio-detail/coffee/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Coffee Shop
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Caffeine & Cuisine
+                    a.portfolio-item-d-overlay(href="one-page-wedding-planner.html")
+                        img.img-responsive(src="img/portfolio-detail/wedding/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Wedding Planner
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph James & Jessica
+                    a.portfolio-item-d-overlay(href="one-page-barber-shop.html")
+                        img.img-responsive(src="img/portfolio-detail/barber/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Barber Shop
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Tito's Barber Shop
+            section#multipage-templates.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Multi Page
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Templates
+                .team-members.owl-carousel.owl-theme.portfolio-item
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency.html")
+                        img.img-responsive(src="img/portfolio-detail/beverly-hills-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Beverly Hills Models
+                    a.portfolio-item-d-overlay(href="multi-page-modeling-agency-2.html")
+                        img.img-responsive(src="img/portfolio-detail/atl-models/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Modeling Agency
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Buckhead Modeling Agency
+                    a.portfolio-item-d-overlay(href="multi-page-fitness-company.html")
+                        img.img-responsive(src="img/portfolio-detail/fitness-miami/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Fitness Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Achieve Fitness
+                    a.portfolio-item-d-overlay(href="multi-page-law-offices.html")
+                        img.img-responsive(src="img/portfolio-detail/law-offices/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Law Offices
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Hudson, Sara & Franklin
+                    a.portfolio-item-d-overlay(href="multi-page-finance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/finance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Finance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Harvey & West
+                    a.portfolio-item-d-overlay(href="multi-page-insurance-company.html")
+                        img.img-responsive(src="img/portfolio-detail/insurance/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Insurance Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Westlake Insurance
+                    a.portfolio-item-d-overlay(href="multi-page-consulting-company.html")
+                        img.img-responsive(src="img/portfolio-detail/consulting/website-style-1.png" alt="portfolio 01")
+                        p.show-page-paragraph Consulting Company
+                        hr.portfolio-hr-style
+                        p.show-page-paragraph Wess & Clarket
+    // BG Video
+    section#home-2
+        img#leftgear(src="img/about/gear2.svg" alt="")
+        img#rightgear(src="img/about/gear2.svg" alt="")
+        // Background Video
+        video#home-bg-video-2(poster="video/websitewarehouse4.jpg" autoplay="" loop="" muted="" playsinline="")
+            source(src="video/websitewarehouse4.mp4" type="video/mp4")
+            source(src="video/websitewarehouse4.ogv" type="video/ogg")
+            source(src="video/websitewarehouse4.webm" type="video/webm")
+        #home-overlay-2
+    // Footer
+    footer.text-center
+        .container
+            .row
+                .col-md-12
+                    p.my-auto.marg-top
+                        | Copyright © 2020
+                        span WEBSITES WAREHOUSE, LLC.
+                        |    |
+                        a(href="https://dontrellwashington.com") Contact
+// Back To Top
+a#back-to-top.btn.btn-sm.btn-yellow.btn-back-to-top.smooth-scroll.hidden-sm.hidden-xs(href="#home" title="home" role="button")
+    i.fa.fa-angle-up
+script(src="js/jquery.js")
+script(src="js/bootstrap/bootstrap.js")
+script(src="js/owl-carousel/owl.carousel.min.js")
+script(src="js/magnific-popup/jquery.magnific-popup.min.js")
+script(src="js/easing/jquery.easing.1.3.js")
+script(src="js/script.js")
