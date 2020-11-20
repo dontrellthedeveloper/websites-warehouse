@@ -2,9 +2,9 @@
   {
     "id":0,
     "name":"Beverly Hills Models",
-    "companyType": "modeling agency",
+    "companyType": "Modeling Agency",
     "websiteType":"node/express website",
-    "websiteCategory":"beauty",
+    "websiteCategory":"beauty/health",
     "websiteLink":"https://dontrellthedeveloper.github.io/website-template-modeling-la/",
     "features":"Beverly-Hills-Models-Instructions.pdf",
     "price": 799,
@@ -21,9 +21,9 @@
   {
     "id":1,
     "name":"Buckhead Modeling Agency",
-    "companyType": "modeling agency",
+    "companyType": "Modeling Agency",
     "websiteType":"node/express website",
-    "websiteCategory":"beauty",
+    "websiteCategory":"beauty/health",
     "websiteLink":"https://dontrellthedeveloper.github.io/modeling-agency-atlanta/",
     "features":"Buckhead-Modeling-Instructions.pdf",
     "price": 799,
@@ -40,9 +40,9 @@
   {
     "id":2,
     "name":"Achieve Fitness",
-    "companyType": "fitness company",
+    "companyType": "Fitness Company",
     "websiteType":"node/express website",
-    "websiteCategory":"fitness/health",
+    "websiteCategory":"beauty/health",
     "websiteLink":"https://dontrellthedeveloper.github.io/achieve-fitness-miami/",
     "features":"Achieve-Fitness-Instructions.pdf",
     "price": 799,
@@ -59,7 +59,7 @@
   {
     "id":3,
     "name":"Hudson, Sara & Franklin",
-    "companyType": "law offices",
+    "companyType": "Law Offices",
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-law-firm/",
@@ -78,7 +78,7 @@
   {
     "id":4,
     "name":"Harvey & West",
-    "companyType": "finance company",
+    "companyType": "Finance Company",
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-finance/",
@@ -97,7 +97,7 @@
   {
     "id":5,
     "name":"Westlake Insurance",
-    "companyType": "insurance company",
+    "companyType": "Insurance Company",
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-insurance/",
@@ -116,7 +116,7 @@
   {
     "id":6,
     "name":"Wess & Clarke",
-    "companyType": "consulting company",
+    "companyType": "Consulting Company",
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://dontrellthedeveloper.github.io/business-consulting-template/",
@@ -135,7 +135,7 @@
   {
     "id":7,
     "name":"Knight Team Management",
-    "companyType": "branding agency",
+    "companyType": "Branding Agency",
     "websiteType":"node/express website",
     "websiteCategory":"business",
     "websiteLink":"https://www.ktmanagers.com/",
@@ -154,9 +154,9 @@
   {
     "id":8,
     "name":"Loose Dreams",
-    "companyType": "interior design",
+    "companyType": "Interior Design",
     "websiteType":"node/express website",
-    "websiteCategory":"design",
+    "websiteCategory":"design/event",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-interior-design/",
     "features":"Loose-Dreams-Instructions.pdf",
     "price": 749,
@@ -173,9 +173,9 @@
   {
     "id":9,
     "name":"Xtra Talks",
-    "companyType": "event agency",
+    "companyType": "Event Agency",
     "websiteType":"node/express website",
-    "websiteCategory":"event",
+    "websiteCategory":"design/event",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-event/",
     "features":"Xtra-Talks-Instructions.pdf",
     "price": 749,
@@ -192,9 +192,9 @@
   {
     "id":10,
     "name":"Ramsey Development",
-    "companyType": "digital agency",
+    "companyType": "Digital Agency",
     "websiteType":"node/express website",
-    "websiteCategory":"design",
+    "websiteCategory":"design/event",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-digital-agency/",
     "features":"Ramsey-Development-Instructions.pdf",
     "price": 749,
@@ -210,29 +210,10 @@
   },
   {
     "id":11,
-    "name":"Caffeine & Cuisine",
-    "companyType": "coffee shop",
-    "websiteType":"node/express website",
-    "websiteCategory":"restaurant",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-coffee-shop/",
-    "features":"Caffeine-Cuisine-Instructions.pdf",
-    "price": 749,
-    "summary":"One of the top coffee shops in los angeles, ca.",
-    "description":"Caffeine & Cuisine is an historical landmark, one of Hollywood's finest American Diners.",
-    "imageCover":"coffee-cover.jpg",
-    "images":[
-      "coffee-1.jpg",
-      "coffee-2.jpg",
-      "coffee-3.jpg",
-      "coffee-4.jpg"
-    ]
-  },
-  {
-    "id":12,
     "name":"Berry Rose Events",
-    "companyType": "wedding planner",
+    "companyType": "Wedding Planner",
     "websiteType":"node/express website",
-    "websiteCategory":"event",
+    "websiteCategory":"design/event",
     "websiteLink":"https://dontrellthedeveloper.github.io/wedding-template/",
     "features":"Wedding-Planner-Instructions.pdf",
     "price": 749,
@@ -247,11 +228,11 @@
     ]
   },
   {
-    "id":13,
+    "id":12,
     "name":"Tito's Barber Shop",
-    "companyType": "barber shop",
+    "companyType": "Barber Shop",
     "websiteType":"node/express website",
-    "websiteCategory":"beauty",
+    "websiteCategory":"beauty/health",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-barber-shop/",
     "features":"Titos-Barber-Shop-Instructions.pdf",
     "price": 749,
@@ -266,11 +247,11 @@
     ]
   },
   {
-    "id":14,
+    "id":13,
     "name":"Keni Hair",
-    "companyType": "hair store",
+    "companyType": "Hair Store",
     "websiteType":"shopify store",
-    "websiteCategory":"beauty",
+    "websiteCategory":"beauty/health",
     "websiteLink":"https://kenihair.com/",
     "features":"Ramsey-Development-Instructions.pdf",
     "price": 599,
@@ -285,9 +266,9 @@
     ]
   },
   {
-    "id":15,
+    "id":14,
     "name":"Kulture Kings",
-    "companyType": "clothing store",
+    "companyType": "Clothing Store",
     "websiteType":"shopify store",
     "websiteCategory":"clothing",
     "websiteLink":"https://kulturekingsapp.com/",
@@ -304,11 +285,11 @@
     ]
   },
   {
-    "id":16,
+    "id":15,
     "name":"Soule Skincare",
-    "companyType": "skincare clinic",
+    "companyType": "Skincare Clinic",
     "websiteType":"shopify store",
-    "websiteCategory":"beauty",
+    "websiteCategory":"beauty/health",
     "websiteLink":"https://soule-skincare-products.myshopify.com/",
     "features":"Ramsey-Development-Instructions.pdf",
     "price": 599,
@@ -323,9 +304,9 @@
     ]
   },
   {
-    "id":17,
+    "id":16,
     "name":"Redline",
-    "companyType": "clothing store",
+    "companyType": "Clothing Store",
     "websiteType":"shopify store",
     "websiteCategory":"clothing",
     "websiteLink":"https://3rdeyestore.net/",

@@ -501,6 +501,8 @@ section {
 
 .portfolio-hr-style {
     border: 1px solid #46494C;
+    /*width: 160px;*/
+    width: 50px;
 }
 
 

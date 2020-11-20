@@ -4,13 +4,87 @@ block home
     include _homeSection
     #templates
         .websites-portfolio
+            section#business-websites.page2.portfolio-style.port-bg-color-2
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Business
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
 
-            include _business-websites
-            include _clothing-websites
-            include _fitness-websites
-            include _design-websites
-            include _event-websites
-            include _restaurant-websites
+                    each website in businessWebsites
+
+                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                            img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
+
+                            p.show-page-paragraph= website.name
+                            p.show-page-paragraph= `${website.companyType}`
+                            hr.portfolio-hr-style
+                            p.show-page-paragraph= `$${website.price}`
+
+            section#clothing-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Clothing
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+
+                    each website in clothingWebsites
+
+                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                            img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
+
+                            p.show-page-paragraph= website.name
+                            p.show-page-paragraph= `${website.companyType}`
+                            hr.portfolio-hr-style
+                            p.show-page-paragraph= `$${website.price}`
+
+            section#fitnesshealth-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Beauty & Health
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+
+                    each website in healthWebsites
+
+                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                            img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
+
+                            p.show-page-paragraph= website.name
+                            p.show-page-paragraph= `${website.companyType}`
+                            hr.portfolio-hr-style
+                            p.show-page-paragraph= `$${website.price}`
+
+            section#design-websites.page2.portfolio-style.port-bg-color
+                .map-color-5
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;") Event & Design
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                .team-members.owl-carousel.owl-theme.portfolio-item
+
+                    each website in designWebsites
+
+                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                            img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
+
+                            p.show-page-paragraph= website.name
+                            p.show-page-paragraph= `${website.companyType}`
+                            hr.portfolio-hr-style
+                            p.show-page-paragraph= `$${website.price}`
+
+
 
     include _bg-video-1
         // BG Video
