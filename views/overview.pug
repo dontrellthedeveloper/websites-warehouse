@@ -1,6 +1,7 @@
 extends base
 
-block home
+block content
+    include _header
     include _homeSection
     #templates
         .websites-portfolio
@@ -16,7 +17,7 @@ block home
 
                     each website in businessWebsites
 
-                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                        a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
 
                             p.show-page-paragraph= website.name
@@ -36,7 +37,7 @@ block home
 
                     each website in clothingWebsites
 
-                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                        a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
 
                             p.show-page-paragraph= website.name
@@ -56,7 +57,7 @@ block home
 
                     each website in healthWebsites
 
-                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                        a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
 
                             p.show-page-paragraph= website.name
@@ -76,7 +77,7 @@ block home
 
                     each website in designWebsites
 
-                        a.portfolio-item-d-overlay(href=`/websites/${website.slug}`)
+                        a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
 
                             p.show-page-paragraph= website.name

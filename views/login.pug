@@ -1,6 +1,8 @@
 extends base
 
 block content
+    include _header2
+    // BG Video
     section#home-4
         // <img src="img/about/gear2.svg" alt id="leftgear">
         // <img src="img/about/gear2.svg" alt id="rightgear">
@@ -27,81 +29,39 @@ block content
                             // Site content
                             #content
                                 section#map-section.inner.over
-                                    ul#examples-2(style="margin-top: 40px;")
+                                    ul#examples-2(style="margin-top: 60px;")
                                         li
-                                            a.background-map-2(href="overview.html#multipage-templates") ← Back to All Templates
-                                    .desc.map-color-7.container-paragraph
+                                            a.background-map-2(href='/') ← Back to All Templates
+                                    .desc.map-color-7.container-paragraph(style="width: 600px;margin: 70px auto; height: 550px;")
                                         .map-paragraph
                                             h2.i-map-paragraph
-                                                b Your Account Settings
+                                                b Log Into Your Account
                                             br
                                             // Contact
                                             section#contact
-                                                .content-box-md-3
+                                                div
                                                     .container
                                                         .row
-                                                            .col-md-3
-                                                                // Contact Left
-                                                                #contact-left
-                                                                    .vertical-heading
-                                                                        h5 Your account
-                                                                        h2(style="margin-top: 35px;") Settings
-                                                                    .contact-left-m
-                                                                        #offices
-                                                                            .row
-                                                                                .col-md-12
-                                                                                    .office
-                                                                                        ul.office-details
-                                                                                            li
-                                                                                                a(href="#")
-                                                                                                    i.fa.fa-user-circle
-                                                                                                    | Settings
-                                                                                            li
-                                                                                                a(href="favorites.html")
-                                                                                                    i.fa.fa-heart
-                                                                                                    | My Favorites
-                                                                                            li
-                                                                                                a(href="purchases.html")
-                                                                                                    i.fa.fa-shopping-cart
-                                                                                                    | My Purchases
-                                                            .col-md-9
+                                                            //
+                                                            .col-md-12(style="padding-left: 0;")
                                                                 // Contact Right
-                                                                #contact-right.form-styles-c(style="padding-bottom: 60px; width: 500px;")
-                                                                    form(method="POST")
+                                                                #contact-right.form-styles-c(style="height: 400px")
+                                                                    form(method="POST" style="width: 500px; height: 400px")
                                                                         // <h4 class="form-t-c">Send Us A Message</h4>
-                                                                        hr.line-br-color
                                                                         .row
-                                                                            .col-md-12.col-sm-12
-                                                                                .form-group
-                                                                                    p(style="margin-bottom: 5px;") Enter your Name
-                                                                                    input.form-control(type="name" name="name" placeholder="")
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Enter your Email
-                                                                                    input.form-control(type="email" name="email" placeholder="")
-                                                                                .form__group.form__photo-upload
-                                                                                    img.form__user-photo(style="margin-bottom: 20px;" src="img/default.jpg" alt="User photo")
-                                                                                    a.btn-text(href="") Choose new photo
-                                                                        #submit-btn.form-submit-b
-                                                                            button.btn.btn-general.btn-yellow(style="margin-bottom: 10px;" type="submit" name="submit" role="button") Save Settings
-                                                                    form(method="POST")
-                                                                        // <h4 class="form-t-c">Send Us A Message</h4>
-                                                                        hr.line-br-color
-                                                                        .row
+                                                                                    input.form-control(type="email" name="email" placeholder="you@example.com")
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
-                                                                                    p(style="margin-bottom: 5px;") Current password
-                                                                                    input.form-control(type="email" name="email" placeholder="")
-                                                                            .col-md-12.col-sm-12
-                                                                                .form-group
-                                                                                    p(style="margin-bottom: 5px;") New Password
-                                                                                    input.form-control(type="password" name="password" placeholder="")
-                                                                            .col-md-12.col-sm-12
-                                                                                .form-group
-                                                                                    p(style="margin-bottom: 5px;") Confirm Password
-                                                                                    input.form-control(type="password" name="password" placeholder="")
-                                                                        #submit-btn2.form-submit-b
-                                                                            button.btn.btn-general.btn-yellow(type="submit" name="submit" role="button") Save Password
+                                                                                    p(style="margin-bottom: 5px;") Enter your Password
+                                                                                    input.form-control(type="password" name="password" placeholder="*******")
+                                                                        #submit-btn.form-submit-b(style="text-align: center")
+                                                                            p(style="margin-top: 15px;")
+                                                                                a(href="#") Forgot Password?
+                                                                            a.btn.btn-general.btn-yellow(href='/login') Log in
+                                                                            a.btn.btn-general.btn-yellow(href='/signup' style="color: #4c6085; background-color: transparent;" type="submit" name="submit" role="button") Sign Up
                                             // End of Contact
                                             // <div class="user-view">
                                             // <nav class="user-view__menu">
@@ -146,7 +106,7 @@ block content
     // End of Pricing
     // BG Video
     section#home-2
-        img#leftgear(src="img/about/gear2.svg" alt="")
-        img#rightgear(src="img/about/gear2.svg" alt="")
+        img#leftgear(src="/img/about/gear2.svg" alt="")
+        img#rightgear(src="/img/about/gear2.svg" alt="")
         // Background Video
     // End of Build section

@@ -1,0 +1,56 @@
+header
+    nav.navbar.navbar-fixed-top.mobile-nav-top
+        .container-fluid
+            .site-nav-wrapper
+                // Main Menu
+                .container
+                    .navbar-header
+                        span#mobile-nav-open-btn ☰
+                        a.navbar-brand(href='/')
+                            img.img-rsz(src="/img/logo/websites-warehouse-logo-light-new.png" width="80px" height="80px" alt="logo")
+                    .collapse.navbar-collapse
+                        ul.nav.navbar-nav.pull-right.wh
+                            li
+                                a(href='/') Home
+                            li
+                                a.ipad-m(href='/') Websites
+                                ul.nav-sub-style
+                                    li
+                                        a(href='/#business-websites') Business
+                                    li
+                                        a(href='/#clothing-websites') Clothing
+                                    li
+                                        a(href='/#fitnesshealth-websites') Beauty & Health
+                                    li
+                                        a(href='/#design-websites') Event & Design
+
+                            //li
+                            //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
+                            //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
+                            //        | Dontrell
+                            li
+                                a(href='/login') Login
+                // Mobile Menu
+                #mobile-nav
+                    // Mobile Menu Close Button
+                    span#mobile-nav-close-btn ×
+                    #mobile-nav-content
+                        ul.nav
+                            li
+                                a(href="/") Home
+                            li
+                                a.smooth-scroll.ipad-m(href="#business-websites") Business
+                            li
+                                a.smooth-scroll.ipad-m(href="#clothing-websites") Clothing
+                            li
+                                a.smooth-scroll.ipad-m(href="#fitnesshealth-websites") Beauty & Health
+                            li
+                                a.smooth-scroll.ipad-m(href="#design-websites") Event & Design
+
+                            //li
+                            //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
+                            //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
+                            //        | Dontrell
+                            li
+                                a(href="login.html") Login
+

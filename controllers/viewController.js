@@ -20,8 +20,25 @@ exports.getOverview = catchAsync(async (req,res, next) => {
     });
 });
 
-exports.getWebsite = (req,res) => {
+exports.getWebsite = catchAsync(async (req,res, next) => {
+
+    const website = await Website.findOne({slug: req.params.slug});
+
     res.status(200).render('website', {
-        title: 'Beverly Hills Models'
+        title: 'Beverly Hills Models',
+        website
     });
+});
+
+
+exports.getLoginForm = (req,res) => {
+    res.status(200).render('login', {
+        title: 'Log into your account'
+    })
+};
+
+exports.getSignupForm = (req,res) => {
+    res.status(200).render('signup', {
+        title: 'Log into your account'
+    })
 };

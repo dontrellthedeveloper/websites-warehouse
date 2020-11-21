@@ -1,0 +1,78 @@
+extends base
+
+block content
+    include _header2
+    // BG Video
+    section#home-4
+        // <img src="img/about/gear2.svg" alt id="leftgear">
+        // <img src="img/about/gear2.svg" alt id="rightgear">
+        // Background Video
+        video#home-bg-video-2(poster="video/websitewarehouse4.jpg" autoplay="" loop="" muted="" playsinline="")
+            source(src="video/websitewarehouse4.mp4" type="video/mp4")
+            source(src="video/websitewarehouse4.ogv" type="video/ogg")
+            source(src="video/websitewarehouse4.webm" type="video/webm")
+        #home-overlay-2
+    // End of Build section
+    // Interactive Map
+    section#pricing
+        .content-box-md-interact
+            div
+                .map-color-3
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;")  Multi-Page Templates
+                .map-color-6
+                    .container
+                        .row
+                            // Site content
+                            #content
+                                section#map-section.inner.over
+                                    ul#examples-2(style="margin-top: 60px;")
+                                        li
+                                            a.background-map-2(href='/') ← Back to All Templates
+                                    .desc.map-color-7.container-paragraph(style="width: 600px;margin: 70px auto; height: 550px;")
+                                        .map-paragraph
+                                            h2.i-map-paragraph
+                                                b Sign Up For An Account
+                                            br
+                                            // Contact
+                                            section#contact
+                                                div
+                                                    .container
+                                                        .row
+                                                            //
+                                                            .col-md-12(style="padding-left: 0;")
+                                                                // Contact Right
+                                                                #contact-right.form-styles-c(style="height: 400px")
+                                                                    form(method="POST" style="width: 500px; height: 400px")
+                                                                        // <h4 class="form-t-c">Send Us A Message</h4>
+                                                                        .row
+                                                                            .col-md-12.col-sm-12
+                                                                                .form-group
+                                                                                    p(style=" margin-bottom: 5px;") Enter your Name
+                                                                                    input.form-control(type="name" name="name" placeholder="Name")
+                                                                            .col-md-12.col-sm-12
+                                                                                .form-group
+                                                                                    p(style="margin-bottom: 5px;") Enter your Email
+                                                                                    input.form-control(type="email" name="email" placeholder="Email Address")
+                                                                            .col-md-6.col-sm-6
+                                                                                .form-group
+                                                                                    p(style="margin-bottom: 5px;") Enter your Password
+                                                                                    input.form-control(type="password" name="password" placeholder="Your Password")
+                                                                            .col-md-6.col-sm-6
+                                                                                .form-group
+                                                                                    p(style="margin-bottom: 5px;") Confirm your Password
+                                                                                    input.form-control(type="password" name="password" placeholder="Confirm Your Password")
+                                                                        #submit-btn.form-submit-b(style="text-align: center; margin-top: 20px;")
+                                                                            button.btn.btn-general.btn-yellow(type="submit" name="submit" role="button") Submit
+                                                                            a.btn.btn-general.btn-yellow(href='/login' style="color: #4c6085; background-color: transparent;" type="submit" name="submit" role="button") Login
+                                            // End of Contact
+    // End of Pricing
+    // BG Video
+    section#home-2
+        img#leftgear(src="img/about/gear2.svg" alt="")
+        img#rightgear(src="img/about/gear2.svg" alt="")
+        // Background Video
+    // End of Build section
