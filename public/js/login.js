@@ -1,3 +1,15 @@
+const hideAlert = () => {
+    const el = document.querySelector('.alert-login');
+    if (el) el.parentElement.removeChild(el);
+};
+
+const showAlert = (type, msg) => {
+    hideAlert();
+    const markup = `<div class="alert-login alert--${type}">${msg}</div>`;
+    document.querySelector('body').insertAdjacentHTML('afterbegin', markup);
+    window.setTimeout(hideAlert, 5000);
+};
+
 const login = async (email, password) => {
     console.log(email, password);
     try {
@@ -10,20 +22,23 @@ const login = async (email, password) => {
             }
         });
         if(res.data.status === 'success') {
-            alert('Logged in successfully');
+            showAlert('success','Logged in successfully');
             window.setTimeout(() => {
                 location.assign('/');
             }, 1500);
         }
     } catch (e) {
-        alert(e.response.data.message);
+        showAlert('error',e.response.data.message);
     }
 
 };
 
-document.querySelector('.form').addEventListener('submit', e => {
-    e.preventDefault();
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
-    login(email, password);
-});
+const loginForm = document.querySelector('.form');
+
+if(loginForm)
+    loginForm.addEventListener('submit', e => {
+        e.preventDefault();
+        const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        login(email, password);
+    });
