@@ -24,12 +24,18 @@ header
                                     li
                                         a.smooth-scroll.ipad-m(href="#design-websites") Event & Design
 
-                            //li
-                            //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
-                            //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
-                            //        | Dontrell
-                            li
-                                a(href='/login') Login
+                            if user
+                                //li
+                                //    a Logout
+                                li
+                                    a(style="padding-top: 8px; padding-bottom: 8px;" href="#")
+                                        img.form__user-photo-2(src=`img/users/${user.photo}` alt=`Photo of ${user.name}`)
+                                        = user.name.split(' ')[0]
+
+
+                            else
+                                li
+                                    a(href='/login') Log in
                 // Mobile Menu
                 #mobile-nav
                     // Mobile Menu Close Button
