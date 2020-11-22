@@ -1,0 +1,49 @@
+extends base
+
+block content
+    include _header2
+    // BG Video
+    section#home-4
+        // <img src="img/about/gear2.svg" alt id="leftgear">
+        // <img src="img/about/gear2.svg" alt id="rightgear">
+        // Background Video
+        video#home-bg-video-2(poster="video/websitewarehouse4.jpg" autoplay="" loop="" muted="" playsinline="")
+            source(src="video/websitewarehouse4.mp4" type="video/mp4")
+            source(src="video/websitewarehouse4.ogv" type="video/ogg")
+            source(src="video/websitewarehouse4.webm" type="video/webm")
+        #home-overlay-2
+    // End of Build section
+    // Interactive Map
+    section#pricing
+        .content-box-md-interact
+            div
+                .map-color-3
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+                                    span(style="font-size: 20px; padding: 0;")  Multi-Page Templates
+                .map-color-6
+                    .container
+                        .row
+                            // Site content
+                            #content
+                                section#map-section.inner.over
+                                    ul#examples-2(style="margin-top: 60px;")
+                                        li
+                                            a.background-map-2(href='/') ← Back to All Templates
+                                    .desc.map-color-7.container-paragraph(style="width: 600px;margin: 70px auto; height: 550px; background-color:#DCDCDD; border: 2px solid #DCDCDD;")
+                                        .map-paragraph
+                                            h2.i-map-paragraph(style="margin-top: 60px;")
+                                                b Uh oh! Something went wrong!
+                                            h2.i-map-paragraph(style="margin-top: 60px;")
+                                                b 😢
+                                            p.i-map-paragraph(style="margin-top: 60px;")
+                                                b= msg
+    // End of Pricing
+    // BG Video
+    section#home-2
+        img#leftgear(src="img/about/gear2.svg" alt="")
+        img#rightgear(src="img/about/gear2.svg" alt="")
+        // Background Video
+    // End of Build section

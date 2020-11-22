@@ -1,6 +1,7 @@
 
 const Website = require('../models/websitesModel');
 const catchAsync = require('../utils/catchAsync');
+const AppError = require('../utils/appError');
 
 exports.getOverview = catchAsync(async (req,res, next) => {
 
@@ -20,6 +21,8 @@ exports.getOverview = catchAsync(async (req,res, next) => {
     });
 });
 
+
+
 exports.getWebsite = catchAsync(async (req,res, next) => {
 
     const website = await Website.findOne({slug: req.params.slug});
@@ -28,6 +31,10 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
         title: 'Beverly Hills Models',
         website
     });
+
+    if (!website) {
+        return next(new AppError('There is no tour with that name', 404));
+    }
 });
 
 
