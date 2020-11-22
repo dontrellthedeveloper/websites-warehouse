@@ -46,27 +46,27 @@ block content
                                                             .col-md-12(style="padding-left: 0;")
                                                                 // Contact Right
                                                                 #contact-right.form-styles-c(style="height: 400px")
-                                                                    form(method="POST" style="width: 500px; height: 400px")
+                                                                    form.form2(style="width: 500px; height: 400px")
                                                                         // <h4 class="form-t-c">Send Us A Message</h4>
                                                                         .row
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style=" margin-bottom: 5px;") Enter your Name
-                                                                                    input.form-control(type="name" name="name" placeholder="Name")
+                                                                                    input#name.form-control(type="name", required, placeholder="Name")
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Enter your Email
-                                                                                    input.form-control(type="email" name="email" placeholder="you@example.com")
+                                                                                    input#email.form-control(type="email", required, placeholder="you@example.com")
                                                                             .col-md-6.col-sm-6
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Enter your Password
-                                                                                    input.form-control(type="password" name="password" placeholder="*********")
+                                                                                    input#password.form-control(type="password", minlength='8', required, placeholder="*********")
                                                                             .col-md-6.col-sm-6
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Confirm your Password
-                                                                                    input.form-control(type="password" name="password" placeholder="Confirm Your Password")
+                                                                                    input#passwordConfirm.form-control(type="password", minlength='8', required, placeholder="Confirm Your Password")
                                                                         #submit-btn.form-submit-b(style="text-align: center; margin-top: 20px;")
-                                                                            button.btn.btn-general.btn-yellow(type="submit" name="submit" role="button") Submit
+                                                                            button.btn.btn-general.btn-yellow Sign Up
                                                                             a.btn.btn-general.btn-yellow(href='/login' style="color: #4c6085; background-color: transparent;" type="submit" name="submit" role="button") Login
                                             // End of Contact
     // End of Pricing
