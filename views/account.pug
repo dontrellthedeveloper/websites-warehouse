@@ -72,18 +72,18 @@ block content
                                                             .col-md-9
                                                                 // Contact Right
                                                                 #contact-right.form-styles-c(style="padding-bottom: 60px; width: 500px;")
-                                                                    form(method="POST")
+                                                                    form.form.form-user-data(action='/submit-user-data' method='POST')
                                                                         // <h4 class="form-t-c">Send Us A Message</h4>
                                                                         hr.line-br-color
                                                                         .row
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Name
-                                                                                    input#name.form-control(type='text', value=`${user.name}`, required)
+                                                                                    input#name.form-control(type='text', value=`${user.name}`, required, name='name')
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Email
-                                                                                    input#email.form-control(type='email', value=`${user.email}`, required)
+                                                                                    input#email.form-control(type='email', value=`${user.email}`, required, name='email')
                                                                                 .form__group.form__photo-upload
                                                                                     img.form__user-photo(style="margin-bottom: 20px;" src=`/img/users/${user.photo}` alt="User photo")
                                                                                     a.btn-text(href="") Choose new photo
