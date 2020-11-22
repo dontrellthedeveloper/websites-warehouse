@@ -1,6 +1,7 @@
 extends base
 
 block content
+    include _header2
     section#home-4
         // <img src="img/about/gear2.svg" alt id="leftgear">
         // <img src="img/about/gear2.svg" alt id="rightgear">
@@ -53,7 +54,7 @@ block content
                                                                                     .office
                                                                                         ul.office-details
                                                                                             li
-                                                                                                a(href="#")
+                                                                                                a(href='#' style="color: #4C6085; pointer-events: none;")
                                                                                                     i.fa.fa-user-circle
                                                                                                     | Settings
                                                                                             li
@@ -65,7 +66,7 @@ block content
                                                                                                     i.fa.fa-shopping-cart
                                                                                                     | My Purchases
                                                                                             li
-                                                                                                a(href="purchases.html")
+                                                                                                a.logout-a(href='/logout')
                                                                                                     i.fa.fa-sign-out
                                                                                                     | Logout
                                                             .col-md-9
@@ -77,14 +78,14 @@ block content
                                                                         .row
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
-                                                                                    p(style="margin-bottom: 5px;") Enter your Name
-                                                                                    input.form-control(type="name" name="name" placeholder="")
+                                                                                    p(style="margin-bottom: 5px;") Name
+                                                                                    input#name.form-control(type='text', value=`${user.name}`, required)
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
-                                                                                    p(style="margin-bottom: 5px;") Enter your Email
-                                                                                    input.form-control(type="email" name="email" placeholder="")
+                                                                                    p(style="margin-bottom: 5px;") Email
+                                                                                    input#email.form-control(type='email', value=`${user.email}`, required)
                                                                                 .form__group.form__photo-upload
-                                                                                    img.form__user-photo(style="margin-bottom: 20px;" src="img/default.jpg" alt="User photo")
+                                                                                    img.form__user-photo(style="margin-bottom: 20px;" src=`/img/users/${user.photo}` alt="User photo")
                                                                                     a.btn-text(href="") Choose new photo
                                                                         #submit-btn.form-submit-b
                                                                             button.btn.btn-general.btn-yellow(style="margin-bottom: 10px;" type="submit" name="submit" role="button") Save Settings

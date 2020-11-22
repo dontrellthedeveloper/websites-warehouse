@@ -8,10 +8,10 @@ const router = express.Router();
 
 router.use(authController.isLogginIn);
 
-router.get('/', viewController.getOverview);
-// router.get('/website', viewController.getWebsite);
-router.get('/website/:slug', viewController.getWebsite);
-router.get('/login', viewController.getLoginForm);
-router.get('/signup', viewController.getSignupForm);
+router.get('/', authController.isLogginIn, viewController.getOverview);
+router.get('/website/:slug', authController.isLogginIn, viewController.getWebsite);
+router.get('/login', authController.isLogginIn, viewController.getLoginForm);
+router.get('/signup', authController.isLogginIn, viewController.getSignupForm);
+router.get('/me', authController.protect, viewController.getAccount);
 
 module.exports = router;

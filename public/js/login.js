@@ -78,7 +78,7 @@ const logout = async () => {
 
 const signUpForm = document.querySelector('.form2');
 const loginForm = document.querySelector('.form');
-const logOutBtn = document.querySelector('.nav__el--logout');
+const logOutBtn = document.querySelector('.logout-a');
 
 if(signUpForm)
     signUpForm.addEventListener('submit', e => {
