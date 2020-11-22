@@ -60,9 +60,25 @@ const login = async (email, password) => {
 };
 
 
+
+
+const logout = async () => {
+    try {
+        const res = await axios({
+            method: 'GET',
+            url: '/api/v1/users/logout'
+        });
+        if ((res.data.status = 'success')) location.assign('/')
+    } catch (e) {
+        showAlert('error', 'Error logging out! Try again.')
+    }
+};
+
+
+
 const signUpForm = document.querySelector('.form2');
 const loginForm = document.querySelector('.form');
-
+const logOutBtn = document.querySelector('.nav__el--logout');
 
 if(signUpForm)
     signUpForm.addEventListener('submit', e => {
@@ -81,3 +97,6 @@ if(loginForm)
         const password = document.getElementById('password').value;
         login(email, password);
     });
+
+if(logOutBtn)
+    logOutBtn.addEventListener('click', logout);
