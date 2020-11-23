@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/email/passwordReset.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/email.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/email.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/email/welcome.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/email/welcome.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +164,8 @@
       <workItem from="1605387015934" duration="3922000" />
       <workItem from="1605417941876" duration="47354000" />
       <workItem from="1605798466270" duration="50603000" />
+      <workItem from="1606152212778" duration="180000" />
+      <workItem from="1606152418996" duration="3129000" />
     </task>
     <servers />
   </component>
