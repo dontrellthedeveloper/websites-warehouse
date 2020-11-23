@@ -91,24 +91,24 @@ block content
                                                                                     a.btn-text(href="") Choose new photo
                                                                         #submit-btn.form-submit-b
                                                                             button.btn.btn-general.btn-yellow(style="margin-bottom: 10px;" type="submit" name="submit" role="button") Save Settings
-                                                                    form(method="POST")
+                                                                    form.form.form-user-password
                                                                         // <h4 class="form-t-c">Send Us A Message</h4>
                                                                         hr.line-br-color
                                                                         .row
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Current password
-                                                                                    input.form-control(type="email" name="email" placeholder="")
+                                                                                    input#password-current.form-control(type='password', placeholder='••••••••', required, minlength='8')
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") New Password
-                                                                                    input.form-control(type="password" name="password" placeholder="")
+                                                                                    input#password.form-control(type='password', placeholder='••••••••', required, minlength='8')
                                                                             .col-md-12.col-sm-12
                                                                                 .form-group
                                                                                     p(style="margin-bottom: 5px;") Confirm Password
-                                                                                    input.form-control(type="password" name="password" placeholder="")
+                                                                                    input#password-confirm.form-control(type='password', placeholder='••••••••', required, minlength='8')
                                                                         #submit-btn2.form-submit-b
-                                                                            button.btn.btn-general.btn-yellow(type="submit" name="submit" role="button") Save Password
+                                                                            button.btn.btn-general.btn-yellow.btn--save-password Save password
                                             // End of Contact
                                             // <div class="user-view">
                                             // <nav class="user-view__menu">
