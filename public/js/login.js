@@ -12,6 +12,8 @@ const showAlert = (type, msg) => {
 
 
 
+
+
 const signUp = async (name, email, password, passwordConfirm) => {
 
     try {
@@ -76,9 +78,37 @@ const logout = async () => {
 
 
 
+const updateData = async (name, email) => {
+    try {
+        const res = await axios({
+            method: 'PATCH',
+            url: '/api/v1/users/updateMe',
+            data: {
+                name,
+                email
+            }
+        });
+
+        if (res.data.status === 'success') {
+            showAlert('success', 'Data updated successfully')
+        }
+    } catch (err) {
+        showAlert('error', err.response.data.message)
+    }
+};
+
+
+
+
+
+
+
+
+
 const signUpForm = document.querySelector('.form2');
 const loginForm = document.querySelector('.form--login');
 const logOutBtn = document.querySelector('.logout-a');
+const userDataForm = document.querySelector('.form-user-data');
 
 if(signUpForm)
     signUpForm.addEventListener('submit', e => {
@@ -100,3 +130,11 @@ if(loginForm)
 
 if(logOutBtn)
     logOutBtn.addEventListener('click', logout);
+
+if(userDataForm)
+    userDataForm.addEventListener('submit', e => {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        updateData(name, email);
+    });
