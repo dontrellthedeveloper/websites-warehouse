@@ -101,6 +101,27 @@ const updateSettings = async (data, type) => {
 
 
 
+const purchaseWebsite = async websiteId => {
+    try {
+        const stripe = Stripe('pk_test_51HqkwrANfcP4UCDtKo2U4kDtrL63G8HXbSYLzQ3sOwXd7jVrmPTd3KY6D1bVQ1ST5XVvB9IsCfWkeBx4RJwAPR4J00pgRMcz50');
+        // 1) Get checkout session from API
+        const session = await axios(`/api/v1/purchases/checkout-session/${websiteId}`);
+
+        console.log(session);
+        // 2) Create checkout form + charge credit card
+        await stripe.redirectToCheckout({
+            sessionId: session.data.session.id
+        })
+
+    } catch (err) {
+        console.log(err);
+        showAlert('error', err);
+    }
+
+};
+
+
+
 
 
 
@@ -110,6 +131,7 @@ const loginForm = document.querySelector('.form--login');
 const logOutBtn = document.querySelector('.logout-a');
 const userDataForm = document.querySelector('.form-user-data');
 const userPasswordForm = document.querySelector('.form-user-password');
+const purchaseBtn = document.getElementById('purchase-website');
 
 if(signUpForm)
     signUpForm.addEventListener('submit', e => {
@@ -157,4 +179,11 @@ if(userPasswordForm)
         document.getElementById('password-current').value = '';
         document.getElementById('password').value = '';
         document.getElementById('password-confirm').value = '';
+    });
+
+if(purchaseBtn)
+    purchaseBtn.addEventListener('click', e => {
+        e.target.textContent = 'Processing...';
+        const {websiteId} = e.target.dataset;
+        purchaseWebsite(websiteId);
     });

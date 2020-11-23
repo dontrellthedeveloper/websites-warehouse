@@ -58,11 +58,14 @@ block content
                                             .show-button
                                                 a(href=`${website.websiteLink}` target="_blank")
                                                     button.btn.btn-client-book.btn-red Visit Website
-                                                a(href="" target="_blank")
-                                                    button.btn.btn-client-book.btn-red
-                                                        i.fa.fa-heart-o
-                                                a(href="" target="_blank")
-                                                    button.btn.btn-client-book.btn-red Purchase
+                                                //a(href="" target="_blank")
+                                                //    button.btn.btn-client-book.btn-red
+                                                //        i.fa.fa-heart-o
+
+                                                if user
+                                                    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
+                                                else
+                                                    a.btn.btn-client-book.btn-red(href='/login') Login to purchase
                                             hr
                                             p.website-show-page-css= website.description
                                             br
