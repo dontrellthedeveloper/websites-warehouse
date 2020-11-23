@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/dontrellthedeveloper/websites-warehouse#readme",
   "dependencies": {
+    "7": "0.0.1",
     "axios": "^0.21.0",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.5",
@@ -40,8 +41,8 @@
     "pug": "^3.0.0",
     "sharp": "^0.26.3",
     "slugify": "^1.4.6",
+    "stripe": "^7.0.0",
     "validator": "^13.1.17",
     "xss-clean": "^0.1.1"
   }
 }
-

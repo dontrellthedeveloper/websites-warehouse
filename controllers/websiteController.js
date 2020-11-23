@@ -3,6 +3,7 @@ const factory = require('./handlerFactory');
 
 
 
+
 exports.aliasTopWebsites = (req, res, next) => {
     req.query.limit = '5';
     req.query.sort = 'price';
