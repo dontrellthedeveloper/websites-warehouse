@@ -29,7 +29,8 @@ purchaseSchema.pre(/^find/, function(next) {
     this.populate('user').populate({
         path: 'website',
         select: 'name'
-    })
+    });
+    next();
 });
 
 const Purchase = mongoose.model('Purchase', purchaseSchema);

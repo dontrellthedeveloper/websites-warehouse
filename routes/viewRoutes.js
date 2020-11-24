@@ -12,6 +12,8 @@ router.get('/website/:slug', authController.isLogginIn, viewController.getWebsit
 router.get('/login', authController.isLogginIn, viewController.getLoginForm);
 router.get('/signup', authController.isLogginIn, viewController.getSignupForm);
 router.get('/me', authController.protect, viewController.getAccount);
+router.get('/my-websites', authController.protect, viewController.getMyWebsites);
+
 router.post('/submit-user-data', authController.protect,  viewController.updateUserData);
 
 module.exports = router;
