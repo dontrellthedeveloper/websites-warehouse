@@ -13,7 +13,13 @@ exports.getOverview = catchAsync(async (req,res, next) => {
 
 
 
-    res.status(200).render('overview', {
+    res.status(200)
+        .set(
+            'Content-Security-Policy',
+            "default-src 'self' https://*.stripe.com ;base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src https://cdnjs.cloudflare.com https://js.stripe.com/v3/ 'self' blob: ;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;"
+        )
+        .set()
+        .render('overview', {
         title: 'All Websites',
         businessWebsites,
         clothingWebsites,
@@ -47,6 +53,11 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
 
 exports.getLoginForm = (req,res) => {
     res.status(200)
+        .set(
+            'Content-Security-Policy',
+            "default-src 'self' https://*.stripe.com ;base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src https://cdnjs.cloudflare.com https://js.stripe.com/v3/ 'self' blob: ;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;"
+        )
+        .set()
         .render('login', {
         title: 'Log into your account'
     })
@@ -54,6 +65,11 @@ exports.getLoginForm = (req,res) => {
 
 exports.getAccount = (req,res) => {
     res.status(200)
+        .set(
+            'Content-Security-Policy',
+            "default-src 'self' https://*.stripe.com ;base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src https://cdnjs.cloudflare.com https://js.stripe.com/v3/ 'self' blob: ;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;"
+        )
+        .set()
         .render('account', {
             title: 'Your account'
         })
@@ -63,6 +79,11 @@ exports.getAccount = (req,res) => {
 
 exports.getSignupForm = (req,res) => {
     res.status(200)
+        .set(
+            'Content-Security-Policy',
+            "default-src 'self' https://*.stripe.com ;base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src https://cdnjs.cloudflare.com https://js.stripe.com/v3/ 'self' blob: ;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;"
+        )
+        .set()
         .render('signup', {
         title: 'Sign up for account'
     })
