@@ -7,6 +7,7 @@ const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
+const compression = require('compression');
 
 const AppError = require('./utils/appError');
 const globalErrorHandler = require('./controllers/errorController');
@@ -27,28 +28,8 @@ app.use(express.static(path.join(`${__dirname}/public`)));
 
 // Set security HTTP headers
 app.use(helmet());
-// app.use(
-//     helmet.contentSecurityPolicy({
-//         directives: {
-//             defaultSrc: ["'self'", 'data:', 'blob:'],
-//             baseUri: ["'self'"],
-//             fontSrc: ["'self'", 'https:', 'data:'],
-//             scriptSrc: ["'self'", 'https://*.cloudflare.com'],
-//             scriptSrc: ["'self'", 'https://*.stripe.com'],
-//             frameSrc: ["'self'", 'https://*.stripe.com'],
-//             objectSrc: ["'none'"],
-//             styleSrc: ["'self'", 'https:', 'unsafe-inline'],
-//             workerSrc: ["'self'", 'data:', 'blob:'],
-//             childSrc: ["'self'", 'blob:'],
-//             imgSrc: ["'self'", 'data:', 'blob:'],
-//             connectSrc: [
-//                 "'self'",
-//                 'blob:',
-//             ],
-//             upgradeInsecureRequests: [],
-//         },
-//     })
-// );
+
+app.use(compression());
 
 // Development logging
 if (process.env.NODE_ENV === 'development') {

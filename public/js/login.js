@@ -72,6 +72,7 @@ const logout = async () => {
         });
         if ((res.data.status = 'success')) location.assign('/')
     } catch (e) {
+        console.log(e.response);
         showAlert('error', 'Error logging out! Try again.')
     }
 };
@@ -107,7 +108,7 @@ const purchaseWebsite = async websiteId => {
         // 1) Get checkout session from API
         const session = await axios(`/api/v1/purchases/checkout-session/${websiteId}`);
 
-        console.log(session);
+        // console.log(session);
         // 2) Create checkout form + charge credit card
         await stripe.redirectToCheckout({
             sessionId: session.data.session.id
@@ -161,7 +162,7 @@ if(userDataForm)
         form.append('name', document.getElementById('name').value);
         form.append('email', document.getElementById('email').value);
         form.append('photo', document.getElementById('photo').files[0]);
-        console.log(form);
+        // console.log(form);
         updateSettings(form, 'data');
     });
 
