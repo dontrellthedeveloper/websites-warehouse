@@ -48,3 +48,10 @@ exports.createPurchaseCheckout = catchAsync(async (req,res,next) => {
 
     res.redirect(req.originalUrl.split('?')[0])
 });
+
+
+exports.createPurchase = factory.createOne(Purchase);
+exports.getPurchase = factory.getOne(Purchase);
+exports.getAllPurchases = factory.getAll(Purchase);
+exports.updatePurchase = factory.updateOne(Purchase);
+exports.deletePurchase = factory.deleteOne(Purchase);

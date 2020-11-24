@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/purchases.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/viewController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/viewController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/purchaseModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/purchaseModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/viewRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/viewRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/account.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/account.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/purchaseController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/purchaseController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/purchaseRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/purchaseRoutes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +162,7 @@
       <workItem from="1605417941876" duration="47354000" />
       <workItem from="1605798466270" duration="50603000" />
       <workItem from="1606152212778" duration="180000" />
-      <workItem from="1606152418996" duration="16992000" />
+      <workItem from="1606152418996" duration="17892000" />
     </task>
     <servers />
   </component>
