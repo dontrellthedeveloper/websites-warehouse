@@ -27,35 +27,17 @@ block content
                                     ul#examples-2
                                         li
                                             a.background-map-2(href='/') ← Back to All Templates
-                                    h2.i-map-paragraph
-                                        b= `${website.companyType} - ${website.name}`
-                                    hr
-                                    p.website-show-page-css= website.summary
-                                    .row-show.port-popup
-                                        each img, i in website.images
-
-                                            a.portfolio-item-d-overlay(href=`/img/websites/${img}`)
-                                                .column-show
-                                                    img(src=`/img/websites/${img}` alt=`${i + 1}` style="width:100%")
-                                        //a.portfolio-item-d-overlay(href="/img/portfolio-detail/show-page/beverly-hills-models-2.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>")
-                                        //    .column-show
-                                        //        img(src="/img/portfolio-detail/show-page/beverly-hills-models-2.png" alt="" style="width:100%")
-                                        //a.portfolio-item-d-overlay(href="/img/portfolio-detail/show-page/beverly-hills-models-3.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>")
-                                        //    .column-show.show-page-iphone
-                                        //        img(src="/img/portfolio-detail/show-page/beverly-hills-models-3.png" alt="" style="width:100%")
-                                        //a.portfolio-item-d-overlay(href="/img/portfolio-detail/show-page/beverly-hills-models-4.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>")
-                                        //    .column-show.show-page-iphone
-                                        //        img(src="/img/portfolio-detail/show-page/beverly-hills-models-4.png" alt="" style="width:100%")
-                                    .desc.map-color-7.container-paragraph
+                                    .desc.map-color-7.container-paragraph(style="margin-bottom: 5px; border: 1px solid #46494C;")
                                         .map-paragraph
                                             h2.i-map-paragraph
                                                 b= `${website.companyType} - ${website.name}`
+                                            //p.website-show-page-css= website.summary
                                             //h2.i-map-paragraph
                                             //    b= `${website.websiteType}`
-                                            h2.i-map-paragraph
-                                                b= `$${website.price}`
-                                            hr
-                                            .show-button
+                                            //h2.i-map-paragraph
+                                            //    b= `$${website.price}`
+                                            //hr
+                                            .show-button(style="margin-top: 30px;")
                                                 a(href=`${website.websiteLink}` target="_blank")
                                                     button.btn.btn-client-book.btn-red Visit Website
                                                 //a(href="" target="_blank")
@@ -66,14 +48,67 @@ block content
                                                     button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
                                                 else
                                                     a.btn.btn-client-book.btn-red(href='/login') Login to purchase
-                                            hr
-                                            p.website-show-page-css= website.description
-                                            br
+                                            //hr
+                                            //p.website-show-page-css= website.description
+                                            //br
+                                            //iframe(src=`/pdf/${website.features}` width="100%" height="700px")
+                                            //hr
+                                            //li.template-p-detail
+                                            //    hr
+                                            //    |  More information about the website? Email
+                                            //    |
+                                            //    a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
+                                            //hr
+                                            h2.i-map-paragraph(style="margin-top: 30px;")
+                                                b= `$${website.price}`
+
+                                    //h2.i-map-paragraph
+                                    //    b= `${website.companyType} - ${website.name}`
+                                    //hr
+                                    //p.website-show-page-css= website.summary
+                                    .row-show.port-popup
+                                        each img, i in website.images
+
+                                            a.portfolio-item-d-overlay(href=`/img/websites/${img}`)
+                                                .column-show
+                                                    img(src=`/img/websites/${img}` alt=`${i + 1}` style="width:100%")
+                                    .desc.map-color-7.container-paragraph(style="margin-top: 5px; margin-bottom: 40px; border: 1px solid #46494C;")
+                                        .map-paragraph
+                                            //h2.i-map-paragraph
+                                            //    b= `${website.companyType} - ${website.name}`
+                                            //h2.i-map-paragraph
+                                            //    b= `${website.websiteType}`
+                                            //h2.i-map-paragraph
+                                            //    b= `$${website.price}`
+                                            //hr
+                                            //.show-button
+                                            //    a(href=`${website.websiteLink}` target="_blank")
+                                            //        button.btn.btn-client-book.btn-red Visit Website
+                                                //a(href="" target="_blank")
+                                                //    button.btn.btn-client-book.btn-red
+                                                //        i.fa.fa-heart-o
+
+                                                if user
+                                                    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
+                                                else
+                                                    a.btn.btn-client-book.btn-red(href='/login') Login to purchase
+                                            //hr
+                                            //p.website-show-page-css= website.description
+                                            //br
                                             iframe(src=`/pdf/${website.features}` width="100%" height="700px")
-                                            hr
+                                            //hr
+                                            //li.template-p-detail
+                                            //    hr
+                                            //    |  Do you need more information this website? Email
+                                            //    |
+                                            //    a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
+                                            //hr
+                                    .desc.map-color-7.container-paragraph(style="margin-top: 5px; margin-bottom: 40px; border: 1px solid #46494C;")
+                                        .map-paragraph
+                                            //hr
                                             li.template-p-detail
                                                 hr
-                                                |  More information about the website template? Email
+                                                |  Do you need more information about this website? Email
                                                 |
                                                 a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
                                             hr
