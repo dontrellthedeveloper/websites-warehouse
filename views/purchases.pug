@@ -24,21 +24,21 @@ block content
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
                                     span(style="font-size: 20px; padding: 0;") My
                                 h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Purchases
-                ul#examples-2(style="padding-bottom: 25px;")
+                ul#examples-2(style="padding-bottom: 25px; height: 350px;")
                     li
                         a.background-map-2(href='/me') ← Back to Account Page
                     li
-                        a.background-map(href='/' style="color: #0a0c0d") Go to All Website
-                .team-members.owl-carousel.owl-theme.portfolio-item
+                        a.background-map(href='/' style="color: #0a0c0d") Go to All Websites
+                portfolio-item
 
                     each website in websites
 
-                        a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
-                            img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
+                        a.portfolio-item-d-overlay(style="display: inline-block; margin: 20px;" href=`/website/${website.slug}`)
+                            img.img-responsive(style="width: 500px;  " src=`img/websites/${website.imageCover}` alt=`${website.name}`)
                             p.show-page-paragraph= website.name
                             p.show-page-paragraph= `${website.companyType}`
                             hr.portfolio-hr-style
-                            p.show-page-paragraph= `$${website.price}`
+                            p.show-page-paragraph(style="margin-bottom: 60px;")= `$${website.price}`
 
 
     // BG Video
