@@ -257,12 +257,12 @@
     "price": 599,
     "summary":"Keni Hair is located in Miami, FL",
     "description":"Keni Hair is one of the top hair stores online.",
-    "imageCover":"tito-barber-cover.jpg",
+    "imageCover":"keni-hair-cover.jpg",
     "images":[
-      "tito-barber-1.jpg",
-      "tito-barber-2.jpg",
-      "tito-barber-3.jpg",
-      "tito-barber-4.jpg"
+      "keni-hair-1.jpg",
+      "keni-hair-2.jpg",
+      "keni-hair-3.jpg",
+      "keni-hair-4.jpg"
     ]
   },
   {
@@ -276,12 +276,12 @@
     "price": 599,
     "summary":"Clothing Store in Miami, FL",
     "description":"Kulture Kings is one of the top clothing brands in Miami, Fl. ",
-    "imageCover":"tito-barber-cover.jpg",
+    "imageCover":"kulture-kings-cover.jpg",
     "images":[
-      "tito-barber-1.jpg",
-      "tito-barber-2.jpg",
-      "tito-barber-3.jpg",
-      "tito-barber-4.jpg"
+      "kulture-kings-1.jpg",
+      "kulture-kings-2.jpg",
+      "kulture-kings-3.jpg",
+      "kulture-kings-4.jpg"
     ]
   },
   {
@@ -295,12 +295,12 @@
     "price": 599,
     "summary":"Skincare Clinic located in Woodland Hills, Ca.",
     "description":"Transform your skin and change your life with Soule Skincare.",
-    "imageCover":"tito-barber-cover.jpg",
+    "imageCover":"acne-solutions-cover.jpg",
     "images":[
-      "tito-barber-1.jpg",
-      "tito-barber-2.jpg",
-      "tito-barber-3.jpg",
-      "tito-barber-4.jpg"
+      "acne-solutions-1.jpg",
+      "acne-solutions-2.jpg",
+      "acne-solutions-3.jpg",
+      "acne-solutions-4.jpg"
     ]
   },
   {
@@ -314,12 +314,107 @@
     "price": 599,
     "summary":"Clothing store in Jacksonville, FL",
     "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"tito-barber-cover.jpg",
+    "imageCover":"redline-cover.jpg",
     "images":[
-      "tito-barber-1.jpg",
-      "tito-barber-2.jpg",
-      "tito-barber-3.jpg",
-      "tito-barber-4.jpg"
+      "redline-1.jpg",
+      "redline-2.jpg",
+      "redline-3.jpg",
+      "redline-4.jpg"
+    ]
+  },
+  {
+    "id":17,
+    "name":"Ocean Mile Group",
+    "companyType": "Clothing Store",
+    "websiteType":"php store",
+    "websiteCategory":"clothing",
+    "websiteLink":"https://fashion-ecommerce.websiteswarehouse.com/",
+    "features":"Ramsey-Development-Instructions.pdf",
+    "price": 599,
+    "summary":"Clothing store in Jacksonville, FL",
+    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
+    "imageCover":"ocean-mile-g-cover.jpg",
+    "images":[
+      "ocean-mile-g-1.jpg",
+      "ocean-mile-g-2.jpg",
+      "ocean-mile-g-3.jpg",
+      "ocean-mile-g-4.jpg"
+    ]
+  },
+  {
+    "id":18,
+    "name":"XOXO Fashion",
+    "companyType": "Clothing Store",
+    "websiteType":"php store",
+    "websiteCategory":"clothing",
+    "websiteLink":"https://products-ecommerce.websiteswarehouse.com/",
+    "features":"Ramsey-Development-Instructions.pdf",
+    "price": 599,
+    "summary":"Clothing store in Jacksonville, FL",
+    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
+    "imageCover":"xoxo-fashion-cover.jpg",
+    "images":[
+      "xoxo-fashion-1.jpg",
+      "xoxo-fashion-2.jpg",
+      "xoxo-fashion-3.jpg",
+      "xoxo-fashion-4.jpg"
+    ]
+  },
+  {
+    "id":19,
+    "name":"Image & Beauty Studios",
+    "companyType": "Photography Studio",
+    "websiteType":"php store",
+    "websiteCategory":"beauty/health",
+    "websiteLink":"https://booking-ecommerce.websiteswarehouse.com/",
+    "features":"Ramsey-Development-Instructions.pdf",
+    "price": 599,
+    "summary":"Clothing store in Jacksonville, FL",
+    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
+    "imageCover":"a-e-image-cover.jpg",
+    "images":[
+      "a-e-image-1.jpg",
+      "a-e-image-2.jpg",
+      "a-e-image-3.jpg",
+      "a-e-image-4.jpg"
+    ]
+  },
+  {
+    "id":20,
+    "name":"Caffeine & Cuisine",
+    "companyType": "Coffee Shop",
+    "websiteType":"node/express website",
+    "websiteCategory":"design/event",
+    "websiteLink":"https://dontrellthedeveloper.github.io/demo-coffee-shop/",
+    "features":"Ramsey-Development-Instructions.pdf",
+    "price": 599,
+    "summary":"Clothing store in Jacksonville, FL",
+    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
+    "imageCover":"coffee-cover.jpg",
+    "images":[
+      "coffee-1.jpg",
+      "coffee-2.jpg",
+      "coffee-3.jpg",
+      "coffee-4.jpg"
+    ]
+  },
+  {
+    "id":16,
+    "name":"Hot Valley Styles",
+    "companyType": "Clothing Store",
+    "websiteType":"shopify store",
+    "websiteCategory":"clothing",
+    "websiteLink":"https://react-ecommerce.myshopify.com/",
+    "features":"Ramsey-Development-Instructions.pdf",
+    "price": 599,
+    "summary":"Clothing store in Jacksonville, FL",
+    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
+    "imageCover":"hot-valley-styles-cover.jpg",
+    "images":[
+      "hot-valley-styles-1.jpg",
+      "hot-valley-styles-2.jpg",
+      "hot-valley-styles-3.jpg",
+      "hot-valley-styles-4.jpg"
     ]
   }
 ]

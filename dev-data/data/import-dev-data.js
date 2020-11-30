@@ -17,13 +17,13 @@ mongoose.connect(DB, {
 
 
 const websites = JSON.parse(fs.readFileSync(`${__dirname}/websites.json`,'utf-8'));
-const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`,'utf-8'));
+// const users = JSON.parse(fs.readFileSync(`${__dirname}/users.json`,'utf-8'));
 
 //IMPORT DATA INTO DB
 const importData = async () => {
     try {
         await Websites.create(websites);
-        await User.create(users, {validateBeforeSave: false});
+        // await User.create(users, {validateBeforeSave: false});
         console.log('Data successfully loaded');
         process.exit();
     } catch (e) {
@@ -35,7 +35,7 @@ const importData = async () => {
 const deleteData = async () => {
     try {
         await Websites.deleteMany();
-        await User.deleteMany();
+        // await User.deleteMany();
         console.log('Data deleted successfully!');
     } catch (e) {
         console.log(e)
