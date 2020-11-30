@@ -244,7 +244,8 @@ section {
 
 #home-4 {
     background: none;
-    height: 69px;
+    /*height: 69px;*/
+    height: 80px;
 }
 
 #home-3 {
@@ -278,6 +279,21 @@ section {
 }
 
 #home-bg-video-3 {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%);
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1;
+     background: url("../video/Websitewarehouse.jpg") no-repeat;
+     background-size: cover;
+ }
+
+#home-bg-video-4 {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -288,7 +304,7 @@ section {
     width: auto;
     height: auto;
     z-index: -1;
-    background: url("../video/Websitewarehouse.jpg") no-repeat;
+    background: url("../video/cool-background.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -1773,9 +1789,11 @@ ul.navbar-nav > li > a:focus {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 20px;
+    /*letter-spacing: 20px;*/
+    letter-spacing: 10px;
     color: #fff;
     position: absolute;
+    /*top: 0;*/
     top: 0;
     left: 0; }
 @media (max-width: 767.98px) {
@@ -1783,6 +1801,16 @@ ul.navbar-nav > li > a:focus {
         margin-top: -10px; } }
 
 .slider-text .subheading-2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 40%; }
+
+.slider-text .subheading-3 {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
