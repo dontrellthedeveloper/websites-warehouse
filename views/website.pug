@@ -45,8 +45,8 @@ block content
                                                 //a(href="" target="_blank")
                                                 //    button.btn.btn-client-book.btn-red
                                                 //        i.fa.fa-heart-o
-                                                a(href=`mailto:dontrellthedeveloper@gmail.com` target="_blank")
-                                                    button.btn.btn-client-book.btn-red Email for customization
+                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to customize ${website.name}` target="_blank")
+                                                    button.btn.btn-client-book.btn-red Email to customize
                                                 //if user
                                                 //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
                                                 //else
@@ -88,6 +88,8 @@ block content
                                                         button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
                                                     else
                                                         a.btn.btn-client-book.btn-red(href='/login') Login to purchase
+                                                    a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template for $${website.price}` target="_blank")
+                                                        button.btn.btn-client-book.btn-red Email to purchase
                                                     br
                                                     h2.i-map-paragraph(style="margin-top: 30px;")
                                                         b= `$${website.price}`
