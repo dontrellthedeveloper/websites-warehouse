@@ -31,15 +31,15 @@ block content
                                         .map-paragraph
                                             h2.i-map-paragraph
                                                 b= `${website.companyType} - ${website.name}`
-                                                hr
-                                                p.template-p-detail= `${website.name} website was designed by Websites Warehouse. `
+
+
                                             //p.website-show-page-css= website.summary
                                             //h2.i-map-paragraph
                                             //    b= `${website.websiteType}`
                                             //h2.i-map-paragraph
                                             //    b= `$${website.price}`
                                             //hr
-                                            .show-button(style="margin-top: 30px;")
+                                            .show-button(style="margin-top: 30px; margin-bottom: 30px;")
                                                 a(href=`${website.websiteLink}` target="_blank")
                                                     button.btn.btn-client-book.btn-red Visit Website
                                                 //a(href="" target="_blank")
@@ -47,6 +47,8 @@ block content
                                                 //        i.fa.fa-heart-o
                                                 a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to customize ${website.name}` target="_blank")
                                                     button.btn.btn-client-book.btn-red Email to customize
+
+                                            p.template-p-detail= `${website.name}'s website was designed by Websites Warehouse. `
                                                 //if user
                                                 //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
                                                 //else
