@@ -19,9 +19,9 @@ exports.getCheckoutSession = catchAsync( async (req,res,next) => {
         mode: 'payment',
         line_items: [
             {
-                name: `${website.name} Website`,
-                description: website.summary,
-                // images: [`https://www.websiteswarehouse.com/img/websites/${website.imageCover}`],
+                name: `${website.name} Website Template`,
+                // description: website.summary,
+                images: [`https://www.websiteswarehouse.com/img/websites/${website.imageCover}`],
                 amount: website.price * 100,
                 currency: 'usd',
                 quantity: 1
