@@ -101,6 +101,12 @@
         padding: 0 20px;
     }
 
+    /*pdf*/
+    .pdf-css-rsz {
+        width: 100%;
+        height: 700px;
+    }
+
     /* Start of Contact Overlay - Team Member Info 1 & 2 */
     .team-member-info {
         width: 100%;
@@ -218,7 +224,11 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
-
+    /* pdf */
+    .pdf-css-rsz {
+        width: 100%;
+        height: 600px;
+    }
 
     /* logo */
     .img-media-q {
@@ -410,6 +420,12 @@
 
 /* Small Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    /* pdf */
+    .pdf-css-rsz {
+        width: 100%;
+        height: 500px;
+    }
 
     /* logo */
     .img-media-q {
@@ -732,8 +748,8 @@
     }
 
     #examples-2 a {
-        font-size: 16px;
-        padding: 12px;
+        font-size: 11px;
+        padding: 14px;
         /*margin: 0 2px;*/
     }
 
@@ -815,10 +831,24 @@
         font-size: 10px;
     }
 
+    .pdf-css-rsz {
+        width: 100%;
+        height: 400px;
+    }
+
+    .template-p-detail {
+        font-size: 12px;
+    }
+
     .btn-client-book {
-        padding: 8px 22px 8px 22px;
-        font-size: 11px;
+        /*padding: 8px 22px 8px 22px;*/
+        padding: 8px 12px 8px 12px;
+        font-size: 9px;
         font-weight: bold;
+    }
+
+    .btn-client-book {
+        margin: 0 2px;
     }
 
     .btn-social-i {

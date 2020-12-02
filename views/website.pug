@@ -17,7 +17,7 @@ block content
                         .home-headings.tools-p-align
                             .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;")  Multi-Page Templates
+                                    span(style="font-size: 20px; padding: 0;")= website.companyType
                 .map-color-6
                     .container
                         .row
@@ -30,7 +30,7 @@ block content
                                     .desc.map-color-7.container-paragraph(style="margin-bottom: 5px; border: 1px solid #46494C;")
                                         .map-paragraph
                                             h2.i-map-paragraph
-                                                b= `${website.companyType} - ${website.name}`
+                                                b= `${website.name}`
 
 
                                             //p.website-show-page-css= website.summary
@@ -99,6 +99,7 @@ block content
                                                     br
                                                     |  After purchase, you will receive an email with instructions about your website.
                                                     br
+                                                    |
                                                     |  Please allow 7-10 business days for your website to be completed.
 
                                                     //|
@@ -131,7 +132,7 @@ block content
                                             //hr
                                             //p.website-show-page-css= website.description
                                             //br
-                                            iframe(src=`/pdf/${website.features}` width="100%" height="700px")
+                                            iframe.pdf-css-rsz(src=`/pdf/${website.features}`)
                                             //hr
                                             //li.template-p-detail
                                             //    hr
