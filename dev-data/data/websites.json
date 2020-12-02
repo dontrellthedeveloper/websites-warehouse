@@ -39,21 +39,21 @@
   },
   {
     "id":2,
-    "name":"Achieve Fitness",
-    "companyType": "Fitness Company",
-    "websiteType":"node/express website",
+    "name":"Keni Hair",
+    "companyType": "Hair Store",
+    "websiteType":"shopify store",
     "websiteCategory":"beauty/health",
-    "websiteLink":"https://dontrellthedeveloper.github.io/achieve-fitness-miami/",
-    "features":"Achieve-Fitness-Features.pdf",
-    "price": 499,
-    "summary":"One of the top fitness gyms in the united states ",
-    "description":"Achieve Fitness is a No Judgment Gym that believes in making serious exercise fun by fusing fitness and entertainment.",
-    "imageCover":"achieve-fitness-cover.jpg",
+    "websiteLink":"https://kenihair.com/",
+    "features":"Keni-Hair-Features.pdf",
+    "price": 599,
+    "summary":"Keni Hair is located in Miami, FL",
+    "description":"Keni Hair is one of the top hair stores online.",
+    "imageCover":"keni-hair-cover.jpg",
     "images":[
-      "achieve-fitness-1.jpg",
-      "achieve-fitness-2.jpg",
-      "achieve-fitness-3.jpg",
-      "achieve-fitness-4.jpg"
+      "keni-hair-1.jpg",
+      "keni-hair-2.jpg",
+      "keni-hair-3.jpg",
+      "keni-hair-4.jpg"
     ]
   },
   {
@@ -248,40 +248,40 @@
   },
   {
     "id":13,
-    "name":"Keni Hair",
-    "companyType": "Hair Store",
-    "websiteType":"shopify store",
+    "name":"Achieve Fitness",
+    "companyType": "Fitness Company",
+    "websiteType":"node/express website",
     "websiteCategory":"beauty/health",
-    "websiteLink":"https://kenihair.com/",
-    "features":"Keni-Hair-Features.pdf",
-    "price": 599,
-    "summary":"Keni Hair is located in Miami, FL",
-    "description":"Keni Hair is one of the top hair stores online.",
-    "imageCover":"keni-hair-cover.jpg",
+    "websiteLink":"https://dontrellthedeveloper.github.io/achieve-fitness-miami/",
+    "features":"Achieve-Fitness-Features.pdf",
+    "price": 499,
+    "summary":"One of the top fitness gyms in the united states ",
+    "description":"Achieve Fitness is a No Judgment Gym that believes in making serious exercise fun by fusing fitness and entertainment.",
+    "imageCover":"achieve-fitness-cover.jpg",
     "images":[
-      "keni-hair-1.jpg",
-      "keni-hair-2.jpg",
-      "keni-hair-3.jpg",
-      "keni-hair-4.jpg"
+      "achieve-fitness-1.jpg",
+      "achieve-fitness-2.jpg",
+      "achieve-fitness-3.jpg",
+      "achieve-fitness-4.jpg"
     ]
   },
   {
     "id":14,
-    "name":"Kulture Kings",
+    "name":"Redline",
     "companyType": "Clothing Store",
     "websiteType":"shopify store",
     "websiteCategory":"clothing",
-    "websiteLink":"https://kulturekingsapp.com/",
-    "features":"Kulture-Kings-Features.pdf",
+    "websiteLink":"https://3rdeyestore.net/",
+    "features":"Redline-Features.pdf",
     "price": 599,
-    "summary":"Clothing Store in Miami, FL",
-    "description":"Kulture Kings is one of the top clothing brands in Miami, Fl. ",
-    "imageCover":"kulture-kings-cover.jpg",
+    "summary":"Clothing store in Jacksonville, FL",
+    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
+    "imageCover":"redline-cover.jpg",
     "images":[
-      "kulture-kings-1.jpg",
-      "kulture-kings-2.jpg",
-      "kulture-kings-3.jpg",
-      "kulture-kings-4.jpg"
+      "redline-1.jpg",
+      "redline-2.jpg",
+      "redline-3.jpg",
+      "redline-4.jpg"
     ]
   },
   {
@@ -304,22 +304,22 @@
     ]
   },
   {
-    "id":16,
-    "name":"Redline",
+    "id":18,
+    "name":"Kulture Kings",
     "companyType": "Clothing Store",
     "websiteType":"shopify store",
     "websiteCategory":"clothing",
-    "websiteLink":"https://3rdeyestore.net/",
-    "features":"Redline-Features.pdf",
+    "websiteLink":"https://kulturekingsapp.com/",
+    "features":"Kulture-Kings-Features.pdf",
     "price": 599,
-    "summary":"Clothing store in Jacksonville, FL",
-    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"redline-cover.jpg",
+    "summary":"Clothing Store in Miami, FL",
+    "description":"Kulture Kings is one of the top clothing brands in Miami, Fl. ",
+    "imageCover":"kulture-kings-cover.jpg",
     "images":[
-      "redline-1.jpg",
-      "redline-2.jpg",
-      "redline-3.jpg",
-      "redline-4.jpg"
+      "kulture-kings-1.jpg",
+      "kulture-kings-2.jpg",
+      "kulture-kings-3.jpg",
+      "kulture-kings-4.jpg"
     ]
   },
   {
@@ -341,8 +341,9 @@
       "ocean-mile-g-4.jpg"
     ]
   },
+
   {
-    "id":18,
+    "id":16,
     "name":"XOXO Fashion",
     "companyType": "Clothing Store",
     "websiteType":"php store",
@@ -399,7 +400,7 @@
     ]
   },
   {
-    "id":16,
+    "id":21,
     "name":"Hot Valley Styles",
     "companyType": "Clothing Store",
     "websiteType":"shopify store",

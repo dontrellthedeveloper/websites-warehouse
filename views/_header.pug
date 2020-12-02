@@ -8,7 +8,7 @@ header
                         span#mobile-nav-open-btn ☰
                         a.navbar-brand(href='/')
                             //img.img-rsz(src="/img/logo/websites-warehouse-logo-light-new.png" width="80px" height="80px" alt="logo")
-                            img.img-rsz(src="/img/logo/websites-warehouse-new-light-2.png" width="95px" height="95px" alt="logo")
+                            img.img-rsz.img-media-q(src="/img/logo/websites-warehouse-new-light-2.png" width='95px' height='95px' alt="logo")
                     .collapse.navbar-collapse
                         ul.nav.navbar-nav.pull-right.wh
                             //li
@@ -55,10 +55,13 @@ header
                             li
                                 a.smooth-scroll.ipad-m(href="#design-websites") Event & Design
 
-                            //li
-                            //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
-                            //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
-                            //        | Dontrell
-                            li
-                                a(href="login.html") Login
+                            if user
+
+                                li
+                                    a(style="padding-top: 8px; padding-bottom: 8px;" href='/me')
+                                        img.form__user-photo-2(src=`/img/users/${user.photo}` alt=`Photo of ${user.name}`)
+                                        = user.name.split(' ')[0]
+                            else
+                                li
+                                    a(href='/login') Log in
 

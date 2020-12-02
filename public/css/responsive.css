@@ -90,6 +90,12 @@
 /* Large Devices (Desktops & Laptops) */
 @media (min-width: 1200px) {
 
+    /* logo */
+    .img-media-q {
+        width: 95px;
+        /*height: 95px;*/
+    }
+
     /* Navigation */
     .site-nav-wrapper {
         padding: 0 20px;
@@ -210,6 +216,16 @@
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+    /* logo */
+    .img-media-q {
+        width: 95px;
+        /*height: 95px;*/
+    }
+
 
     /* Buttons*/
     .btn-client-book {
@@ -394,6 +410,12 @@
 
 /* Small Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    /* logo */
+    .img-media-q {
+        width: 75px;
+        /*height: 95px;*/
+    }
 
     #info  h4 {
         font-size: 15px;
@@ -703,6 +725,30 @@
 
 /* Extra Small Devices (Desktop & Laptops) */
 @media(max-width: 767px) {
+
+    .login-form-css {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    #examples-2 a {
+        font-size: 16px;
+        padding: 12px;
+        /*margin: 0 2px;*/
+    }
+
+    /* account page */
+    ul.office-details {
+        list-style: none;
+        padding: 0 0 0 0;
+    }
+
+
+    /* logo */
+    .img-media-q {
+        width: 75px;
+        /*height: 95px;*/
+    }
 
     .show-page-paragraph {
         font-size: 14px;
@@ -1061,7 +1107,7 @@
 
     .office {
         margin-bottom: 20px;
-        margin-right: -22px;
+        /*margin-right: -22px;*/
         margin-top: 10px;
     }
 
