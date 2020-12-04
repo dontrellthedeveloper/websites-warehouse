@@ -45,8 +45,8 @@ block content
                                                 //a(href="" target="_blank")
                                                 //    button.btn.btn-client-book.btn-red
                                                 //        i.fa.fa-heart-o
-                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to customize ${website.name}` target="_blank")
-                                                    button.btn.btn-client-book.btn-red Email to customize
+                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like a custom website` target="_blank")
+                                                    button.btn.btn-client-book.btn-red Custom Inquiry
 
                                             p.template-p-detail= `${website.name}'s website was designed by Websites Warehouse. `
                                                 //if user
@@ -86,15 +86,16 @@ block content
 
                                                     hr
 
-                                                    if user
-                                                        button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
-                                                    else
-                                                        a.btn.btn-client-book.btn-red(href='/login') Login to purchase
+                                                if user
+                                                    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
+                                                else
+                                                    a(href='/login')
+                                                        button.btn.btn-client-book.btn-red Login to purchase
                                                     a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template for $${website.price}` target="_blank")
                                                         button.btn.btn-client-book.btn-red Email to purchase
-                                                    br
-                                                    h2.i-map-paragraph(style="margin-top: 30px;")
-                                                        b= `$${website.price}`
+                                                br
+                                                h2.i-map-paragraph(style="margin-top: 30px;")
+                                                    b= `$${website.price}`
                                                 li.template-p-detail
                                                     br
                                                     |  After purchase, you will receive an email with instructions about your website.

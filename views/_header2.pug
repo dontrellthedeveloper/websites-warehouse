@@ -46,7 +46,7 @@ header
                     #mobile-nav-content
                         ul.nav
                             li
-                                a(href="/") Home
+                                a(href='/') Home
                             li
                                 a.smooth-scroll.ipad-m(href="#business-websites") Business
                             li
@@ -56,10 +56,13 @@ header
                             li
                                 a.smooth-scroll.ipad-m(href="#design-websites") Event & Design
 
-                            //li
-                            //    a(style="padding-top: 8px; padding-bottom: 8px;" href="account.html")
-                            //        img.form__user-photo-2(src="img/default.jpg" alt="User photo")
-                            //        | Dontrell
-                            li
-                                a(href="login.html") Login
+                            if user
+
+                                li
+                                    a(style="padding-top: 8px; padding-bottom: 8px;" href='/me')
+                                        img.form__user-photo-2(src=`/img/users/${user.photo}` alt=`Photo of ${user.name}`)
+                                        = user.name.split(' ')[0]
+                            else
+                                li
+                                    a(href='/login') Log in
 

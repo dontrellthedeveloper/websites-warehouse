@@ -63,20 +63,20 @@ $(function() {
         items: 3,
         margin: 25,
         center: true,
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 700,
         autoplayTimeout:5000,
         loop: true,
-        autoplayHoverPause: false,
+        autoplayHoverPause: true,
         nav: true,
         dots: true,
         navText: ['<i class="fa fa-angle-left arrow-dark"></i>','<i class="fa fa-angle-right arrow-dark"></i>'],
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
             480: {
-                items: 2
+                items: 1
             },
             768: {
                 items: 2

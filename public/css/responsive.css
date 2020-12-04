@@ -224,11 +224,11 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
-    /* pdf */
-    .pdf-css-rsz {
-        width: 100%;
-        height: 600px;
-    }
+    /*!* pdf *!*/
+    /*.pdf-css-rsz {*/
+    /*    width: 100%;*/
+    /*    height: 600px;*/
+    /*}*/
 
     /* logo */
     .img-media-q {
@@ -742,6 +742,28 @@
 /* Extra Small Devices (Desktop & Laptops) */
 @media(max-width: 767px) {
 
+    /*.i-map-paragraph {*/
+    /*    font-size: 22px;*/
+    /*}*/
+
+    /*.btn-client-book {*/
+    /*    display: block;*/
+    /*    margin: 15px auto !important;*/
+    /*}*/
+
+    .btn-client-book {
+        /*padding: 8px 22px 8px 22px;*/
+        padding: 12px 16px 12px 16px;
+        font-size: 11px;
+        font-weight: bold;
+        margin: 0 2px;
+    }
+
+    /*.pdf-css-rsz {*/
+    /*    width: 100%;*/
+    /*    height: 400px;*/
+    /*}*/
+
     .login-form-css {
         padding-right: 0 !important;
         padding-left: 0 !important;
@@ -831,25 +853,14 @@
         font-size: 10px;
     }
 
-    .pdf-css-rsz {
-        width: 100%;
-        height: 400px;
-    }
+
 
     .template-p-detail {
-        font-size: 12px;
+        font-size: 14px;
     }
 
-    .btn-client-book {
-        /*padding: 8px 22px 8px 22px;*/
-        padding: 8px 12px 8px 12px;
-        font-size: 9px;
-        font-weight: bold;
-    }
 
-    .btn-client-book {
-        margin: 0 2px;
-    }
+
 
     .btn-social-i {
         /*padding: 9px 12px 9px 12px;*/
@@ -1338,6 +1349,23 @@
 }
 
 @media(max-width: 480px) {
+
+
+    /*Website show page*/
+    .i-map-paragraph {
+        font-size: 24px;
+    }
+
+    .btn-client-book {
+        display: block;
+        margin: 25px auto !important;
+    }
+
+    .pdf-css-rsz {
+        width: 100%;
+        height: 400px;
+    }
+
 
     /* Navigation */
     .navbar-brand {
