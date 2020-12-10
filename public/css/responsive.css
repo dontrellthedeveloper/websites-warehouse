@@ -1350,6 +1350,21 @@
 
 @media(max-width: 480px) {
 
+    .login-css-responsive-1 {
+        width: 350px !important;
+    }
+
+    .login-css-responsive-2 {
+        width: 300px !important;
+    }
+
+    .login-css-responsive-3 {
+        width: 260px !important;
+    }
+
+    .login-css-responsive-4 {
+        width: 280px !important;
+    }
 
     /*Website show page*/
     .i-map-paragraph {
