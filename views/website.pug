@@ -82,17 +82,18 @@ block content
                                             .show-button(style="margin-top: 30px;")
                                                 li.template-p-detail
 
-                                                    |  To purchase a website with a similar design. Login or create an account.
+                                                    //|  To purchase a website with a similar design. Login or create an account.
+                                                    |  To purchase a website with a similar design. Send me an email.
 
                                                     hr
 
-                                                if user
-                                                    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
-                                                else
-                                                    a(href='/login')
-                                                        button.btn.btn-client-book.btn-red Login to purchase
-                                                    a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template for $${website.price}` target="_blank")
-                                                        button.btn.btn-client-book.btn-red Email to purchase
+                                                //if user
+                                                //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
+                                                //else
+                                                //    a(href='/login')
+                                                //        button.btn.btn-client-book.btn-red Login to purchase
+                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template for $${website.price}` target="_blank")
+                                                    button.btn.btn-client-book.btn-red Email to purchase
                                                 br
                                                 h2.i-map-paragraph(style="margin-top: 30px;")
                                                     b= `$${website.price}`
