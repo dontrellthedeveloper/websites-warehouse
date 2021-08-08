@@ -7,11 +7,18 @@ const AppError = require('../utils/appError');
 
 exports.getOverview = catchAsync(async (req,res, next) => {
 
+    // const websites = await Website.find();
+    // const businessWebsites = await Website.find({"websiteCategory":"business"});
+    // const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    // const healthWebsites = await Website.find({"websiteCategory":"beauty/health"});
+    // const designWebsites = await Website.find({"websiteCategory":"design/event"});
+
+
     const websites = await Website.find();
-    const businessWebsites = await Website.find({"websiteCategory":"business"});
-    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
-    const healthWebsites = await Website.find({"websiteCategory":"beauty/health"});
-    const designWebsites = await Website.find({"websiteCategory":"design/event"});
+    const landingWebsites = await Website.find({"websiteType":"landing"});
+    const landing2Websites = await Website.find({"websiteType":"landing2"});
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    // const designWebsites = await Website.find({"websiteType":"design/event"});
 
 
 
@@ -23,10 +30,9 @@ exports.getOverview = catchAsync(async (req,res, next) => {
         .set()
         .render('overview', {
         title: 'All Websites',
-        businessWebsites,
-        clothingWebsites,
-        healthWebsites,
-        designWebsites,
+        landingWebsites,
+        landing2Websites,
+        shopifyWebsites,
         websites
     });
 });

@@ -11,11 +11,11 @@ block content
                         .home-headings.tools-p-align
                             .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;") Clothing
+                                    span(style="font-size: 20px; padding: 0;") Shopify
                                 h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
                 .team-members.owl-carousel.owl-theme.portfolio-item
 
-                    each website in clothingWebsites
+                    each website in shopifyWebsites
 
                         a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
@@ -31,11 +31,11 @@ block content
                         .home-headings.tools-p-align
                             .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;") Beauty & Health
+                                    span(style="font-size: 20px; padding: 0;") Business
                                 h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
                 .team-members.owl-carousel.owl-theme.portfolio-item
 
-                    each website in healthWebsites
+                    each website in landingWebsites
 
                         a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
@@ -50,11 +50,11 @@ block content
                         .home-headings.tools-p-align
                             .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
                                 h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;") Business
-                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+                                    span(style="font-size: 20px; padding: 0;") Landing
+                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Pages
                 .team-members.owl-carousel.owl-theme.portfolio-item
 
-                    each website in businessWebsites
+                    each website in landing2Websites
 
                         a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
                             img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
@@ -67,24 +67,26 @@ block content
 
 
 
-            section#design-websites.page2.portfolio-style.port-bg-color
-                .map-color-5
-                    .row
-                        .home-headings.tools-p-align
-                            .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
-                                h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
-                                    span(style="font-size: 20px; padding: 0;") Event, Design & Dine
+            //section#design-websites.page2.portfolio-style.port-bg-color
+            //    .map-color-5
+            //        .row
+            //            .home-headings.tools-p-align
+            //                .horizontal-heading(style="margin-bottom: 2px; margin-top: -10px;")
+            //                    h1.home-headings-2(style="margin-bottom: 2px; padding: 0;")
+            //                        span(style="font-size: 20px; padding: 0;") Event, Design & Dine
+            //
+            //                    h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
+            //    .team-members.owl-carousel.owl-theme.portfolio-item
+            //
+            //        each website in designWebsites
+            //
+            //            a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
+            //                img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
+            //
+            //                p.show-page-paragraph= website.name
+            //                p.show-page-paragraph(style="margin-top: 15px")= `${website.companyType}`
 
-                                h1.home-headings-1(style="font-size: 20px; margin-bottom: 0") Websites
-                .team-members.owl-carousel.owl-theme.portfolio-item
 
-                    each website in designWebsites
-
-                        a.portfolio-item-d-overlay(href=`/website/${website.slug}`)
-                            img.img-responsive(src=`img/websites/${website.imageCover}` alt=`${website.name}`)
-
-                            p.show-page-paragraph= website.name
-                            p.show-page-paragraph(style="margin-top: 15px")= `${website.companyType}`
                             //hr.portfolio-hr-style
                             //p.show-page-paragraph= `$${website.price}`
 
