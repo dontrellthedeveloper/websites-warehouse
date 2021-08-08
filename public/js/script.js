@@ -283,7 +283,7 @@ $(function () {
 
             // Show dark logo
             // $(".navbar-brand img").attr("src", "/img/logo/websites-warehouse-cropped-logo-dark.png");
-            $(".navbar-brand img").attr("src", "/img/logo/websites-warehouse-new-dark-2.png");
+            $(".navbar-brand img").attr("src", "/img/logo/websites-warehouse-new-dark-4.png");
 
             // Show back to top
             $("#back-to-top").fadeIn();
@@ -295,7 +295,7 @@ $(function () {
 
             // Show logo
             // $(".navbar-brand img").attr("src", "/img/logo/websites-warehouse-cropped-logo-light.png");
-            $(".navbar-brand img").attr("src", "/img/logo/websites-warehouse-new-light-2.png");
+            $(".navbar-brand img").attr("src", "/img/logo/websites-warehouse-new-light-4.png");
 
             // Show back to top
             $("#back-to-top").fadeOut();
