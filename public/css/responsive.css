@@ -742,6 +742,13 @@
 /* Extra Small Devices (Desktop & Laptops) */
 @media(max-width: 767px) {
 
+    .img-rsz2 {
+        max-width: 250px;
+        height: auto;
+        margin-top: -11px;
+        padding-left: 10px;
+    }
+
     /*.i-map-paragraph {*/
     /*    font-size: 22px;*/
     /*}*/
