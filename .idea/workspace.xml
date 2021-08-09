@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/_header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/_header.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/_header2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/_header2.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/_homeSection.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/_homeSection.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/website.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/website.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +136,7 @@
       <workItem from="1607642318299" duration="635000" />
       <workItem from="1607894474710" duration="1812000" />
       <workItem from="1610146566469" duration="635000" />
-      <workItem from="1627328487118" duration="18505000" />
+      <workItem from="1627328487118" duration="19229000" />
     </task>
     <servers />
   </component>
