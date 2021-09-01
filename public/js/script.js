@@ -193,6 +193,43 @@ $(function() {
     });
 });
 
+
+/* ================================
+|   |   |   Portfolio
+================================ */
+
+
+$('.gallery-list-item-2').click(function () {
+    let value = $(this).attr('data-filter');
+    if(value === 'all') {
+        $('.filter').show(200);
+    }else {
+        $('.filter').not('.' + value).hide(200);
+        $('.filter').filter('.' + value).show(200);
+    }
+});
+
+$('.gallery-list-item-2').click(function () {
+    $(this).addClass('active-item').siblings()
+        .removeClass('active-item');
+});
+
+/* ================================
+|   |   |   Magnifier
+================================ */
+
+$(function () {
+
+    $("#portfolio-wrapper-2").magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+
+});
+
 /* ================================================
 |   |   |   |   Page Scroll
 ================================================ */

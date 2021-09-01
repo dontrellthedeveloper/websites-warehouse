@@ -105,7 +105,7 @@ p {
 }
 
 section {
-    /*background: #fff;*/
+    background: #fff;
     overflow: hidden;
 }
 
@@ -282,7 +282,7 @@ section {
     width: auto;
     height: auto;
     z-index: -1;
-    background: url("../video/ebsitewarehouse6.jpg") no-repeat;
+    background: url("../video/websitewarehouse6.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -438,6 +438,137 @@ section {
 
 
 
+/* ============================================
+|  |  |  |  New Website Portfolio
+============================================ */
+.portfolio-pic-2 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.div-size-2 {
+    display: inline-block;
+}
+
+#portfolio-2 .vertical-heading-2 {
+    margin-bottom: 50px;
+}
+.row.no-gutters-2 [class*=col-] {
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-item-2 {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.center-pics-2 {
+    text-align: center;
+}
+
+.margin-bottom-g-2 {
+    margin-bottom: 10px;
+}
+
+.no-underline-2 a,
+.no-underline-2 {
+    text-underline: none;
+}
+
+
+/* Zoom Effect */
+
+.portfolio-item-2 img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;transition:
+        transform .5s ease, -webkit-tranform .5s
+        ease;
+}
+
+.portfolio-item-2:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+/* Overlay Effect */
+.portfolio-item-overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(14, 14, 17, 0.9);
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+/* Item Details Effects */
+.portfolio-item-details-2 {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+.portfolio-item-details-2 h3 {
+    color: #f4c613;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(-20%);
+    transform: translateY(-20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portfolio-item-details-2 span {
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 6px;
+    width: 30px;
+}
+
+.portfolio-item-details-2 p {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/* Show Overlay on mouse over */
+.portfolio-item-2:hover .portfolio-item-details-2 h3 {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item-2:hover .portfolio-item-details-2 p {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.portfolio-item-2:hover .portfolio-item-overlay-2 {
+    opacity: 1;
+}
 
 
 
