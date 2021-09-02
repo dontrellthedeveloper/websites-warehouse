@@ -105,7 +105,7 @@ p {
 }
 
 section {
-    background: #fff;
+    background: #E3E3E3;
     overflow: hidden;
 }
 
@@ -500,7 +500,8 @@ section {
 .portfolio-item-overlay-2 {
     position: absolute;
     top: 0;
-    bottom: 0;
+    /*bottom: 0;*/
+    bottom: 11.4%;
     left: 0;
     right: 0;
     /*background: rgba(14, 14, 17, 0.9);*/
