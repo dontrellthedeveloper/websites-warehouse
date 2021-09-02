@@ -491,8 +491,8 @@ section {
 }
 
 .portfolio-item-2:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    /*-webkit-transform: scale(1.1);*/
+    /*transform: scale(1.1);*/
 }
 
 
@@ -503,7 +503,8 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(14, 14, 17, 0.9);
+    /*background: rgba(14, 14, 17, 0.9);*/
+    background: rgba(14, 14, 17, 0.7);
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
     opacity: 0;
@@ -523,7 +524,8 @@ section {
 
 
 .portfolio-item-details-2 h3 {
-    color: #337ab7;
+    /*color: #337ab7;*/
+    color: #fff;
     text-transform: uppercase;
     font-size: 24px;
     margin: 0;
