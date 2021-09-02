@@ -194,6 +194,95 @@ $(function() {
 });
 
 
+
+
+
+$(function() {
+    $("#clients-list").owlCarousel({
+        items: 6,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 2
+            },
+            480: {
+                items: 3
+            },
+            768: {
+                items: 6
+            }
+        }
+    });
+});
+
+$(function() {
+    $("#testimonial-slider").owlCarousel({
+        items: 1,
+        autoplay: false,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>']
+    });
+});
+
+$(function () {
+    $("#team-members").owlCarousel({
+        items: 2,
+        autoplay: true,
+        smartSpeed: 700,
+        loop: true,
+        autoplayHoverPause: true,
+        nav: true,
+        dots: false,
+        navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 2
+            }
+        }
+    });
+});
+
+
+
+
+/* ================================
+|   |   |  Waypoints
+================================ */
+
+$(function() {
+
+    $("#progress-elements").waypoint(function() {
+
+        $(".progress-bar").each(function() {
+
+            $(this).animate({
+                width: $(this).attr("aria-valuenow") + "%"
+            }, 1000);
+        });
+        this.destroy();
+    }, {
+        offset: 'bottom-in-view'
+    });
+});
+
+
+
+
+
+
 /* ================================
 |   |   |   Portfolio
 ================================ */
