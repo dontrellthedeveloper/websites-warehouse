@@ -4,27 +4,7 @@
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/achieve-fitness-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/achieve-fitness-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/acne-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/acne-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/atl-modeling-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/atl-modeling-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/barber-shop-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/barber-shop-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/beverly-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/beverly-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/classic-outbreak-3-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/classic-outbreak-3-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/coffee-shop-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/coffee-shop-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/kenihair-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/kenihair-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/ktmanagers-8-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/ktmanagers-8-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/kulture-kings-2-coverImage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/kulture-kings-3-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/kulture-kings-3-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/loose-dreams-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/loose-dreams-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/luxury-spaces-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/luxury-spaces-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/phenom-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/phenom-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/ramsey-dev-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/ramsey-dev-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/urban-sky-4-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/urban-sky-4-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/wess-and-clarke-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/wess-and-clarke-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/xoxo-wear-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/xoxo-wear-2-coverImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/portfolio/xtra-talks-2-coverImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/portfolio/xtra-talks-2-coverImage.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/website.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/website.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +139,7 @@
       <workItem from="1627328487118" duration="20596000" />
       <workItem from="1628556435911" duration="1349000" />
       <workItem from="1629425793430" duration="723000" />
-      <workItem from="1630167759458" duration="31198000" />
+      <workItem from="1630167759458" duration="33596000" />
     </task>
     <servers />
   </component>
