@@ -523,9 +523,9 @@ section {
 
 
 .portfolio-item-details-2 h3 {
-    color: #f4c613;
+    color: #337ab7;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
     padding: 0;
     -webkit-transform: translateY(-20%);
@@ -543,7 +543,8 @@ section {
 }
 
 .portfolio-item-details-2 p {
-    font-size: 17px;
+    /*font-size: 17px;*/
+    font-size: 14px;
     color: #fff;
     text-transform: uppercase;
     margin: 0;
