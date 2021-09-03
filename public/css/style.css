@@ -2095,7 +2095,9 @@ nav .dropdown:after {
     content: ' \25bc';
 }
 
-nav li ul {
+/*Base Dropdown*/
+nav li ul
+ {
     left: 0;
     opacity: 0;
     position: absolute;
@@ -2107,6 +2109,21 @@ nav li ul {
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
+
+
+}
+
+nav li ul li ul {
+    left: 200px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.sub-menu-dropdown {
+    visibility: hidden;
 }
 nav li:hover ul {
     opacity: 1;
@@ -2117,6 +2134,12 @@ nav li:hover ul {
     /*border-left: 2px solid #666;*/
     /*border-right: 2px solid #666;*/
     left: -60px;
+}
+
+nav li:hover ul li ul {
+    visibility: hidden;
+    left: 200px;
+    top: 0;
 }
 nav li ul li {
     width: 100%;
@@ -2135,6 +2158,63 @@ nav li ul a:hover {
 }
 
 nav li ul li a {
+    font-family: "Raleway", sans-serif;
+    color: #222;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.logo-style-1 {
+    vertical-align: middle;
+}
+
+
+
+
+/*Sub Dropdown*/
+nav li ul li ul {
+    left: 200px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    z-index: 1;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+nav li ul li:hover ul {
+    opacity: 1;
+    top: 0;
+    visibility: visible;
+    background: #ffffff;
+    /*border-bottom: 2px solid #666;*/
+    /*border-left: 2px solid #666;*/
+    /*border-right: 2px solid #666;*/
+    left: 200px;
+}
+nav li ul li ul li {
+    width: 100%;
+    padding: 11px 25px 11px 25px;
+}
+nav li ul li ul a:hover {
+    text-decoration: none;
+}
+
+.nav-sub-style {
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+nav li ul li ul li a {
     font-family: "Raleway", sans-serif;
     color: #222;
     font-size: 13px;
