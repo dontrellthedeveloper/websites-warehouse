@@ -357,7 +357,7 @@ $(window).on('load', function () {
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title: "Click To See Address"
+        title: "Click To See Address",
     });
 
     // 3. Add Info Window
