@@ -1,322 +1,17 @@
 [
   {
     "id":0,
-    "name":"Beverly Hills Models",
-    "companyType": "Modeling Agency",
-    "websiteType":"Customer Master System",
-    "websiteCategory":"beauty",
-    "websiteLink":"https://dontrellthedeveloper.github.io/website-template-modeling-la/",
-    "features":"Beverly-Hills-Models-Features.pdf",
-    "price": 699,
-    "summary":"One of the top modeling agencies in Los Angeles.",
-    "description":"Beverly Hills Models is a leader in talent discovery and model management, widely recognized for its diverse client roster.",
-    "imageCover":"beverly-hills-models-cover.jpg",
-    "images":[
-      "beverly-hills-models-1.jpg",
-      "beverly-hills-models-2.jpg",
-      "beverly-hills-models-3.jpg",
-      "beverly-hills-models-4.jpg"
-    ]
-  },
-  {
-    "id":1,
-    "name":"XOXO Wear",
-    "companyType": "Women Clothing Store",
-    "websiteType":"shopify",
-    "websiteTypeName":"Shopify Store",
-    "websiteCategory":"beauty",
-    "websiteLink":"https://react-ecommerce.myshopify.com/",
-    "features":"Buckhead-Modeling-Features.pdf",
-    "price": 699,
-    "summary":"A fitness store for women's workout clothing",
-    "description":"A fitness store for women's workout clothing",
-    "imageCover":"buckhead-models-cover.jpg",
-    "images":[
-      "buckhead-models-1.jpg",
-      "buckhead-models-2.jpg",
-      "buckhead-models-3.jpg",
-      "buckhead-models-4.jpg"
-    ]
-  },
-  {
-    "id":2,
-    "name":"Keni Hair",
-    "companyType": "Hair Store",
-    "websiteType":"Shopify",
-    "websiteCategory":"beauty/health",
-    "websiteLink":"https://kenihair.com/",
-    "features":"Keni-Hair-Features.pdf",
-    "price": 699,
-    "summary":"Keni Hair is located in Miami, FL",
-    "description":"Keni Hair is one of the top hair stores online.",
-    "imageCover":"keni-hair-cover.jpg",
-    "images":[
-      "keni-hair-1.jpg",
-      "keni-hair-2.jpg",
-      "keni-hair-3.jpg",
-      "keni-hair-4.jpg"
-    ]
-  },
-  {
-    "id":3,
-    "name":"Classic Outbreak",
-    "companyType": "Hat Store",
-    "websiteType":"landing2",
-    "websiteCategory":"business",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-law-firm/",
-    "features":"Hudson-Sara-Franklin-Features.pdf",
-    "price": 699,
-    "summary":"One of the top law offices companies in the united states. ",
-    "description":"The Law Offices of Hudson, Sara & Franklin protects employment rights, obtaining hundreds of millions for their Los Angeles clients",
-    "imageCover":"hudson-law-cover.jpg",
-    "images":[
-      "hudson-law-1.jpg",
-      "hudson-law-2.jpg",
-      "hudson-law-3.jpg",
-      "hudson-law-4.jpg"
-    ]
-  },
-  {
-    "id":4,
-    "name":"Harvey & West",
-    "companyType": "Finance",
-    "websiteType":"landing2",
-    "websiteCategory":"business",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-finance/",
-    "features":"Harvey-West-Features.pdf",
-    "price": 699,
-    "summary":"One of the top finance companies in the united states.",
-    "description":"Harvey & West is a specialized financial institution that supplies credit for the purchase of consumer goods and services by purchasing the time-sales contracts of merchants and by granting small loans directly to consumers.",
-    "imageCover":"harvey-west-cover.jpg",
-    "images":[
-      "harvey-west-1.jpg",
-      "harvey-west-2.jpg",
-      "harvey-west-3.jpg",
-      "harvey-west-4.jpg"
-    ]
-  },
-  {
-    "id":5,
-    "name":"Westlake Insurance",
-    "companyType": "Insurance",
-    "websiteType":"landing2",
-    "websiteCategory":"business",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-insurance/",
-    "features":"Westlake-Insurance-Features.pdf",
-    "price": 699,
-    "summary":"One of the top insurance companies in the united states.",
-    "description":"Westlake offers insurance, retirement and investing products that protect your many sides. Get home and auto insurance quotes online or find a local agent.",
-    "imageCover":"westlake-cover.jpg",
-    "images":[
-      "westlake-1.jpg",
-      "westlake-2.jpg",
-      "westlake-3.jpg",
-      "westlake-4.jpg"
-    ]
-  },
-  {
-    "id":6,
-    "name":"Wess & Clarke",
-    "companyType": "Consulting",
-    "websiteType":"landing2",
-    "websiteCategory":"business",
-    "websiteLink":"https://dontrellthedeveloper.github.io/business-consulting-template/",
-    "features":"Wess-Clarke-Features.pdf",
-    "price": 699,
-    "summary":"One of the top consulting companies in the united states.",
-    "description":"Wess & Clarke is a trusted advisor and counselor to many of the world's most influential businesses and institutions.",
-    "imageCover":"wess-cover.jpg",
-    "images":[
-      "wess-1.jpg",
-      "wess-2.jpg",
-      "wess-3.jpg",
-      "wess-4.jpg"
-    ]
-  },
-  {
-    "id":7,
-    "name":"Knight Team Management",
-    "companyType": "Influencer Agency",
-    "websiteType":"landing",
-    "websiteCategory":"beauty/health",
-    "websiteLink":"https://www.ktmanagers.com/",
-    "features":"Knight-Team-Management-Features.pdf",
-    "price": 699,
-    "summary":"One of the top branding agencies in the united states.",
-    "description":"Knight Team Management is a social branding agency specializing in innovative brand strategy, graphic design, and creative marketing.",
-    "imageCover":"branding-cover.jpg",
-    "images":[
-      "branding-1.jpg",
-      "branding-2.jpg",
-      "branding-3.jpg",
-      "branding-4.jpg"
-    ]
-  },
-  {
-    "id":8,
-    "name":"Loose Dreams",
-    "companyType": "Interior Design",
-    "websiteType":"landing",
-    "websiteCategory":"design/event",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-interior-design/",
-    "features":"Loose-Dreams-Features.pdf",
-    "price": 699,
-    "summary":"One of the top interior design companies in the united states.",
-    "description":"Loose Dreams is a San Francisco interior design firm serving companies nationwide.",
-    "imageCover":"design-cover.jpg",
-    "images":[
-      "design-1.jpg",
-      "design-2.jpg",
-      "design-3.jpg",
-      "design-4.jpg"
-    ]
-  },
-  {
-    "id":9,
-    "name":"Xtra Talks",
-    "companyType": "Event Agency",
-    "websiteType":"landing2",
-    "websiteCategory":"design/event",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-event/",
-    "features":"Xtra-Talks-Features.pdf",
-    "price": 699,
-    "summary":"One of the top event agencies in the united states.",
-    "description":"Xtra Talks is an event agency in Los Angeles revolutionizing the consumer experience through event production and brand activation.",
-    "imageCover":"xtra-talks-cover.jpg",
-    "images":[
-      "xtra-talks-1.jpg",
-      "xtra-talks-2.jpg",
-      "xtra-talks-3.jpg",
-      "xtra-talks-4.jpg"
-    ]
-  },
-  {
-    "id":10,
-    "name":"Ramsey Development",
-    "companyType": "Digital Agency",
-    "websiteType":"landing2",
-    "websiteCategory":"design/event",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-digital-agency/",
-    "features":"Ramsey-Development-Features.pdf",
-    "price": 699,
-    "summary":"One of the top digital agencies in the united states.",
-    "description":"Ramsey Development specializes in driving highly targeted audiences to Fundraising, Ecommerce, and User Sign-up Platforms from Digital Advertising and Content Marketing,",
-    "imageCover":"ramsey-dev-cover.jpg",
-    "images":[
-      "ramsey-dev-1.jpg",
-      "ramsey-dev-2.jpg",
-      "ramsey-dev-3.jpg",
-      "ramsey-dev-4.jpg"
-    ]
-  },
-  {
-    "id":11,
-    "name":"Berry Rose Events",
-    "companyType": "Wedding Planner",
-    "websiteType":"landing2",
-    "websiteCategory":"design/event",
-    "websiteLink":"https://dontrellthedeveloper.github.io/wedding-template/",
-    "features":"Berry-Rose-Event-Features.pdf",
-    "price": 699,
-    "summary":"An amazing wedding planner for our family & friends.",
-    "description":"Berry Rose Events is a wedding planning company in San Diego, California. This team of event planners is detail.",
-    "imageCover":"berry-rose-cover.jpg",
-    "images":[
-      "berry-rose-1.jpg",
-      "berry-rose-2.jpg",
-      "berry-rose-3.jpg",
-      "berry-rose-4.jpg"
-    ]
-  },
-  {
-    "id":12,
-    "name":"Tito's Barber Shop",
-    "companyType": "Barber Shop",
-    "websiteType":"landing2",
-    "websiteCategory":"beauty",
-    "websiteLink":"https://dontrellthedeveloper.github.io/demo-barber-shop/",
-    "features":"Titos-Barber-Shop-Features.pdf",
-    "price": 699,
-    "summary":"One of the top barber shops in los angeles,ca.",
-    "description":"Tito's Barber Shop is a no-nonsense, family and community focused shop.",
-    "imageCover":"tito-barber-cover.jpg",
-    "images":[
-      "tito-barber-1.jpg",
-      "tito-barber-2.jpg",
-      "tito-barber-3.jpg",
-      "tito-barber-4.jpg"
-    ]
-  },
-  {
-    "id":13,
-    "name":"Achieve Fitness",
-    "companyType": "Fitness Company",
-    "websiteType":"landing",
-    "websiteCategory":"beauty/health",
-    "websiteLink":"https://dontrellthedeveloper.github.io/achieve-fitness-miami/",
-    "features":"Achieve-Fitness-Features.pdf",
-    "price": 699,
-    "summary":"One of the top fitness gyms in the united states ",
-    "description":"Achieve Fitness is a No Judgment Gym that believes in making serious exercise fun by fusing fitness and entertainment.",
-    "imageCover":"achieve-fitness-cover.jpg",
-    "images":[
-      "achieve-fitness-1.jpg",
-      "achieve-fitness-2.jpg",
-      "achieve-fitness-3.jpg",
-      "achieve-fitness-4.jpg"
-    ]
-  },
-  {
-    "id":14,
-    "name":"Phenom Pressure Washing",
-    "companyType":"Pressure Washing",
-    "websiteType":"shopify",
-    "websiteCategory":"business",
-    "websiteLink":"https://phenomwash.com/",
-    "features":"Phenom-Pressure-Washing-Features.pdf",
-    "price":599,
-    "deliveryTime":"5 business days",
-    "summary":"Pressure Washing Company in Atlanta, GA",
-    "description":"Phenom Pressure Washing is a top rated pressure washing company in Atlanta, GA.",
-    "imageCover":"phenom-cover.jpg",
-    "images":[
-      "phenom-1.jpg",
-      "phenom-2.jpg",
-      "phenom-3.jpg",
-      "phenom-4.jpg"
-    ]
-  },
-  {
-    "id":15,
-    "name":"Soule Skincare",
-    "companyType": "Skincare Clinic",
-    "websiteType":"shopify",
-    "websiteCategory":"beauty/health",
-    "websiteLink":"https://soule-skincare-products.myshopify.com/",
-    "features":"Acne-Solutions-Features.pdf",
-    "price": 699,
-    "summary":"Skincare Clinic located in Woodland Hills, Ca.",
-    "description":"Transform your skin and change your life with Soule Skincare.",
-    "imageCover":"acne-solutions-cover.jpg",
-    "images":[
-      "acne-solutions-1.jpg",
-      "acne-solutions-2.jpg",
-      "acne-solutions-3.jpg",
-      "acne-solutions-4.jpg"
-    ]
-  },
-  {
-    "id":18,
     "name":"Kulture Kings",
     "companyType": "Clothing Store",
     "websiteType":"shopify",
+    "websiteTypeName":"Shopify Store",
     "websiteCategory":"clothing",
     "websiteLink":"https://kulturekingsapp.com/",
     "features":"Kulture-Kings-Features.pdf",
     "price": 699,
     "summary":"Clothing Store in Miami, FL",
     "description":"Kulture Kings is one of the top clothing brands in Miami, Fl. ",
-    "imageCover":"kulture-kings-cover.jpg",
+    "imageCover":"kulture-kings-3-coverImage.jpg",
     "images":[
       "kulture-kings-1.jpg",
       "kulture-kings-2.jpg",
@@ -325,17 +20,139 @@
     ]
   },
   {
-    "id":17,
-    "name":"Ocean Mile Group",
-    "companyType": "Clothing Store",
-    "websiteType":"php",
+    "id":1,
+    "name":"Knight Team Management",
+    "companyType": "Branding Company",
+    "websiteType":"dynamic",
+    "websiteTypeName":"Dynamic Website",
+    "websiteCategory":"branding",
+    "websiteLink":"https://www.ktmanagers.com/",
+    "features":"Knight-Team-Management-Features.pdf",
+    "price": 699,
+    "summary":"One of the top branding agencies in the united states.",
+    "description":"Knight Team Management is a social branding agency specializing in innovative brand strategy, graphic design, and creative marketing.",
+    "imageCover":"ktmanagers-8-coverImage.jpg",
+    "images":[
+      "branding-1.jpg",
+      "branding-2.jpg",
+      "branding-3.jpg",
+      "branding-4.jpg"
+    ]
+  },
+  {
+    "id":2,
+    "name":"Classic Outbreak",
+    "companyType": "Hat Store",
+    "websiteType":"shopify",
+    "websiteTypeName":"Shopify Store",
     "websiteCategory":"clothing",
-    "websiteLink":"https://fashion-ecommerce.websiteswarehouse.com/",
+    "websiteLink":"https://classicoutbreak.com/",
+    "features":"Hudson-Sara-Franklin-Features.pdf",
+    "price": 699,
+    "summary":"One of the top law offices companies in the united states. ",
+    "description":"The Law Offices of Hudson, Sara & Franklin protects employment rights, obtaining hundreds of millions for their Los Angeles clients",
+    "imageCover":"classic-outbreak-3-coverImage.jpg",
+    "images":[
+      "hudson-law-1.jpg",
+      "hudson-law-2.jpg",
+      "hudson-law-3.jpg",
+      "hudson-law-4.jpg"
+    ]
+  },
+  {
+    "id":3,
+    "name":"Phenom Pressure Washing",
+    "companyType":"Pressure Washing",
+    "websiteType":"shopify",
+    "websiteTypeName":"Shopify Store",
+    "websiteCategory":"service",
+    "websiteLink":"https://phenomwash.com/",
+    "features":"Phenom-Pressure-Washing-Features.pdf",
+    "price":599,
+    "deliveryTime":"5 business days",
+    "summary":"Pressure Washing Company in Atlanta, GA",
+    "description":"Phenom Pressure Washing is a top rated pressure washing company in Atlanta, GA.",
+    "imageCover":"phenom-2-coverImage.jpg",
+    "images":[
+      "phenom-1.jpg",
+      "phenom-2.jpg",
+      "phenom-3.jpg",
+      "phenom-4.jpg"
+    ]
+  },
+  {
+    "id":4,
+    "name":"Keni Hair",
+    "companyType": "Hair Store",
+    "websiteType":"shopify",
+    "websiteTypeName":"Shopify Store",
+    "websiteCategory":"beauty",
+    "websiteLink":"https://kenihair.com/",
+    "features":"Keni-Hair-Features.pdf",
+    "price": 699,
+    "summary":"Keni Hair is located in Miami, FL",
+    "description":"Keni Hair is one of the top hair stores online.",
+    "imageCover":"kenihair-2-coverImage.jpg",
+    "images":[
+      "keni-hair-1.jpg",
+      "keni-hair-2.jpg",
+      "keni-hair-3.jpg",
+      "keni-hair-4.jpg"
+    ]
+  },
+  {
+    "id":5,
+    "name":"Soule Skincare",
+    "companyType": "Skincare Clinic",
+    "websiteType":"shopify",
+    "websiteTypeName":"Shopify Store",
+    "websiteCategory":"beauty",
+    "websiteLink":"https://soule-skincare-products.myshopify.com/",
+    "features":"Acne-Solutions-Features.pdf",
+    "price": 699,
+    "summary":"Skincare Clinic located in Woodland Hills, Ca.",
+    "description":"Transform your skin and change your life with Soule Skincare.",
+    "imageCover":"acne-2-coverImage.jpg",
+    "images":[
+      "acne-solutions-1.jpg",
+      "acne-solutions-2.jpg",
+      "acne-solutions-3.jpg",
+      "acne-solutions-4.jpg"
+    ]
+  },
+  {
+    "id":6,
+    "name":"XOXO Wear",
+    "companyType": "Women Clothing Store",
+    "websiteType":"shopify",
+    "websiteTypeName":"Shopify Store",
+    "websiteCategory":"fitness",
+    "websiteLink":"https://react-ecommerce.myshopify.com/",
+    "features":"Buckhead-Modeling-Features.pdf",
+    "price": 699,
+    "summary":"A fitness store for women's workout clothing",
+    "description":"A fitness store for women's workout clothing",
+    "imageCover":"xoxo-wear-2-coverImage.jpg",
+    "images":[
+      "buckhead-models-1.jpg",
+      "buckhead-models-2.jpg",
+      "buckhead-models-3.jpg",
+      "buckhead-models-4.jpg"
+    ]
+  },
+  {
+    "id":7,
+    "name":"Urban Sky",
+    "companyType": "Clothing Store",
+    "websiteType":"dynamic",
+    "websiteTypeName":"Shopify Store",
+    "websiteCategory":"clothing",
+    "websiteLink":"#",
     "features":"Ocean-Mile-Group-Features.pdf",
     "price": 699,
     "summary":"Clothing store in Jacksonville, FL",
     "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"ocean-mile-g-cover.jpg",
+    "imageCover":"urban-sky-4-coverImage.jpg",
     "images":[
       "ocean-mile-g-1.jpg",
       "ocean-mile-g-2.jpg",
@@ -343,81 +160,165 @@
       "ocean-mile-g-4.jpg"
     ]
   },
+  {
+    "id":8,
+    "name":"Luxury Spaces",
+    "companyType": "Vacation Rentals",
+    "websiteType":"dynamic",
+    "websiteTypeName":"Dynamic Website",
+    "websiteCategory":"vacation",
+    "websiteLink":"https://dontrellthedeveloper.github.io/demo-finance/",
+    "features":"Harvey-West-Features.pdf",
+    "price": 699,
+    "summary":"One of the top finance companies in the united states.",
+    "description":"Harvey & West is a specialized financial institution that supplies credit for the purchase of consumer goods and services by purchasing the time-sales contracts of merchants and by granting small loans directly to consumers.",
+    "imageCover":"luxury-spaces-2-coverImage.jpg.jpg",
+    "images":[
+      "harvey-west-1.jpg",
+      "harvey-west-2.jpg",
+      "harvey-west-3.jpg",
+      "harvey-west-4.jpg"
+    ]
+  },
+  {
+    "id":9,
+    "name":"Beverly Hills Models",
+    "companyType": "Modeling Agency",
+    "websiteType":"dynamic",
+    "websiteTypeName":"Dynamic Website",
+    "websiteCategory":"beauty",
+    "websiteLink":"https://dontrellthedeveloper.github.io/website-template-modeling-la/",
+    "features":"Beverly-Hills-Models-Features.pdf",
+    "price": 699,
+    "summary":"One of the top modeling agencies in Los Angeles.",
+    "description":"Beverly Hills Models is a leader in talent discovery and model management, widely recognized for its diverse client roster.",
+    "imageCover":"beverly-2-coverImage.jpg",
+    "images":[
+      "beverly-hills-models-1.jpg",
+      "beverly-hills-models-2.jpg",
+      "beverly-hills-models-3.jpg",
+      "beverly-hills-models-4.jpg"
+    ]
+  },
 
   {
-    "id":16,
-    "name":"XOXO Fashion",
-    "companyType": "Clothing Store",
-    "websiteType":"php",
-    "websiteCategory":"clothing",
-    "websiteLink":"https://products-ecommerce.websiteswarehouse.com/",
-    "features":"XOXO-Fashion-Features.pdf",
+    "id":10,
+    "name":"Achieve Fitness",
+    "companyType": "Fitness Company",
+    "websiteType":"dynamic",
+    "websiteTypeName":"Dynamic Website",
+    "websiteCategory":"fitness",
+    "websiteLink":"https://dontrellthedeveloper.github.io/achieve-fitness-miami/",
+    "features":"Achieve-Fitness-Features.pdf",
     "price": 699,
-    "summary":"Clothing store in Jacksonville, FL",
-    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"xoxo-fashion-cover.jpg",
+    "summary":"One of the top fitness gyms in the united states ",
+    "description":"Achieve Fitness is a No Judgment Gym that believes in making serious exercise fun by fusing fitness and entertainment.",
+    "imageCover":"achieve-fitness-2-coverImage.jpg",
     "images":[
-      "xoxo-fashion-1.jpg",
-      "xoxo-fashion-2.jpg",
-      "xoxo-fashion-3.jpg",
-      "xoxo-fashion-4.jpg"
+      "achieve-fitness-1.jpg",
+      "achieve-fitness-2.jpg",
+      "achieve-fitness-3.jpg",
+      "achieve-fitness-4.jpg"
     ]
   },
   {
-    "id":19,
-    "name":"Image & Beauty Studios",
-    "companyType": "Photography Studio",
-    "websiteType":"php",
-    "websiteCategory":"beauty/health",
-    "websiteLink":"https://booking-ecommerce.websiteswarehouse.com/",
-    "features":"KE-Image-Features.pdf",
+    "id":11,
+    "name":"Wess & Clarke",
+    "companyType": "Consulting Company",
+    "websiteType":"dynamic",
+    "websiteTypeName":"Dynamic Website",
+    "websiteCategory":"service",
+    "websiteLink":"https://dontrellthedeveloper.github.io/business-consulting-template/",
+    "features":"Wess-Clarke-Features.pdf",
     "price": 699,
-    "summary":"Clothing store in Jacksonville, FL",
-    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"a-e-image-cover.jpg",
+    "summary":"One of the top consulting companies in the united states.",
+    "description":"Wess & Clarke is a trusted advisor and counselor to many of the world's most influential businesses and institutions.",
+    "imageCover":"wess-and-clarke-2-coverImage.jpg",
     "images":[
-      "a-e-image-1.jpg",
-      "a-e-image-2.jpg",
-      "a-e-image-3.jpg",
-      "a-e-image-4.jpg"
+      "wess-1.jpg",
+      "wess-2.jpg",
+      "wess-3.jpg",
+      "wess-4.jpg"
     ]
   },
   {
-    "id":20,
-    "name":"Caffeine & Cuisine",
+    "id":12,
+    "name":"Xtra Talks",
+    "companyType": "Event Agency",
+    "websiteType":"static",
+    "websiteTypeName":"Static Website",
+    "websiteCategory":"event",
+    "websiteLink":"https://dontrellthedeveloper.github.io/demo-event/",
+    "features":"Xtra-Talks-Features.pdf",
+    "price": 699,
+    "summary":"One of the top event agencies in the united states.",
+    "description":"Xtra Talks is an event agency in Los Angeles revolutionizing the consumer experience through event production and brand activation.",
+    "imageCover":"xtra-talks-2-coverImage.jpg",
+    "images":[
+      "xtra-talks-1.jpg",
+      "xtra-talks-2.jpg",
+      "xtra-talks-3.jpg",
+      "xtra-talks-4.jpg"
+    ]
+  },
+  {
+    "id":13,
+    "name":"Loose Dreams",
+    "companyType": "Interior Design",
+    "websiteType":"static",
+    "websiteTypeName":"Static Website",
+    "websiteCategory":"design",
+    "websiteLink":"https://dontrellthedeveloper.github.io/demo-interior-design/",
+    "features":"Loose-Dreams-Features.pdf",
+    "price": 699,
+    "summary":"One of the top interior design companies in the united states.",
+    "description":"Loose Dreams is a San Francisco interior design firm serving companies nationwide.",
+    "imageCover":"loose-dreams-2-coverImage.jpg",
+    "images":[
+      "design-1.jpg",
+      "design-2.jpg",
+      "design-3.jpg",
+      "design-4.jpg"
+    ]
+  },
+  {
+    "id":14,
+    "name":"Barber Shop",
+    "companyType": "Barber Shop",
+    "websiteType":"static",
+    "websiteTypeName":"Static Website",
+    "websiteCategory":"service",
+    "websiteLink":"https://dontrellthedeveloper.github.io/demo-barber-shop/",
+    "features":"Titos-Barber-Shop-Features.pdf",
+    "price": 699,
+    "summary":"One of the top barber shops in los angeles,ca.",
+    "description":"Tito's Barber Shop is a no-nonsense, family and community focused shop.",
+    "imageCover":"barber-shop-2-coverImage.jpg",
+    "images":[
+      "tito-barber-1.jpg",
+      "tito-barber-2.jpg",
+      "tito-barber-3.jpg",
+      "tito-barber-4.jpg"
+    ]
+  },
+  {
+    "id":15,
+    "name":"Coffee Shop",
     "companyType": "Coffee Shop",
-    "websiteType":"landing2",
-    "websiteCategory":"design/event",
+    "websiteType":"static",
+    "websiteTypeName":"Static Website",
+    "websiteCategory":"food",
     "websiteLink":"https://dontrellthedeveloper.github.io/demo-coffee-shop/",
     "features":"Caffeine-Cuisine-Features.pdf",
     "price": 699,
     "summary":"Clothing store in Jacksonville, FL",
     "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"coffee-cover.jpg",
+    "imageCover":"coffee-shop-2-coverImage.jpg",
     "images":[
       "coffee-1.jpg",
       "coffee-2.jpg",
       "coffee-3.jpg",
       "coffee-4.jpg"
-    ]
-  },
-  {
-    "id":21,
-    "name":"Hot Valley Styles",
-    "companyType": "Clothing Store",
-    "websiteType":"shopif",
-    "websiteCategory":"clothin",
-    "websiteLink":"https://react-ecommerce.myshopify.com/",
-    "features":"Hot-Valley-Styles-Features.pdf",
-    "price": 699,
-    "summary":"Clothing store in Jacksonville, FL",
-    "description":"Redlining is the systematic denial of various services to residents of specific neighborhoods or communities. Keep your look fresh with our latest clothing and accessories.",
-    "imageCover":"hot-valley-styles-cover.jpg",
-    "images":[
-      "hot-valley-styles-1.jpg",
-      "hot-valley-styles-2.jpg",
-      "hot-valley-styles-3.jpg",
-      "hot-valley-styles-4.jpg"
     ]
   }
 ]
