@@ -10,7 +10,7 @@ block content
         #home-overlay-2
     // Interactive Map
     section#pricing
-        .content-box-md-interact
+        .content-box-md-interact(style='border-bottom: none;')
             div
                 .map-color-3
                     .row
@@ -23,10 +23,65 @@ block content
                         .row
                             #content
 
-                                section#map-section.inner.over
+                                section#map-section.inner.over(style='background: #dcdcdd')
                                     ul#examples-2
                                         li
-                                            a.background-map-2(href='/') ← Back to All Website Templates
+                                            a.background-map-2(href='/') ← Back to All Websites
+                                    // <div class="map-color-7">
+                                    // <h2 class="i-map-paragraph map-paragraph"><b>Modeling Agency</b> - Beverly Hills Models</h2>
+                                    // </div>
+                                    hr
+                                    // <p class="website-show-page-css">One of the top modeling agencies in Los Angeles..</p>
+                                    .row-show.port-popup
+                                        // <div class="map-color-7">
+                                        // <h2 class="i-map-paragraph map-paragraph"><b>Modeling Agency</b> - Beverly Hills Models</h2>
+                                        // </div>
+                                        a.portfolio-item-d-overlay(href='/img/portfolio/beverly-coverImage.png' data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>")
+                                            .column-show.map-color-7(style='margin: 20px auto 0; float: none;')
+                                                img(src='/img/portfolio/beverly-coverImage.png' alt='' style='width:100%')
+                                        // <a class="portfolio-item-d-overlay" href="img/portfolio-detail/show-page/beverly-hills-models-2.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>">
+                                        // <div class="column-show">
+                                        // <img src="img/portfolio-detail/show-page/beverly-hills-models-2.png" alt="" style="width:100%">
+                                        // </div>
+                                        // </a>
+                                        // <a class="portfolio-item-d-overlay" href="img/portfolio-detail/show-page/beverly-hills-models-3.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>">
+                                        // <div class="column-show show-page-iphone">
+                                        // <img src="img/portfolio-detail/show-page/beverly-hills-models-3.png" alt="" style="width:100%">
+                                        // </div>
+                                        // </a>
+                                        // <a class="portfolio-item-d-overlay" href="img/portfolio-detail/show-page/beverly-hills-models-4.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>">
+                                        // <div class="column-show show-page-iphone">
+                                        // <img src="img/portfolio-detail/show-page/beverly-hills-models-4.png" alt="" style="width:100%">
+                                        // </div>
+                                        // </a>
+                                    //.desc.map-color-7.container-paragraph(style='margin-bottom: 20px;')
+                                    //    .map-paragraph
+                                    //        h2.i-map-paragraph
+                                    //            b Modeling Agency
+                                    //            |  - Beverly Hills Models
+                                    //        hr
+                                    //        // <p class="website-show-page-css">One of the top modeling agencies in Los Angeles..</p>
+                                    //        // <hr>
+                                    //        .show-button
+                                    //            a(href='' target='_blank')
+                                    //                button.btn.btn-client-book.btn-red Visit Website
+                                    //            a(href='' target='_blank')
+                                    //                button.btn.btn-client-book.btn-red
+                                    //                    i.far.fa-heart
+                                    //            a(href='' target='_blank')
+                                    //                button.btn.btn-client-book.btn-red Purchase
+                                    //        hr
+                                    //        // <p class="website-show-page-css">Beverly Hills Models is a leader in talent discovery and model management, widely recognized for its diverse client roster.</p>
+                                    //        // <br>
+                                    //        // <iframe src="pdf/Knight-Team-Management-Instructions.pdf" width="100%" height="700px"></iframe>
+                                    //        // <hr>
+                                    //        li.template-p-detail
+                                    //            hr
+                                    //            |  More information about the website template? Please contact
+                                    //            a(href='mailto:dontrellthedeveloper@gmail.com' target='_blank') dontrellthedeveloper@gmail.com
+                                    //        hr
+
+
                                     .desc.map-color-7.container-paragraph(style="margin-bottom: 5px; border: 1px solid #46494C;")
                                         .map-paragraph
                                             h2.i-map-paragraph
@@ -45,10 +100,11 @@ block content
                                                 //a(href="" target="_blank")
                                                 //    button.btn.btn-client-book.btn-red
                                                 //        i.fa.fa-heart-o
-                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like a custom website` target="_blank")
-                                                    button.btn.btn-client-book.btn-red Custom Inquiry
+                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template` target="_blank")
+                                                    button.btn.btn-client-book.btn-red Email to purchase
 
-                                            p.template-p-detail= `${website.name}'s website was designed by Websites Warehouse. `
+                                            p.template-p-detail= `Do you need more information? Please contact `
+                                                a(href='mailto:dontrellthedeveloper@gmail.com' target='_blank') dontrellthedeveloper@gmail.com
                                                 //if user
                                                 //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
                                                 //else
@@ -67,88 +123,212 @@ block content
                                             //h2.i-map-paragraph(style="margin-top: 30px;")
                                             //    b= `$${website.price}`
 
+                                    // Pricing
+                                    section#pricing
+                                        .content-box-md
+                                            .container
+                                                .row
+                                                    .col-md-12.text-center
+                                                        .horizontal-heading
+                                                            h5 Learn about
+                                                            h2 Our Pricing
+                                                .row
+                                                    .col-md-4.col-sm-4
+                                                        // Pricing Table 02
+                                                        .pricing-table.black
+                                                            .type
+                                                                h4 Static Website
+                                                            .price
+                                                                .row
+                                                                    .col-md-12.col-sm-12.col-xs-12
+                                                                        h2
+                                                                            span.dollar $
+                                                                            | 550
+                                                                            br
+                                                                            span.month Starting at
+                                                                    // <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                    // <p>You will get all these awesome services with this great price. Get it now!</p>
+                                                                    // </div>
+                                                            ul.package
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Full Customization
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Static Hosting
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Email Accounts
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | 4 website changes
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Social Media Integration
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Live Chat &amp; Subscriber Options
+                                                            .pricing-btn
+                                                                a.btn.btn-general.btn-white(style='border: 1px solid;' href='mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase a static website' target="_blank" title='Get Started' role='button') Get Started
+                                                                //a.btn.btn-general.btn-white(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template` target="_blank") Get Started
+                                                    .col-md-4.col-sm-4
+                                                        // Pricing Table 02
+                                                        .pricing-table.black
+                                                            .type
+                                                                h4 Shopify Website
+                                                            .price
+                                                                .row
+                                                                    .col-md-12.col-sm-12.col-xs-12
+                                                                        h2
+                                                                            span.dollar $
+                                                                            | 750
+                                                                            br
+                                                                            span.month Starting at
+                                                                    // <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                    // <p>You will get all these awesome services with this great price. Get it now!</p>
+                                                                    // </div>
+                                                            ul.package
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Full Customization
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Shopify Admin &amp; Hosting
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Email Accounts
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Shopify Partner - 5 website changes
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | E-commerce Platform
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | 1000+ apps to choose from
+                                                            .pricing-btn
+                                                                a.btn.btn-general.btn-white(style='border: 1px solid;' href='mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase a shopify store' target="_blank" title='Get Started' role='button') Get Started
+                                                    .col-md-4.col-sm-4
+                                                        // Pricing Table 02
+                                                        .pricing-table.black
+                                                            .type
+                                                                h4 Dynamic Website
+                                                            .price
+                                                                .row
+                                                                    .col-md-12.col-sm-12.col-xs-12
+                                                                        h2
+                                                                            span.dollar $
+                                                                            | 950
+                                                                            br
+                                                                            span.month Starting at
+                                                                    // <div class="col-md-8 col-sm-8 col-xs-8">
+                                                                    // <p>You will get all these awesome services with this great price. Get it now!</p>
+                                                                    // </div>
+                                                            ul.package
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Full Customization
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Front End - Back End - Server Hosting
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Email Accounts
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | 6 website changes
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Database &amp; User Integration
+                                                                li
+                                                                    i.fa.fa-check
+                                                                    | Live Chat &amp; Subscriber Options
+                                                            .pricing-btn
+                                                                a.btn.btn-general.btn-white(style='border: 1px solid;' href='mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase a dynamic website' target="_blank" title='Get Started' role='button') Get Started
+
+                                    // End of Pricing
                                     //h2.i-map-paragraph
                                     //    b= `${website.companyType} - ${website.name}`
                                     //hr
                                     //p.website-show-page-css= website.summary
-                                    .row-show.port-popup
-                                        each img, i in website.images
-
-                                            a.portfolio-item-d-overlay(href=`/img/websites/${img}`)
-                                                .column-show
-                                                    img(src=`/img/websites/${img}` alt=`${i + 1}` style="width:100%")
-                                    .desc.map-color-7.container-paragraph(style="margin-top: 5px; margin-bottom: 10px; border: 1px solid #46494C;")
-                                        .map-paragraph
-                                            .show-button(style="margin-top: 30px;")
-                                                li.template-p-detail
-
-                                                    //|  To purchase a website with a similar design. Login or create an account.
-                                                    |  To purchase a website with a similar design. Send me an email.
-
-                                                    hr
-
-                                                //if user
-                                                //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
-                                                //else
-                                                //    a(href='/login')
-                                                //        button.btn.btn-client-book.btn-red Login to purchase
-                                                a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template for $${website.price}` target="_blank")
-                                                    button.btn.btn-client-book.btn-red Email to purchase
-                                                br
-                                                h2.i-map-paragraph(style="margin-top: 30px;")
-                                                    //b= `$${website.price}`
-                                                    //b.show-page-paragraph(style='font-size: 14px;')= `Contact for pricing`
-                                                li.template-p-detail
-                                                    br
-                                                    |  After purchase, you will receive an email with instructions about your website.
-                                                    br
-                                                    |
-                                                    |  Please allow 7-10 business days for your website to be completed.
-
-                                                    //|
-                                                    //a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
-
-                                                //hr
-
-                                                hr
-
-                                    .desc.map-color-7.container-paragraph(style="margin-top: 5px; margin-bottom: 40px; border: 1px solid #46494C;")
-                                        .map-paragraph
-                                            //h2.i-map-paragraph
-                                            //    b= `${website.companyType} - ${website.name}`
-                                            //h2.i-map-paragraph
-                                            //    b= `${website.websiteType}`
-                                            //h2.i-map-paragraph
-                                            //    b= `$${website.price}`
-                                            //hr
-                                            //.show-button
-                                            //    a(href=`${website.websiteLink}` target="_blank")
-                                            //        button.btn.btn-client-book.btn-red Visit Website
-                                                //a(href="" target="_blank")
-                                                //    button.btn.btn-client-book.btn-red
-                                                //        i.fa.fa-heart-o
-
-                                                if user
-                                                    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
-                                                else
-                                                    a.btn.btn-client-book.btn-red(href='/login') Login to purchase
-                                            //hr
-                                            //p.website-show-page-css= website.description
-                                            //br
-                                            iframe.pdf-css-rsz(src=`/pdf/${website.features}`)
-                                            //hr
-                                            //li.template-p-detail
-                                            //    hr
-                                            //    |  Do you need more information this website? Email
-                                            //    |
-                                            //    a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
-                                            //hr
-
-        // End of Pricing
-    // BG Video
-    section#home-2
-        img#leftgear(src="/img/about/gear2.svg" alt="")
-        img#rightgear(src="/img/about/gear2.svg" alt="")
+    //                                .row-show.port-popup
+    //                                    each img, i in website.images
+    //
+    //                                        a.portfolio-item-d-overlay(href=`/img/websites/${img}`)
+    //                                            .column-show
+    //                                                img(src=`/img/websites/${img}` alt=`${i + 1}` style="width:100%")
+    //                                .desc.map-color-7.container-paragraph(style="margin-top: 5px; margin-bottom: 10px; border: 1px solid #46494C;")
+    //                                    .map-paragraph
+    //                                        .show-button(style="margin-top: 30px;")
+    //                                            li.template-p-detail
+    //
+    //                                                //|  To purchase a website with a similar design. Login or create an account.
+    //                                                |  To purchase a website with a similar design. Send me an email.
+    //
+    //                                                hr
+    //
+    //                                            //if user
+    //                                            //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
+    //                                            //else
+    //                                            //    a(href='/login')
+    //                                            //        button.btn.btn-client-book.btn-red Login to purchase
+    //                                            a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template for $${website.price}` target="_blank")
+    //                                                button.btn.btn-client-book.btn-red Email to purchase
+    //                                            br
+    //                                            h2.i-map-paragraph(style="margin-top: 30px;")
+    //                                                //b= `$${website.price}`
+    //                                                //b.show-page-paragraph(style='font-size: 14px;')= `Contact for pricing`
+    //                                            li.template-p-detail
+    //                                                br
+    //                                                |  After purchase, you will receive an email with instructions about your website.
+    //                                                br
+    //                                                |
+    //                                                |  Please allow 7-10 business days for your website to be completed.
+    //
+    //                                                //|
+    //                                                //a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
+    //
+    //                                            //hr
+    //
+    //                                            hr
+    //
+    //                                .desc.map-color-7.container-paragraph(style="margin-top: 5px; margin-bottom: 40px; border: 1px solid #46494C;")
+    //                                    .map-paragraph
+    //                                        //h2.i-map-paragraph
+    //                                        //    b= `${website.companyType} - ${website.name}`
+    //                                        //h2.i-map-paragraph
+    //                                        //    b= `${website.websiteType}`
+    //                                        //h2.i-map-paragraph
+    //                                        //    b= `$${website.price}`
+    //                                        //hr
+    //                                        //.show-button
+    //                                        //    a(href=`${website.websiteLink}` target="_blank")
+    //                                        //        button.btn.btn-client-book.btn-red Visit Website
+    //                                            //a(href="" target="_blank")
+    //                                            //    button.btn.btn-client-book.btn-red
+    //                                            //        i.fa.fa-heart-o
+    //
+    //                                            if user
+    //                                                button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
+    //                                            else
+    //                                                a.btn.btn-client-book.btn-red(href='/login') Login to purchase
+    //                                        //hr
+    //                                        //p.website-show-page-css= website.description
+    //                                        //br
+    //                                        iframe.pdf-css-rsz(src=`/pdf/${website.features}`)
+    //                                        //hr
+    //                                        //li.template-p-detail
+    //                                        //    hr
+    //                                        //    |  Do you need more information this website? Email
+    //                                        //    |
+    //                                        //    a(href="mailto:dontrellthedeveloper@gmail.com" target="_blank") dontrellthedeveloper@gmail.com
+    //                                        //hr
+    //
+    //    // End of Pricing
+    //// BG Video
+    //section#home-2
+    //    img#leftgear(src="/img/about/gear2.svg" alt="")
+    //    img#rightgear(src="/img/about/gear2.svg" alt="")
         // Background Video
     // End of Build section
 
