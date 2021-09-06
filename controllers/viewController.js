@@ -18,6 +18,8 @@ exports.getOverview = catchAsync(async (req,res, next) => {
     const landingWebsites = await Website.find({"websiteType":"landing"});
     const landing2Websites = await Website.find({"websiteType":"landing2"});
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
     // const designWebsites = await Website.find({"websiteType":"design/event"});
 
 
@@ -33,6 +35,8 @@ exports.getOverview = catchAsync(async (req,res, next) => {
         landingWebsites,
         landing2Websites,
         shopifyWebsites,
+        dynamicWebsites,
+        staticWebsites,
         websites
     });
 });
@@ -55,7 +59,7 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
     });
 
     if (!website) {
-        return next(new AppError('There is no tour with that name', 404));
+        return next(new AppError('There is no website with that name', 404));
     }
 });
 

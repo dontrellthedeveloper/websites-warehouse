@@ -16,17 +16,48 @@ header
                         ul.nav.navbar-nav.pull-right.wh
                             //li
                             //    a(href='/') Home
+                            //li
+                            //    a.ipad-m(href='/') Websites
+                            //    ul.nav-sub-style
+                            //        li
+                            //            a(href='/#clothing-websites') Shopify
+                            //        li
+                            //            a(href='/#fitnesshealth-websites') Business
+                            //        li
+                            //            a(href='/#business-websites') Landing
                             li
-                                a.ipad-m(href='/') Websites
+                                a.ipad-m(href='#') Websites
                                 ul.nav-sub-style
                                     li
-                                        a(href='/#clothing-websites') Shopify
+                                        a.smooth-scroll.ipad-m(href='#business-websites') Shopify Stores
+                                        ul.nav-sub-style.sub-menu-dropdown
+                                            each website in shopifyWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                                //li
+                                                //    a.ipad-m(href='#beauty-websites') Beauty
+                                                //li
+                                                //    a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
                                     li
-                                        a(href='/#fitnesshealth-websites') Business
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') Dynamic Websites
+                                        ul.nav-sub-style.sub-menu-dropdown
+                                            each website in dynamicWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                                //li
+                                                //    a.ipad-m(href='#beauty-websites') Beauty
+                                                //li
+                                                //    a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
                                     li
-                                        a(href='/#business-websites') Landing
-
-
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') Static Websites
+                                        ul.nav-sub-style.sub-menu-dropdown
+                                            each website in staticWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                                //li
+                                                //    a.ipad-m(href='#beauty-websites') Beauty
+                                                //li
+                                                //    a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
                             if user
 
                                 li
