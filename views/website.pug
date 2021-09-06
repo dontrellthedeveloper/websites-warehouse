@@ -36,9 +36,9 @@ block content
                                         // <div class="map-color-7">
                                         // <h2 class="i-map-paragraph map-paragraph"><b>Modeling Agency</b> - Beverly Hills Models</h2>
                                         // </div>
-                                        a.portfolio-item-d-overlay(href='/img/portfolio/beverly-coverImage.png' data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>")
+                                        a.portfolio-item-d-overlay(href=`/img/websites/${website.imageCover}` data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>")
                                             .column-show.map-color-7(style='margin: 20px auto 0; float: none;')
-                                                img(src='/img/portfolio/beverly-coverImage.png' alt='' style='width:100%')
+                                                img(src=`/img/websites/${website.imageCover}` alt='' style='width:100%')
                                         // <a class="portfolio-item-d-overlay" href="img/portfolio-detail/show-page/beverly-hills-models-2.png" data-title="<div class='show-button'><a href='' target='_blank'><button class='btn btn-client-book btn-red'>Visit Website</button></a></div>">
                                         // <div class="column-show">
                                         // <img src="img/portfolio-detail/show-page/beverly-hills-models-2.png" alt="" style="width:100%">
@@ -103,8 +103,8 @@ block content
                                                 a(href=`mailto:dontrellthedeveloper@gmail.com?subject=I would like to purchase ${website.name} template` target="_blank")
                                                     button.btn.btn-client-book.btn-red Email to purchase
 
-                                            p.template-p-detail= `Do you need more information? Please contact `
-                                                a(href='mailto:dontrellthedeveloper@gmail.com' target='_blank') dontrellthedeveloper@gmail.com
+                                            p.template-p-detail= `${website.name}'s website was designed by Websites Warehouse `
+                                                //a(href='mailto:dontrellthedeveloper@gmail.com' target='_blank') dontrellthedeveloper@gmail.com
                                                 //if user
                                                 //    button.btn.btn-client-book.btn-red#purchase-website(data-website-id=`${website.id}`) Purchase
                                                 //else

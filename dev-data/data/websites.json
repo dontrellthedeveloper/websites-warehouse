@@ -283,7 +283,7 @@
   },
   {
     "id":14,
-    "name":"Barber Shop",
+    "name":"Tito's Barber Shop",
     "companyType": "Barber Shop",
     "websiteType":"static",
     "websiteTypeName":"Static Website",
@@ -303,7 +303,7 @@
   },
   {
     "id":15,
-    "name":"Coffee Shop",
+    "name":"Caffeine & Cuisine",
     "companyType": "Coffee Shop",
     "websiteType":"static",
     "websiteTypeName":"Static Website",
