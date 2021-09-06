@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f35fb2a-cb3a-464f-8479-6a82f8514c3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/_websitePortfolio.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-data/data/websites.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-data/data/websites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/website.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_bg-video-1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/_bg-video-1.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/_header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/_homeSection.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/_homeSection.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/overview.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/overview.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +148,7 @@
       <workItem from="1627328487118" duration="20596000" />
       <workItem from="1628556435911" duration="1349000" />
       <workItem from="1629425793430" duration="723000" />
-      <workItem from="1630167759458" duration="66406000" />
+      <workItem from="1630167759458" duration="82113000" />
     </task>
     <servers />
   </component>

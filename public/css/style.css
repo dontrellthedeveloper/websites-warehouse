@@ -1183,7 +1183,8 @@ li {
     font-family: "Open Sans", sans-serif;
     font-size: 42px;
     font-weight: 100;
-    margin: 0 0 0 24px;
+    /*margin: 0 0 0 24px;*/
+    margin: 0 0 0 0;
     position: relative;
 }
 
@@ -1195,7 +1196,8 @@ li {
     font-size: 18px;
     font-weight: 300;
     position: absolute;
-    left: -20px;
+    /*left: -20px;*/
+    left: 85px;
     top: 5px;
 }
 
@@ -1203,8 +1205,9 @@ li {
     font-size: 11px;
     font-weight: 400;
     position: absolute;
-    left: 5px;
-    top: -12px;
+    /*left: 5px;*/
+    left: 108px;
+    top: -14px;
 }
 
 .pricing-table .price p {
@@ -1261,6 +1264,7 @@ li {
     background: #F4F4F4;
     color: #46494C;
     border: 1px solid #4C6085;
+    text-align: center;
 }
 
 .pricing-table.black .type h4 {

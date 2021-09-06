@@ -90,6 +90,8 @@
 /* Large Devices (Desktops & Laptops) */
 @media (min-width: 1200px) {
 
+
+
     /* logo */
     .img-media-q {
         width: 95px;
@@ -223,6 +225,13 @@
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    .pricing-table .price h2 span.month {
+        left: 76px;
+    }
+
+    .pricing-table .price h2 span.dollar {
+        left: 56px;
+    }
 
     /*!* pdf *!*/
     /*.pdf-css-rsz {*/
@@ -420,6 +429,14 @@
 
 /* Small Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .pricing-table .price h2 span.month {
+        left: 38px;
+    }
+
+    .pricing-table .price h2 span.dollar {
+        left: 18px;
+    }
 
     /* pdf */
     .pdf-css-rsz {
@@ -741,6 +758,19 @@
 
 /* Extra Small Devices (Desktop & Laptops) */
 @media(max-width: 767px) {
+
+    .pricing-table.black {
+        margin-bottom: 20px;
+    }
+
+    .pricing-table .price h2 span.month {
+        left: 296px;
+    }
+
+
+    .pricing-table .price h2 span.dollar {
+        left: 270px;
+    }
 
     .img-rsz2 {
         max-width: 250px;
@@ -1357,6 +1387,14 @@
 
 @media(max-width: 480px) {
 
+    .pricing-table .price h2 span.month {
+        left: 126px;
+    }
+
+    .pricing-table .price h2 span.dollar {
+        left: 100px;
+    }
+
     .login-css-responsive-1 {
         width: 350px !important;
     }
@@ -1482,4 +1520,11 @@
     }
 
 
+}
+
+@media(max-width: 375px) {
+
+    .pricing-table .price h2 span.dollar {
+        left: 80px;
+    }
 }
