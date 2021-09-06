@@ -45,7 +45,12 @@ exports.getOverview = catchAsync(async (req,res, next) => {
 
 exports.getWebsite = catchAsync(async (req,res, next) => {
 
+
     const website = await Website.findOne({slug: req.params.slug});
+    const websites = await Website.find();
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
 
     res.status(200)
         .set(
@@ -55,7 +60,11 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
         .set()
         .render('website', {
         title: `${website.name} Website`,
-        website
+        shopifyWebsites,
+        dynamicWebsites,
+        staticWebsites,
+        websites,
+        website,
     });
 
     if (!website) {
@@ -64,7 +73,12 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
 });
 
 
-exports.getLoginForm = (req,res) => {
+exports.getLoginForm = catchAsync(async (req,res) => {
+
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
+
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -72,11 +86,19 @@ exports.getLoginForm = (req,res) => {
         )
         .set()
         .render('login', {
-        title: 'Log into your account'
+        title: 'Log into your account',
+        shopifyWebsites,
+        dynamicWebsites,
+        staticWebsites
     })
-};
+});
 
-exports.getAccount = (req,res) => {
+exports.getAccount = catchAsync(async (req,res) => {
+
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
+
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -84,13 +106,21 @@ exports.getAccount = (req,res) => {
         )
         .set()
         .render('account', {
-            title: 'Your account'
+            title: 'Your account',
+            shopifyWebsites,
+            dynamicWebsites,
+            staticWebsites
         })
-};
+});
 
 
 
 exports.getMyWebsites = catchAsync(async (req,res,next) => {
+
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
+
     // 1) Find all bookings
     const purchases = await Purchase.find({user: req.user.id});
 
@@ -106,14 +136,22 @@ exports.getMyWebsites = catchAsync(async (req,res,next) => {
         .set()
         .render('purchases', {
         title: 'My Websites',
-            websites
+            websites,
+            shopifyWebsites,
+            dynamicWebsites,
+            staticWebsites
     })
     //
 });
 
 
 
-exports.getSignupForm = (req,res) => {
+exports.getSignupForm = catchAsync(async (req,res) => {
+
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
+
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -121,9 +159,12 @@ exports.getSignupForm = (req,res) => {
         )
         .set()
         .render('signup', {
-        title: 'Sign up for account'
+        title: 'Sign up for account',
+            shopifyWebsites,
+            dynamicWebsites,
+            staticWebsites
     })
-};
+});
 
 
 
