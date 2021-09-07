@@ -20,6 +20,15 @@ exports.getOverview = catchAsync(async (req,res, next) => {
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
     const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
     const staticWebsites = await Website.find({"websiteType":"static"});
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
     // const designWebsites = await Website.find({"websiteType":"design/event"});
 
 
@@ -37,6 +46,15 @@ exports.getOverview = catchAsync(async (req,res, next) => {
         shopifyWebsites,
         dynamicWebsites,
         staticWebsites,
+        beautyWebsites,
+        brandingWebsites,
+        clothingWebsites,
+        designWebsites,
+        eventWebsites,
+        fitnessWebsites,
+        foodWebsites,
+        serviceWebsites,
+        travelWebsites,
         websites
     });
 });
@@ -51,7 +69,15 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
     const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
     const staticWebsites = await Website.find({"websiteType":"static"});
-
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -63,6 +89,15 @@ exports.getWebsite = catchAsync(async (req,res, next) => {
         shopifyWebsites,
         dynamicWebsites,
         staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites,
         websites,
         website,
     });
@@ -78,7 +113,15 @@ exports.getLoginForm = catchAsync(async (req,res) => {
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
     const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
     const staticWebsites = await Website.find({"websiteType":"static"});
-
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -89,7 +132,16 @@ exports.getLoginForm = catchAsync(async (req,res) => {
         title: 'Log into your account',
         shopifyWebsites,
         dynamicWebsites,
-        staticWebsites
+        staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites
     })
 });
 
@@ -98,7 +150,15 @@ exports.getAccount = catchAsync(async (req,res) => {
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
     const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
     const staticWebsites = await Website.find({"websiteType":"static"});
-
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -109,7 +169,16 @@ exports.getAccount = catchAsync(async (req,res) => {
             title: 'Your account',
             shopifyWebsites,
             dynamicWebsites,
-            staticWebsites
+            staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites
         })
 });
 
@@ -120,7 +189,15 @@ exports.getMyWebsites = catchAsync(async (req,res,next) => {
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
     const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
     const staticWebsites = await Website.find({"websiteType":"static"});
-
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
     // 1) Find all bookings
     const purchases = await Purchase.find({user: req.user.id});
 
@@ -139,7 +216,16 @@ exports.getMyWebsites = catchAsync(async (req,res,next) => {
             websites,
             shopifyWebsites,
             dynamicWebsites,
-            staticWebsites
+            staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites
     })
     //
 });
@@ -151,7 +237,15 @@ exports.getSignupForm = catchAsync(async (req,res) => {
     const shopifyWebsites = await Website.find({"websiteType":"shopify"});
     const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
     const staticWebsites = await Website.find({"websiteType":"static"});
-
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
     res.status(200)
         .set(
             'Content-Security-Policy',
@@ -162,7 +256,16 @@ exports.getSignupForm = catchAsync(async (req,res) => {
         title: 'Sign up for account',
             shopifyWebsites,
             dynamicWebsites,
-            staticWebsites
+            staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites
     })
 });
 

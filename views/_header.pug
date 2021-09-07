@@ -16,73 +16,89 @@ header
                         ul.nav.navbar-nav.pull-right.wh
                             //li
                             //    a(href='/') Home
-                            //li
-                            //    a.ipad-m(href='/') Website
-                            //    ul.nav-sub-style
-                            //        li
-                            //            a.smooth-scroll.ipad-m(href="#clothing-websites") Shopify
-                            //        li
-                            //            a.smooth-scroll.ipad-m(href="#fitnesshealth-websites") Dynamic
-                            //        li
-                            //            a.smooth-scroll.ipad-m(href="#business-websites") Static
-                                    //li
-                                    //    a.smooth-scroll.ipad-m(href="#business-websites") Landing
                             li
                                 a.ipad-m(href='#') Websites
                                 ul.nav-sub-style
                                     li
-                                        a.smooth-scroll.ipad-m(href='#business-websites') Shopify Stores
+                                        a.smooth-scroll.ipad-m(href='#business-websites') beauty
                                         ul.nav-sub-style.sub-menu-dropdown
-                                            each website in shopifyWebsites
+                                            each website in beautyWebsites
                                                 li
                                                     a.ipad-m(href=`/website/${website.slug}`)= website.name
-                                                //li
-                                                //    a.ipad-m(href='#beauty-websites') Beauty
-                                                //li
-                                                //    a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
                                     li
-                                        a.smooth-scroll.ipad-m(href='#clothing-websites') Dynamic Websites
-                                        ul.nav-sub-style.sub-menu-dropdown
+                                        a.smooth-scroll.ipad-m(href='#business-websites') branding
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 35px;")
+                                            each website in brandingWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#business-websites') clothing
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 42px;")
+                                            each website in clothingWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#business-websites') design
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 126px;")
+                                            each website in designWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') dynamic
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 50px;")
                                             each website in dynamicWebsites
                                                 li
                                                     a.ipad-m(href=`/website/${website.slug}`)= website.name
-                                                //li
-                                                //    a.ipad-m(href='#beauty-websites') Beauty
-                                                //li
-                                                //    a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
                                     li
-                                        a.smooth-scroll.ipad-m(href='#clothing-websites') Static Websites
-                                        ul.nav-sub-style.sub-menu-dropdown
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') event
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 210px;")
+                                            each website in eventWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') fitness
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 232px;")
+                                            each website in fitnessWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') food
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 294px;")
+                                            each website in foodWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') service
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 292px;")
+                                            each website in serviceWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#business-websites') shopify
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 275px;")
+                                            each website in shopifyWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#clothing-websites') static
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 360px;")
                                             each website in staticWebsites
                                                 li
                                                     a.ipad-m(href=`/website/${website.slug}`)= website.name
-                                                //li
-                                                //    a.ipad-m(href='#beauty-websites') Beauty
-                                                //li
-                                                //    a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
-                                    //li
-                                    //    a.smooth-scroll.ipad-m(href='#beauty-websites') Beauty
-                                    //    ul.nav-sub-style.sub-menu-dropdown
-                                    //        li
-                                    //            a.ipad-m(href='#clothing-websites') Clothing
-                                    //        li
-                                    //            a.ipad-m(href='#beauty-websites') Health
-                                    //        li
-                                    //            a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
-                                    //        li
-                                    //            a.ipad-m(href='#beauty-websites') Health
-                                    //li
-                                    //    a.smooth-scroll.ipad-m(href='#fitnesshealth-websites') Fitness/Health
-                                    //    ul.nav-sub-style.sub-menu-dropdown
-                                    //        li
-                                    //            a.ipad-m(href='#clothing-websites') Clothing
-                                    //        li
-                                    //            a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
-                                    //        li
-                                    //            a.ipad-m(href='#beauty-websites') Health
-                                    //        li
-                                    //            a.ipad-m(href='#fitnesshealth-websites') Fitness/Health
+                                    li
+                                        a.smooth-scroll.ipad-m(href='#business-websites') travel
+                                        ul.nav-sub-style.sub-menu-dropdown(style="top: 462px;")
+                                            each website in travelWebsites
+                                                li
+                                                    a.ipad-m(href=`/website/${website.slug}`)= website.name
 
+
+
+
+                            li
+                                a.ipad-m(href='/') Pricing
+                            li
+                                a.ipad-m(href='/') Contact
                             if user
 
                                 li
