@@ -282,36 +282,37 @@
                 <div class="col-md-8">
                     <!-- Contact Right -->
                     <div id="contact-right" style="background-color: #f4f4f4;">
-                        <form>
+                        <form action="https://formspree.io/f/mrgevdnq"
+                              method="POST">
                             <h4>Send Message</h4>
                             <p>If you have questions about a website, please send a message.</p>
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Email Address">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="phone" placeholder="Phone No.">
+                                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone No.">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
                             </div>
                             <div id="submit-btn">
-                                <a class="btn btn-general btn-yellow" href="#" title="Submit" role="button">Submit</a>
+                                <button class="btn btn-general btn-yellow" type="submit" name="submit" title="Submit" role="button">Submit</button>
                             </div>
                         </form>
                     </div>

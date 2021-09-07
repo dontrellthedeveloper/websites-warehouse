@@ -82,26 +82,26 @@ block content
                     .col-md-8
                         // Contact Right
                         #contact-right(style='background-color: #f4f4f4;')
-                            form
+                            form(action='https://formspree.io/f/mrgevdnq' method='POST')
                                 h4 Send Message
                                 p If you have questions about a website, please send a message.
                                 .row
                                     .col-md-6.col-sm-6
                                         .form-group
-                                            input#name.form-control(type='text' placeholder='Your Name')
+                                            input#name.form-control(type='text' name='name' placeholder='Your Name')
                                     .col-md-6.col-sm-6
                                         .form-group
-                                            input#email.form-control(type='email' placeholder='Email Address')
+                                            input#email.form-control(type='email' name='email' placeholder='Email Address')
                                     .col-md-6.col-sm-6
                                         .form-group
-                                            input#phone.form-control(type='text' placeholder='Phone No.')
+                                            input#phone.form-control(type='text' name='phone' placeholder='Phone No.')
                                     .col-md-6.col-sm-6
                                         .form-group
-                                            input#subject.form-control(type='text' placeholder='Subject')
+                                            input#subject.form-control(type='text' name='subject' placeholder='Subject')
                                 .form-group
-                                    textarea#message.form-control(placeholder='Message')
+                                    textarea#message.form-control(name='message' placeholder='Message')
                                 #submit-btn
-                                    a.btn.btn-general.btn-yellow(href='#' title='Submit' role='button') Submit
+                                    button.btn.btn-general.btn-yellow(type='submit' name='submit' title='Submit' role='button') Submit
     // End of Contact
     // Team
     section#team
