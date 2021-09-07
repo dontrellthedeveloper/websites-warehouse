@@ -124,7 +124,7 @@ section {
 }
 
 #status {
-    background-image: url("../img/ww-preloader/website-preloader.gif");
+    background-image: url("../img/ww-preloader/ww-preloader.gif");
     background-repeat: no-repeat;
     width: 115px;
     height: 100px;
@@ -156,6 +156,7 @@ section {
     margin-top: -11px;
     padding-left: 10px;
 }
+
 
 
 /* ================================
@@ -1443,6 +1444,7 @@ li {
 #contact-left .vertical-heading h2 {
     padding-top: -40px;
     color: #46494C;
+    margin-top: 20px;
 }
 
 #contact .office li i {
@@ -1467,12 +1469,14 @@ li {
 }
 
 #contact-left p {
-    margin: 25px 0 20px 0;
+    /*margin: 25px 0 20px 0;*/
+    margin: 85px 0 20px 0;
 }
 
 ul.office-details {
     list-style: none;
-    padding: 0 0 0 40px;
+    /*padding: 0 0 0 40px;*/
+    padding: 0 0 0 0;
 }
 
 ul.office-details li {
@@ -2339,6 +2343,15 @@ ul.social-list li a {
     transition: all 400ms linear;
 }
 ul.social-list li:nth-child(1) a:hover {
+    /*background: #f09433;*/
+    /*background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);*/
+    /*background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);*/
+    /*background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );*/
+    /*border-color: transparent;*/
+}
+
+ul.social-list .social-list-instagram a:hover  {
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
@@ -2346,13 +2359,25 @@ ul.social-list li:nth-child(1) a:hover {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     border-color: transparent;
 }
-ul.social-list li:nth-child(2) a:hover {
-    background: #00aced;
+
+ul.social-list .social-list-personal a:hover  {
+    background: #4C6085;
     border-color: transparent;
 }
-ul.social-list li:nth-child(3) a:hover {
-    background: #dd4b39;
+
+
+
+ul.social-list .social-list-github a:hover {
+    background: #238636;
     border-color: transparent;
+}
+/*ul.social-list li:nth-child(2) a:hover {*/
+/*    background: #00aced;*/
+/*    border-color: transparent;*/
+/*}*/
+ul.social-list li:nth-child(3) a:hover {
+    /*background: #dd4b39;*/
+    /*border-color: transparent;*/
 }
 /* ================================
 |   |   |   Slider Buttons

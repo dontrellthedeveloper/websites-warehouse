@@ -1,0 +1,296 @@
+extends base
+
+block content
+    include _header
+    section#home-4
+        video#home-bg-video-2(poster='video/websitewarehouse6.jpg' autoplay='' loop='' muted='' playsinline='')
+            source(src='video/websitewarehouse.mp4' type='video/mp4')
+            // <source src="video/websitewarehouse4.ogv" type="video/ogg">
+            // <source src="video/websitewarehouse4.webm" type="video/webm">
+        #home-overlay-2
+    // Interactive Map
+    section#pricing
+        .content-box-md-interact
+            div
+                .map-color-3(style='border-bottom: none;')
+                    .row
+                        .home-headings.tools-p-align
+                            .horizontal-heading(style='margin-bottom: 2px; margin-top: -10px;')
+                                h1.home-headings-2(style='margin-bottom: 2px; padding: 0;')
+                                    span(style='font-size: 20px; padding: 0;')  Contact
+                // <div class="map-color-6" style="">
+                // <div class="container">
+                // <div class="row">
+                // <div id="content">
+                // <section id="map-section" style="background: none;" class="inner over" >
+                // &lt;!&ndash;                                <ul id="examples-2">&ndash;&gt;
+                // &lt;!&ndash;                                    <li ><a href="overview.html#multipage-templates" class="background-map-2">&#8592; Back to All Templates</a></li>&ndash;&gt;
+                // &lt;!&ndash;                                </ul>&ndash;&gt;
+                // </section>
+                // </div>
+                // </div>
+                // </div>
+                // </div>
+    // End of Pricing
+    // Contact
+    section#contact
+        .content-box-md
+            ul#examples-2.contact-back-styling
+                li
+                    a.background-map-2(href='/#portfolio-2') &larr; Back to All Websites
+            .container
+                .row
+                    .col-md-4
+                        // Contact Left
+                        #contact-left
+                            .vertical-heading
+                                h5 Contact
+                                h2
+                                    | Get
+                                    br
+                                    | In
+                                    strong Touch
+                            // <p>If you have questions about a website please send a message.</p>
+                            #offices
+                                .row
+                                    .col-md-12
+                                        .office
+                                            // <h4>Atlanta</h4>
+                                            ul.office-details
+                                                li
+                                                    i.fa.fa-mobile
+                                                    | (404) 301-9007
+                                                li
+                                                    i.far.fa-envelope-open
+                                                    | dontrellthedeveloper@gmail.com
+                                                // <li><i class="fa fa-map-marker"></i>524 Mina Street Building 05 <br>New York, NY</li>
+                                    // <div class="col-md-6">
+                                    // <div class="office">
+                                    // <h4>Australia</h4>
+                                    // <ul class="office-details">
+                                    // <li><i class="fa fa-mobile"></i>+(55) 879 58 87 46</li>
+                                    // <li><i class="fa fa-envelope-o"></i>support@solo.com</li>
+                                    // <li><i class="fa fa-map-marker"></i>507 Din Street Building 55 <br>Sydney, Australia</li>
+                                    // </ul>
+                                    // </div>
+                                    // </div>
+                            // <ul class="social-list">
+                            // <li><a href="#"><i class="fa fab-facebook"></i></a></li>
+                            // <li><a href="#"><i class="fa fab-twitter"></i></a></li>
+                            // <li><a href="#"><i class="fa fab-google-plus"></i></a></li>
+                            // </ul>
+                    .col-md-8
+                        // Contact Right
+                        #contact-right(style='background-color: #f4f4f4;')
+                            form
+                                h4 Send Message
+                                p If you have questions about a website, please send a message.
+                                .row
+                                    .col-md-6.col-sm-6
+                                        .form-group
+                                            input#name.form-control(type='text' placeholder='Your Name')
+                                    .col-md-6.col-sm-6
+                                        .form-group
+                                            input#email.form-control(type='email' placeholder='Email Address')
+                                    .col-md-6.col-sm-6
+                                        .form-group
+                                            input#phone.form-control(type='text' placeholder='Phone No.')
+                                    .col-md-6.col-sm-6
+                                        .form-group
+                                            input#subject.form-control(type='text' placeholder='Subject')
+                                .form-group
+                                    textarea#message.form-control(placeholder='Message')
+                                #submit-btn
+                                    a.btn.btn-general.btn-yellow(href='#' title='Submit' role='button') Submit
+    // End of Contact
+    // Team
+    section#team
+        .content-box-md(style='background-color: #f4f4f4;')
+            .container
+                .row
+                    .col-md-6
+                        #team-left
+                            .vertical-heading
+                                h5 About
+                                h2
+                                    | Behind
+                                    br
+                                    strong The
+                                    |  Scenes
+                            p(style='text-align: center')
+                                | To get information about other types of development, please visit by personal websites.
+                                a(href='https://dontrellwashington.com/' target='_blank') dontrellwashington.com
+                    .col-md-6
+                        #team-members.owl-carousel.owl-theme
+                            .team-member
+                                img.img-responsive(src='img/team/d-washington-site-photo.jpg' alt='team member')
+                                .team-member-overlay
+                                    .team-member-info.text-center
+                                        h6 Dontrell Washington
+                                        p Web Developer
+                                        ul.social-list
+                                            li.social-list-instagram
+                                                a(href='https://www.instagram.com/dontrellthedeveloper/' target='_blank')
+                                                    i.fab.fa-instagram
+                                            li.social-list-personal
+                                                a(href='https://dontrellwashington.com/' target='_blank')
+                                                    i.fas.fa-building
+                                            // <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            .team-member
+                                img.img-responsive(src='img/team/ww-site-photo.jpg' alt='team member')
+                                .team-member-overlay
+                                    .team-member-info.text-center
+                                        h6 Websites Warehouse
+                                        p Web Development
+                                        ul.social-list
+                                            li.social-list-instagram
+                                                a(href='https://www.instagram.com/websiteswarehouse/' target='_blank')
+                                                    i.fab.fa-instagram
+                            .team-member
+                                img.img-responsive(src='img/team/github-site-photo.jpg' alt='team member')
+                                .team-member-overlay
+                                    .team-member-info.text-center
+                                        h6 Dontrell the Developer
+                                        p Github Code
+                                        ul.social-list
+                                            li.social-list-github
+                                                a(href='https://github.com/dontrellthedeveloper' target='_blank')
+                                                    i.fab.fa-github
+                            // <div class="team-member">
+                            // <img src="img/team/team-4.jpg" alt="team member" class="img-responsive">
+                            // <div class="team-member-overlay">
+                            // <div class="team-member-info text-center">
+                            // <h6>Harold Houdini</h6>
+                            // <p>Art Director</p>
+                            // <ul class="social-list">
+                            // <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            // <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            // <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            // </ul>
+                            // </div>
+                            // </div>
+                            // </div>
+                            // <div class="team-member">
+                            // <img src="img/team/team-5.jpg" alt="team member" class="img-responsive">
+                            // <div class="team-member-overlay">
+                            // <div class="team-member-info text-center">
+                            // <h6>Angelia Perry</h6>
+                            // <p>Manager</p>
+                            // <ul class="social-list">
+                            // <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            // <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            // <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            // </ul>
+                            // </div>
+                            // </div>
+                            // </div>
+                            // <div class="team-member">
+                            // <img src="img/team/team-6.jpg" alt="team member" class="img-responsive">
+                            // <div class="team-member-overlay">
+                            // <div class="team-member-info text-center">
+                            // <h6>Kara Kulus</h6>
+                            // <p>Marketing & Sales</p>
+                            // <ul class="social-list">
+                            // <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            // <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            // <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            // </ul>
+                            // </div>
+                            // </div>
+                            // </div>
+                    // <div id="progress-elements">
+                    // &lt;!&ndash; Progress Bars &ndash;&gt;
+                    // <div class="row">
+                    // <div class="col-md-6">
+                    // &lt;!&ndash; Skill 01 &ndash;&gt;
+                    // <div class="skill">
+                    // <h4>Web Design</h4>
+                    // <div class="progress">
+                    // <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+                    // <span>95%</span>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // <div class="col-md-6">
+                    // &lt;!&ndash; Skill 02 &ndash;&gt;
+                    // <div class="skill">
+                    // <h4>Photoshop/Illustration</h4>
+                    // <div class="progress">
+                    // <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                    // <span>75%</span>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // <div class="col-md-6">
+                    // &lt;!&ndash; Skill 03 &ndash;&gt;
+                    // <div class="skill">
+                    // <h4>Web Development</h4>
+                    // <div class="progress">
+                    // <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                    // <span>75%</span>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // <div class="col-md-6">
+                    // &lt;!&ndash; Skill 04 &ndash;&gt;
+                    // <div class="skill">
+                    // <h4>Digital Marketing</h4>
+                    // <div class="progress">
+                    // <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                    // <span>90%</span>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // </div>
+                    // </div>
+    // End of Team
+    // BG Video
+    // <section id="home-2">
+    // <img src="img/about/gear2.svg" alt id="leftgear">
+    // <img src="img/about/gear2.svg" alt id="rightgear">
+    // &lt;!&ndash;  Background Video  &ndash;&gt;
+    // </section>
+    // End of Build section
+    // Clients
+    section#clients(style='background-color: #DCDCDD;')
+        .content-box-sm
+            .container
+                .row
+                    .col-md-12.text-center
+                        .horizontal-heading(style='margin-bottom: 10px;')
+                            h5 Modern
+                            h2
+                                | Technology
+                                strong
+                .row
+                    .col-md-12
+                        #clients-list.owl-carousel.owl-theme
+                            // Client 01
+                            .client
+                                img.img-fluid(src='img/client/javascript.png' alt='client')
+                            // Client 02
+                            .client
+                                img.img-fluid(src='img/client/node.png' alt='client')
+                            // Client 03
+                            .client
+                                img.img-fluid(src='img/client/react.png' alt='client')
+                            // Client 04
+                            .client
+                                img.img-fluid(src='img/client/mongodb.png' alt='client')
+                            // Client 05
+                            .client
+                                img.img-fluid(src='img/client/sass.png' alt='client')
+                            // Client 06
+                            .client
+                                img.img-fluid(src='img/client/pug.png' alt='client')
+                            // Client 07
+                            .client
+                                img.img-fluid(src='img/client/html.png' alt='client')
+                            // Client 08
+                            .client
+                                img.img-fluid(src='img/client/css.png' alt='client')
+    // End of Clients

@@ -270,6 +270,86 @@ exports.getSignupForm = catchAsync(async (req,res) => {
 });
 
 
+exports.getPricingInfo = catchAsync(async (req,res) => {
+
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
+    res.status(200)
+        .set(
+            'Content-Security-Policy',
+            "default-src 'self' https://*.stripe.com ;base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src https://cdnjs.cloudflare.com https://js.stripe.com/v3/ 'self' blob: ;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;"
+        )
+        .set()
+        .render('pricing', {
+            title: 'Sign up for account',
+            shopifyWebsites,
+            dynamicWebsites,
+            staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites
+        })
+});
+
+
+
+
+exports.getContactInfo = catchAsync(async (req,res) => {
+
+    const shopifyWebsites = await Website.find({"websiteType":"shopify"});
+    const dynamicWebsites = await Website.find({"websiteType":"dynamic"});
+    const staticWebsites = await Website.find({"websiteType":"static"});
+    const beautyWebsites = await Website.find({"websiteCategory":"beauty"});
+    const brandingWebsites = await Website.find({"websiteCategory":"branding"});
+    const clothingWebsites = await Website.find({"websiteCategory":"clothing"});
+    const designWebsites = await Website.find({"websiteCategory":"design"});
+    const eventWebsites = await Website.find({"websiteCategory":"event"});
+    const fitnessWebsites = await Website.find({"websiteCategory":"fitness"});
+    const foodWebsites = await Website.find({"websiteCategory":"food"});
+    const serviceWebsites = await Website.find({"websiteCategory":"service"});
+    const travelWebsites = await Website.find({"websiteCategory":"travel"});
+    res.status(200)
+        .set(
+            'Content-Security-Policy',
+            "default-src 'self' https://*.stripe.com ;base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src https://cdnjs.cloudflare.com https://js.stripe.com/v3/ 'self' blob: ;script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests;"
+        )
+        .set()
+        .render('contact', {
+            title: 'Sign up for account',
+            shopifyWebsites,
+            dynamicWebsites,
+            staticWebsites,
+            beautyWebsites,
+            brandingWebsites,
+            clothingWebsites,
+            designWebsites,
+            eventWebsites,
+            fitnessWebsites,
+            foodWebsites,
+            serviceWebsites,
+            travelWebsites
+        })
+});
+
+
+
+
 
 exports.updateUserData = catchAsync(async (req,res, next) => {
     const updatedUser = await User.findByIdAndUpdate(req.user.id, {
