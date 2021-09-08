@@ -262,21 +262,21 @@ $(function () {
 |   |   |  Waypoints
 ================================ */
 
-$(function() {
-
-    $("#progress-elements").waypoint(function() {
-
-        $(".progress-bar").each(function() {
-
-            $(this).animate({
-                width: $(this).attr("aria-valuenow") + "%"
-            }, 1000);
-        });
-        this.destroy();
-    }, {
-        offset: 'bottom-in-view'
-    });
-});
+// $(function() {
+//
+//     $("#progress-elements").waypoint(function() {
+//
+//         $(".progress-bar").each(function() {
+//
+//             $(this).animate({
+//                 width: $(this).attr("aria-valuenow") + "%"
+//             }, 1000);
+//         });
+//         this.destroy();
+//     }, {
+//         offset: 'bottom-in-view'
+//     });
+// });
 
 
 
@@ -350,46 +350,46 @@ $(window).scroll(function() {
 /* ================================
 |   |   |   Google Map
 ================================ */
-$(window).on('load', function () {
-
-    // Map Variables
-    var addressString = 'Websites Warehouse';
-    var myLatlng = {lat: 33.845100, lng: -84.361229};
-
-    //1. Render Map
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 11,
-        center: myLatlng
-    });
-
-    // 2. Add Marker
-    var marker = new google.maps.Marker({
-        position: myLatlng,
-        map: map,
-        title: "Click To See Address",
-    });
-
-    // 3. Add Info Window
-    var infowindow = new google.maps.InfoWindow({
-        content: addressString
-    });
-
-    // Show info window when user clicks marker
-    marker.addListener('click', function () {
-        infowindow.open(map, marker);
-    });
-
-
-    // 4. Resize Function
-    google.maps.event.addDomListener(window, 'resize', function() {
-
-        var center = map.getCenter();
-        google.maps.event.trigger(map, 'resize');
-        map.setCenter(center);
-    });
-
-
-});
+// $(window).on('load', function () {
+//
+//     // Map Variables
+//     var addressString = 'Websites Warehouse';
+//     var myLatlng = {lat: 33.845100, lng: -84.361229};
+//
+//     //1. Render Map
+//     var map = new google.maps.Map(document.getElementById('map'), {
+//         zoom: 11,
+//         center: myLatlng
+//     });
+//
+//     // 2. Add Marker
+//     var marker = new google.maps.Marker({
+//         position: myLatlng,
+//         map: map,
+//         title: "Click To See Address",
+//     });
+//
+//     // 3. Add Info Window
+//     var infowindow = new google.maps.InfoWindow({
+//         content: addressString
+//     });
+//
+//     // Show info window when user clicks marker
+//     marker.addListener('click', function () {
+//         infowindow.open(map, marker);
+//     });
+//
+//
+//     // 4. Resize Function
+//     google.maps.event.addDomListener(window, 'resize', function() {
+//
+//         var center = map.getCenter();
+//         google.maps.event.trigger(map, 'resize');
+//         map.setCenter(center);
+//     });
+//
+//
+// });
 
 
 /* ================================
