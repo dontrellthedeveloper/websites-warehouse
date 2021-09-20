@@ -299,7 +299,7 @@ exports.getPricingInfo = catchAsync(async (req,res) => {
         )
         .set()
         .render('pricing', {
-            title: 'Sign up for account',
+            title: 'Pricing Info',
             shopifyWebsites,
             dynamicWebsites,
             staticWebsites,
@@ -340,7 +340,7 @@ exports.getContactInfo = catchAsync(async (req,res) => {
         )
         .set()
         .render('contact', {
-            title: 'Sign up for account',
+            title: 'Contact',
             shopifyWebsites,
             dynamicWebsites,
             staticWebsites,
